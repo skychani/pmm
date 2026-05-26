@@ -998,8 +998,8 @@ function doExport(){
   if(!filename){ alert('파일명을 입력하세요'); return; }
   if(!filename.endsWith('.json')) filename += '.json';
 
-  var withBody = document.getElementById('save-with-body').checked;
-  var withAttach = document.getElementById('save-with-attach-list').checked;
+  var withBody = true;
+  var withAttach = true;
 
   var data={
     _version: 2,
