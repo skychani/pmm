@@ -716,10 +716,11 @@ function delPending(id){pending=pending.filter(function(x){return x.id!==id;});s
 
 // ─── 관계자 자동 추출 ───
 function parseAddresses(raw){
-  // "이름 <email>, 이름2 <email2>" 형식 파싱
   var results = [];
   if(!raw) return results;
-  // 여러 주소 분리 (쉼표 기준, 단 꺽쇠 안은 제외)
+  var EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+  // 쉼표 분리 (꺽쇠 내부 쉼표 제외)
   var parts = [];
   var buf = '', depth = 0;
   for(var i=0;i<raw.length;i++){
@@ -732,13 +733,22 @@ function parseAddresses(raw){
   if(buf.trim()) parts.push(buf.trim());
 
   parts.forEach(function(part){
-    part = part.trim();
+    part = part.trim().replace(/\r/g,'');
     if(!part) return;
-    var m = part.match(/^"?([^"<]+?)"?\s*<([^>]+)>/);
+    // "이름 <email>" 형식
+    var m = part.match(/^"?([^"<>]*?)"?\s*<([^>]+)>\s*$/);
     if(m){
-      results.push({ name: m[1].trim(), email: m[2].trim() });
-    } else if(part.includes('@')){
-      results.push({ name: part.split('@')[0], email: part });
+      var email = m[2].trim();
+      if(EMAIL_RE.test(email)){
+        var name = m[1].trim().replace(/^["']+|["']+$/g,'') || email.split('@')[0];
+        results.push({ name: name, email: email });
+      }
+      return;
+    }
+    // 이메일만 있는 경우
+    var clean = part.replace(/[<>]/g,'').trim();
+    if(EMAIL_RE.test(clean)){
+      results.push({ name: clean.split('@')[0], email: clean });
     }
   });
   return results;
@@ -751,7 +761,7 @@ function autoExtractContacts(parsed){
     var emailLower = a.email.toLowerCase();
     var exists = contacts.find(function(c){ return c.email.toLowerCase()===emailLower; });
     if(!exists){
-      contacts.push({ id:nextId++, name:a.name||a.email, email:a.email, role:'', auto:true });
+      contacts.push({ id:nextId++, name:a.name||a.email, email:a.email, role:'', tag:'', auto:true });
     }
   });
 }
@@ -762,20 +772,35 @@ function renderContacts(area){
   var manual = contacts.filter(function(c){ return !c.auto; });
 
   function cardHtml(c){
-    var initials = (c.name||'?').slice(0,2);
     var sentCount = emails.filter(function(e){ return (e.from||'').toLowerCase().includes(c.email.toLowerCase()); }).length;
     var recvCount = emails.filter(function(e){ return (e.to||'').toLowerCase().includes(c.email.toLowerCase()); }).length;
-    return '<div class="contact-card">'
-      +'<div class="contact-avatar">'+esc(initials)+'</div>'
-      +'<div class="contact-info">'
-        +'<div class="contact-name">'+esc(c.name)+'</div>'
-        +'<input value="'+esc(c.role||'')+'" placeholder="역할/소속 입력..." '
-          +'onchange="setContactRole('+c.id+',this.value)" '
-          +'style="background:transparent;border:none;border-bottom:1px solid var(--border);color:var(--text-muted);font-size:11px;width:100%;outline:none;padding:1px 0;margin-top:2px;font-family:\'Noto Sans KR\',sans-serif;">'
-        +'<div class="contact-email">'+esc(c.email)+'</div>'
-        +'<div style="font-size:10px;color:var(--text-dim);margin-top:3px;font-family:\'IBM Plex Mono\',monospace;">발신 '+sentCount+' · 수신 '+recvCount+'</div>'
+    var catTag = c.tag || '';
+    var catObj = categories.find(function(ct){ return ct.name === catTag; });
+    var iStyle = "background:transparent;border:none;border-bottom:1px solid var(--border);outline:none;padding:1px 0;font-family:'Noto Sans KR',sans-serif;width:100%";
+    var catOptions = '<option value="">-- 카테고리 선택 --</option>'
+      + categories.map(function(ct){
+          return '<option value="'+esc(ct.name)+'"'+(catTag===ct.name?' selected':'')+'>'+esc(ct.name)+'</option>';
+        }).join('');
+    var tagColor = catObj ? catObj.color : 'var(--text-dim)';
+    var tagBg    = catObj ? catObj.color+'22' : 'var(--surface2)';
+    var tagBorder= catObj ? catObj.color+'66' : 'var(--border)';
+    return '<div class="contact-card" style="align-items:flex-start">'
+      +'<div class="contact-info" style="flex:1;min-width:0">'
+        +'<input value="'+esc(c.name||'')+'" onchange="setContactName('+c.id+',this.value)" '
+          +'style="'+iStyle+';font-weight:500;font-size:13px;color:var(--text);margin-bottom:2px">'
+        +'<input value="'+esc(c.role||'')+'" placeholder="역할/소속 입력..." onchange="setContactRole('+c.id+',this.value)" '
+          +'style="'+iStyle+';font-size:11px;color:var(--text-muted)">'
+        +'<input value="'+esc(c.email||'')+'" placeholder="이메일" onchange="setContactEmail('+c.id+',this.value)" '
+          +'style="'+iStyle+';font-size:11px;color:var(--accent2);margin-top:3px;font-family:\'IBM Plex Mono\',monospace">'
+        +'<div style="display:flex;align-items:center;gap:8px;margin-top:6px">'
+          +'<select onchange="setContactTag('+c.id+',this.value)" '
+            +'style="background:'+tagBg+';border:1px solid '+tagBorder+';color:'+tagColor+';font-size:11px;padding:2px 6px;border-radius:3px;outline:none;font-family:\'Noto Sans KR\',sans-serif;cursor:pointer">'
+            +catOptions
+          +'</select>'
+          +'<span style="font-size:10px;color:var(--text-dim);font-family:\'IBM Plex Mono\',monospace">발신 '+sentCount+' · 수신 '+recvCount+'</span>'
+        +'</div>'
       +'</div>'
-      +'<button class="btn btn-danger" style="font-size:11px;flex-shrink:0;align-self:center" onclick="delContact('+c.id+')">×</button>'
+      +'<button class="btn btn-danger" style="font-size:11px;flex-shrink:0" onclick="delContact('+c.id+')">×</button>'
     +'</div>';
   }
 
@@ -814,13 +839,25 @@ function addContactDirect(){
   if(em && contacts.find(function(c){return c.email.toLowerCase()===em.toLowerCase();})){
     alert('이미 등록된 이메일입니다.');return;
   }
-  contacts.push({id:nextId++,name,role:document.getElementById('c-role').value.trim(),email:em,auto:false});
+  contacts.push({id:nextId++,name,role:document.getElementById('c-role').value.trim(),email:em,tag:'',auto:false});
   saveStorage();render();
 }
 function delContact(id){contacts=contacts.filter(function(c){return c.id!==id;});saveStorage();render();}
 function setContactRole(id,val){
   var c=contacts.find(function(x){return x.id===id;});
   if(c){c.role=val;saveStorage();}
+}
+function setContactName(id,val){
+  var c=contacts.find(function(x){return x.id===id;});
+  if(c){c.name=val;saveStorage();buildSidebar();}
+}
+function setContactEmail(id,val){
+  var c=contacts.find(function(x){return x.id===id;});
+  if(c){c.email=val;saveStorage();}
+}
+function setContactTag(id,tag){
+  var c=contacts.find(function(x){return x.id===id;});
+  if(c){c.tag=tag;saveStorage();render();}
 }
 function reScanContacts(){
   // 기존 자동추출 전부 제거 후 재스캔
