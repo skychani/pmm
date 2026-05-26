@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>프로젝트 인수인계</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap');
+:root{
+  --bg:#0f0f10;--surface:#18181b;--surface2:#232329;--border:#2e2e38;
+  --accent:#c8a96e;--accent2:#7eb8c9;--text:#e8e6e1;--text-muted:#888;--text-dim:#555;
+  --red:#c97e7e;--green:#8ec97e;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:'Noto Sans KR',sans-serif;font-size:14px;min-height:100vh;display:flex;flex-direction:column}
+.topbar{background:var(--surface);border-bottom:1px solid var(--border);padding:0 20px;height:52px;display:flex;align-items:center;gap:14px;position:sticky;top:0;z-index:100;flex-shrink:0}
+.topbar-title{font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--accent);letter-spacing:.05em}
+.topbar-project{font-size:12px;color:var(--text-muted);border-left:1px solid var(--border);padding-left:14px}
+.topbar-project span{color:var(--text);font-weight:500}
+.topbar-actions{margin-left:auto;display:flex;gap:7px;align-items:center}
+.stat-chip{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--text-muted);background:var(--surface2);border:1px solid var(--border);padding:3px 9px;border-radius:20px}
+.stat-chip strong{color:var(--accent)}
+.btn{background:var(--surface2);border:1px solid var(--border);color:var(--text);padding:5px 11px;border-radius:4px;cursor:pointer;font-size:12px;font-family:'Noto Sans KR',sans-serif;transition:all .12s;white-space:nowrap}
+.btn:hover{border-color:var(--accent);color:var(--accent)}
+.btn-primary{background:var(--accent);color:#000;border-color:var(--accent);font-weight:500}
+.btn-primary:hover{background:#d9bb82;color:#000}
+.btn-danger{border-color:var(--red);color:var(--red)}
+.btn-danger:hover{background:var(--red);color:#fff}
+.layout{display:flex;flex:1;height:calc(100vh - 52px);overflow:hidden}
+.sidebar{width:208px;min-width:208px;background:var(--surface);border-right:1px solid var(--border);display:flex;flex-direction:column;overflow-y:auto}
+.sidebar-section{padding:12px;border-bottom:1px solid var(--border)}
+.sidebar-label{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--text-dim);letter-spacing:.1em;text-transform:uppercase;margin-bottom:8px;display:flex;align-items:center;justify-content:space-between}
+.sidebar-label-btn{font-size:10px;color:var(--accent);cursor:pointer;background:none;border:none;font-family:'IBM Plex Mono',monospace;padding:0}
+.sidebar-label-btn:hover{opacity:.7}
+.nav-item{display:flex;align-items:center;gap:8px;padding:6px 8px;border-radius:4px;cursor:pointer;font-size:13px;color:var(--text-muted);transition:all .12s;user-select:none}
+.nav-item:hover{background:var(--surface2);color:var(--text)}
+.nav-item.active{background:var(--surface2);color:var(--accent)}
+.nav-count{margin-left:auto;font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--text-dim)}
+.tag-filter{display:flex;align-items:center;gap:6px;padding:5px 8px;border-radius:4px;cursor:pointer;font-size:12px;color:var(--text-muted);transition:all .12s;user-select:none;position:relative}
+.tag-filter:hover{background:var(--surface2)}
+.tag-filter.active{background:var(--surface2)}
+.tag-dot{width:7px;height:7px;border-radius:50%;flex-shrink:0}
+.tag-actions{margin-left:auto;display:none;gap:3px;align-items:center}
+.tag-filter:hover .tag-actions{display:flex}
+.tag-action-btn{background:none;border:none;color:var(--text-dim);cursor:pointer;font-size:10px;padding:2px 4px;border-radius:2px}
+.tag-action-btn:hover{color:var(--text);background:var(--border)}
+.year-header{padding:5px 8px;font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--text-dim);cursor:pointer;display:flex;align-items:center;gap:5px}
+.year-header:hover{color:var(--text-muted)}
+.month-item{padding:4px 8px 4px 20px;font-size:12px;color:var(--text-muted);cursor:pointer;display:flex;align-items:center;border-radius:4px;transition:all .12s}
+.month-item:hover{background:var(--surface2);color:var(--text)}
+.month-item.active{background:var(--surface2);color:var(--accent2)}
+.month-count{margin-left:auto;font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--text-dim)}
+.main{flex:1;display:flex;flex-direction:column;overflow:hidden;min-width:0}
+.search-bar{padding:10px 14px;border-bottom:1px solid var(--border);display:flex;gap:8px;align-items:center;background:var(--surface);flex-shrink:0}
+.search-wrap{flex:1;position:relative}
+.search-wrap input{width:100%;background:var(--surface2);border:1px solid var(--border);color:var(--text);padding:7px 10px 7px 30px;border-radius:4px;font-size:13px;font-family:'Noto Sans KR',sans-serif;outline:none;transition:border-color .15s}
+.search-wrap input:focus{border-color:var(--accent)}
+.search-wrap input::placeholder{color:var(--text-dim)}
+.search-icon{position:absolute;left:8px;top:50%;transform:translateY(-50%);color:var(--text-dim);font-size:13px;pointer-events:none}
+.sort-select{background:var(--surface2);border:1px solid var(--border);color:var(--text);padding:7px 8px;border-radius:4px;font-size:12px;font-family:'Noto Sans KR',sans-serif;outline:none;cursor:pointer}
+.mail-list{flex:1;overflow-y:auto;padding:10px 12px}
+.section-hdr{display:flex;align-items:center;gap:8px;padding:6px 4px 4px;margin-top:6px;margin-bottom:3px;border-bottom:1px solid var(--border)}
+.section-hdr-label{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--text-dim)}
+.section-hdr-count{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--text-dim);background:var(--surface2);padding:1px 6px;border-radius:10px}
+.mail-card{background:var(--surface);border:1px solid var(--border);border-radius:5px;padding:10px 12px;margin-bottom:5px;cursor:pointer;transition:all .12s;position:relative}
+.mail-card:hover{border-color:#3e3e4e;background:var(--surface2)}
+.mail-card.selected{border-color:var(--accent)}
+.mail-card.unread::before{content:'';position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--accent2);border-radius:5px 0 0 5px}
+.mail-row1{display:flex;align-items:center;gap:6px;margin-bottom:4px}
+.mail-sender{font-size:13px;font-weight:500;color:var(--text);flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.mail-date{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--text-dim);white-space:nowrap}
+.mail-subject{font-size:12px;color:var(--text-muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;margin-bottom:3px}
+.mail-preview{font-size:11px;color:var(--text-dim);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.mail-footer{display:flex;align-items:center;gap:5px;margin-top:6px}
+.tag{font-size:11px;padding:2px 7px;border-radius:3px;font-weight:500}
+.attach-badge{font-size:10px;color:var(--text-dim);margin-left:auto}
+.detail-panel{width:400px;min-width:280px;background:var(--surface);border-left:1px solid var(--border);display:flex;flex-direction:column;overflow:hidden;flex-shrink:0}
+.detail-toolbar{padding:8px 12px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:6px;flex-wrap:wrap;flex-shrink:0}
+.detail-content{flex:1;overflow-y:auto;padding:16px}
+.detail-subject{font-size:15px;font-weight:500;color:var(--text);line-height:1.5;margin-bottom:14px}
+.meta-grid{display:grid;grid-template-columns:52px 1fr;gap:5px 8px;margin-bottom:12px;font-size:12px}
+.meta-key{color:var(--text-dim)}
+.meta-val{color:var(--text-muted);word-break:break-all}
+.divider{height:1px;background:var(--border);margin:14px 0}
+.body-text{font-size:12px;color:var(--text-muted);line-height:1.8;white-space:pre-wrap;word-break:break-word}
+.attach-list{margin-top:10px}
+.attach-item{display:flex;align-items:center;gap:7px;padding:6px 9px;background:var(--surface2);border:1px solid var(--border);border-radius:4px;margin-bottom:4px;font-size:11px;color:var(--text-muted)}
+.tag-editor{padding:10px;background:var(--surface2);border-radius:5px;margin-top:12px}
+.tag-editor-label{font-size:10px;color:var(--text-dim);margin-bottom:7px;font-family:'IBM Plex Mono',monospace}
+.tag-btn-group{display:flex;gap:4px;flex-wrap:wrap}
+.tag-btn{font-size:11px;padding:3px 9px;border-radius:3px;cursor:pointer;border:1px solid transparent;transition:all .12s;font-family:'Noto Sans KR',sans-serif}
+.pending-item{background:var(--surface2);border:1px solid var(--border);border-left:3px solid var(--red);border-radius:4px;padding:9px 11px;margin-bottom:5px;font-size:13px}
+.pending-item.done{border-left-color:var(--green);opacity:.6}
+.pending-meta{font-size:11px;color:var(--text-dim);margin-top:3px}
+.pending-check{display:flex;align-items:flex-start;gap:7px}
+.pending-check input[type=checkbox]{margin-top:2px;accent-color:var(--green);cursor:pointer}
+.contact-card{background:var(--surface2);border:1px solid var(--border);border-radius:4px;padding:9px 12px;margin-bottom:5px;display:flex;gap:10px;align-items:center}
+.contact-avatar{width:34px;height:34px;border-radius:50%;background:var(--surface);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;font-size:13px;color:var(--accent);flex-shrink:0}
+.contact-info{flex:1}
+.contact-name{font-size:13px;font-weight:500}
+.contact-role{font-size:11px;color:var(--text-dim);margin-top:1px}
+.contact-email{font-size:11px;color:var(--accent2);margin-top:2px;font-family:'IBM Plex Mono',monospace}
+.dropzone{border:2px dashed var(--border);border-radius:8px;padding:36px 20px;text-align:center;color:var(--text-dim);font-size:13px;transition:all .2s;cursor:pointer;margin:14px}
+.dropzone:hover,.dropzone.dragover{border-color:var(--accent);color:var(--accent);background:#c8a96e06}
+.dropzone-icon{font-size:28px;margin-bottom:8px}
+.dropzone-sub{font-size:11px;color:var(--text-dim);margin-top:5px}
+.empty-state{display:flex;flex-direction:column;align-items:center;justify-content:center;height:200px;color:var(--text-dim);gap:8px}
+.empty-icon{font-size:36px}
+.empty-text{font-size:13px}
+.notice{font-size:12px;color:var(--text-dim);background:var(--surface2);border:1px solid var(--border);border-radius:4px;padding:9px 12px;margin-bottom:10px;line-height:1.6}
+.add-row{display:flex;gap:6px;margin-bottom:10px}
+.add-row input{flex:1;background:var(--surface2);border:1px solid var(--border);color:var(--text);padding:6px 9px;border-radius:4px;font-size:12px;font-family:'Noto Sans KR',sans-serif;outline:none}
+.add-row input:focus{border-color:var(--accent)}
+.modal-overlay{position:fixed;inset:0;background:#00000088;z-index:200;display:flex;align-items:center;justify-content:center}
+.modal{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:24px;min-width:340px;max-width:480px;width:90%}
+.modal h3{font-size:15px;font-weight:500;margin-bottom:16px;color:var(--text)}
+.modal-field{margin-bottom:12px}
+.modal-lbl{font-size:10px;color:var(--text-dim);margin-bottom:5px;font-family:'IBM Plex Mono',monospace;letter-spacing:.05em}
+.modal input{width:100%;background:var(--surface2);border:1px solid var(--border);color:var(--text);padding:7px 10px;border-radius:4px;font-size:13px;font-family:'Noto Sans KR',sans-serif;outline:none}
+.modal input:focus{border-color:var(--accent)}
+.modal-actions{display:flex;gap:8px;justify-content:flex-end;margin-top:16px}
+.color-picker-row{display:flex;gap:7px;flex-wrap:wrap}
+.color-swatch{width:24px;height:24px;border-radius:50%;cursor:pointer;border:2px solid transparent;transition:border-color .12s}
+.color-swatch.selected{border-color:#fff}
+mark{background:#c8a96e33;color:var(--accent);border-radius:2px;padding:0 1px}
+.tag-filter.drag-over{border:1px dashed var(--accent);background:var(--surface2)}
+.tag-filter.dragging{opacity:.4}
+
+::-webkit-scrollbar{width:5px}
+::-webkit-scrollbar-track{background:transparent}
+::-webkit-scrollbar-thumb{background:var(--border);border-radius:3px}
+::-webkit-scrollbar-thumb:hover{background:#3e3e4e}
+</style>
+</head>
+<body>
+<div class="topbar">
+  <div class="topbar-title">&#9672; HANDOVER</div>
+  <div class="topbar-project">&#54532;&#47196;&#51111;&#53944;: <span id="pname">&#48120;&#49444;&#51221;</span></div>
+  <input id="pname-input" type="text" placeholder="&#54532;&#47196;&#51111;&#53944;&#47749; &#51077;&#47141;..."
+    style="background:var(--surface2);border:1px solid var(--border);color:var(--text);padding:4px 9px;border-radius:4px;font-size:12px;font-family:'Noto Sans KR',sans-serif;outline:none;width:170px"
+    oninput="document.getElementById('pname').textContent=this.value||'&#48120;&#49444;&#51221;';localStorage.setItem('ho_project',this.value)">
+  <div class="topbar-actions">
+    <div class="stat-chip">&#52395; <strong id="total-cnt">0</strong> &#44148;</div>
+    <div class="stat-chip">&#48120;&#44208; <strong id="pending-cnt" style="color:var(--red)">0</strong> &#44148;</div>
+    <button class="btn btn-primary" onclick="document.getElementById('fi').click()">+ EML &#52628;&#44032;</button>
+    <button class="btn" onclick="document.getElementById('di').click()">&#128193; 폴더 추가</button>
+    <button class="btn" onclick="exportData()">📤 내보내기</button>
+    <button class="btn" onclick="importData()">📥 불러오기</button>
+    <input type="file" id="import-input" accept=".json" hidden onchange="handleImport(this)">
+    <input type="file" id="fi" accept=".eml" multiple hidden onchange="handleFiles(Array.from(this.files),null);this.value=''">
+    <input type="file" id="di" webkitdirectory multiple hidden onchange="handleFolderInput(this)">
+  </div>
+</div>
+<div class="layout">
+  <div class="sidebar">
+    <div class="sidebar-section">
+      <div class="sidebar-label">&#48267;</div>
+      <div class="nav-item active" id="nav-all-btn" onclick="setView('all',this)"><span>&#128236;</span> &#51204;&#52404; <span class="nav-count" id="nav-all">0</span></div>
+      <div class="nav-item" id="nav-pending-btn" onclick="setView('pending',this)"><span>&#9888;&#65039;</span> &#48120;&#44208;&#49324;&#54637; <span class="nav-count" id="nav-pending" style="color:var(--red)">0</span></div>
+      <div class="nav-item" id="nav-contacts-btn" onclick="setView('contacts',this)"><span>&#128100;</span> &#44288;&#44228;&#51088;</div>
+    </div>
+    <div class="sidebar-section">
+      <div class="sidebar-label">&#52852;&#53580;&#44256;&#47532; <button class="sidebar-label-btn" onclick="openAddCat()">+ &#52628;&#44032;</button></div>
+      <div id="tag-filters"></div>
+    </div>
+    <div class="sidebar-section" style="flex:1">
+      <div class="sidebar-label">&#50672;&#50900;&#48324;</div>
+      <div id="month-tree"></div>
+    </div>
+  </div>
+  <div class="main">
+    <div class="search-bar">
+      <div class="search-wrap">
+        <span class="search-icon">&#128269;</span>
+        <input type="text" id="search-input" placeholder="&#51228;&#47785;, &#BC1C;&#49888;&#51088;, &#BCF8;&#BB38; &#AC80;&#C0C9;..." oninput="renderList()">
+      </div>
+      <select class="sort-select" id="sort-sel" onchange="renderList()">
+        <option value="date-desc">날짜 최신순</option>
+        <option value="date-asc">날짜 오래된순</option>
+        <option value="sender">발신자순</option>
+      </select>
+    </div>
+    <div id="main-area" class="mail-list" style="flex:1;overflow-y:auto"></div>
+    <!-- 타임라인 패널 -->
+    <div id="timeline-panel" style="height:160px;min-height:130px;border-top:1px solid var(--border);background:var(--surface);flex-shrink:0;display:flex;flex-direction:column;overflow:hidden">
+      <div style="display:flex;align-items:center;gap:10px;padding:6px 14px;border-bottom:1px solid var(--border);flex-shrink:0">
+        <span style="font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--text-dim);letter-spacing:.08em">TIMELINE</span>
+        <div id="tl-legend" style="display:flex;gap:10px;flex-wrap:wrap"></div>
+        <div style="margin-left:auto;display:flex;gap:6px;align-items:center">
+          <span style="font-size:11px;color:var(--text-dim)">단위:</span>
+          <select id="tl-unit" style="background:var(--surface2);border:1px solid var(--border);color:var(--text);padding:2px 6px;border-radius:3px;font-size:11px;outline:none" onchange="renderTimeline()">
+            <option value="month">월</option>
+            <option value="week">주</option>
+          </select>
+        </div>
+      </div>
+      <div style="flex:1;overflow-x:auto;overflow-y:hidden;padding:8px 14px;position:relative" id="tl-scroll">
+        <canvas id="tl-canvas" style="display:block"></canvas>
+      </div>
+    </div>
+  </div>
+  <div class="detail-panel" id="detail-panel">
+    <div class="empty-state" style="height:100%">
+      <div class="empty-icon">&#9993;&#65039;</div>
+      <div class="empty-text">&#C774;&#BA54;&#C77C;&#C744; &#C120;&#D0DD;&#D558;&#BA74; &#B0B4;&#C6A9;&#C774; &#D45C;&#C2DC;&#B429;&#B2C8;&#B2E4;</div>
+    </div>
+  </div>
+</div>
+<!-- 카테고리 모달 -->
+<div class="modal-overlay" id="cat-modal" style="display:none" onclick="if(event.target===this)closeCat()">
+  <div class="modal">
+    <h3 id="cat-modal-title">&#52852;&#53580;&#44256;&#47532; &#52628;&#44032;</h3>
+    <div class="modal-field">
+      <div class="modal-lbl">&#47749;&#52845;</div>
+      <input type="text" id="cat-name" placeholder="&#50696;: &#44396;&#C870;&#C124;&#ACC4;, &#C18C;&#BC29;, &#D1A0;&#BAA9;..." maxlength="12">
+    </div>
+    <div class="modal-field">
+      <div class="modal-lbl">&#C0C9;&#C0C1;</div>
+      <div class="color-picker-row" id="color-picker"></div>
+    </div>
+    <div class="modal-field">
+      <div class="modal-lbl">&#C790;&#B3D9;&#BD84;&#B958; &#D0A4;&#C6CC;&#B4DC; (&#C27C;&#D45C; &#AD6C;&#BD84;)</div>
+      <input type="text" id="cat-keywords" placeholder="&#50696;: &#44396;&#C870;,&#ACE8;&#C870;,&#AE30;&#CD08;">
+    </div>
+    <div class="modal-actions">
+      <button class="btn" onclick="closeCat()">&#CDE8;&#C18C;</button>
+      <button class="btn btn-primary" id="cat-ok" onclick="saveCat()">&#52628;&#44032;</button>
+    </div>
+  </div>
+</div>
+<script>
+const PRESET_COLORS=['#c8a96e','#7eb8c9','#c97e7e','#8ec97e','#a07ec9','#c9b47e','#7ec9b4','#c97ea0','#7e9bc9','#e8857a','#7ac8c4','#b07ae8','#e8c47a','#aaaaaa'];
+let emails=[],pending=[],contacts=[],categories=[],selectedId=null,currentView='all',activeTag=null,activeMonth=null,editCatId=null,selColor=PRESET_COLORS[0],nextId=1;
+
+function defaultCats(){return[
+  {id:1,name:'\uC778\uD5C8\uAC00',color:'#c8a96e',keywords:['\uC778\uD5C8\uAC00','\uD5C8\uAC00','\uC2E0\uACE0','\uC2B9\uC778','\uD611\uC758','\uC778\uAC00']},
+  {id:2,name:'\uC124\uACC4',color:'#7eb8c9',keywords:['\uC124\uACC4','\uB3C4\uBA74','\uBCC0\uACBD','\uAC80\uD1A0','\uD3C9\uBA74','\uB2E8\uBA74','\uC785\uBA74']},
+  {id:3,name:'\uBBFC\uC6D0',color:'#c97e7e',keywords:['\uBBFC\uC6D0','\uC8FC\uBBFC','\uC774\uC758','\uBC18\uB300']},
+  {id:4,name:'\uD611\uB825\uC0AC',color:'#8ec97e',keywords:['\uD611\uB825\uC0AC','\uD558\uB3C4\uAE09','\uC6A9\uC5ED','\uC678\uC8FC']},
+  {id:5,name:'\uBC1C\uC8FC\uCC98',color:'#a07ec9',keywords:['\uBC1C\uC8FC\uCC98','\uC870\uD569','\uC2DC\uD589\uC0AC','\uC2DC\uD589\uC790']},
+  {id:6,name:'\uAE30\uD0C0',color:'#888888',keywords:[]}
+];}
+
+function loadStorage(){
+  try{
+    emails=JSON.parse(localStorage.getItem('ho_emails')||'[]');
+    pending=JSON.parse(localStorage.getItem('ho_pending')||'[]');
+    contacts=JSON.parse(localStorage.getItem('ho_contacts')||'[]');
+    const sc=localStorage.getItem('ho_cats');
+    categories=sc?JSON.parse(sc):defaultCats();
+    nextId=parseInt(localStorage.getItem('ho_nextId')||'1');
+    const pn=localStorage.getItem('ho_project')||'';
+    if(pn){document.getElementById('pname').textContent=pn;document.getElementById('pname-input').value=pn;}
+  }catch(e){categories=defaultCats();}
+}
+function saveStorage(){
+  try{
+    localStorage.setItem('ho_emails',JSON.stringify(emails));
+    localStorage.setItem('ho_pending',JSON.stringify(pending));
+    localStorage.setItem('ho_contacts',JSON.stringify(contacts));
+    localStorage.setItem('ho_cats',JSON.stringify(categories));
+    localStorage.setItem('ho_nextId',String(nextId));
+  }catch(e){alert('\uC800\uC7A5 \uC6A9\uB7C9 \uCD08\uACFC. \uB0B4\uBCF4\uB0B4\uAE30 \uD6C4 \uC815\uB9AC\uD558\uC138\uC694.');}
+}
+
+// ─── EML 파싱 ───
+function decHdr(s){
+  if(!s)return'';
+  return s.replace(/=\?([^?]+)\?([BbQq])\?([^?]*)\?=/g,function(_,cs,enc,data){
+    try{
+      if(enc.toUpperCase()==='B'){
+        var b=Uint8Array.from(atob(data.replace(/\s/g,'')),function(c){return c.charCodeAt(0);});
+        return new TextDecoder(cs).decode(b);
+      }else{
+        var qp=data.replace(/_/g,' ').replace(/=([0-9A-Fa-f]{2})/g,function(_,h){return String.fromCharCode(parseInt(h,16));});
+        try{return new TextDecoder(cs).decode(new Uint8Array(Array.from(qp,function(c){return c.charCodeAt(0);})));}catch{return qp;}
+      }
+    }catch{return data;}
+  });
+}
+function getCharset(ct){
+  var m=(ct||'').match(/charset=["']?([^"';\s\r\n]+)/i);
+  if(!m)return'utf-8';
+  return m[1].toLowerCase().replace('ks_c_5601-1987','euc-kr').replace('ksc5601','euc-kr');
+}
+function decQP(s){return s.replace(/=\r?\n/g,'').replace(/=([0-9A-Fa-f]{2})/g,function(_,h){return String.fromCharCode(parseInt(h,16));});}
+function decB64(s,cs){
+  try{
+    var b=Uint8Array.from(atob(s.replace(/\s/g,'')),function(c){return c.charCodeAt(0);});
+    return new TextDecoder(cs||'utf-8').decode(b);
+  }catch(e){return s;}
+}
+function stripHtml(h){
+  return h.replace(/<style[^>]*>[\s\S]*?<\/style>/gi,'')
+    .replace(/<script[^>]*>[\s\S]*?<\/script>/gi,'')
+    .replace(/<[^>]+>/g,' ')
+    .replace(/&nbsp;/g,' ').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&amp;/g,'&').replace(/&quot;/g,'"')
+    .replace(/[ \t]+/g,' ').replace(/\n{3,}/g,'\n\n').trim();
+}
+function parseHdrs(block){
+  var h={},cur=null;
+  block.split('\n').forEach(function(line){
+    if(/^[ \t]/.test(line)&&cur){h[cur]+=' '+line.trim();return;}
+    var ci=line.indexOf(':');
+    if(ci>0){cur=line.slice(0,ci).toLowerCase().trim();h[cur]=line.slice(ci+1).trim();}
+  });
+  return h;
+}
+function decodeBody(body,cte,cs){
+  var enc=(cte||'').toLowerCase().trim();
+  if(enc==='base64')return decB64(body,cs);
+  if(enc==='quoted-printable'){
+    var qp=decQP(body);
+    try{return new TextDecoder(cs||'utf-8').decode(new Uint8Array(Array.from(qp,function(c){return c.charCodeAt(0);})));}catch{return qp;}
+  }
+  try{return new TextDecoder(cs||'utf-8',{fatal:false}).decode(new Uint8Array(Array.from(body,function(c){return c.charCodeAt(0);})));}catch{return body;}
+}
+function extractText(raw,ct,cte,cs){
+  var bm=(ct||'').match(/boundary=["']?([^"';\s\r\n]+)/i);
+  if(bm){
+    var bdry=bm[1],sep='--'+bdry,chunks=raw.split(sep);
+    var textPlain='',textHtml='';
+    for(var i=1;i<chunks.length;i++){
+      var chunk=chunks[i];
+      if(chunk.startsWith('--'))break;
+      var nl2=chunk.search(/\n\n/);
+      if(nl2===-1)continue;
+      var ph=parseHdrs(chunk.slice(0,nl2).replace(/^\n/,''));
+      var pb=chunk.slice(nl2+2);
+      var pct=ph['content-type']||'';
+      var pcte=ph['content-transfer-encoding']||'';
+      var pcs=getCharset(pct);
+      if(pct.includes('text/plain')&&!textPlain){textPlain=decodeBody(pb,pcte,pcs);}
+      else if(pct.includes('text/html')&&!textHtml){textHtml=stripHtml(decodeBody(pb,pcte,pcs));}
+      else if(pct.includes('multipart')){var r=extractText(pb,pct,'',pcs);if(r)return r;}
+    }
+    return textPlain||textHtml||'';
+  }
+  var decoded=decodeBody(raw,cte,cs);
+  if((ct||'').includes('text/html'))decoded=stripHtml(decoded);
+  return decoded;
+}
+function autoTag(text){
+  var t=(text||'').toLowerCase();
+  for(var i=0;i<categories.length;i++){
+    var cat=categories[i];
+    if(cat.keywords&&cat.keywords.some(function(k){return k&&t.includes(k.toLowerCase());}))return cat.name;
+  }
+  return categories[categories.length-1]?categories[categories.length-1].name:'\uAE30\uD0C0';
+}
+function parseEML(raw,filename,forceCat){
+  var norm=raw.replace(/\r\n/g,'\n');
+  var si=norm.search(/\n\n/);
+  var hBlock=si>=0?norm.slice(0,si):norm;
+  var bodyRaw=si>=0?norm.slice(si+2):'';
+  var h=parseHdrs(hBlock);
+  var ct=h['content-type']||'text/plain';
+  var cs=getCharset(ct);
+  var cte=h['content-transfer-encoding']||'';
+  var subject=decHdr(h['subject']||filename);
+  var from=decHdr(h['from']||'');
+  var to=decHdr(h['to']||'');
+  var rawDate=h['date']||'';
+  var date=rawDate?new Date(rawDate):new Date();
+  if(isNaN(date))date=new Date();
+  var body=extractText(bodyRaw,ct,cte,cs);
+  var attachments=[];
+  var fnRe=/filename\*?=["']?([^"'\r\n;]+)/gi,m;
+  while((m=fnRe.exec(raw))!==null){
+    var fn=decHdr(m[1].trim()).replace(/^utf-8''/i,'');
+    if(fn&&fn.length<200&&!attachments.includes(fn))attachments.push(fn);
+  }
+  var tag=forceCat||autoTag(subject+' '+body.slice(0,500));
+  return{id:nextId++,filename,from,to,subject,date:date.toISOString(),body:body.slice(0,4000),attachments:attachments.slice(0,20),tag,read:false,memo:''};
+}
+
+// ─── 파일 처리 ───
+async function readBinary(file){
+  return new Promise(function(res,rej){var r=new FileReader();r.onload=function(e){res(e.target.result);};r.onerror=rej;r.readAsBinaryString(file);});
+}
+async function handleFiles(files,forceCat){
+  var emls=files.filter(function(f){return f.name.toLowerCase().endsWith('.eml');});
+  if(!emls.length)return;
+  for(var i=0;i<emls.length;i++){
+    try{
+      var raw=await readBinary(emls[i]);
+      var parsed=parseEML(raw,emls[i].name,forceCat);
+      var dup=emails.find(function(e){return e.filename===parsed.filename&&e.date===parsed.date;});
+      if(!dup)emails.unshift(parsed);
+    }catch(err){console.warn('EML error:',emls[i].name,err);}
+  }
+  saveStorage();render();
+}
+async function handleFolderInput(input){
+  var allFiles=Array.from(input.files);
+  var folderMap={};
+  allFiles.forEach(function(f){
+    if(!f.name.toLowerCase().endsWith('.eml'))return;
+    var parts=f.webkitRelativePath.split('/');
+    var catName=parts.length>=2?parts[parts.length-2]:null;
+    if(!folderMap[catName||''])folderMap[catName||'']=[];
+    folderMap[catName||''].push(f);
+  });
+  for(var fn in folderMap){
+    if(fn){
+      var cat=categories.find(function(c){return c.name===fn;});
+      if(!cat){
+        var color=PRESET_COLORS[categories.length%PRESET_COLORS.length];
+        cat={id:nextId++,name:fn,color:color,keywords:[]};
+        categories.push(cat);
+      }
+      await handleFiles(folderMap[fn],cat.name);
+    }else{
+      await handleFiles(folderMap[fn],null);
+    }
+  }
+  input.value='';
+  saveStorage();render();
+}
+async function handleDrop(e){
+  e.preventDefault();
+  document.getElementById('dropzone')&&document.getElementById('dropzone').classList.remove('dragover');
+  var files=Array.from(e.dataTransfer.files);
+  if(e.dataTransfer.items){
+    var entries=[];
+    for(var i=0;i<e.dataTransfer.items.length;i++){
+      var it=e.dataTransfer.items[i];
+      if(it.webkitGetAsEntry)entries.push(it.webkitGetAsEntry());
+    }
+    if(entries.some(function(en){return en&&en.isDirectory;})){
+      var allF=await readDirEntries(entries);
+      var fm={};
+      allF.forEach(function(x){
+        var parts=x.path.split('/');
+        var cn=parts.length>=2?parts[parts.length-2]:null;
+        if(!fm[cn||''])fm[cn||'']=[];
+        fm[cn||''].push(x.file);
+      });
+      for(var fn2 in fm){
+        if(fn2){
+          var cat2=categories.find(function(c){return c.name===fn2;});
+          if(!cat2){var col=PRESET_COLORS[categories.length%PRESET_COLORS.length];cat2={id:nextId++,name:fn2,color:col,keywords:[]};categories.push(cat2);}
+          await handleFiles(fm[fn2],cat2.name);
+        }else{await handleFiles(fm[fn2],null);}
+      }
+      return;
+    }
+  }
+  await handleFiles(files,null);
+}
+function readDirEntries(entries){
+  return new Promise(function(resolve){
+    var results=[],pend=0;
+    function readEntry(en,prefix){
+      if(en.isFile){pend++;en.file(function(f){results.push({file:f,path:prefix+f.name});pend--;if(!pend)resolve(results);});}
+      else if(en.isDirectory){pend++;var rd=en.createReader();rd.readEntries(function(sub){pend--;sub.forEach(function(s){readEntry(s,prefix+en.name+'/');});if(!pend)resolve(results);});}
+    }
+    if(!entries.length){resolve([]);return;}
+    entries.forEach(function(en){if(en)readEntry(en,'');});
+  });
+}
+
+// ─── 뷰 ───
+function setView(v,el){
+  currentView=v;activeTag=null;activeMonth=null;
+  document.querySelectorAll('.nav-item,.tag-filter,.month-item').forEach(function(n){n.classList.remove('active');});
+  if(el)el.classList.add('active');
+  render();
+}
+function filterByTag(name,el){
+  currentView='all';activeTag=activeTag===name?null:name;activeMonth=null;
+  document.querySelectorAll('.nav-item,.tag-filter,.month-item').forEach(function(n){n.classList.remove('active');});
+  if(activeTag)el.classList.add('active');
+  else document.getElementById('nav-all-btn').classList.add('active');
+  render();
+}
+function filterByMonth(ym,el){
+  currentView='all';activeTag=null;activeMonth=activeMonth===ym?null:ym;
+  document.querySelectorAll('.nav-item,.tag-filter,.month-item').forEach(function(n){n.classList.remove('active');});
+  if(activeMonth)el.classList.add('active');
+  else document.getElementById('nav-all-btn').classList.add('active');
+  render();
+}
+function getFiltered(){
+  var q=(document.getElementById('search-input').value||'').trim().toLowerCase();
+  var list=emails.slice();
+  if(activeTag)list=list.filter(function(e){return e.tag===activeTag;});
+  if(activeMonth)list=list.filter(function(e){return e.date&&e.date.startsWith(activeMonth);});
+  if(q)list=list.filter(function(e){return(e.subject||'').toLowerCase().includes(q)||(e.from||'').toLowerCase().includes(q)||(e.body||'').toLowerCase().includes(q);});
+  var sort=document.getElementById('sort-sel').value;
+  if(sort==='date-desc')list.sort(function(a,b){return new Date(b.date)-new Date(a.date);});
+  else if(sort==='date-asc')list.sort(function(a,b){return new Date(a.date)-new Date(b.date);});
+  else list.sort(function(a,b){return(a.from||'').localeCompare(b.from||'');});
+  return list;
+}
+
+// ─── 렌더 ───
+function render(){updateStats();buildSidebar();var a=document.getElementById('main-area');if(currentView==='contacts'){renderContacts(a);renderTimeline();return;}if(currentView==='pending'){renderPending(a);renderTimeline();return;}renderList();renderTimeline();}
+function renderList(){
+  var area=document.getElementById('main-area');
+  if(emails.length===0){
+    area.innerHTML='<div class="dropzone" id="dropzone" ondragover="event.preventDefault();this.classList.add(\'dragover\')" ondragleave="this.classList.remove(\'dragover\')" ondrop="handleDrop(event)" onclick="document.getElementById(\'fi\').click()"><div class="dropzone-icon">\uD83D\uDCC2</div><div>EML \uD30C\uC77C\uC744 \uB4DC\uB798\uADF8\uD558\uAC70\uB098 \uD074\uB9AD</div><div class="dropzone-sub">\uD3F4\uB354 \uB2E8\uC704 \uC5C5\uB85C\uB4DC\uB294 [\uD3F4\uB354 \uCD94\uAC00] \uBC84\uD2BC \uC0AC\uC6A9</div></div>';
+    return;
+  }
+  var list=getFiltered();
+  var q=(document.getElementById('search-input').value||'').trim();
+  if(list.length===0){area.innerHTML='<div class="empty-state"><div class="empty-icon">\uD83D\uDD0D</div><div class="empty-text">\uAC80\uC0C9 \uACB0\uACFC \uC5C6\uC74C</div></div>';return;}
+  var groups={};
+  list.forEach(function(e){var d=new Date(e.date);var k=d.getFullYear()+'\uB144 '+String(d.getMonth()+1).padStart(2,'0')+'\uC6D4';if(!groups[k])groups[k]=[];groups[k].push(e);});
+  var html='';
+  Object.keys(groups).forEach(function(gk){
+    html+='<div class="section-hdr"><span class="section-hdr-label">'+gk+'</span><span class="section-hdr-count">'+groups[gk].length+'\uAC74</span></div>';
+    groups[gk].forEach(function(e){
+      var d=new Date(e.date);var ds=(d.getMonth()+1)+'/'+(d.getDate());
+      var cat=categories.find(function(c){return c.name===e.tag;})||{color:'#888'};
+      var ts='background:'+cat.color+'22;color:'+cat.color;
+      var ab=e.attachments.length?'<span class="attach-badge">\uD83D\uDCCE'+e.attachments.length+'</span>':'';
+      html+='<div class="mail-card '+(e.read?'':'unread')+(selectedId===e.id?' selected':'')+'" onclick="selectMail('+e.id+')">'
+        +'<div class="mail-row1"><div class="mail-sender">'+hl(sn(e.from),q)+'</div><div class="mail-date">'+ds+'</div>'+ab+'</div>'
+        +'<div class="mail-subject">'+hl(esc(e.subject||'(\uC81C\uBAA9\uC5C6\uC74C)'),q)+'</div>'
+        +'<div class="mail-preview">'+hl(esc((e.body||'').slice(0,80)),q)+'</div>'
+        +'<div class="mail-footer"><span class="tag" style="'+ts+'">'+esc(e.tag)+'</span></div></div>';
+    });
+  });
+  area.innerHTML=html;
+}
+function hl(t,q){if(!q)return t;var re=new RegExp(q.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'),'gi');return t.replace(re,function(m){return'<mark>'+m+'</mark>';});}
+function esc(s){return(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+function sn(from){if(!from)return'\uC54C \uC218 \uC5C6\uC74C';var m=from.match(/^([^<]+)</);if(m)return m[1].trim().replace(/"/g,'');return from.replace(/<[^>]+>/,'').trim()||from;}
+function fd(iso){if(!iso)return'';var d=new Date(iso);return d.getFullYear()+'.'+String(d.getMonth()+1).padStart(2,'0')+'.'+String(d.getDate()).padStart(2,'0');}
+
+// ─── 상세 ───
+function selectMail(id){
+  selectedId=id;var e=emails.find(function(x){return x.id===id;});if(!e)return;
+  e.read=true;saveStorage();
+  document.querySelectorAll('.mail-card').forEach(function(el){el.classList.remove('selected');if(el.getAttribute('onclick')==='selectMail('+id+')')el.classList.add('selected');});
+  renderDetail(e);
+}
+function renderDetail(e){
+  var panel=document.getElementById('detail-panel');
+  var d=new Date(e.date);var ds=d.toLocaleString('ko-KR');
+  var attH=e.attachments.map(function(a){return'<div class="attach-item"><span style="color:var(--accent)">\uD83D\uDCCE</span>'+esc(a)+'</div>';}).join('');
+  var tagBtns=categories.map(function(c){
+    var act=e.tag===c.name;
+    return'<div class="tag-btn" style="background:'+c.color+(act?'33':'11')+';color:'+c.color+';border-color:'+(act?c.color:'transparent')+'" onclick="setEmailTag('+e.id+',\''+esc(c.name)+'\',this)">'+esc(c.name)+'</div>';
+  }).join('');
+  panel.innerHTML='<div class="detail-toolbar">'
+    +'<button class="btn" onclick="deleteEmail('+e.id+')">\uD83D\uDDD1 \uC0AD\uC81C</button>'
+    +'<button class="btn" onclick="addPending('+e.id+')">\u26A0\uFE0F \uBBF8\uACB0 \uB4F1\uB85D</button>'
+    +'<button class="btn" onclick="addContact('+e.id+')">\uD83D\uDC64 \uAD00\uACC4\uC790 \uCD94\uAC00</button>'
+    +'</div>'
+    +'<div class="detail-content">'
+    +'<div class="detail-subject">'+esc(e.subject||'(\uC81C\uBAA9\uC5C6\uC74C)')+'</div>'
+    +'<div class="meta-grid">'
+    +'<div class="meta-key">\uBC1C\uC2E0</div><div class="meta-val">'+esc(e.from)+'</div>'
+    +'<div class="meta-key">\uC218\uC2E0</div><div class="meta-val">'+esc(e.to)+'</div>'
+    +'<div class="meta-key">\uB0A0\uC9DC</div><div class="meta-val">'+ds+'</div>'
+    +'<div class="meta-key">\uD30C\uC77C</div><div class="meta-val" style="font-size:10px;color:var(--text-dim)">'+esc(e.filename)+'</div>'
+    +'</div>'
+    +(attH?'<div class="attach-list">'+attH+'</div>':'')
+    +'<div class="tag-editor"><div class="tag-editor-label">\uCE74\uD14C\uACE0\uB9AC</div><div class="tag-btn-group">'+tagBtns+'</div></div>'
+    +'<div style="margin-top:10px"><div class="tag-editor-label" style="font-family:\'IBM Plex Mono\',monospace;font-size:10px;color:var(--text-dim);margin-bottom:5px">\uBA54\uBAA8</div>'
+    +'<textarea id="memo-'+e.id+'" style="width:100%;background:var(--surface2);border:1px solid var(--border);color:var(--text);padding:7px;border-radius:4px;font-size:12px;font-family:\'Noto Sans KR\',sans-serif;resize:vertical;min-height:56px;outline:none" placeholder="\uC778\uC218\uC778\uACC4 \uBA54\uBAA8..." oninput="saveMemo('+e.id+',this.value)">'+esc(e.memo||'')+'</textarea></div>'
+    +'<div class="divider"></div>'
+    +'<div class="body-text">'+esc(e.body||'(\uBCF8\uBB38 \uC5C6\uC74C)')+'</div>'
+    +'</div>';
+}
+function setEmailTag(id,tag){var e=emails.find(function(x){return x.id===id;});if(e){e.tag=tag;saveStorage();renderList();renderDetail(e);}}
+function saveMemo(id,val){var e=emails.find(function(x){return x.id===id;});if(e){e.memo=val;saveStorage();}}
+function deleteEmail(id){
+  if(!confirm('\uC774 \uC774\uBA54\uC77C\uC744 \uC0AD\uC81C\uD560\uAE4C\uC694?'))return;
+  emails=emails.filter(function(x){return x.id!==id;});selectedId=null;saveStorage();render();
+  document.getElementById('detail-panel').innerHTML='<div class="empty-state" style="height:100%"><div class="empty-icon">\u2709\uFE0F</div><div class="empty-text">\uC774\uBA54\uC77C\uC744 \uC120\uD0DD\uD558\uBA74 \uB0B4\uC6A9\uC774 \uD45C\uC2DC\uB429\uB2C8\uB2E4</div></div>';
+}
+function addPending(eid){
+  var e=emails.find(function(x){return x.id===eid;});if(!e)return;
+  var desc=prompt('\uBBF8\uACB0\uC0AC\uD56D \uB0B4\uC6A9:',e.subject);if(!desc)return;
+  pending.push({id:nextId++,desc,from:sn(e.from),date:e.date,done:false,emailId:eid});
+  saveStorage();updateStats();alert('\uBBF8\uACB0\uC0AC\uD56D\uC5D0 \uB4F1\uB85D\uB418\uC5C8\uC2B5\uB2C8\uB2E4.');
+}
+function addContact(eid){
+  var e=emails.find(function(x){return x.id===eid;});if(!e)return;
+  var name=sn(e.from);var em=(e.from.match(/<([^>]+)>/)||[])[1]||e.from;
+  var role=prompt('\uC5ED\uD560/\uC18C\uC18D:','');
+  contacts.push({id:nextId++,name,email:em,role:role||''});
+  saveStorage();alert(name+' \uAD00\uACC4\uC790\uB85C \uCD94\uAC00\uB428');
+}
+
+// ─── 사이드바 ───
+function buildSidebar(){
+  var tf=document.getElementById('tag-filters');
+  tf.innerHTML=categories.map(function(c){
+    var cnt=emails.filter(function(e){return e.tag===c.name;}).length;
+    return'<div class="tag-filter '+(activeTag===c.name?'active':'')+'" draggable="true" ondragstart="onCatDragStart(event,'+c.id+')" ondragover="onCatDragOver(event,'+c.id+')" ondrop="onCatDrop(event,'+c.id+')" ondragend="onCatDragEnd()" onclick="filterByTag(\''+esc(c.name)+'\',this)">'
+      +'<div class="tag-dot" style="background:'+c.color+'"></div>'
+      +'<span>'+esc(c.name)+'</span>'
+      +'<span class="month-count">'+cnt+'</span>'
+      +'<div class="tag-actions">'
+      +'<button class="tag-action-btn" onclick="event.stopPropagation();openEditCat('+c.id+')" title="\uD3B8\uC9D1">\u270F\uFE0F</button>'
+      +'<button class="tag-action-btn" onclick="event.stopPropagation();deleteCat('+c.id+')" title="\uC0AD\uC81C">\u2715</button>'
+      +'</div></div>';
+  }).join('');
+  var months={};
+  emails.forEach(function(e){var d=new Date(e.date);var y=d.getFullYear();var ym=y+'-'+String(d.getMonth()+1).padStart(2,'0');if(!months[y])months[y]={};months[y][ym]=(months[y][ym]||0)+1;});
+  var mt=document.getElementById('month-tree');
+  mt.innerHTML=Object.keys(months).sort(function(a,b){return b-a;}).map(function(y){
+    return'<div><div class="year-header">\u25BE '+y+'\uB144</div>'
+      +Object.keys(months[y]).sort(function(a,b){return b.localeCompare(a);}).map(function(ym){
+        var mo=parseInt(ym.split('-')[1]);
+        return'<div class="month-item '+(activeMonth===ym?'active':'')+'" onclick="filterByMonth(\''+ym+'\',this)">'+mo+'\uC6D4<span class="month-count">'+months[y][ym]+'</span></div>';
+      }).join('')+'</div>';
+  }).join('');
+}
+function updateStats(){
+  document.getElementById('total-cnt').textContent=emails.length;
+  var po=pending.filter(function(p){return!p.done;}).length;
+  document.getElementById('pending-cnt').textContent=po;
+  document.getElementById('nav-all').textContent=emails.length;
+  document.getElementById('nav-pending').textContent=po;
+}
+
+// ─── 미결사항 ───
+function renderPending(area){
+  var open=pending.filter(function(p){return!p.done;});
+  var done=pending.filter(function(p){return p.done;});
+  var html='<div style="padding:14px">'
+    +'<div class="notice">\u26A0\uFE0F \uC778\uC218\uC790\uAC00 \uC2E0\uC18D\uD788 \uD655\uC778\uD574\uC57C \uD560 \uBBF8\uACB0\uC0AC\uD56D</div>'
+    +'<div class="add-row"><input type="text" id="np-input" placeholder="\uBBF8\uACB0\uC0AC\uD56D \uC9C1\uC811 \uC785\uB825..." onkeydown="if(event.key===\'Enter\')addPendingDirect()">'
+    +'<button class="btn btn-primary" onclick="addPendingDirect()">+ \uCD94\uAC00</button></div>'
+    +'<div class="section-hdr"><span class="section-hdr-label">\uBBF8\uC644\uB8CC</span><span class="section-hdr-count">'+open.length+'\uAC74</span></div>'
+    +open.map(function(p){return'<div class="pending-item"><div class="pending-check"><input type="checkbox" onchange="togglePending('+p.id+',this.checked)"><div><div>'+esc(p.desc)+'</div><div class="pending-meta">'+(p.from?'\uAD00\uB828: '+esc(p.from)+' \u00B7 ':'')+fd(p.date)+'</div></div><button class="btn btn-danger" style="margin-left:auto;font-size:10px;padding:2px 7px" onclick="delPending('+p.id+')">\uC0AD\uC81C</button></div></div>';}).join('')
+    +(done.length?'<div class="section-hdr" style="margin-top:16px"><span class="section-hdr-label">\uC644\uB8CC</span><span class="section-hdr-count">'+done.length+'\uAC74</span></div>'
+    +done.map(function(p){return'<div class="pending-item done"><div class="pending-check"><input type="checkbox" checked onchange="togglePending('+p.id+',this.checked)"><div><div style="text-decoration:line-through">'+esc(p.desc)+'</div><div class="pending-meta">'+fd(p.date)+'</div></div></div></div>';}).join(''):'')
+    +'</div>';
+  area.innerHTML=html;
+}
+function addPendingDirect(){var inp=document.getElementById('np-input');var desc=inp.value.trim();if(!desc)return;pending.push({id:nextId++,desc,from:'',date:new Date().toISOString(),done:false});inp.value='';saveStorage();render();}
+function togglePending(id,done){var p=pending.find(function(x){return x.id===id;});if(p){p.done=done;saveStorage();render();}}
+function delPending(id){pending=pending.filter(function(x){return x.id!==id;});saveStorage();render();}
+
+// ─── 관계자 ───
+function renderContacts(area){
+  var html='<div style="padding:14px">'
+    +'<div class="notice">\uD83D\uDCCB \uAD00\uACC4\uC790 \uC5F0\uB77D\uCC98</div>'
+    +'<div class="add-row"><input type="text" id="c-name" placeholder="\uC774\uB984"><input type="text" id="c-role" placeholder="\uC5ED\uD560/\uC18C\uC18D"><input type="text" id="c-email" placeholder="\uC774\uBA54\uC77C"><button class="btn btn-primary" onclick="addContactDirect()">\uCD94\uAC00</button></div>'
+    +(contacts.length===0?'<div class="empty-state"><div class="empty-icon">\uD83D\uDC64</div><div class="empty-text">\uAD00\uACC4\uC790\uAC00 \uC5C6\uC2B5\uB2C8\uB2E4</div></div>'
+    :contacts.map(function(c){return'<div class="contact-card"><div class="contact-avatar">'+(c.name||'?')[0]+'</div><div class="contact-info"><div class="contact-name">'+esc(c.name)+'</div><div class="contact-role">'+esc(c.role)+'</div><div class="contact-email">'+esc(c.email)+'</div></div><button class="btn btn-danger" style="font-size:11px" onclick="delContact('+c.id+')">\uC0AD\uC81C</button></div>';}).join(''))
+    +'</div>';
+  area.innerHTML=html;
+}
+function addContactDirect(){
+  var name=(document.getElementById('c-name')||{value:''}).value.trim();if(!name)return;
+  contacts.push({id:nextId++,name,role:document.getElementById('c-role').value.trim(),email:document.getElementById('c-email').value.trim()});
+  saveStorage();render();
+}
+function delContact(id){contacts=contacts.filter(function(c){return c.id!==id;});saveStorage();render();}
+
+// ─── 카테고리 모달 ───
+function buildColorPicker(){
+  var cp=document.getElementById('color-picker');
+  cp.innerHTML=PRESET_COLORS.map(function(c){return'<div class="color-swatch '+(selColor===c?'selected':'')+'" style="background:'+c+'" onclick="pickColor(\''+c+'\',this)"></div>';}).join('');
+}
+function pickColor(c,el){selColor=c;document.querySelectorAll('.color-swatch').forEach(function(s){s.classList.remove('selected');});el.classList.add('selected');}
+function openAddCat(){
+  editCatId=null;selColor=PRESET_COLORS[0];
+  document.getElementById('cat-modal-title').textContent='\uCE74\uD14C\uACE0\uB9AC \uCD94\uAC00';
+  document.getElementById('cat-name').value='';
+  document.getElementById('cat-keywords').value='';
+  document.getElementById('cat-ok').textContent='\uCD94\uAC00';
+  buildColorPicker();
+  document.getElementById('cat-modal').style.display='flex';
+}
+function openEditCat(id){
+  var cat=categories.find(function(c){return c.id===id;});if(!cat)return;
+  editCatId=id;selColor=cat.color;
+  document.getElementById('cat-modal-title').textContent='\uCE74\uD14C\uACE0\uB9AC \uD3B8\uC9D1';
+  document.getElementById('cat-name').value=cat.name;
+  document.getElementById('cat-keywords').value=(cat.keywords||[]).join(', ');
+  document.getElementById('cat-ok').textContent='\uC800\uC7A5';
+  buildColorPicker();
+  document.getElementById('cat-modal').style.display='flex';
+}
+function closeCat(){document.getElementById('cat-modal').style.display='none';}
+function saveCat(){
+  var name=document.getElementById('cat-name').value.trim();if(!name){alert('\uC774\uB984\uC744 \uC785\uB825\uD558\uC138\uC694');return;}
+  var kw=document.getElementById('cat-keywords').value.split(',').map(function(k){return k.trim();}).filter(Boolean);
+  if(editCatId){
+    var cat=categories.find(function(c){return c.id===editCatId;});
+    if(cat){
+      var oldName=cat.name;cat.name=name;cat.color=selColor;cat.keywords=kw;
+      emails.forEach(function(e){if(e.tag===oldName)e.tag=name;});
+    }
+  }else{
+    if(categories.find(function(c){return c.name===name;})){alert('\uC774\uBBF8 \uC874\uC7AC\uD558\uB294 \uC774\uB984');return;}
+    categories.push({id:nextId++,name,color:selColor,keywords:kw});
+  }
+  saveStorage();closeCat();render();
+}
+function deleteCat(id){
+  var cat=categories.find(function(c){return c.id===id;});if(!cat)return;
+  if(!confirm('\''+cat.name+'\' \uC0AD\uC81C\uD558\uBA74 \uD574\uB2F9 \uBA54\uC77C\uC774 \uB9C8\uC9C0\uB9C9 \uCE74\uD14C\uACE0\uB9AC\uB85C \uC774\uB3D9\uB429\uB2C8\uB2E4. \uACC4\uC18D\uD560\uAE4C\uC694?'))return;
+  var fallback=categories.filter(function(c){return c.id!==id;}).slice(-1)[0]||{name:'\uAE30\uD0C0'};
+  emails.forEach(function(e){if(e.tag===cat.name)e.tag=fallback.name;});
+  categories=categories.filter(function(c){return c.id!==id;});
+  if(!categories.length)categories=defaultCats();
+  saveStorage();render();
+}
+
+// ─── 내보내기 ───
+
+// ─── 카테고리 드래그앤드롭 ───
+var catDragSrcId=null;
+function onCatDragStart(e,id){
+  catDragSrcId=id;
+  e.dataTransfer.effectAllowed='move';
+  e.currentTarget.classList.add('dragging');
+}
+function onCatDragOver(e,id){
+  e.preventDefault();
+  if(catDragSrcId===id)return;
+  document.querySelectorAll('.tag-filter').forEach(function(el){el.classList.remove('drag-over');});
+  e.currentTarget.classList.add('drag-over');
+}
+function onCatDrop(e,id){
+  e.preventDefault();
+  if(catDragSrcId===id)return;
+  var fromIdx=categories.findIndex(function(c){return c.id===catDragSrcId;});
+  var toIdx=categories.findIndex(function(c){return c.id===id;});
+  if(fromIdx<0||toIdx<0)return;
+  var moved=categories.splice(fromIdx,1)[0];
+  categories.splice(toIdx,0,moved);
+  document.querySelectorAll('.tag-filter').forEach(function(el){el.classList.remove('drag-over','dragging');});
+  saveStorage();buildSidebar();
+}
+function onCatDragEnd(){
+  document.querySelectorAll('.tag-filter').forEach(function(el){el.classList.remove('drag-over','dragging');});
+}
+
+// ─── 타임라인 ───
+function renderTimeline(){
+  var canvas=document.getElementById('tl-canvas');
+  var scroll=document.getElementById('tl-scroll');
+  var legend=document.getElementById('tl-legend');
+  if(!canvas||!emails.length){if(canvas){var ctx=canvas.getContext('2d');canvas.width=scroll.clientWidth||600;canvas.height=scroll.clientHeight||100;ctx.fillStyle='#555';ctx.font='12px Noto Sans KR,sans-serif';ctx.textAlign='center';ctx.fillText('EML 파일을 불러오면 타임라인이 표시됩니다',canvas.width/2,canvas.height/2);}return;}
+
+  var unit=document.getElementById('tl-unit').value;
+  var allDates=emails.map(function(e){return new Date(e.date);}).filter(function(d){return!isNaN(d);});
+  if(!allDates.length)return;
+  var minDate=new Date(Math.min.apply(null,allDates));
+  var maxDate=new Date(Math.max.apply(null,allDates));
+
+  // 버킷 생성
+  function getBucketKey(d){
+    if(unit==='week'){
+      var y=d.getFullYear(),m=d.getMonth(),day=d.getDate();
+      var weekNum=Math.ceil(day/7);
+      return y+'-'+String(m+1).padStart(2,'0')+'-W'+weekNum;
+    }
+    return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0');
+  }
+  function getBucketLabel(k){
+    var parts=k.split('-');
+    if(unit==='week')return parts[1]+'월'+parts[2];
+    return parseInt(parts[1])+'월';
+  }
+
+  // 전체 버킷 목록 생성
+  var buckets=[];
+  var cur=new Date(minDate.getFullYear(),minDate.getMonth(),1);
+  var endD=new Date(maxDate.getFullYear(),maxDate.getMonth()+1,1);
+  while(cur<endD){
+    if(unit==='month'){
+      for(var w=1;w<=4;w++) buckets.push(cur.getFullYear()+'-'+String(cur.getMonth()+1).padStart(2,'0')+'-W'+w);
+      cur.setMonth(cur.getMonth()+1);
+    }else{
+      for(var w2=1;w2<=4;w2++) buckets.push(cur.getFullYear()+'-'+String(cur.getMonth()+1).padStart(2,'0')+'-W'+w2);
+      cur.setMonth(cur.getMonth()+1);
+    }
+  }
+  if(unit==='month'){
+    buckets=[];
+    var cur2=new Date(minDate.getFullYear(),minDate.getMonth(),1);
+    while(cur2<=maxDate){
+      buckets.push(cur2.getFullYear()+'-'+String(cur2.getMonth()+1).padStart(2,'0'));
+      cur2.setMonth(cur2.getMonth()+1);
+    }
+  }
+
+  // 버킷별 카운트
+  var catNames=categories.map(function(c){return c.name;});
+  var data={};
+  buckets.forEach(function(b){data[b]={};catNames.forEach(function(n){data[b][n]=0;});});
+  emails.forEach(function(e){
+    var d=new Date(e.date);if(isNaN(d))return;
+    var k=getBucketKey(d);
+    if(data[k]&&e.tag in data[k])data[k][e.tag]++;
+    else if(data[k])data[k][e.tag]=(data[k][e.tag]||0)+1;
+  });
+
+  var COL_W = unit==='month'?60:40;
+  var H=scroll.clientHeight||110;
+  var LABEL_H=22, PADDING_T=6;
+  var BAR_H=H-LABEL_H-PADDING_T-4;
+  var totalW=Math.max(buckets.length*COL_W+40, scroll.clientWidth||600);
+  canvas.width=totalW;canvas.height=H;
+  var ctx=canvas.getContext('2d');
+  ctx.clearRect(0,0,totalW,H);
+
+  // 최대값
+  var maxVal=1;
+  buckets.forEach(function(b){
+    var s=0;catNames.forEach(function(n){s+=(data[b][n]||0);});
+    if(s>maxVal)maxVal=s;
+  });
+
+  // 그리기
+  buckets.forEach(function(b,i){
+    var x=20+i*COL_W;
+    var stackY=H-LABEL_H-2;
+    var total=0;catNames.forEach(function(n){total+=(data[b][n]||0);});
+
+    // 스택 바
+    catNames.forEach(function(n){
+      var cnt=data[b][n]||0;if(!cnt)return;
+      var h=Math.max(2,Math.round((cnt/maxVal)*BAR_H));
+      var cat=categories.find(function(c){return c.name===n;})||{color:'#888'};
+      ctx.fillStyle=cat.color;
+      ctx.globalAlpha=0.85;
+      ctx.fillRect(x+2,stackY-h,COL_W-6,h);
+      stackY-=h;
+      ctx.globalAlpha=1;
+    });
+
+    // 레이블
+    var label=getBucketLabel(b);
+    ctx.fillStyle='#555';
+    ctx.font='9px IBM Plex Mono,monospace';
+    ctx.textAlign='center';
+    // 월 변경 시에만 레이블 표시
+    var showLabel=true;
+    if(unit==='month')showLabel=true;
+    else{
+      // 주 단위: 월 시작 주만
+      showLabel=b.endsWith('W1');
+    }
+    if(showLabel){ctx.fillStyle='#666';ctx.fillText(label,x+COL_W/2,H-4);}
+
+    // 격선
+    if(showLabel&&i>0){ctx.strokeStyle='#2e2e38';ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(x,PADDING_T);ctx.lineTo(x,H-LABEL_H-2);ctx.stroke();}
+
+    // 오늘 마커
+    if(total>0&&unit==='month'){
+      ctx.fillStyle='#c8a96e44';
+      ctx.fillRect(x+1,PADDING_T,COL_W-4,BAR_H);
+    }
+  });
+
+  // 범례
+  legend.innerHTML=categories.filter(function(c){return emails.some(function(e){return e.tag===c.name;});}).map(function(c){
+    return'<span style="display:inline-flex;align-items:center;gap:4px;font-size:10px;color:var(--text-dim)">'
+      +'<span style="width:8px;height:8px;border-radius:1px;background:'+c.color+';display:inline-block"></span>'+c.name+'</span>';
+  }).join('');
+}
+
+function exportData(){
+  // 이메일 본문 포함 여부 확인
+  var withBody = confirm('이메일 본문을 포함하여 저장할까요?\n(포함 시 파일이 커질 수 있습니다)');
+  var data={
+    _version: 2,
+    project: document.getElementById('pname-input').value,
+    exportedAt: new Date().toISOString(),
+    categories: categories,
+    emails: emails.map(function(e){
+      var o={id:e.id,date:e.date,from:e.from,to:e.to,subject:e.subject,tag:e.tag,attachments:e.attachments,memo:e.memo,read:e.read,filename:e.filename};
+      if(withBody) o.body=e.body;
+      return o;
+    }),
+    pending: pending,
+    contacts: contacts
+  };
+  var json = JSON.stringify(data,null,2);
+  var blob=new Blob([json],{type:'application/json'});
+  var url=URL.createObjectURL(blob);
+  var a=document.createElement('a');
+  var pname = document.getElementById('pname-input').value||'인수인계';
+  a.href=url;
+  a.download=pname+'_'+new Date().toISOString().slice(0,10)+'.json';
+  a.click();
+  URL.revokeObjectURL(url);
+  showToast('저장 완료 — ' + data.emails.length + '건 이메일, ' + data.pending.length + '건 미결사항');
+}
+
+function importData(){
+  if(emails.length>0){
+    if(!confirm('현재 데이터에 덮어씁니까?\n(취소 시 기존 데이터 유지)')) return;
+  }
+  document.getElementById('import-input').click();
+}
+
+function handleImport(input){
+  var file = input.files[0];
+  if(!file) return;
+  var reader = new FileReader();
+  reader.onload = function(e){
+    try{
+      var data = JSON.parse(e.target.result);
+      if(!data.emails) throw new Error('올바른 인수인계 파일이 아닙니다');
+      // 복원
+      emails    = data.emails    || [];
+      pending   = data.pending   || [];
+      contacts  = data.contacts  || [];
+      categories= data.categories|| defaultCats();
+      nextId    = Math.max.apply(null,
+        emails.map(function(x){return x.id||0;})
+        .concat(pending.map(function(x){return x.id||0;}))
+        .concat(contacts.map(function(x){return x.id||0;}))
+        .concat([0])
+      ) + 1;
+      // 본문 없는 경우 빈 문자열로
+      emails.forEach(function(em){if(!em.body)em.body='(본문 미포함 — EML 재불러오기 필요)';});
+      var pname = data.project||'';
+      if(pname){
+        document.getElementById('pname').textContent=pname;
+        document.getElementById('pname-input').value=pname;
+        localStorage.setItem('ho_project',pname);
+      }
+      saveStorage();
+      render();
+      showToast('불러오기 완료 — ' + emails.length + '건 이메일, ' + (data.exportedAt?new Date(data.exportedAt).toLocaleString('ko-KR'):'')+'  저장본');
+    }catch(err){
+      alert('파일 오류: '+err.message);
+    }
+    input.value='';
+  };
+  reader.readAsText(file,'utf-8');
+}
+
+function showToast(msg){
+  var t=document.getElementById('toast');
+  if(!t){t=document.createElement('div');t.id='toast';
+    t.style.cssText='position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:#232329;border:1px solid #c8a96e;color:#e8e6e1;padding:10px 20px;border-radius:6px;font-size:13px;z-index:999;pointer-events:none;transition:opacity .3s;font-family:Noto Sans KR,sans-serif;white-space:nowrap';
+    document.body.appendChild(t);
+  }
+  t.textContent=msg;t.style.opacity='1';
+  clearTimeout(t._timer);
+  t._timer=setTimeout(function(){t.style.opacity='0';},3000);
+}
+
+loadStorage();render();window.addEventListener('resize',function(){renderTimeline();});
+</script>
+</body>
+</html>
