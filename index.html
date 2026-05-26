@@ -130,6 +130,10 @@ mark{background:#c8a96e33;color:var(--accent);border-radius:2px;padding:0 1px}
 ::-webkit-scrollbar-track{background:transparent}
 ::-webkit-scrollbar-thumb{background:var(--border);border-radius:3px}
 ::-webkit-scrollbar-thumb:hover{background:#3e3e4e}
+.resizer{width:4px;background:transparent;cursor:col-resize;flex-shrink:0;transition:background .15s;position:relative;z-index:10}
+.resizer:hover,.resizer.dragging{background:var(--accent)}
+.resizer::after{content:'';position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);height:32px;width:2px;background:var(--border);border-radius:2px}
+.resizer:hover::after,.resizer.dragging::after{background:var(--accent)}
 </style>
 </head>
 <body>
@@ -152,7 +156,7 @@ mark{background:#c8a96e33;color:var(--accent);border-radius:2px;padding:0 1px}
   </div>
 </div>
 <div class="layout">
-  <div class="sidebar">
+  <div class="sidebar" id="sidebar">
     <div class="sidebar-section">
       <div class="sidebar-label">뷰</div>
       <div class="nav-item active" id="nav-all-btn" onclick="setView('all',this)"><span>📬</span> 전체 <span class="nav-count" id="nav-all">0</span></div>
@@ -168,6 +172,7 @@ mark{background:#c8a96e33;color:var(--accent);border-radius:2px;padding:0 1px}
       <div id="month-tree"></div>
     </div>
   </div>
+  <div class="resizer" id="resizer-left"></div>
   <div class="main">
     <div class="search-bar">
       <div class="search-wrap">
@@ -182,6 +187,7 @@ mark{background:#c8a96e33;color:var(--accent);border-radius:2px;padding:0 1px}
     </div>
     <div id="main-area" class="mail-list" style="flex:1;overflow-y:auto"></div>
   </div>
+  <div class="resizer" id="resizer-right"></div>
   <div class="detail-panel" id="detail-panel">
     <div class="empty-state" style="height:100%">
       <div class="empty-icon">✉️</div>
@@ -209,19 +215,7 @@ mark{background:#c8a96e33;color:var(--accent);border-radius:2px;padding:0 1px}
         [변경] 클릭 시 브라우저 설정에서 다운로드 위치를 변경하거나, 저장 후 이동하세요.
       </div>
     </div>
-    <div class="modal-field">
-      <div class="modal-lbl">저장 옵션</div>
-      <div style="display:flex;flex-direction:column;gap:8px">
-        <label style="display:flex;align-items:center;gap:8px;font-size:13px;color:var(--text-muted);cursor:pointer">
-          <input type="checkbox" id="save-with-body" checked style="accent-color:var(--accent)" onchange="updateSavePreview()">
-          이메일 본문 포함 (파일 크기 증가)
-        </label>
-        <label style="display:flex;align-items:center;gap:8px;font-size:13px;color:var(--text-muted);cursor:pointer">
-          <input type="checkbox" id="save-with-attach-list" checked style="accent-color:var(--accent)" onchange="updateSavePreview()">
-          첨부파일 목록 포함
-        </label>
-      </div>
-    </div>
+
     <div style="background:var(--surface2);border:1px solid var(--border);border-radius:4px;padding:10px 12px;font-size:11px;color:var(--text-dim);margin-top:4px">
       <div id="save-preview-info" style="line-height:1.7"></div>
     </div>
@@ -412,7 +406,10 @@ async function handleFiles(files,forceCat){
       var raw=await readBinary(emls[i]);
       var parsed=parseEML(raw,emls[i].name,forceCat);
       var dup=emails.find(function(e){return e.filename===parsed.filename&&e.date===parsed.date;});
-      if(!dup)emails.unshift(parsed);
+      if(!dup){
+        emails.unshift(parsed);
+        autoExtractContacts(parsed);
+      }
     }catch(err){console.warn('EML error:',emls[i].name,err);}
   }
   saveStorage();render();
@@ -717,22 +714,115 @@ function addPendingDirect(){var inp=document.getElementById('np-input');var desc
 function togglePending(id,done){var p=pending.find(function(x){return x.id===id;});if(p){p.done=done;saveStorage();render();}}
 function delPending(id){pending=pending.filter(function(x){return x.id!==id;});saveStorage();render();}
 
+// ─── 관계자 자동 추출 ───
+function parseAddresses(raw){
+  // "이름 <email>, 이름2 <email2>" 형식 파싱
+  var results = [];
+  if(!raw) return results;
+  // 여러 주소 분리 (쉼표 기준, 단 꺽쇠 안은 제외)
+  var parts = [];
+  var buf = '', depth = 0;
+  for(var i=0;i<raw.length;i++){
+    var ch = raw[i];
+    if(ch==='<') depth++;
+    else if(ch==='>') depth--;
+    if(ch===',' && depth===0){ parts.push(buf.trim()); buf=''; }
+    else buf+=ch;
+  }
+  if(buf.trim()) parts.push(buf.trim());
+
+  parts.forEach(function(part){
+    part = part.trim();
+    if(!part) return;
+    var m = part.match(/^"?([^"<]+?)"?\s*<([^>]+)>/);
+    if(m){
+      results.push({ name: m[1].trim(), email: m[2].trim() });
+    } else if(part.includes('@')){
+      results.push({ name: part.split('@')[0], email: part });
+    }
+  });
+  return results;
+}
+
+function autoExtractContacts(parsed){
+  var addrs = parseAddresses(parsed.from).concat(parseAddresses(parsed.to));
+  addrs.forEach(function(a){
+    if(!a.email || !a.email.includes('@')) return;
+    var emailLower = a.email.toLowerCase();
+    var exists = contacts.find(function(c){ return c.email.toLowerCase()===emailLower; });
+    if(!exists){
+      contacts.push({ id:nextId++, name:a.name||a.email, email:a.email, role:'', auto:true });
+    }
+  });
+}
+
 // ─── 관계자 ───
 function renderContacts(area){
+  var auto = contacts.filter(function(c){ return c.auto; });
+  var manual = contacts.filter(function(c){ return !c.auto; });
+
+  function cardHtml(c){
+    var initials = (c.name||'?').slice(0,2);
+    var sentCount = emails.filter(function(e){ return (e.from||'').toLowerCase().includes(c.email.toLowerCase()); }).length;
+    var recvCount = emails.filter(function(e){ return (e.to||'').toLowerCase().includes(c.email.toLowerCase()); }).length;
+    return '<div class="contact-card">'
+      +'<div class="contact-avatar">'+esc(initials)+'</div>'
+      +'<div class="contact-info">'
+        +'<div class="contact-name">'+esc(c.name)+'</div>'
+        +'<input value="'+esc(c.role||'')+'" placeholder="역할/소속 입력..." '
+          +'onchange="setContactRole('+c.id+',this.value)" '
+          +'style="background:transparent;border:none;border-bottom:1px solid var(--border);color:var(--text-muted);font-size:11px;width:100%;outline:none;padding:1px 0;margin-top:2px;font-family:\'Noto Sans KR\',sans-serif;">'
+        +'<div class="contact-email">'+esc(c.email)+'</div>'
+        +'<div style="font-size:10px;color:var(--text-dim);margin-top:3px;font-family:\'IBM Plex Mono\',monospace;">발신 '+sentCount+' · 수신 '+recvCount+'</div>'
+      +'</div>'
+      +'<button class="btn btn-danger" style="font-size:11px;flex-shrink:0;align-self:center" onclick="delContact('+c.id+')">×</button>'
+    +'</div>';
+  }
+
   var html='<div style="padding:14px">'
-    +'<div class="notice">\uD83D\uDCCB \uAD00\uACC4\uC790 \uC5F0\uB77D\uCC98</div>'
-    +'<div class="add-row"><input type="text" id="c-name" placeholder="\uC774\uB984"><input type="text" id="c-role" placeholder="\uC5ED\uD560/\uC18C\uC18D"><input type="text" id="c-email" placeholder="\uC774\uBA54\uC77C"><button class="btn btn-primary" onclick="addContactDirect()">\uCD94\uAC00</button></div>'
-    +(contacts.length===0?'<div class="empty-state"><div class="empty-icon">\uD83D\uDC64</div><div class="empty-text">\uAD00\uACC4\uC790\uAC00 \uC5C6\uC2B5\uB2C8\uB2E4</div></div>'
-    :contacts.map(function(c){return'<div class="contact-card"><div class="contact-avatar">'+(c.name||'?')[0]+'</div><div class="contact-info"><div class="contact-name">'+esc(c.name)+'</div><div class="contact-role">'+esc(c.role)+'</div><div class="contact-email">'+esc(c.email)+'</div></div><button class="btn btn-danger" style="font-size:11px" onclick="delContact('+c.id+')">\uC0AD\uC81C</button></div>';}).join(''))
+    +'<div class="add-row" style="margin-bottom:12px">'
+      +'<input type="text" id="c-name" placeholder="이름" style="flex:1">'
+      +'<input type="text" id="c-role" placeholder="역할/소속" style="flex:1">'
+      +'<input type="text" id="c-email" placeholder="이메일" style="flex:2">'
+      +'<button class="btn btn-primary" onclick="addContactDirect()">+ 추가</button>'
+    +'</div>'
+    +'<div class="section-hdr"><span class="section-hdr-label">메일에서 자동 추출</span>'
+      +'<span class="section-hdr-count">'+auto.length+'명</span>'
+      +(auto.length>0 ? '<button class="btn" style="margin-left:auto;font-size:10px;padding:2px 8px" onclick="reScanContacts()">↻ 재스캔</button>' : '')
+    +'</div>'
+    +(auto.length===0
+      ? '<div style="font-size:12px;color:var(--text-dim);padding:10px 4px;">EML을 불러오면 발신자/수신자가 자동으로 추가됩니다.</div>'
+      : auto.map(cardHtml).join('')
+    )
+    +(manual.length>0
+      ? '<div class="section-hdr" style="margin-top:14px"><span class="section-hdr-label">직접 추가</span><span class="section-hdr-count">'+manual.length+'명</span></div>'
+        + manual.map(cardHtml).join('')
+      : ''
+    )
     +'</div>';
   area.innerHTML=html;
 }
 function addContactDirect(){
   var name=(document.getElementById('c-name')||{value:''}).value.trim();if(!name)return;
-  contacts.push({id:nextId++,name,role:document.getElementById('c-role').value.trim(),email:document.getElementById('c-email').value.trim()});
+  var em=(document.getElementById('c-email')||{value:''}).value.trim();
+  if(em && contacts.find(function(c){return c.email.toLowerCase()===em.toLowerCase();})){
+    alert('이미 등록된 이메일입니다.');return;
+  }
+  contacts.push({id:nextId++,name,role:document.getElementById('c-role').value.trim(),email:em,auto:false});
   saveStorage();render();
 }
 function delContact(id){contacts=contacts.filter(function(c){return c.id!==id;});saveStorage();render();}
+function setContactRole(id,val){
+  var c=contacts.find(function(x){return x.id===id;});
+  if(c){c.role=val;saveStorage();}
+}
+function reScanContacts(){
+  // 기존 자동추출 전부 제거 후 재스캔
+  contacts=contacts.filter(function(c){return!c.auto;});
+  emails.forEach(function(parsed){ autoExtractContacts(parsed); });
+  saveStorage();render();
+  showToast('관계자 재스캔 완료 — '+contacts.filter(function(c){return c.auto;}).length+'명');
+}
 
 // ─── 카테고리 모달 ───
 function buildColorPicker(){
@@ -827,8 +917,8 @@ function exportData(){
 }
 
 function updateSavePreview(){
-  var withBody = document.getElementById('save-with-body').checked;
-  var withAttach = document.getElementById('save-with-attach-list').checked;
+  var withBody = true;
+  var withAttach = true;
   var estSize = emails.length * (withBody ? 3 : 0.3) + 'KB 내외 (예상)';
   var info = document.getElementById('save-preview-info');
   if(info){
@@ -921,7 +1011,10 @@ function handleImport(input){
         .concat([0])
       ) + 1;
       // 본문 없는 경우 빈 문자열로
-      emails.forEach(function(em){if(!em.body)em.body='(본문 미포함 — EML 재불러오기 필요)';});
+      emails.forEach(function(em){
+        if(!em.body)em.body='(본문 미포함 — EML 재불러오기 필요)';
+        autoExtractContacts(em);
+      });
       var pname = data.project||'';
       if(pname){
         document.getElementById('pname').textContent=pname;
@@ -949,6 +1042,63 @@ function showToast(msg){
   clearTimeout(t._timer);
   t._timer=setTimeout(function(){t.style.opacity='0';},3000);
 }
+
+
+// ─── 패널 리사이저 ───
+(function(){
+  function makeResizer(resizerId, getTarget, side, minW, maxW, storageKey){
+    var el = document.getElementById(resizerId);
+    if(!el) return;
+    var dragging = false, startX, startW;
+
+    // 저장된 너비 복원
+    var saved = localStorage.getItem(storageKey);
+    if(saved){
+      var target = getTarget();
+      if(target) target.style.width = saved + 'px';
+    }
+
+    el.addEventListener('mousedown', function(e){
+      e.preventDefault();
+      dragging = true;
+      startX = e.clientX;
+      var target = getTarget();
+      startW = target ? target.offsetWidth : 0;
+      el.classList.add('dragging');
+      document.body.style.cursor = 'col-resize';
+      document.body.style.userSelect = 'none';
+    });
+
+    document.addEventListener('mousemove', function(e){
+      if(!dragging) return;
+      var target = getTarget();
+      if(!target) return;
+      var dx = e.clientX - startX;
+      var newW = side === 'right' ? startW - dx : startW + dx;
+      newW = Math.max(minW, Math.min(maxW, newW));
+      target.style.width = newW + 'px';
+      if(side === 'left') target.style.minWidth = newW + 'px';
+      localStorage.setItem(storageKey, newW);
+    });
+
+    document.addEventListener('mouseup', function(){
+      if(!dragging) return;
+      dragging = false;
+      el.classList.remove('dragging');
+      document.body.style.cursor = '';
+      document.body.style.userSelect = '';
+    });
+  }
+
+  makeResizer('resizer-left',
+    function(){ return document.getElementById('sidebar'); },
+    'left', 140, 320, 'ho_sidebar_w'
+  );
+  makeResizer('resizer-right',
+    function(){ return document.getElementById('detail-panel'); },
+    'right', 240, 600, 'ho_detail_w'
+  );
+})();
 
 loadStorage();render();window.addEventListener('resize',function(){});
 </script>
