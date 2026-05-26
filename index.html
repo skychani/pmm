@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>프로젝트 인수인계</title>
+<title>프로젝트 메일 관리 툴</title>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap');
 :root{
@@ -134,16 +134,16 @@ mark{background:#c8a96e33;color:var(--accent);border-radius:2px;padding:0 1px}
 </head>
 <body>
 <div class="topbar">
-  <div class="topbar-title">&#9672; HANDOVER</div>
-  <div class="topbar-project">&#54532;&#47196;&#51111;&#53944;: <span id="pname">&#48120;&#49444;&#51221;</span></div>
-  <input id="pname-input" type="text" placeholder="&#54532;&#47196;&#51111;&#53944;&#47749; &#51077;&#47141;..."
+  <div class="topbar-title">◈ HANDOVER</div>
+  <div class="topbar-project">프로젝트: <span id="pname">미설정</span></div>
+  <input id="pname-input" type="text" placeholder="프로젝트명 입력..."
     style="background:var(--surface2);border:1px solid var(--border);color:var(--text);padding:4px 9px;border-radius:4px;font-size:12px;font-family:'Noto Sans KR',sans-serif;outline:none;width:170px"
-    oninput="document.getElementById('pname').textContent=this.value||'&#48120;&#49444;&#51221;';localStorage.setItem('ho_project',this.value)">
+    oninput="document.getElementById('pname').textContent=this.value||'미설정';localStorage.setItem('ho_project',this.value)">
   <div class="topbar-actions">
-    <div class="stat-chip">&#52395; <strong id="total-cnt">0</strong> &#44148;</div>
-    <div class="stat-chip">&#48120;&#44208; <strong id="pending-cnt" style="color:var(--red)">0</strong> &#44148;</div>
-    <button class="btn btn-primary" onclick="document.getElementById('fi').click()">+ EML &#52628;&#44032;</button>
-    <button class="btn" onclick="document.getElementById('di').click()">&#128193; 폴더 추가</button>
+    <div class="stat-chip">총 <strong id="total-cnt">0</strong> 건</div>
+    <div class="stat-chip">미결 <strong id="pending-cnt" style="color:var(--red)">0</strong> 건</div>
+    <button class="btn btn-primary" onclick="document.getElementById('fi').click()">+ EML 추가</button>
+    <button class="btn" onclick="document.getElementById('di').click()">📁 폴더 추가</button>
     <button class="btn" onclick="exportData()">📤 내보내기</button>
     <button class="btn" onclick="importData()">📥 불러오기</button>
     <input type="file" id="import-input" accept=".json" hidden onchange="handleImport(this)">
@@ -154,25 +154,25 @@ mark{background:#c8a96e33;color:var(--accent);border-radius:2px;padding:0 1px}
 <div class="layout">
   <div class="sidebar">
     <div class="sidebar-section">
-      <div class="sidebar-label">&#48267;</div>
-      <div class="nav-item active" id="nav-all-btn" onclick="setView('all',this)"><span>&#128236;</span> &#51204;&#52404; <span class="nav-count" id="nav-all">0</span></div>
-      <div class="nav-item" id="nav-pending-btn" onclick="setView('pending',this)"><span>&#9888;&#65039;</span> &#48120;&#44208;&#49324;&#54637; <span class="nav-count" id="nav-pending" style="color:var(--red)">0</span></div>
-      <div class="nav-item" id="nav-contacts-btn" onclick="setView('contacts',this)"><span>&#128100;</span> &#44288;&#44228;&#51088;</div>
+      <div class="sidebar-label">뷰</div>
+      <div class="nav-item active" id="nav-all-btn" onclick="setView('all',this)"><span>📬</span> 전체 <span class="nav-count" id="nav-all">0</span></div>
+      <div class="nav-item" id="nav-pending-btn" onclick="setView('pending',this)"><span>⚠️</span> 미결사항 <span class="nav-count" id="nav-pending" style="color:var(--red)">0</span></div>
+      <div class="nav-item" id="nav-contacts-btn" onclick="setView('contacts',this)"><span>👤</span> 관계자</div>
     </div>
     <div class="sidebar-section">
-      <div class="sidebar-label">&#52852;&#53580;&#44256;&#47532; <button class="sidebar-label-btn" onclick="openAddCat()">+ &#52628;&#44032;</button></div>
+      <div class="sidebar-label">카테고리 <button class="sidebar-label-btn" onclick="openAddCat()">+ 추가</button></div>
       <div id="tag-filters"></div>
     </div>
     <div class="sidebar-section" style="flex:1">
-      <div class="sidebar-label">&#50672;&#50900;&#48324;</div>
+      <div class="sidebar-label">연월별</div>
       <div id="month-tree"></div>
     </div>
   </div>
   <div class="main">
     <div class="search-bar">
       <div class="search-wrap">
-        <span class="search-icon">&#128269;</span>
-        <input type="text" id="search-input" placeholder="&#51228;&#47785;, &#BC1C;&#49888;&#51088;, &#BCF8;&#BB38; &#AC80;&#C0C9;..." oninput="renderList()">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="search-input" placeholder="제목, 발신자, 본문 검색..." oninput="renderList()">
       </div>
       <select class="sort-select" id="sort-sel" onchange="renderList()">
         <option value="date-desc">날짜 최신순</option>
@@ -201,8 +201,8 @@ mark{background:#c8a96e33;color:var(--accent);border-radius:2px;padding:0 1px}
   </div>
   <div class="detail-panel" id="detail-panel">
     <div class="empty-state" style="height:100%">
-      <div class="empty-icon">&#9993;&#65039;</div>
-      <div class="empty-text">&#C774;&#BA54;&#C77C;&#C744; &#C120;&#D0DD;&#D558;&#BA74; &#B0B4;&#C6A9;&#C774; &#D45C;&#C2DC;&#B429;&#B2C8;&#B2E4;</div>
+      <div class="empty-icon">✉️</div>
+      <div class="empty-text">이메일을 선택하면 내용이 표시됩니다</div>
     </div>
   </div>
 </div>
@@ -252,22 +252,22 @@ mark{background:#c8a96e33;color:var(--accent);border-radius:2px;padding:0 1px}
 <!-- 카테고리 모달 -->
 <div class="modal-overlay" id="cat-modal" style="display:none" onclick="if(event.target===this)closeCat()">
   <div class="modal">
-    <h3 id="cat-modal-title">&#52852;&#53580;&#44256;&#47532; &#52628;&#44032;</h3>
+    <h3 id="cat-modal-title">카테고리 추가</h3>
     <div class="modal-field">
-      <div class="modal-lbl">&#47749;&#52845;</div>
-      <input type="text" id="cat-name" placeholder="&#50696;: &#44396;&#C870;&#C124;&#ACC4;, &#C18C;&#BC29;, &#D1A0;&#BAA9;..." maxlength="12">
+      <div class="modal-lbl">명칭</div>
+      <input type="text" id="cat-name" placeholder="예: 구조설계, 소방, 토목..." maxlength="12">
     </div>
     <div class="modal-field">
-      <div class="modal-lbl">&#C0C9;&#C0C1;</div>
+      <div class="modal-lbl">색상</div>
       <div class="color-picker-row" id="color-picker"></div>
     </div>
     <div class="modal-field">
-      <div class="modal-lbl">&#C790;&#B3D9;&#BD84;&#B958; &#D0A4;&#C6CC;&#B4DC; (&#C27C;&#D45C; &#AD6C;&#BD84;)</div>
-      <input type="text" id="cat-keywords" placeholder="&#50696;: &#44396;&#C870;,&#ACE8;&#C870;,&#AE30;&#CD08;">
+      <div class="modal-lbl">자동분류 키워드 (쉼표 구분)</div>
+      <input type="text" id="cat-keywords" placeholder="예: 구조,골조,기초">
     </div>
     <div class="modal-actions">
-      <button class="btn" onclick="closeCat()">&#CDE8;&#C18C;</button>
-      <button class="btn btn-primary" id="cat-ok" onclick="saveCat()">&#52628;&#44032;</button>
+      <button class="btn" onclick="closeCat()">취소</button>
+      <button class="btn btn-primary" id="cat-ok" onclick="saveCat()">추가</button>
     </div>
   </div>
 </div>
