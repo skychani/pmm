@@ -130,6 +130,13 @@ mark{background:#c8a96e33;color:var(--accent);border-radius:2px;padding:0 1px}
 ::-webkit-scrollbar-track{background:transparent}
 ::-webkit-scrollbar-thumb{background:var(--border);border-radius:3px}
 ::-webkit-scrollbar-thumb:hover{background:#3e3e4e}
+.pagination{display:flex;align-items:center;gap:4px;padding:12px 8px;justify-content:center;flex-wrap:wrap}
+.page-btn{background:var(--surface2);border:1px solid var(--border);color:var(--text-muted);padding:4px 10px;border-radius:4px;cursor:pointer;font-size:12px;font-family:'IBM Plex Mono',monospace;min-width:32px;transition:all .12s}
+.page-btn:hover:not(.disabled){background:var(--surface);border-color:var(--accent);color:var(--accent)}
+.page-btn.active{background:var(--accent)22;border-color:var(--accent);color:var(--accent);font-weight:600}
+.page-btn.disabled{opacity:.3;cursor:default;pointer-events:none}
+.page-ellipsis{color:var(--text-dim);font-size:12px;padding:0 2px}
+.page-info{font-size:11px;color:var(--text-dim);margin-left:8px;font-family:'IBM Plex Mono',monospace;white-space:nowrap}
 .resizer{width:4px;background:transparent;cursor:col-resize;flex-shrink:0;transition:background .15s;position:relative;z-index:10}
 .resizer:hover,.resizer.dragging{background:var(--accent)}
 .resizer::after{content:'';position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);height:32px;width:2px;background:var(--border);border-radius:2px}
@@ -150,6 +157,7 @@ mark{background:#c8a96e33;color:var(--accent);border-radius:2px;padding:0 1px}
     <button class="btn" onclick="document.getElementById('di').click()">📁 폴더 추가</button>
     <button class="btn" onclick="exportData()">📤 내보내기</button>
     <button class="btn" onclick="importData()">📥 불러오기</button>
+    <button class="btn" onclick="resetAll()" style="color:var(--red);border-color:var(--red)33" title="전체 데이터 초기화">🗑 초기화</button>
     <input type="file" id="import-input" accept=".json" hidden onchange="handleImport(this)">
     <input type="file" id="fi" accept=".eml" multiple hidden onchange="handleFiles(Array.from(this.files),null);this.value=''">
     <input type="file" id="di" webkitdirectory multiple hidden onchange="handleFolderInput(this)">
@@ -177,9 +185,9 @@ mark{background:#c8a96e33;color:var(--accent);border-radius:2px;padding:0 1px}
     <div class="search-bar">
       <div class="search-wrap">
         <span class="search-icon">🔍</span>
-        <input type="text" id="search-input" placeholder="제목, 발신자, 본문 검색..." oninput="renderList()">
+        <input type="text" id="search-input" placeholder="제목, 발신자, 본문 검색..." oninput="currentPage=1;renderList()">
       </div>
-      <select class="sort-select" id="sort-sel" onchange="renderList()">
+      <select class="sort-select" id="sort-sel" onchange="currentPage=1;renderList()">
         <option value="date-desc">날짜 최신순</option>
         <option value="date-asc">날짜 오래된순</option>
         <option value="sender">발신자순</option>
@@ -275,7 +283,11 @@ function loadStorage(){
 }
 function saveStorage(){
   try{
-    localStorage.setItem('ho_emails',JSON.stringify(emails));
+    // body는 localStorage에서 제외 (용량 절약) — 메모리에는 유지
+    var emailsLite = emails.map(function(e){
+      var o=Object.assign({},e); delete o.body; return o;
+    });
+    localStorage.setItem('ho_emails',JSON.stringify(emailsLite));
     localStorage.setItem('ho_pending',JSON.stringify(pending));
     localStorage.setItem('ho_contacts',JSON.stringify(contacts));
     localStorage.setItem('ho_cats',JSON.stringify(categories));
@@ -391,7 +403,7 @@ function parseEML(raw,filename,forceCat){
     if(fn&&fn.length<200&&!attachments.includes(fn))attachments.push(fn);
   }
   var tag=forceCat||autoTag(subject+' '+body.slice(0,500));
-  return{id:nextId++,filename,from,to,subject,date:date.toISOString(),body:body.slice(0,4000),attachments:attachments.slice(0,20),tag,read:false,memo:''};
+  return{id:nextId++,filename,from,to,subject,date:date.toISOString(),body:body.slice(0,8000),attachments:attachments.slice(0,20),tag,read:false,memo:''};
 }
 
 // ─── 파일 처리 ───
@@ -498,7 +510,7 @@ function filterByTag(name,el){
   render();
 }
 function filterByMonth(ym,el){
-  currentView='all';activeTag=null;activeMonth=activeMonth===ym?null:ym;
+  currentView='all';activeTag=null;activeMonth=activeMonth===ym?null:ym;currentPage=1;
   document.querySelectorAll('.nav-item,.tag-filter,.month-item').forEach(function(n){n.classList.remove('active');});
   if(activeMonth)el.classList.add('active');
   else document.getElementById('nav-all-btn').classList.add('active');
@@ -522,29 +534,69 @@ function render(){updateStats();buildSidebar();var a=document.getElementById('ma
 function renderList(){
   var area=document.getElementById('main-area');
   if(emails.length===0){
-    area.innerHTML='<div class="dropzone" id="dropzone" ondragover="event.preventDefault();this.classList.add(\'dragover\')" ondragleave="this.classList.remove(\'dragover\')" ondrop="handleDrop(event)" onclick="document.getElementById(\'fi\').click()"><div class="dropzone-icon">\uD83D\uDCC2</div><div>EML \uD30C\uC77C\uC744 \uB4DC\uB798\uADF8\uD558\uAC70\uB098 \uD074\uB9AD</div><div class="dropzone-sub">\uD3F4\uB354 \uB2E8\uC704 \uC5C5\uB85C\uB4DC\uB294 [\uD3F4\uB354 \uCD94\uAC00] \uBC84\uD2BC \uC0AC\uC6A9</div></div>';
+    area.innerHTML='<div class="dropzone" id="dropzone" ondragover="event.preventDefault();this.classList.add(\'dragover\')" ondragleave="this.classList.remove(\'dragover\')" ondrop="handleDrop(event)" onclick="document.getElementById(\'fi\').click()"><div class="dropzone-icon">📂</div><div>EML 파일을 드래그하거나 클릭</div><div class="dropzone-sub">폴더 단위 업로드는 [폴더 추가] 버튼 사용</div></div>';
     return;
   }
   var list=getFiltered();
   var q=(document.getElementById('search-input').value||'').trim();
-  if(list.length===0){area.innerHTML='<div class="empty-state"><div class="empty-icon">\uD83D\uDD0D</div><div class="empty-text">\uAC80\uC0C9 \uACB0\uACFC \uC5C6\uC74C</div></div>';return;}
+  if(list.length===0){area.innerHTML='<div class="empty-state"><div class="empty-icon">🔍</div><div class="empty-text">검색 결과 없음</div></div>';return;}
+
+  var total=list.length;
+  var totalPages=Math.max(1,Math.ceil(total/PAGE_SIZE));
+  if(currentPage>totalPages) currentPage=totalPages;
+  var start=(currentPage-1)*PAGE_SIZE;
+  var pageList=list.slice(start,start+PAGE_SIZE);
+
   var groups={};
-  list.forEach(function(e){var d=new Date(e.date);var k=d.getFullYear()+'\uB144 '+String(d.getMonth()+1).padStart(2,'0')+'\uC6D4';if(!groups[k])groups[k]=[];groups[k].push(e);});
+  pageList.forEach(function(e){
+    var d=new Date(e.date);
+    var k=d.getFullYear()+'년 '+String(d.getMonth()+1).padStart(2,'0')+'월';
+    if(!groups[k])groups[k]=[];
+    groups[k].push(e);
+  });
+
   var html='';
   Object.keys(groups).forEach(function(gk){
-    html+='<div class="section-hdr"><span class="section-hdr-label">'+gk+'</span><span class="section-hdr-count">'+groups[gk].length+'\uAC74</span></div>';
+    html+='<div class="section-hdr"><span class="section-hdr-label">'+gk+'</span><span class="section-hdr-count">'+groups[gk].length+'건</span></div>';
     groups[gk].forEach(function(e){
       var d=new Date(e.date);var ds=(d.getMonth()+1)+'/'+(d.getDate());
       var cat=categories.find(function(c){return c.name===e.tag;})||{color:'#888'};
       var ts='background:'+cat.color+'22;color:'+cat.color;
-      var ab=e.attachments.length?'<span class="attach-badge">\uD83D\uDCCE'+e.attachments.length+'</span>':'';
-      html+='<div class="mail-card '+(e.read?'':'unread')+(selectedId===e.id?' selected':'')+'" data-id="'+e.id+'" onclick="selectMail('+e.id+')">'         +'<div class="mail-row1"><div class="mail-sender">'+hl(sn(e.from),q)+'</div><div class="mail-date">'+ds+'</div>'+ab+'</div>'
-        +'<div class="mail-subject">'+hl(esc(e.subject||'(\uC81C\uBAA9\uC5C6\uC74C)'),q)+'</div>'
-        +'<div class="mail-preview">'+hl(esc((e.body||'').slice(0,80)),q)+'</div>'
-        +'<div class="mail-footer"><span class="tag" style="'+ts+'">'+esc(e.tag)+'</span></div></div>';
+      var ab=e.attachments&&e.attachments.length?'<span class="attach-badge">📎'+e.attachments.length+'</span>':'';
+      html+='<div class="mail-card '+(e.read?'':'unread')+(selectedId===e.id?' selected':'')+' " data-id="'+e.id+'" onclick="selectMail('+e.id+')">';
+      html+='<div class="mail-row1"><div class="mail-sender">'+hl(sn(e.from),q)+'</div><div class="mail-date">'+ds+'</div>'+ab+'</div>';
+      html+='<div class="mail-subject">'+hl(esc(e.subject||'(제목없음)'),q)+'</div>';
+      html+='<div class="mail-preview">'+hl(esc((e.body||'').slice(0,80)),q)+'</div>';
+      html+='<div class="mail-footer"><span class="tag" style="'+ts+'">'+esc(e.tag)+'</span></div></div>';
     });
   });
+
+  // 페이지네이션 바
+  if(totalPages>1){
+    html+='<div class="pagination">';
+    html+='<button class="page-btn'+(currentPage===1?' disabled':'')+'" onclick="goPage('+(currentPage-1)+')">‹</button>';
+    var pStart=Math.max(1,currentPage-3);
+    var pEnd=Math.min(totalPages,currentPage+3);
+    if(pStart>1){html+='<button class="page-btn" onclick="goPage(1)">1</button>';if(pStart>2)html+='<span class="page-ellipsis">…</span>';}
+    for(var p=pStart;p<=pEnd;p++){
+      html+='<button class="page-btn'+(p===currentPage?' active':'')+'" onclick="goPage('+p+')">'+p+'</button>';
+    }
+    if(pEnd<totalPages){if(pEnd<totalPages-1)html+='<span class="page-ellipsis">…</span>';html+='<button class="page-btn" onclick="goPage('+totalPages+')">'+totalPages+'</button>';}
+    html+='<button class="page-btn'+(currentPage===totalPages?' disabled':'')+'" onclick="goPage('+(currentPage+1)+')">›</button>';
+    html+='<span class="page-info">'+(start+1)+'–'+Math.min(start+PAGE_SIZE,total)+' / '+total+'건</span>';
+    html+='</div>';
+  }
+
   area.innerHTML=html;
+}
+
+function goPage(p){
+  var list=getFiltered();
+  var totalPages=Math.max(1,Math.ceil(list.length/PAGE_SIZE));
+  if(p<1||p>totalPages) return;
+  currentPage=p;
+  renderList();
+  document.getElementById('main-area').scrollTop=0;
 }
 function hl(t,q){if(!q)return t;var re=new RegExp(q.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'),'gi');return t.replace(re,function(m){return'<mark>'+m+'</mark>';});}
 function esc(s){return(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
@@ -1027,6 +1079,37 @@ function doExport(){
   showToast('저장 완료 — '+filename+' ('+emails.length+'건)');
 }
 
+function resetAll(){
+  // 2단계 확인
+  if(!confirm('⚠ 전체 초기화\n\n메일 · 미결사항 · 관계자 · 카테고리가 모두 삭제됩니다.\n계속하시겠습니까?')) return;
+  if(!confirm('정말로 삭제하시겠습니까?\n(이 작업은 되돌릴 수 없습니다)')) return;
+
+  emails=[]; pending=[]; contacts=[]; selectedId=null;
+  currentView='all'; activeTag=null; activeMonth=null; currentPage=1;
+  nextId=1;
+  // 카테고리는 기본값으로 리셋
+  categories=[
+    {name:'인허가',color:'#e06c75'},{name:'설계',color:'#61afef'},
+    {name:'민원',color:'#e5c07b'},{name:'협력사',color:'#98c379'},
+    {name:'발주처',color:'#c678dd'},{name:'기타',color:'#56b6c2'}
+  ];
+  // localStorage 전체 클리어 (리사이저 너비는 유지)
+  var sideW = localStorage.getItem('ho_sidebar_w');
+  var detailW = localStorage.getItem('ho_detail_w');
+  localStorage.clear();
+  if(sideW) localStorage.setItem('ho_sidebar_w', sideW);
+  if(detailW) localStorage.setItem('ho_detail_w', detailW);
+
+  // 프로젝트명 초기화
+  var pname = document.getElementById('pname-input');
+  var pspan = document.getElementById('pname');
+  if(pname) pname.value='';
+  if(pspan) pspan.textContent='미설정';
+
+  render();
+  showToast('초기화 완료 — 새 프로젝트를 시작하세요');
+}
+
 function importData(){
   if(emails.length>0){
     if(!confirm('현재 데이터에 덮어씁니까?\n(취소 시 기존 데이터 유지)')) return;
@@ -1055,7 +1138,7 @@ function handleImport(input){
       ) + 1;
       // 본문 없는 경우 빈 문자열로
       emails.forEach(function(em){
-        if(!em.body)em.body='(본문 미포함 — EML 재불러오기 필요)';
+        if(!em.body)em.body='(본문은 EML 파일에서만 표시됩니다 — 원본 EML을 다시 불러오거나 JSON 저장 시 포함됩니다)';
         autoExtractContacts(em);
       });
       var pname = data.project||'';
@@ -1075,7 +1158,7 @@ function handleImport(input){
   reader.readAsText(file,'utf-8');
 }
 
-function showToast(msg){
+function showToast(msg, duration){
   var t=document.getElementById('toast');
   if(!t){t=document.createElement('div');t.id='toast';
     t.style.cssText='position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:#232329;border:1px solid #c8a96e;color:#e8e6e1;padding:10px 20px;border-radius:6px;font-size:13px;z-index:999;pointer-events:none;transition:opacity .3s;font-family:Noto Sans KR,sans-serif;white-space:nowrap';
