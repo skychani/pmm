@@ -258,7 +258,8 @@ mark{background:#c8a96e33;color:var(--accent);border-radius:2px;padding:0 1px}
 </div>
 <script>
 const PRESET_COLORS=['#c8a96e','#7eb8c9','#c97e7e','#8ec97e','#a07ec9','#c9b47e','#7ec9b4','#c97ea0','#7e9bc9','#e8857a','#7ac8c4','#b07ae8','#e8c47a','#aaaaaa'];
-let emails=[],pending=[],contacts=[],categories=[],selectedId=null,currentView='all',activeTag=null,activeMonth=null,editCatId=null,selColor=PRESET_COLORS[0],nextId=1;
+let emails=[],pending=[],contacts=[],categories=[],selectedId=null,currentView='all',activeTag=null,activeMonth=null,editCatId=null,selColor=PRESET_COLORS[0],nextId=1,currentPage=1;
+const PAGE_SIZE=50;
 
 function defaultCats(){return[
   {id:1,name:'\uC778\uD5C8\uAC00',color:'#c8a96e',keywords:['\uC778\uD5C8\uAC00','\uD5C8\uAC00','\uC2E0\uACE0','\uC2B9\uC778','\uD611\uC758','\uC778\uAC00']},
