@@ -156,6 +156,7 @@ mark{background:#c8a96e33;color:var(--accent);border-radius:2px;padding:0 1px}
     <button class="btn btn-primary" onclick="document.getElementById('fi').click()">+ EML 추가</button>
     <button class="btn" onclick="document.getElementById('di').click()">📁 폴더 추가</button>
     <button class="btn" onclick="exportData()">📤 내보내기</button>
+    <button class="btn" onclick="saveAsProjectJson()" title="GitHub Pages용 data/project.json 저장" style="color:var(--accent2);border-color:var(--accent2)33">☁ GH 저장</button>
     <button class="btn" onclick="importData()">📥 불러오기</button>
     <button class="btn" onclick="resetAll()" style="color:var(--red);border-color:var(--red)33" title="전체 데이터 초기화">🗑 초기화</button>
     <input type="file" id="import-input" accept=".json" hidden onchange="handleImport(this)">
@@ -971,6 +972,36 @@ function deleteCat(id){
   saveStorage();render();
 }
 
+// ─── GitHub Pages 데이터 연동 ───
+var GH_DATA_LOADED = false; // fetch로 불러온 경우 true
+
+async function loadFromGitHub(){
+  // ./data/project.json 에서 자동 로드 시도
+  try{
+    var res = await fetch('./data/project.json', { cache: 'no-cache' });
+    if(!res.ok) return false;
+    var data = await res.json();
+    applyImportData(data);
+    GH_DATA_LOADED = true;
+    showToast('📂 data/project.json 로드 완료 — ' + emails.length + '건');
+    return true;
+  }catch(e){
+    return false; // 파일 없으면 조용히 무시
+  }
+}
+
+function saveAsProjectJson(){
+  // data/project.json 형식으로 다운로드
+  var data = buildExportData();
+  var blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+  var a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'project.json';
+  a.click();
+  URL.revokeObjectURL(a.href);
+  showToast('project.json 저장 완료 — data/ 폴더에 업로드하세요');
+}
+
 // ─── 내보내기 ───
 
 // ─── 카테고리 드래그앤드롭 ───
@@ -1118,6 +1149,25 @@ function importData(){
   document.getElementById('import-input').click();
 }
 
+function applyImportData(data){
+  emails=data.emails||[];
+  emails.forEach(function(em){
+    if(!em.body)em.body='(본문은 EML 파일에서만 표시됩니다 — 원본 EML을 다시 불러오거나 JSON 저장 시 포함됩니다)';
+    autoExtractContacts(em);
+  });
+  pending=data.pending||[];
+  contacts=data.contacts||[];
+  if(data.categories&&data.categories.length) categories=data.categories;
+  nextId=data.nextId||(Math.max(0,...emails.map(function(e){return e.id||0;}),
+                                 ...pending.map(function(p){return p.id||0;}),
+                                 ...contacts.map(function(c){return c.id||0;}))+1);
+  if(data.project){
+    localStorage.setItem('ho_project',data.project);
+    var ps=document.getElementById('pname');var pi=document.getElementById('pname-input');
+    if(ps)ps.textContent=data.project;if(pi)pi.value=data.project;
+  }
+  saveStorage();render();
+}
 function handleImport(input){
   var file = input.files[0];
   if(!file) return;
@@ -1227,7 +1277,16 @@ function showToast(msg, duration){
   );
 })();
 
-loadStorage();render();window.addEventListener('resize',function(){});
+(async function(){
+  loadStorage(); // localStorage 먼저 복원
+  // GitHub Pages 환경이면 data/project.json 자동 로드 시도
+  // localStorage에 이미 데이터 있으면 fetch 스킵 (수동 업로드 우선)
+  if(emails.length === 0){
+    await loadFromGitHub();
+  }
+  render();
+})();
+window.addEventListener('resize',function(){});
 </script>
 </body>
 </html>
