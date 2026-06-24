@@ -156,7 +156,7 @@ mark{background:#c8a96e33;color:var(--accent);border-radius:2px;padding:0 1px}
     <button class="btn btn-primary" onclick="document.getElementById('fi').click()">+ EML 추가</button>
     <button class="btn" onclick="document.getElementById('di').click()">📁 폴더 추가</button>
     <button class="btn" onclick="exportData()">📤 내보내기</button>
-    <button class="btn" id="gh-save-btn" onclick="saveAsProjectJson()" style="display:none;color:var(--accent2);border-color:var(--accent2)33" title="현재 프로젝트 JSON 저장 후 GitHub에 업로드">☁ GH 저장</button>
+
 
     <button class="btn" onclick="importData()">📥 불러오기</button>
     <button class="btn" onclick="resetAll()" style="color:var(--red);border-color:var(--red)33" title="전체 데이터 초기화">🗑 초기화</button>
@@ -1290,10 +1290,6 @@ function showToast(msg, duration){
 
 (async function(){
   var key = getProjectParam();
-
-  // ?project= 파라미터가 있으면 GH 저장 버튼 표시
-  var ghBtn = document.getElementById('gh-save-btn');
-  if(key && ghBtn) ghBtn.style.display='';
 
   if(key){
     // ?project= 있으면 항상 JSON fetch 우선 (멀티 프로젝트 지원)
