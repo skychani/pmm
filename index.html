@@ -156,7 +156,8 @@ mark{background:#c8a96e33;color:var(--accent);border-radius:2px;padding:0 1px}
     <button class="btn btn-primary" onclick="document.getElementById('fi').click()">+ EML 추가</button>
     <button class="btn" onclick="document.getElementById('di').click()">📁 폴더 추가</button>
     <button class="btn" onclick="exportData()">📤 내보내기</button>
-    <button class="btn" onclick="saveAsProjectJson()" title="GitHub Pages용 data/project.json 저장" style="color:var(--accent2);border-color:var(--accent2)33">☁ GH 저장</button>
+    <button class="btn" id="gh-save-btn" onclick="saveAsProjectJson()" style="display:none;color:var(--accent2);border-color:var(--accent2)33" title="현재 프로젝트 JSON 저장 후 GitHub에 업로드">☁ GH 저장</button>
+
     <button class="btn" onclick="importData()">📥 불러오기</button>
     <button class="btn" onclick="resetAll()" style="color:var(--red);border-color:var(--red)33" title="전체 데이터 초기화">🗑 초기화</button>
     <input type="file" id="import-input" accept=".json" hidden onchange="handleImport(this)">
@@ -294,8 +295,11 @@ function saveStorage(){
     localStorage.setItem('ho_contacts',JSON.stringify(contacts));
     localStorage.setItem('ho_cats',JSON.stringify(categories));
     localStorage.setItem('ho_nextId',String(nextId));
-  }catch(e){alert('\uC800\uC7A5 \uC6A9\uB7C9 \uCD08\uACFC. \uB0B4\uBCF4\uB0B4\uAE30 \uD6C4 \uC815\uB9AC\uD558\uC138\uC694.');}
+  }catch(e){showToast('⚠ 저장 용량 초과 — JSON 내보내기로 백업하세요', 4000);}
+  var _k=getProjectParam();
+  if(_k){try{localStorage.setItem('ho_proj_'+_k,JSON.stringify(buildExportData()));}catch(e){}}
 }
+
 
 // ─── EML 파싱 ───
 function decHdr(s){
@@ -972,34 +976,41 @@ function deleteCat(id){
   saveStorage();render();
 }
 
-// ─── GitHub Pages 데이터 연동 ───
-var GH_DATA_LOADED = false; // fetch로 불러온 경우 true
+// ─── GitHub Pages ?project= 연동 ───
+function getProjectParam(){
+  return new URLSearchParams(window.location.search).get('project')||'';
+}
 
 async function loadFromGitHub(){
-  // ./data/project.json 에서 자동 로드 시도
+  var key = getProjectParam();
+  if(!key) return false;
   try{
-    var res = await fetch('./data/project.json', { cache: 'no-cache' });
-    if(!res.ok) return false;
+    var res = await fetch('./data/'+key+'.json', { cache: 'no-cache' });
+    if(!res.ok){ showToast('⚠ data/'+key+'.json 파일을 찾을 수 없습니다'); return false; }
     var data = await res.json();
     applyImportData(data);
-    GH_DATA_LOADED = true;
-    showToast('📂 data/project.json 로드 완료 — ' + emails.length + '건');
+    showToast('📂 '+key+'.json 로드 완료 — '+emails.length+'건');
+    // 상단 프로젝트명에 key 표시 (JSON에 project 없을 때 fallback)
+    if(!data.project){
+      var ps=document.getElementById('pname');
+      if(ps&&ps.textContent==='미설정') ps.textContent=key;
+    }
     return true;
   }catch(e){
-    return false; // 파일 없으면 조용히 무시
+    return false;
   }
 }
 
 function saveAsProjectJson(){
-  // data/project.json 형식으로 다운로드
+  var key = getProjectParam();
   var data = buildExportData();
-  var blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+  var blob = new Blob([JSON.stringify(data,null,2)],{type:'application/json'});
   var a = document.createElement('a');
   a.href = URL.createObjectURL(blob);
-  a.download = 'project.json';
+  a.download = (key||'project')+'.json';
   a.click();
   URL.revokeObjectURL(a.href);
-  showToast('project.json 저장 완료 — data/ 폴더에 업로드하세요');
+  showToast((key||'project')+'.json 저장 — GitHub data/ 폴더에 업로드하세요');
 }
 
 // ─── 내보내기 ───
@@ -1278,11 +1289,28 @@ function showToast(msg, duration){
 })();
 
 (async function(){
-  loadStorage(); // localStorage 먼저 복원
-  // GitHub Pages 환경이면 data/project.json 자동 로드 시도
-  // localStorage에 이미 데이터 있으면 fetch 스킵 (수동 업로드 우선)
-  if(emails.length === 0){
+  var key = getProjectParam();
+
+  // ?project= 파라미터가 있으면 GH 저장 버튼 표시
+  var ghBtn = document.getElementById('gh-save-btn');
+  if(key && ghBtn) ghBtn.style.display='';
+
+  if(key){
+    // ?project= 있으면 항상 JSON fetch 우선 (멀티 프로젝트 지원)
+    // localStorage는 키별로 분리 저장
+    var lsKey = 'ho_proj_'+key;
+    var cached = localStorage.getItem(lsKey);
+    if(cached){
+      try{ applyImportData(JSON.parse(cached)); }catch(e){ loadStorage(); }
+    }
+    // 항상 최신 JSON fetch (캐시 덮어쓰기)
     await loadFromGitHub();
+    // fetch 결과를 키별 localStorage에 저장
+    var snap = buildExportData();
+    try{ localStorage.setItem(lsKey, JSON.stringify(snap)); }catch(e){}
+  } else {
+    // ?project= 없으면 기존 localStorage 방식
+    loadStorage();
   }
   render();
 })();
