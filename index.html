@@ -878,6 +878,8 @@ function goToMail(emailId){
     el.classList.toggle('selected', eid === emailId);
     if(eid === emailId) el.classList.remove('unread');
   });
+  // 모바일: 디테일 패널 슬라이드 인
+  if(typeof openMobileDetail === 'function') openMobileDetail();
 }
 function addPendingDirect(){var inp=document.getElementById('np-input');var desc=inp.value.trim();if(!desc)return;pending.push({id:nextId++,desc,from:'',date:new Date().toISOString(),done:false});inp.value='';saveStorage();render();}
 function togglePending(id,done){var p=pending.find(function(x){return x.id===id;});if(p){p.done=done;saveStorage();render();}}
