@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>프로젝트 메일 관리 툴</title>
+<title>PMM - Project Mail Management</title>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap');
 :root{
@@ -141,11 +141,99 @@ mark{background:#c8a96e33;color:var(--accent);border-radius:2px;padding:0 1px}
 .resizer:hover,.resizer.dragging{background:var(--accent)}
 .resizer::after{content:'';position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);height:32px;width:2px;background:var(--border);border-radius:2px}
 .resizer:hover::after,.resizer.dragging::after{background:var(--accent)}
+
+/* ===== MOBILE RESPONSIVE ===== */
+@media (max-width: 768px) {
+  /* topbar: 스크롤 가능하게, 버튼 축소 */
+  .topbar{padding:0 10px;gap:8px;height:48px;overflow-x:auto;flex-wrap:nowrap}
+  .topbar-title{font-size:11px;flex-shrink:0}
+  .topbar-project{display:none}
+  #pname-input{width:110px;font-size:11px;padding:3px 7px}
+  .topbar-actions{gap:4px;flex-shrink:0}
+  .stat-chip{font-size:11px;padding:2px 7px}
+  .btn{padding:4px 8px;font-size:11px}
+
+  /* 3패널 → 단일 패널 전환 */
+  .layout{position:relative;overflow:hidden}
+  .sidebar{
+    position:absolute;left:0;top:0;bottom:0;
+    width:220px!important;min-width:220px!important;
+    transform:translateX(-100%);
+    transition:transform .2s ease;
+    z-index:50;
+    box-shadow:4px 0 16px #00000066;
+  }
+  .sidebar.mobile-open{transform:translateX(0)}
+  .resizer{display:none!important}
+  .main{width:100%!important;min-width:0!important}
+  .detail-panel{
+    position:absolute;left:0;right:0;top:0;bottom:0;
+    width:100%!important;min-width:0!important;
+    transform:translateX(100%);
+    transition:transform .2s ease;
+    z-index:40;
+  }
+  .detail-panel.mobile-open{transform:translateX(0)}
+
+  /* 모바일 네비게이션 버튼 */
+  .mob-nav{
+    display:flex!important;
+    position:fixed;bottom:0;left:0;right:0;
+    height:52px;
+    background:var(--surface);
+    border-top:1px solid var(--border);
+    z-index:100;
+    align-items:stretch;
+  }
+  .mob-nav-btn{
+    flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;
+    font-size:10px;color:var(--text-muted);cursor:pointer;gap:2px;
+    border:none;background:transparent;
+    -webkit-tap-highlight-color:transparent;
+    touch-action:manipulation;
+  }
+  .mob-nav-btn.active{color:var(--accent)}
+  .mob-nav-btn span{font-size:18px;line-height:1}
+  .mob-nav-overlay{
+    display:none;
+    position:fixed;inset:0;background:#00000055;z-index:45;
+  }
+  .mob-nav-overlay.active{display:block}
+
+  /* body에 하단 네비바 여백 */
+  body{padding-bottom:52px}
+  .layout{height:calc(100vh - 48px - 52px)!important}
+
+  /* 디테일 패널 상단 뒤로가기 버튼 */
+  .mob-back{
+    display:flex!important;
+    align-items:center;gap:6px;
+    padding:6px 12px;
+    background:var(--surface2);
+    border-bottom:1px solid var(--border);
+    cursor:pointer;font-size:12px;color:var(--accent);
+    -webkit-tap-highlight-color:transparent;
+    touch-action:manipulation;
+    flex-shrink:0;
+  }
+
+  /* 메일 카드 터치 최적화 */
+  .mail-card{min-height:60px}
+  .mail-list{padding:6px 8px}
+
+  /* 모달 */
+  .modal{min-width:0!important;width:92vw!important;max-height:85vh;overflow-y:auto}
+}
+
+/* 데스크탑에서 모바일 전용 요소 숨김 */
+.mob-nav{display:none}
+.mob-back{display:none}
+.mob-nav-overlay{display:none}
 </style>
 </head>
 <body>
 <div class="topbar">
-  <div class="topbar-title">◈ HANDOVER</div>
+  <div class="topbar-title">◈ PMM</div>
   <div class="topbar-project">프로젝트: <span id="pname">미설정</span></div>
   <input id="pname-input" type="text" placeholder="프로젝트명 입력..."
     style="background:var(--surface2);border:1px solid var(--border);color:var(--text);padding:4px 9px;border-radius:4px;font-size:12px;font-family:'Noto Sans KR',sans-serif;outline:none;width:170px"
@@ -199,11 +287,32 @@ mark{background:#c8a96e33;color:var(--accent);border-radius:2px;padding:0 1px}
   </div>
   <div class="resizer" id="resizer-right"></div>
   <div class="detail-panel" id="detail-panel">
+    <div class="mob-back" onclick="closeMobileDetail()">← 목록으로</div>
     <div class="empty-state" style="height:100%">
       <div class="empty-icon">✉️</div>
       <div class="empty-text">이메일을 선택하면 내용이 표시됩니다</div>
     </div>
   </div>
+</div>
+<!-- 모바일 사이드바 오버레이 -->
+<div class="mob-nav-overlay" id="mob-overlay" onclick="closeMobileSidebar()"></div>
+<!-- 모바일 하단 네비바 -->
+<div class="mob-nav" id="mob-nav">
+  <button class="mob-nav-btn" id="mob-btn-menu" onclick="toggleMobileSidebar()">
+    <span>☰</span>메뉴
+  </button>
+  <button class="mob-nav-btn active" id="mob-btn-list" onclick="showMobileList()">
+    <span>📬</span>목록
+  </button>
+  <button class="mob-nav-btn" id="mob-btn-add" onclick="document.getElementById('fi').click()">
+    <span>+</span>EML 추가
+  </button>
+  <button class="mob-nav-btn" id="mob-btn-export" onclick="exportData()">
+    <span>📤</span>내보내기
+  </button>
+  <button class="mob-nav-btn" id="mob-btn-import" onclick="importData()">
+    <span>📥</span>불러오기
+  </button>
 </div>
 <!-- 저장 모달 -->
 <div class="modal-overlay" id="save-modal" style="display:none" onclick="if(event.target===this)closeSaveModal()">
@@ -639,6 +748,8 @@ function selectMail(id){
   requestAnimationFrame(function(){
     if(listArea) listArea.scrollTop = savedScroll;
   });
+  // 모바일: 디테일 패널 슬라이드 인
+  if(typeof openMobileDetail === 'function') openMobileDetail();
 }
 function renderDetail(e){
   var panel=document.getElementById('detail-panel');
@@ -648,7 +759,7 @@ function renderDetail(e){
     var act=e.tag===c.name;
     return'<div class="tag-btn" style="background:'+c.color+(act?'33':'11')+';color:'+c.color+';border-color:'+(act?c.color:'transparent')+'" onclick="setEmailTag('+e.id+',\''+esc(c.name)+'\',this)">'+esc(c.name)+'</div>';
   }).join('');
-  panel.innerHTML='<div class="detail-toolbar">'
+  panel.innerHTML='<div class="mob-back" onclick="closeMobileDetail()">← 목록으로</div><div class="detail-toolbar">'
     +'<button class="btn" onclick="deleteEmail('+e.id+')">\uD83D\uDDD1 \uC0AD\uC81C</button>'
     +'<button class="btn" onclick="addPending('+e.id+')">\u26A0\uFE0F \uBBF8\uACB0 \uB4F1\uB85D</button>'
     +'<button class="btn" onclick="addContact('+e.id+')">\uD83D\uDC64 \uAD00\uACC4\uC790 \uCD94\uAC00</button>'
@@ -677,7 +788,7 @@ function saveMemo(id,val){var e=emails.find(function(x){return x.id===id;});if(e
 function deleteEmail(id){
   if(!confirm('\uC774 \uC774\uBA54\uC77C\uC744 \uC0AD\uC81C\uD560\uAE4C\uC694?'))return;
   emails=emails.filter(function(x){return x.id!==id;});selectedId=null;saveStorage();render();
-  document.getElementById('detail-panel').innerHTML='<div class="empty-state" style="height:100%"><div class="empty-icon">\u2709\uFE0F</div><div class="empty-text">\uC774\uBA54\uC77C\uC744 \uC120\uD0DD\uD558\uBA74 \uB0B4\uC6A9\uC774 \uD45C\uC2DC\uB429\uB2C8\uB2E4</div></div>';
+  document.getElementById('detail-panel').innerHTML='<div class="mob-back" onclick="closeMobileDetail()">\u2190 \ubaa9\ub85d\uc73c\ub85c</div><div class="empty-state" style="height:100%"><div class="empty-icon">\u2709\uFE0F</div><div class="empty-text">\uC774\uBA54\uC77C\uC744 \uC120\uD0DD\uD558\uBA74 \uB0B4\uC6A9\uC774 \uD45C\uC2DC\uB429\uB2C8\uB2E4</div></div>';
 }
 function addPending(eid){
   var e=emails.find(function(x){return x.id===eid;});if(!e)return;
@@ -1311,6 +1422,54 @@ function showToast(msg, duration){
   render();
 })();
 window.addEventListener('resize',function(){});
+
+/* ===== MOBILE UI FUNCTIONS ===== */
+function isMobile(){ return window.innerWidth <= 768; }
+
+function toggleMobileSidebar(){
+  var sb = document.getElementById('sidebar');
+  var ov = document.getElementById('mob-overlay');
+  if(!sb) return;
+  var isOpen = sb.classList.contains('mobile-open');
+  if(isOpen){ closeMobileSidebar(); }
+  else {
+    sb.classList.add('mobile-open');
+    ov.classList.add('active');
+  }
+}
+function closeMobileSidebar(){
+  var sb = document.getElementById('sidebar');
+  var ov = document.getElementById('mob-overlay');
+  if(sb) sb.classList.remove('mobile-open');
+  if(ov) ov.classList.remove('active');
+}
+function openMobileDetail(){
+  if(!isMobile()) return;
+  var dp = document.getElementById('detail-panel');
+  if(dp) dp.classList.add('mobile-open');
+  // 하단 버튼 목록 비활성화
+  var listBtn = document.getElementById('mob-btn-list');
+  if(listBtn) listBtn.classList.remove('active');
+}
+function closeMobileDetail(){
+  var dp = document.getElementById('detail-panel');
+  if(dp) dp.classList.remove('mobile-open');
+  var listBtn = document.getElementById('mob-btn-list');
+  if(listBtn) listBtn.classList.add('active');
+}
+function showMobileList(){
+  closeMobileDetail();
+  closeMobileSidebar();
+}
+
+// 사이드바 nav 클릭 시 모바일에서 사이드바 닫기
+document.addEventListener('click', function(e){
+  if(!isMobile()) return;
+  var navItem = e.target.closest('.nav-item, .tag-filter, .month-item, .year-header');
+  if(navItem && document.getElementById('sidebar').classList.contains('mobile-open')){
+    setTimeout(closeMobileSidebar, 150);
+  }
+});
 </script>
 </body>
 </html>
