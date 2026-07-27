@@ -1,7 +1,7 @@
 {
   "_version": 2,
   "project": "",
-  "exportedAt": "2026-07-27T02:06:13.853Z",
+  "exportedAt": "2026-07-27T06:02:40.039Z",
   "categories": [
     {
       "name": "인허가",
@@ -28,15 +28,21 @@
       "color": "#56b6c2"
     },
     {
-      "id": 398,
-      "name": "OUT",
+      "id": 1,
+      "name": "IN",
       "color": "#7ec9b4",
+      "keywords": []
+    },
+    {
+      "id": 399,
+      "name": "OUT",
+      "color": "#c97ea0",
       "keywords": []
     }
   ],
   "emails": [
     {
-      "id": 536,
+      "id": 537,
       "date": "2026-03-20T07:05:16.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "아킬레스 <sosuper@hanmail.net>",
@@ -51,7 +57,7 @@
       ]
     },
     {
-      "id": 535,
+      "id": 536,
       "date": "2026-03-20T06:17:51.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "이은영 <ley7821@yegaone.com>",
@@ -66,7 +72,7 @@
       ]
     },
     {
-      "id": 534,
+      "id": 535,
       "date": "2026-03-20T01:35:05.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "아킬레스 <sosuper@hanmail.net>",
@@ -82,7 +88,7 @@
       ]
     },
     {
-      "id": 533,
+      "id": 534,
       "date": "2026-03-19T06:03:37.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "정찬희 <ray514871@yegaone.com>",
@@ -97,7 +103,7 @@
       ]
     },
     {
-      "id": 532,
+      "id": 533,
       "date": "2026-03-19T05:56:46.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "이은영 <ley7821@yegaone.com>",
@@ -112,7 +118,7 @@
       ]
     },
     {
-      "id": 531,
+      "id": 532,
       "date": "2026-03-19T00:15:51.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "상도 박삼용 본부장님 <skyp2313@naver.com>",
@@ -127,7 +133,7 @@
       ]
     },
     {
-      "id": 530,
+      "id": 531,
       "date": "2026-03-19T00:04:07.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "Yoo,Juhee <yjh0614@gsenc.com>",
@@ -140,7 +146,7 @@
       "attachments": []
     },
     {
-      "id": 529,
+      "id": 530,
       "date": "2026-03-18T06:56:18.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "Yoo,Juhee <yjh0614@gsenc.com>",
@@ -153,7 +159,7 @@
       "attachments": []
     },
     {
-      "id": 528,
+      "id": 529,
       "date": "2026-03-18T06:11:48.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "토목 지호 <jiho@jihoeng.co.kr>, 기계 지음신효섭 소장 <giummec@nate.com>, (주)신담엔지니어링 <shindam3@korea.com>, 소방 - 건일 <ki-fire@kunil.com>",
@@ -169,7 +175,7 @@
       ]
     },
     {
-      "id": 527,
+      "id": 528,
       "date": "2026-03-18T02:01:42.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "상도 박삼용 본부장님 <skyp2313@naver.com>",
@@ -184,7 +190,7 @@
       ]
     },
     {
-      "id": 526,
+      "id": 527,
       "date": "2026-03-18T01:48:58.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "정찬희 <ray514871@yegaone.com>",
@@ -197,7 +203,7 @@
       "attachments": []
     },
     {
-      "id": 525,
+      "id": 526,
       "date": "2026-03-17T04:33:27.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "동작구청 박세환 주무관 <parkse98@dongjak.go.kr>",
@@ -212,7 +218,7 @@
       ]
     },
     {
-      "id": 524,
+      "id": 525,
       "date": "2026-03-17T04:23:32.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "소병철 부장(한양건설 공사부장)) <sosuper@hanmail.net>",
@@ -227,7 +233,7 @@
       ]
     },
     {
-      "id": 523,
+      "id": 524,
       "date": "2026-03-17T02:10:41.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "정찬희 <ray514871@yegaone.com>",
@@ -240,7 +246,7 @@
       "attachments": []
     },
     {
-      "id": 522,
+      "id": 523,
       "date": "2026-03-17T01:33:29.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "정찬희 <ray514871@yegaone.com>",
@@ -255,7 +261,7 @@
       ]
     },
     {
-      "id": 521,
+      "id": 522,
       "date": "2026-03-17T01:27:57.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "정찬희 <ray514871@yegaone.com>",
@@ -268,7 +274,7 @@
       "attachments": []
     },
     {
-      "id": 520,
+      "id": 521,
       "date": "2026-03-16T08:39:03.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "정찬희 <ray514871@yegaone.com>",
@@ -281,7 +287,7 @@
       "attachments": []
     },
     {
-      "id": 519,
+      "id": 520,
       "date": "2026-03-16T08:38:37.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "Kim, Ju-hye <jhkim60@gsenc.com>",
@@ -296,7 +302,7 @@
       ]
     },
     {
-      "id": 518,
+      "id": 519,
       "date": "2026-03-16T07:26:21.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "이은영 <ley7821@yegaone.com>",
@@ -311,7 +317,7 @@
       ]
     },
     {
-      "id": 516,
+      "id": 517,
       "date": "2026-03-16T07:16:56.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "<cuj0427@naver.com>",
@@ -326,7 +332,7 @@
       ]
     },
     {
-      "id": 515,
+      "id": 516,
       "date": "2026-03-16T06:38:13.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "Kim, Ju-hye <jhkim60@gsenc.com>",
@@ -339,7 +345,7 @@
       "attachments": []
     },
     {
-      "id": 514,
+      "id": 515,
       "date": "2026-03-16T04:38:32.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "정찬희 <ray514871@yegaone.com>",
@@ -354,7 +360,7 @@
       ]
     },
     {
-      "id": 513,
+      "id": 514,
       "date": "2026-03-13T01:45:56.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "정찬희 <ray514871@yegaone.com>",
@@ -371,7 +377,7 @@
       ]
     },
     {
-      "id": 511,
+      "id": 512,
       "date": "2026-03-12T07:43:38.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "<dkswnsdnr58@gmail.com>",
@@ -384,7 +390,7 @@
       "attachments": []
     },
     {
-      "id": 510,
+      "id": 511,
       "date": "2026-03-12T01:18:15.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "상도 박삼용 본부장님 <skyp2313@naver.com>",
@@ -397,7 +403,7 @@
       "attachments": []
     },
     {
-      "id": 509,
+      "id": 510,
       "date": "2026-03-11T02:48:01.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "<lwg30@naver.com>",
@@ -410,7 +416,7 @@
       "attachments": []
     },
     {
-      "id": 508,
+      "id": 509,
       "date": "2026-03-11T02:44:45.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "<lwg30@naver.com>",
@@ -423,7 +429,7 @@
       "attachments": []
     },
     {
-      "id": 507,
+      "id": 508,
       "date": "2026-03-09T08:23:22.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "정찬희 <ray514871@yegaone.com>",
@@ -438,7 +444,7 @@
       ]
     },
     {
-      "id": 506,
+      "id": 507,
       "date": "2026-03-09T08:09:07.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "Kim, Ju-hye <jhkim60@gsenc.com>",
@@ -458,7 +464,7 @@
       ]
     },
     {
-      "id": 505,
+      "id": 506,
       "date": "2026-03-06T08:34:15.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "에스비환경디자인_친환경건축본부 <mail@sbdesign.co.kr>",
@@ -474,7 +480,7 @@
       ]
     },
     {
-      "id": 504,
+      "id": 505,
       "date": "2026-03-06T07:59:31.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "상도 박삼용 본부장님 <skyp2313@naver.com>, 친환경 에스비환경 <mail@sbdesign.co.kr>",
@@ -490,7 +496,7 @@
       ]
     },
     {
-      "id": 503,
+      "id": 504,
       "date": "2026-03-06T07:34:51.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "조경 예감 <yegamla@naver.com>",
@@ -509,7 +515,7 @@
       ]
     },
     {
-      "id": 502,
+      "id": 503,
       "date": "2026-03-06T02:13:04.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "Kim, Ju-hye <jhkim60@gsenc.com>",
@@ -522,7 +528,7 @@
       "attachments": []
     },
     {
-      "id": 501,
+      "id": 502,
       "date": "2026-03-05T08:34:25.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "Kim, Ju-hye <jhkim60@gsenc.com>",
@@ -537,7 +543,7 @@
       ]
     },
     {
-      "id": 500,
+      "id": 501,
       "date": "2026-03-05T08:11:34.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "정은미 <jen00@dongjak.go.kr>",
@@ -550,7 +556,7 @@
       "attachments": []
     },
     {
-      "id": 499,
+      "id": 500,
       "date": "2026-03-05T07:29:24.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "정찬희 <ray514871@yegaone.com>",
@@ -568,7 +574,7 @@
       ]
     },
     {
-      "id": 498,
+      "id": 499,
       "date": "2026-03-05T04:25:51.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "박삼용 <skyp2313@naver.com>",
@@ -584,7 +590,7 @@
       ]
     },
     {
-      "id": 497,
+      "id": 498,
       "date": "2026-03-05T01:46:23.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "(주)신담엔지니어링 <shindam3@korea.com>",
@@ -600,7 +606,7 @@
       ]
     },
     {
-      "id": 496,
+      "id": 497,
       "date": "2026-03-03T02:37:02.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "지현재 <hyunj0526@yegaone.com>",
@@ -615,7 +621,7 @@
       ]
     },
     {
-      "id": 495,
+      "id": 496,
       "date": "2026-03-02T23:59:29.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "정찬희 <ray514871@yegaone.com>",
@@ -635,7 +641,7 @@
       ]
     },
     {
-      "id": 494,
+      "id": 495,
       "date": "2026-02-27T06:53:41.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "Yoo, Juhee <yjh0614@gsenc.com>",
@@ -653,7 +659,7 @@
       ]
     },
     {
-      "id": 493,
+      "id": 494,
       "date": "2026-02-27T05:28:11.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "Kim, Ju-hye <jhkim60@gsenc.com>",
@@ -668,7 +674,7 @@
       ]
     },
     {
-      "id": 492,
+      "id": 493,
       "date": "2026-02-27T01:18:17.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "김주혜(GS 현장 설계팀장)) <jhkim60@gsenc.com>",
@@ -681,7 +687,7 @@
       "attachments": []
     },
     {
-      "id": 491,
+      "id": 492,
       "date": "2026-02-26T09:01:15.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "Kim, Ju-hye <jhkim60@gsenc.com>",
@@ -694,7 +700,7 @@
       "attachments": []
     },
     {
-      "id": 490,
+      "id": 491,
       "date": "2026-02-26T08:30:36.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "기계 지음신효섭 소장 <giummec@nate.com>",
@@ -709,7 +715,7 @@
       ]
     },
     {
-      "id": 489,
+      "id": 490,
       "date": "2026-02-26T08:03:23.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "Kim, Ju-hye <jhkim60@gsenc.com>",
@@ -722,7 +728,7 @@
       "attachments": []
     },
     {
-      "id": 488,
+      "id": 489,
       "date": "2026-02-26T06:32:22.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "정찬희 <ray514871@yegaone.com>",
@@ -737,7 +743,7 @@
       ]
     },
     {
-      "id": 487,
+      "id": 488,
       "date": "2026-02-26T02:34:46.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "Yoo, Juhee <yjh0614@gsenc.com>",
@@ -752,7 +758,7 @@
       ]
     },
     {
-      "id": 486,
+      "id": 487,
       "date": "2026-02-26T02:06:39.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "Kim, Ju-hye <jhkim60@gsenc.com>",
@@ -765,7 +771,7 @@
       "attachments": []
     },
     {
-      "id": 485,
+      "id": 486,
       "date": "2026-02-26T01:41:53.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "정찬희 <ray514871@yegaone.com>",
@@ -781,7 +787,7 @@
       ]
     },
     {
-      "id": 484,
+      "id": 485,
       "date": "2026-02-26T00:56:16.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "Kim, Ju-hye <jhkim60@gsenc.com>",
@@ -797,7 +803,7 @@
       ]
     },
     {
-      "id": 483,
+      "id": 484,
       "date": "2026-02-25T08:11:40.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "정찬희 <ray514871@yegaone.com>",
@@ -812,7 +818,7 @@
       ]
     },
     {
-      "id": 482,
+      "id": 483,
       "date": "2026-02-25T01:43:07.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "박세환 <parkse98@dongjak.go.kr>",
@@ -828,7 +834,7 @@
       ]
     },
     {
-      "id": 481,
+      "id": 482,
       "date": "2026-02-24T01:11:21.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "정찬희 <ray514871@yegaone.com>",
@@ -844,7 +850,7 @@
       ]
     },
     {
-      "id": 480,
+      "id": 481,
       "date": "2026-02-23T04:35:17.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "박세환 <parkse98@dongjak.go.kr>",
@@ -860,7 +866,7 @@
       ]
     },
     {
-      "id": 479,
+      "id": 480,
       "date": "2026-02-20T01:09:43.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "정찬희 <ray514871@yegaone.com>",
@@ -878,7 +884,7 @@
       ]
     },
     {
-      "id": 478,
+      "id": 479,
       "date": "2026-02-13T04:48:59.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "토목 지호 <jiho@jihoeng.co.kr>",
@@ -893,7 +899,7 @@
       ]
     },
     {
-      "id": 477,
+      "id": 478,
       "date": "2026-02-13T04:34:09.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "친환경 에스비환경 <mail@sbdesign.co.kr>",
@@ -906,7 +912,7 @@
       "attachments": []
     },
     {
-      "id": 476,
+      "id": 477,
       "date": "2026-02-12T07:55:06.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "박세환 <parkse98@dongjak.go.kr>",
@@ -919,7 +925,7 @@
       "attachments": []
     },
     {
-      "id": 474,
+      "id": 475,
       "date": "2026-02-12T04:16:15.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "<anes10045@hanmail.net>",
@@ -934,7 +940,7 @@
       ]
     },
     {
-      "id": 473,
+      "id": 474,
       "date": "2026-02-12T01:49:26.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "상도 박삼용 본부장님 <skyp2313@naver.com>",
@@ -947,7 +953,7 @@
       "attachments": []
     },
     {
-      "id": 472,
+      "id": 473,
       "date": "2026-02-12T01:33:44.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "박삼용 <skyp2313@naver.com>",
@@ -960,7 +966,7 @@
       "attachments": []
     },
     {
-      "id": 471,
+      "id": 472,
       "date": "2026-02-11T01:06:53.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "정찬희 <ray514871@yegaone.com>",
@@ -976,7 +982,7 @@
       ]
     },
     {
-      "id": 470,
+      "id": 471,
       "date": "2026-02-09T08:05:25.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "친환경 에스비환경 <mail@sbdesign.co.kr>",
@@ -992,7 +998,7 @@
       ]
     },
     {
-      "id": 468,
+      "id": 469,
       "date": "2026-02-09T07:21:18.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "<grazioso22@seoul.go.kr>",
@@ -1005,7 +1011,7 @@
       "attachments": []
     },
     {
-      "id": 467,
+      "id": 468,
       "date": "2026-02-06T07:49:37.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "김주혜(GS 현장 설계팀장)) <jhkim60@gsenc.com>",
@@ -1018,7 +1024,7 @@
       "attachments": []
     },
     {
-      "id": 465,
+      "id": 466,
       "date": "2026-02-06T07:04:42.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "<edrfte1117@dongjak.go.kr>",
@@ -1033,7 +1039,7 @@
       ]
     },
     {
-      "id": 464,
+      "id": 465,
       "date": "2026-02-06T06:36:52.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "<parkse98@dongjak.go.kr>",
@@ -1046,7 +1052,7 @@
       "attachments": []
     },
     {
-      "id": 463,
+      "id": 464,
       "date": "2026-02-04T06:19:44.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "토목 지호 <jiho@jihoeng.co.kr>, 조경 예감 <yegamla@naver.com>, 소방 - 건일 <ki-fire@kunil.com>, 기계 지음신효섭 소장 <giummec@nate.com>, (주)신담엔지니어링 <shindam3@korea.com>",
@@ -1062,7 +1068,7 @@
       ]
     },
     {
-      "id": 462,
+      "id": 463,
       "date": "2026-02-04T02:36:44.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "신상철 <shinsc63@daum.net>",
@@ -1077,7 +1083,7 @@
       ]
     },
     {
-      "id": 461,
+      "id": 462,
       "date": "2026-02-04T02:16:15.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "<khr0@dongjak.go.kr>",
@@ -1092,7 +1098,7 @@
       ]
     },
     {
-      "id": 459,
+      "id": 460,
       "date": "2026-02-04T01:35:19.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "<khr0@dongjak.go.kr>",
@@ -1107,7 +1113,7 @@
       ]
     },
     {
-      "id": 458,
+      "id": 459,
       "date": "2026-02-03T08:23:05.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "정찬희 <ray514871@yegaone.com>",
@@ -1123,7 +1129,7 @@
       ]
     },
     {
-      "id": 457,
+      "id": 458,
       "date": "2026-02-03T06:35:33.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "토목 지호 <jiho@jihoeng.co.kr>",
@@ -1138,7 +1144,7 @@
       ]
     },
     {
-      "id": 456,
+      "id": 457,
       "date": "2026-02-03T01:57:42.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "<jhkim60@gsenc.com>",
@@ -1153,7 +1159,7 @@
       ]
     },
     {
-      "id": 454,
+      "id": 455,
       "date": "2026-02-03T01:52:00.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "<min1995@naver.com>",
@@ -1166,7 +1172,7 @@
       "attachments": []
     },
     {
-      "id": 453,
+      "id": 454,
       "date": "2026-02-02T09:09:50.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "정찬희 <ray514871@yegaone.com>",
@@ -1181,7 +1187,7 @@
       ]
     },
     {
-      "id": 452,
+      "id": 453,
       "date": "2026-02-02T07:45:52.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "정찬희 <ray514871@yegaone.com>",
@@ -1194,7 +1200,7 @@
       "attachments": []
     },
     {
-      "id": 451,
+      "id": 452,
       "date": "2026-01-30T05:31:24.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "박삼용 <skyp2313@naver.com>",
@@ -1210,7 +1216,7 @@
       ]
     },
     {
-      "id": 450,
+      "id": 451,
       "date": "2026-01-30T04:52:29.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "박삼용 <skyp2313@naver.com>",
@@ -1226,7 +1232,7 @@
       ]
     },
     {
-      "id": 449,
+      "id": 450,
       "date": "2026-01-30T04:33:35.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "박삼용 <skyp2313@naver.com>",
@@ -1241,7 +1247,7 @@
       ]
     },
     {
-      "id": 448,
+      "id": 449,
       "date": "2026-01-30T04:29:31.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "<parkse98@dongjak.go.kr>",
@@ -1257,7 +1263,7 @@
       ]
     },
     {
-      "id": 447,
+      "id": 448,
       "date": "2026-01-29T23:57:36.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "유주희 <yjh0614@gsenc.com>",
@@ -1272,7 +1278,7 @@
       ]
     },
     {
-      "id": 445,
+      "id": 446,
       "date": "2026-01-29T08:33:26.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "<kimsanghyun6@gsenc.com>",
@@ -1287,7 +1293,7 @@
       ]
     },
     {
-      "id": 444,
+      "id": 445,
       "date": "2026-01-29T05:12:57.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "정서영 <jsy@yegaone.com>",
@@ -1302,7 +1308,7 @@
       ]
     },
     {
-      "id": 443,
+      "id": 444,
       "date": "2026-01-29T01:08:49.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "토목 지호 <jiho@jihoeng.co.kr>",
@@ -1318,7 +1324,7 @@
       ]
     },
     {
-      "id": 442,
+      "id": 443,
       "date": "2026-01-27T09:31:36.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "상도 박삼용 본부장님 <skyp2313@naver.com>",
@@ -1333,7 +1339,7 @@
       ]
     },
     {
-      "id": 441,
+      "id": 442,
       "date": "2026-01-27T05:06:26.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "<younghwalee1@gsenc.com>",
@@ -1351,7 +1357,7 @@
       ]
     },
     {
-      "id": 440,
+      "id": 441,
       "date": "2026-01-27T01:48:31.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "Lee, Young-hwa <younghwalee1@gsenc.com>",
@@ -1369,7 +1375,7 @@
       ]
     },
     {
-      "id": 439,
+      "id": 440,
       "date": "2026-01-26T09:07:30.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "Lee, Young-hwa <younghwalee1@gsenc.com>",
@@ -1387,7 +1393,7 @@
       ]
     },
     {
-      "id": 438,
+      "id": 439,
       "date": "2026-01-26T02:12:49.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "소방 - 건일 <ki-fire@kunil.com>",
@@ -1405,7 +1411,7 @@
       ]
     },
     {
-      "id": 437,
+      "id": 438,
       "date": "2026-01-26T00:26:53.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "<shindam3@korea.com>",
@@ -1423,7 +1429,7 @@
       ]
     },
     {
-      "id": 436,
+      "id": 437,
       "date": "2026-01-23T05:44:51.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "<shlee@i-st.kr>",
@@ -1438,7 +1444,7 @@
       ]
     },
     {
-      "id": 435,
+      "id": 436,
       "date": "2026-01-23T05:30:30.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "<smyeo@senkuzo.com>",
@@ -1453,7 +1459,7 @@
       ]
     },
     {
-      "id": 434,
+      "id": 435,
       "date": "2026-01-23T05:19:37.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "<skkim@midaseng.co.kr>",
@@ -1468,7 +1474,7 @@
       ]
     },
     {
-      "id": 431,
+      "id": 432,
       "date": "2026-01-23T04:13:15.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "소방 - 건일 <ki-fire@kunil.com>, 토목 지호 <jiho@jihoeng.co.kr>, <kjdg0314@hanmail.net>",
@@ -1486,7 +1492,7 @@
       ]
     },
     {
-      "id": 430,
+      "id": 431,
       "date": "2026-01-22T08:10:34.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "상도 박삼용 본부장님 <skyp2313@naver.com>",
@@ -1501,7 +1507,7 @@
       ]
     },
     {
-      "id": 427,
+      "id": 428,
       "date": "2026-01-22T07:57:03.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "기계 지음신효섭 소장 <giummec@nate.com>, <hsw@dawonse.com>, <kwf2000@chol.com>, 조경 예감 <yegamla@naver.com>, <jihoeng@chol.com>",
@@ -1519,7 +1525,7 @@
       ]
     },
     {
-      "id": 426,
+      "id": 427,
       "date": "2026-01-22T07:45:47.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "상도 박삼용 본부장님 <skyp2313@naver.com>",
@@ -1534,7 +1540,7 @@
       ]
     },
     {
-      "id": 425,
+      "id": 426,
       "date": "2026-01-22T07:43:54.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "상도 박삼용 본부장님 <skyp2313@naver.com>",
@@ -1549,7 +1555,7 @@
       ]
     },
     {
-      "id": 424,
+      "id": 425,
       "date": "2026-01-21T02:06:31.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "정은미 <jen00@dongjak.go.kr>",
@@ -1565,7 +1571,7 @@
       ]
     },
     {
-      "id": 423,
+      "id": 424,
       "date": "2026-01-21T00:37:00.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "이찬희 <chlee@yegaone.com>",
@@ -1580,7 +1586,7 @@
       ]
     },
     {
-      "id": 422,
+      "id": 423,
       "date": "2026-01-20T08:22:39.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "정찬희 <ray514871@yegaone.com>",
@@ -1593,7 +1599,7 @@
       "attachments": []
     },
     {
-      "id": 421,
+      "id": 422,
       "date": "2026-01-20T08:03:13.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "정찬희 <ray514871@yegaone.com>",
@@ -1616,7 +1622,7 @@
       ]
     },
     {
-      "id": 419,
+      "id": 420,
       "date": "2026-01-20T05:29:39.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "<jen00@dongjak.go.kr>, <kds47@dongjak.go.kr>",
@@ -1631,7 +1637,7 @@
       ]
     },
     {
-      "id": 418,
+      "id": 419,
       "date": "2026-01-19T07:41:22.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "강재형 <jhkang@yegaone.com>",
@@ -1644,7 +1650,7 @@
       "attachments": []
     },
     {
-      "id": 417,
+      "id": 418,
       "date": "2026-01-19T05:29:20.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "Lee, Young-hwa <younghwalee1@gsenc.com>",
@@ -1660,7 +1666,7 @@
       ]
     },
     {
-      "id": 416,
+      "id": 417,
       "date": "2026-01-14T08:36:51.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "<sosuper@hanmail.net>",
@@ -1673,7 +1679,7 @@
       "attachments": []
     },
     {
-      "id": 415,
+      "id": 416,
       "date": "2026-01-14T02:40:49.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "상도 박삼용 본부장님 <skyp2313@naver.com>",
@@ -1688,7 +1694,7 @@
       ]
     },
     {
-      "id": 413,
+      "id": 414,
       "date": "2026-01-14T02:35:15.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "<miesvis@dongjak.go.kr>",
@@ -1701,7 +1707,7 @@
       "attachments": []
     },
     {
-      "id": 412,
+      "id": 413,
       "date": "2026-01-08T06:01:57.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "정찬희 <ray514871@yegaone.com>",
@@ -1716,7 +1722,7 @@
       ]
     },
     {
-      "id": 410,
+      "id": 411,
       "date": "2025-12-29T08:24:25.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "<lwg30@naver.com>",
@@ -1731,7 +1737,7 @@
       ]
     },
     {
-      "id": 409,
+      "id": 410,
       "date": "2025-12-24T02:30:40.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "친환경 에스비환경 <mail@sbdesign.co.kr>, 유주희 <yjh0614@gsenc.com>",
@@ -1754,7 +1760,7 @@
       ]
     },
     {
-      "id": 408,
+      "id": 409,
       "date": "2025-12-24T02:28:52.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "친환경 에스비환경 <mail@sbdesign.co.kr>, 유주희 <yjh0614@gsenc.com>",
@@ -1776,7 +1782,7 @@
       ]
     },
     {
-      "id": 407,
+      "id": 408,
       "date": "2025-12-23T05:24:05.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "조경 예감 <yegamla@naver.com>",
@@ -1792,7 +1798,7 @@
       ]
     },
     {
-      "id": 406,
+      "id": 407,
       "date": "2025-12-22T07:29:00.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "유주희 <yjh0614@gsenc.com>",
@@ -1818,7 +1824,7 @@
       ]
     },
     {
-      "id": 405,
+      "id": 406,
       "date": "2025-12-19T04:33:09.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "친환경 에스비환경 <mail@sbdesign.co.kr>",
@@ -1840,7 +1846,7 @@
       ]
     },
     {
-      "id": 404,
+      "id": 405,
       "date": "2025-12-19T04:12:10.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "친환경 에스비환경 <mail@sbdesign.co.kr>",
@@ -1853,7 +1859,7 @@
       "attachments": []
     },
     {
-      "id": 403,
+      "id": 404,
       "date": "2025-12-10T00:22:48.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "이찬희 <chlee@yegaone.com>, 정찬희 <ray514871@yegaone.com>",
@@ -1868,7 +1874,7 @@
       ]
     },
     {
-      "id": 402,
+      "id": 403,
       "date": "2025-12-02T08:57:41.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "유주희 <yjh0614@gsenc.com>",
@@ -1884,7 +1890,7 @@
       ]
     },
     {
-      "id": 401,
+      "id": 402,
       "date": "2025-12-02T07:56:19.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "강재형 <jhkang@yegaone.com>",
@@ -1900,7 +1906,7 @@
       ]
     },
     {
-      "id": 400,
+      "id": 401,
       "date": "2025-12-01T07:47:01.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "정찬희 <ray514871@yegaone.com>",
@@ -1915,7 +1921,7 @@
       ]
     },
     {
-      "id": 399,
+      "id": 400,
       "date": "2025-12-01T07:17:22.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "Yoo, Juhee <yjh0614@gsenc.com>",
@@ -1930,12 +1936,41 @@
       ]
     },
     {
+      "id": 398,
+      "date": "2026-03-23T00:02:52.000Z",
+      "from": "정찬희 <ray514871@yegaone.com>",
+      "to": "강재형 <jhkang@yegaone.com>",
+      "subject": "테스트 메일",
+      "tag": "IN",
+      "memo": "",
+      "read": false,
+      "filename": "20260323_559_ray514871@yegaone.com.eml",
+      "body": "\n다운로드 기한이 있는 첨부파일 1개 (601MB)\n\n\n\n\n20260316 어린이공원_실시계획인가.zip 601MB ~ 2026. 3. 30.\n\n\n7일 보관 / 100회 다운로드\n\n\n\n\n정찬희 예가원건축사사무소\n설계팀 / 대리\n\n서울시 강남구 선릉로 93길, 50 현석타워 13층\nTel 070-4290-3454 Mobile +82 010-6220-5148\nEmail ray514871@yegaone.com \n\n\n\n",
+      "attachments": []
+    },
+    {
       "id": 397,
+      "date": "2026-03-21T04:45:00.000Z",
+      "from": "\"Kim, Ju-hye\" <jhkim60@gsenc.com>",
+      "to": "에스비환경디자인_친환경건축본부 <mail@sbdesign.co.kr>, 강재형 <jhkang@yegaone.com>",
+      "subject": "[동작센트럴자이] 바닥마감 변경 확인 요 청의 건",
+      "tag": "IN",
+      "memo": "",
+      "read": false,
+      "filename": "20260321_557_jhkim60@gsenc.com.eml",
+      "body": "안녕하세요.\r\n\r\n비주거 바닥난방 구간을 단열성능 향상을 위해\r\n\r\n바닥난방 마감을 첨부와 같이 기포콘크리트를 단열재로 변경하고자 하오니\r\n\r\n확인하시고 회신 부탁드립니다.\r\n\r\n감사합니다.\r\n\r\n\r\n",
+      "attachments": [
+        "260320 바닥마감 변경확인 요청의 건.pdf",
+        "형별성능내역서 변경전후도면.pdf"
+      ]
+    },
+    {
+      "id": 396,
       "date": "2026-03-20T09:40:54.000Z",
       "from": "한성우 <hsw@dawonse.com>",
       "to": "\"Kim, Yong-woo\" <kimyw@gsenc.com>, \"Yoo,Juhee\" <yjh0614@gsenc.com>, \"Kim,Ju-hye\" <jhkim60@gsenc.com>",
       "subject": "RE: [동작센트럴자이 _설계변경서_172]   105동 주변 근생 지하 4층 매트기초 검토 요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260320_556_hsw@dawonse.com.eml",
@@ -1945,12 +1980,12 @@
       ]
     },
     {
-      "id": 396,
+      "id": 395,
       "date": "2026-03-20T09:40:03.000Z",
       "from": "한성우 <hsw@dawonse.com>",
       "to": "\"Kim,Yong-woo\" <kimyw@gsenc.com>, \"Kim,Ju-hye\" <jhkim60@gsenc.com>, \"Yoo,Juhee\" <yjh0614@gsenc.com>",
       "subject": "RE: RE: [동작 센트럴자이_설계변경서_ 170] 근생 지하4 층 매트기초 검토 요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260320_555_hsw@dawonse.com.eml",
@@ -1960,12 +1995,12 @@
       ]
     },
     {
-      "id": 395,
+      "id": 394,
       "date": "2026-03-20T06:00:45.000Z",
       "from": "아킬레스 <sosuper@hanmail.net>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "구리수택 지하주차장 주출 입구와 장애인주차,점자블 럭,택배보관함 간섭부위  검토요청 20260320",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260320_551_sosuper@hanmail.net.eml",
@@ -1975,12 +2010,12 @@
       ]
     },
     {
-      "id": 393,
+      "id": 392,
       "date": "2026-03-20T04:21:24.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "<up77down@nate.com>, 임석주 <dn-mech@dnmec.com>",
       "subject": "[마포 성산동 가로주택정비사업] 기계 토 목 미팅 회의록 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260320_550_chlee@yegaone.com.eml",
@@ -1988,12 +2023,12 @@
       "attachments": []
     },
     {
-      "id": 392,
+      "id": 391,
       "date": "2026-03-19T09:28:49.000Z",
       "from": "한성우 <hsw@dawonse.com>",
       "to": "\"Yoo, Juhee\" <yjh0614@gsenc.com>, \"Kim,Ju-hye\" <jhkim60@gsenc.com>, \"Kim,Yong-woo\" <kimyw@gsenc.com>",
       "subject": "RE: [동 작센트럴자이 _설계변경서_173]  외부 EV 지붕 Dec k Slab 변경 요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260319_548_hsw@dawonse.com.eml",
@@ -2001,12 +2036,12 @@
       "attachments": []
     },
     {
-      "id": 391,
+      "id": 390,
       "date": "2026-03-19T08:41:31.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "신상진 <sangjin.shin@daewooenc.com>",
       "subject": "[마포 성산동 가로주택정비사업] 친환경  내용 답변 외",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260319_547_chlee@yegaone.com.eml",
@@ -2014,12 +2049,12 @@
       "attachments": []
     },
     {
-      "id": 390,
+      "id": 389,
       "date": "2026-03-19T05:48:03.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "이대순 <cifec@naver.com>, 기계 동남이엔시 <dn-mech@daum.net>",
       "subject": "[마포 성산동 가로주택정비사업] 기계 토 목 미팅 아젠다 정리",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260319_544_chlee@yegaone.com.eml",
@@ -2027,12 +2062,12 @@
       "attachments": []
     },
     {
-      "id": 389,
+      "id": 388,
       "date": "2026-03-19T04:28:03.000Z",
       "from": "\"Kim, Ju-hye\" <jhkim60@gsenc.com>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "Fw: [다우씨에스] GS 상도스타리움 신축사 업 측량보고서 보내드립니다.",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260319_543_jhkim60@gsenc.com.eml",
@@ -2042,12 +2077,12 @@
       ]
     },
     {
-      "id": 388,
+      "id": 387,
       "date": "2026-03-19T04:23:12.000Z",
       "from": "(주)건축환경그룹 다올 <enh2013@naver.com>",
       "to": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "subject": "[건축환경그룹다올]마포 성산동 가로주 택정비사업 단열제안서, 수정요청사항",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260319_542_enh2013@naver.com.eml",
@@ -2058,12 +2093,12 @@
       ]
     },
     {
-      "id": 387,
+      "id": 386,
       "date": "2026-03-19T04:22:51.000Z",
       "from": "(주)건축환경그룹 다올 <enh2013@naver.com>",
       "to": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "subject": "[건축환경그룹다올]마포 성산동 가로주 택정비사업 단열제안서",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260319_541_enh2013@naver.com.eml",
@@ -2073,12 +2108,12 @@
       ]
     },
     {
-      "id": 386,
+      "id": 385,
       "date": "2026-03-19T04:17:50.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "FW: [건축환경그룹다올]마포 성산동 가로 주택정비사업 녹색건축인증 관련 답변내 용",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260319_540_chlee@yegaone.com.eml",
@@ -2086,12 +2121,12 @@
       "attachments": []
     },
     {
-      "id": 385,
+      "id": 384,
       "date": "2026-03-19T04:09:56.000Z",
       "from": "(주)건축환경그룹 다올 <enh2013@naver.com>",
       "to": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "subject": "[건축환경그룹다올]마포 성산동 가로주 택정비사업 녹색건축인증 관련 답변내용",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260319_539_enh2013@naver.com.eml",
@@ -2099,12 +2134,12 @@
       "attachments": []
     },
     {
-      "id": 384,
+      "id": 383,
       "date": "2026-03-19T00:57:36.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "이대순 <cifec@naver.com>, 기계 동남이엔시 <dn-mech@daum.net>",
       "subject": "[마포 성산동 가로주택정비사업] 기계 토 목 미팅 요청 ",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260319_538_chlee@yegaone.com.eml",
@@ -2112,12 +2147,12 @@
       "attachments": []
     },
     {
-      "id": 383,
+      "id": 382,
       "date": "2026-03-18T09:03:06.000Z",
       "from": "아킬레스 <sosuper@hanmail.net>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "구리수택 통신실 방화구획 확 인 및 블럭시공두께 검토요청.",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260318_533_sosuper@hanmail.net.eml",
@@ -2127,12 +2162,12 @@
       ]
     },
     {
-      "id": 382,
+      "id": 381,
       "date": "2026-03-18T08:48:24.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "고경민 <enh2013@naver.com>",
       "subject": "[마포 성산동 가로주택정비사업] 녹색건 축인증 관련 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260318_532_chlee@yegaone.com.eml",
@@ -2140,12 +2175,12 @@
       "attachments": []
     },
     {
-      "id": 381,
+      "id": 380,
       "date": "2026-03-18T07:32:55.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "최병진 <dgenc2003@naver.com>",
       "subject": "[마포 성산동 가로주택정비사업] 교통보 고서용 도면 송부 보완2",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260318_531_chlee@yegaone.com.eml",
@@ -2153,12 +2188,12 @@
       "attachments": []
     },
     {
-      "id": 380,
+      "id": 379,
       "date": "2026-03-18T07:22:02.000Z",
       "from": "정찬희 <ray514871@yegaone.com>",
       "to": "친환경 에스비환경 <mail@sbdesign.co.kr>",
       "subject": "[상도주민센터 자료] 주민센터 가상대지 지분 경계선과 자료",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260318_530_ray514871@yegaone.com.eml",
@@ -2166,12 +2201,12 @@
       "attachments": []
     },
     {
-      "id": 379,
+      "id": 378,
       "date": "2026-03-18T07:21:15.000Z",
       "from": "정찬희 <ray514871@yegaone.com>",
       "to": "친환경 에스비환경 <mail@sbdesign.co.kr>",
       "subject": "[상도주민센터 자료] 주민센터 가상대지 지분 경계선과 자료",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260318_529_ray514871@yegaone.com.eml",
@@ -2179,12 +2214,12 @@
       "attachments": []
     },
     {
-      "id": 378,
+      "id": 377,
       "date": "2026-03-18T05:19:48.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "신상진 <sangjin.shin@daewooenc.com>",
       "subject": "[마포 성산동 가로주택정비사업] 통합심 의 이후 조치계획 자료",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260318_525_chlee@yegaone.com.eml",
@@ -2194,12 +2229,12 @@
       ]
     },
     {
-      "id": 377,
+      "id": 376,
       "date": "2026-03-18T02:52:25.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "신상진 <sangjin.shin@daewooenc.com>",
       "subject": "[마포 성산동 가로주택정비사업] 지하층  면적산출 근거도_피트면적 추가",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260318_523_chlee@yegaone.com.eml",
@@ -2209,12 +2244,12 @@
       ]
     },
     {
-      "id": 376,
+      "id": 375,
       "date": "2026-03-18T02:26:30.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "최병진 <dgenc2003@naver.com>",
       "subject": "[마포 성산동 가로주택정비사업] 교통보 고서용 도면 송부 보완",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260318_522_chlee@yegaone.com.eml",
@@ -2226,12 +2261,12 @@
       ]
     },
     {
-      "id": 374,
+      "id": 373,
       "date": "2026-03-18T00:48:43.000Z",
       "from": "아킬레스 <sosuper@hanmail.net>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "단령재 시공문의 20260318",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260318_519_sosuper@hanmail.net.eml",
@@ -2241,12 +2276,12 @@
       ]
     },
     {
-      "id": 373,
+      "id": 372,
       "date": "2026-03-17T08:44:59.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "신상진 <sangjin.shin@daewooenc.com>",
       "subject": "[마포 성산동 가로주택정비사업] 요청도 서 송부 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260317_518_chlee@yegaone.com.eml",
@@ -2254,12 +2289,12 @@
       "attachments": []
     },
     {
-      "id": 372,
+      "id": 371,
       "date": "2026-03-17T07:27:56.000Z",
       "from": "\"Yoo, Juhee\" <yjh0614@gsenc.com>",
       "to": "한성우 <hsw@dawonse.com>, 오창기 <ckoh@dawonse.com>, 강재형 <bluedayidoff@yegaone.com>",
       "subject": "[동작센트럴자이_설계변경서_173] 외부 EV  지붕 Deck Slab 변경 요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260317_517_yjh0614@gsenc.com.eml",
@@ -2269,12 +2304,12 @@
       ]
     },
     {
-      "id": 371,
+      "id": 370,
       "date": "2026-03-17T04:38:11.000Z",
       "from": "한상주 <hsj@yegaone.com>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "상도스타리움 실시계획인가 도서 (도로 ,공원,지하주차장) 송부 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260317_516_hsj@yegaone.com.eml",
@@ -2282,12 +2317,12 @@
       "attachments": []
     },
     {
-      "id": 370,
+      "id": 369,
       "date": "2026-03-17T04:23:34.000Z",
       "from": "NAVER WORKS <no_reply@worksmobile.com>",
       "to": "<jhkang@yegaone.com>",
       "subject": "[발송실패 안내] joh61joh@naver.com으로 메일 이 전송되지 못했습니다.",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260317_513_no_reply@worksmobile.com.eml",
@@ -2298,12 +2333,12 @@
       ]
     },
     {
-      "id": 369,
+      "id": 368,
       "date": "2026-03-17T02:25:18.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "신상진 <sangjin.shin@daewooenc.com>",
       "subject": "[마포 성산동 가루주택정비사업] 지하층  면적산출 근거도 외",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260317_510_chlee@yegaone.com.eml",
@@ -2314,12 +2349,12 @@
       ]
     },
     {
-      "id": 368,
+      "id": 367,
       "date": "2026-03-17T02:16:08.000Z",
       "from": "(주)지호엔지니어링 <jiho@jihoeng.co.kr>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "CTB 파일입니다.",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260317_509_jiho@jihoeng.co.kr.eml",
@@ -2329,12 +2364,12 @@
       ]
     },
     {
-      "id": 367,
+      "id": 366,
       "date": "2026-03-17T02:10:36.000Z",
       "from": "\"Kim, Yong-woo\" <kimyw@gsenc.com>",
       "to": "오창기 <ckoh@dawonse.com>, 한성우 <hsw@dawonse.com>, 강재형 <bluedayidoff@yegaone.com>",
       "subject": "[동작센트럴자이_설계변경서_172]  105동  주변 근생 지하4층 매트기초 검토 요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260317_507_kimyw@gsenc.com.eml",
@@ -2344,12 +2379,12 @@
       ]
     },
     {
-      "id": 366,
+      "id": 365,
       "date": "2026-03-17T02:09:38.000Z",
       "from": "(주)지호엔지니어링 <jiho@jihoeng.co.kr>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "요청하신 PDF파일입니다.",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260317_506_jiho@jihoeng.co.kr.eml",
@@ -2357,12 +2392,12 @@
       "attachments": []
     },
     {
-      "id": 365,
+      "id": 364,
       "date": "2026-03-17T02:09:33.000Z",
       "from": "한성우 <hsw@dawonse.com>",
       "to": "\"Kim, Yong-woo\" <kimyw@gsenc.com>, \"Kim,Ju-hye\" <jhkim60@gsenc.com>, \"Yoo,Juhee\" <yjh0614@gsenc.com>",
       "subject": "RE: [동작센트럴자이_설계변경서_17 0] 근생 지하4층  매트기초 검토 요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260317_505_hsw@dawonse.com.eml",
@@ -2372,12 +2407,12 @@
       ]
     },
     {
-      "id": 364,
+      "id": 363,
       "date": "2026-03-17T00:43:07.000Z",
       "from": "(주)지호엔지니어링 <jiho@jihoeng.co.kr>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "상도스타리움 도시계획도로 토목도서",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260317_502_jiho@jihoeng.co.kr.eml",
@@ -2385,12 +2420,12 @@
       "attachments": []
     },
     {
-      "id": 363,
+      "id": 362,
       "date": "2026-03-17T00:25:31.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "고경민 <enh2013@naver.com>",
       "subject": "[마포 성산동 가로주택정비사업] 녹색건 축인증 관련 대우건설 의견 외",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260317_501_chlee@yegaone.com.eml",
@@ -2400,12 +2435,12 @@
       ]
     },
     {
-      "id": 362,
+      "id": 361,
       "date": "2026-03-17T00:14:58.000Z",
       "from": "\"Kim, Ju-hye\" <jhkim60@gsenc.com>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "[동작센트럴자이] 지하주차장 휀룸#1과 휀 룸#8 도면 확인 요청의 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260317_500_jhkim60@gsenc.com.eml",
@@ -2413,12 +2448,12 @@
       "attachments": []
     },
     {
-      "id": 361,
+      "id": 360,
       "date": "2026-03-16T09:01:50.000Z",
       "from": "에스비환경디자인_친환경건축본 부 <mail@sbdesign.co.kr>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "[에스비환경디자인] 상도스타리움  주민센터 의견서 검토 후 송부",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260316_499_mail@sbdesign.co.kr.eml",
@@ -2428,12 +2463,12 @@
       ]
     },
     {
-      "id": 360,
+      "id": 359,
       "date": "2026-03-16T08:37:53.000Z",
       "from": "디자인그룹 예감 <yegamla@naver.com>",
       "to": "<jhkang@yegaone.com>",
       "subject": "[디자인그룹예감]상도어린이공원 실시계 획인가",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260316_496_yegamla@naver.com.eml",
@@ -2441,12 +2476,12 @@
       "attachments": []
     },
     {
-      "id": 359,
+      "id": 358,
       "date": "2026-03-16T07:05:43.000Z",
       "from": "김승회 <shkimsoft@yegaone.com>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "FW: 수택 상가분양 단가표 송부",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260316_491_shkimsoft@yegaone.com.eml",
@@ -2456,12 +2491,12 @@
       ]
     },
     {
-      "id": 358,
+      "id": 357,
       "date": "2026-03-16T07:01:30.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "FW: [마포 성산동 가로주택정비사업] 친환 경 내용 송부 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260316_490_chlee@yegaone.com.eml",
@@ -2469,12 +2504,12 @@
       "attachments": []
     },
     {
-      "id": 357,
+      "id": 356,
       "date": "2026-03-16T06:51:54.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "신상진 <sangjin.shin@daewooenc.com>",
       "subject": "[마포 성산동 가로주택정비사업]_공공보 행통로 문주설치 검토 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260316_489_chlee@yegaone.com.eml",
@@ -2484,12 +2519,12 @@
       ]
     },
     {
-      "id": 356,
+      "id": 355,
       "date": "2026-03-16T06:49:32.000Z",
       "from": "\"Yoo, Juhee\" <yjh0614@gsenc.com>",
       "to": "강재형 <bluedayidoff@yegaone.com>",
       "subject": "[동작센트럴자이] 현장 수정 도면 공유의 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260316_488_yjh0614@gsenc.com.eml",
@@ -2499,12 +2534,12 @@
       ]
     },
     {
-      "id": 355,
+      "id": 354,
       "date": "2026-03-16T03:47:01.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "신상철 <shinsc63@daum.net>",
       "subject": "[마포 성산동 가로주택정비사업]_단위세 대 면적",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260316_484_chlee@yegaone.com.eml",
@@ -2515,12 +2550,12 @@
       ]
     },
     {
-      "id": 354,
+      "id": 353,
       "date": "2026-03-16T02:55:07.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "신상진 <sangjin.shin@daewooenc.com>",
       "subject": "[마포 성산동 가로주택정비사업]_입면 및  문주관련 내용",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260316_483_chlee@yegaone.com.eml",
@@ -2530,12 +2565,12 @@
       ]
     },
     {
-      "id": 353,
+      "id": 352,
       "date": "2026-03-16T02:41:15.000Z",
       "from": "한상주 <hsj@yegaone.com>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "FW: 사업계획변경(실시계획인가 의제) 처 리 알림",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260316_482_hsj@yegaone.com.eml",
@@ -2545,12 +2580,12 @@
       ]
     },
     {
-      "id": 352,
+      "id": 351,
       "date": "2026-03-16T01:42:36.000Z",
       "from": "박세환<parkse98@dongjak.go.kr>",
       "to": "jhkang@yegaone.com",
       "subject": "사업계획변경(실시계획 인가 의제) 처리 알림",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260316_481_parkse98@dongjak.go.kr.eml",
@@ -2560,12 +2595,12 @@
       ]
     },
     {
-      "id": 351,
+      "id": 350,
       "date": "2026-03-16T01:02:55.000Z",
       "from": "\"Adobe Acrobat\" <mail@e.adobe.com>",
       "to": "jhkang@yegaone.com",
       "subject": "(광고)시간을 절약하고 문서  활용을 극대화하세요",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260316_480_mail@e.adobe.com.eml",
@@ -2573,12 +2608,12 @@
       "attachments": []
     },
     {
-      "id": 350,
+      "id": 349,
       "date": "2026-03-16T00:59:39.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "FW: 건축 교통 통합심의 일반적인 향후 절 차",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260316_479_chlee@yegaone.com.eml",
@@ -2588,12 +2623,12 @@
       ]
     },
     {
-      "id": 349,
+      "id": 348,
       "date": "2026-03-13T06:42:12.000Z",
       "from": "상도스타리움조합 <sangdostarium@naver.com>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "FW: [한국녹색기후기술원] 장애물 없는 생 활환경 예비인증 심의위원회 결과에 따 른 답변 요청 [상도2동 주민센터]",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260313_478_sangdostarium@naver.com.eml",
@@ -2605,12 +2640,12 @@
       ]
     },
     {
-      "id": 348,
+      "id": 347,
       "date": "2026-03-13T06:30:14.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "최병진 <dgenc2003@naver.com>",
       "subject": "[마포 성산동 가로주택정비사업] 교통영 향평가 관련 필요도서 송부 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260313_477_chlee@yegaone.com.eml",
@@ -2620,12 +2655,12 @@
       ]
     },
     {
-      "id": 347,
+      "id": 346,
       "date": "2026-03-13T05:16:44.000Z",
       "from": "\"Kim, Ju-hye\" <jhkim60@gsenc.com>",
       "to": "에스비환경디자인_친환경건축본부 <mail@sbdesign.co.kr>",
       "subject": "Re: [RE][동작센트럴자이] 형별성능내역서 (비주거) PF보드 변경 검토요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260313_476_jhkim60@gsenc.com.eml",
@@ -2633,12 +2668,12 @@
       "attachments": []
     },
     {
-      "id": 346,
+      "id": 345,
       "date": "2026-03-13T05:08:27.000Z",
       "from": "\"Kim, Ju-hye\" <jhkim60@gsenc.com>",
       "to": "에스비환경디자인_친환경건축본부 <mail@sbdesign.co.kr>",
       "subject": "[동작센트럴자이] 코어 단열재 확인 요청 의 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260313_475_jhkim60@gsenc.com.eml",
@@ -2649,12 +2684,12 @@
       ]
     },
     {
-      "id": 344,
+      "id": 343,
       "date": "2026-03-13T00:33:05.000Z",
       "from": "한성우 <hsw@dawonse.com>",
       "to": "\"Kim, Ju-hye\" <jhkim60@gsenc.com>, \"Yoo,Juhee\" <yjh0614@gsenc.com>, \"Kim,Yong-woo\" <kimyw@gsenc.com>, \"Song,Tae-bum\" <tbsong3@gsenc.com>",
       "subject": "RE: [동작센트럴자이] 102동 18 층~22층 벽체 두께  변경 검토요청의 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260313_473_hsw@dawonse.com.eml",
@@ -2664,12 +2699,12 @@
       ]
     },
     {
-      "id": 343,
+      "id": 342,
       "date": "2026-03-12T06:38:58.000Z",
       "from": "\"Kim, Ju-hye\" <jhkim60@gsenc.com>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "[동작센트럴자이] 발코니 부분 마감재관련  확인 요청의 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260312_470_jhkim60@gsenc.com.eml",
@@ -2679,12 +2714,12 @@
       ]
     },
     {
-      "id": 342,
+      "id": 341,
       "date": "2026-03-12T04:47:03.000Z",
       "from": "\"Kim, Ju-hye\" <jhkim60@gsenc.com>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "Fw: [RE][동작센트럴자이] 형별성능내역서 (비주거) PF보드 변경 검토요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260312_469_jhkim60@gsenc.com.eml",
@@ -2700,12 +2735,12 @@
       ]
     },
     {
-      "id": 341,
+      "id": 340,
       "date": "2026-03-12T01:46:14.000Z",
       "from": "한상주 <hsj@yegaone.com>",
       "to": "강재형 <jhkang@yegaone.com>, 지현재 <hyunj0526@yegaone.com>",
       "subject": "FW: 중동78 사전석면조사보고서 송부",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260312_468_hsj@yegaone.com.eml",
@@ -2713,12 +2748,12 @@
       "attachments": []
     },
     {
-      "id": 340,
+      "id": 339,
       "date": "2026-03-12T01:38:25.000Z",
       "from": "한성우 <hsw@dawonse.com>",
       "to": "\"Kim, Ju-hye\" <jhkim60@gsenc.com>",
       "subject": "RE: [동작센트럴자이] 근린생활 시설 기초 일람  누락 확인요청의 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260312_467_hsw@dawonse.com.eml",
@@ -2726,12 +2761,12 @@
       "attachments": []
     },
     {
-      "id": 339,
+      "id": 338,
       "date": "2026-03-12T01:34:41.000Z",
       "from": "한성우 <hsw@dawonse.com>",
       "to": "\"Kim, Yong-woo\" <kimyw@gsenc.com>, \"Yoo,Juhee\" <yjh0614@gsenc.com>, \"Kim,Ju-hye\" <jhkim60@gsenc.com>",
       "subject": "RE: [동작센트럴자이_설계변 경서_168] 주동, 지하주차장  및 주민센터 부재부호 및 일 람검토 요청 (내용수정 재송부)",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260312_466_hsw@dawonse.com.eml",
@@ -2739,12 +2774,12 @@
       "attachments": []
     },
     {
-      "id": 338,
+      "id": 337,
       "date": "2026-03-12T01:22:29.000Z",
       "from": "\"Kim, Ju-hye\" <jhkim60@gsenc.com>",
       "to": "한성우 <hsw@dawonse.com>",
       "subject": "[동작센트럴자이] 근린생활시설 기초 일람  누락 확인요청의 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260312_465_jhkim60@gsenc.com.eml",
@@ -2754,12 +2789,12 @@
       ]
     },
     {
-      "id": 337,
+      "id": 336,
       "date": "2026-03-12T00:40:50.000Z",
       "from": "에스비환경디자인_친환경건축본 부 <mail@sbdesign.co.kr>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "[FW][한국녹색기후기술원] 장애물  없는 생활환경 예비인증 심의위원 회 결과에 따른 답변 요청 [상도2 동 주민센터]",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260312_462_mail@sbdesign.co.kr.eml",
@@ -2771,12 +2806,12 @@
       ]
     },
     {
-      "id": 336,
+      "id": 335,
       "date": "2026-03-11T04:41:36.000Z",
       "from": "\"Kim, Ju-hye\" <jhkim60@gsenc.com>",
       "to": "에스비환경디자인_친환경건축본부 <mail@sbdesign.co.kr>, 강재형 <jhkang@yegaone.com>",
       "subject": "[동작센트럴자이] 형별성능내역서(비주거)  PF보드 변경 검토요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260311_461_jhkim60@gsenc.com.eml",
@@ -2786,12 +2821,12 @@
       ]
     },
     {
-      "id": 335,
+      "id": 334,
       "date": "2026-03-11T01:48:57.000Z",
       "from": "\"Kim, Ju-hye\" <jhkim60@gsenc.com>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "[동작센트럴자이] 상도2동 주민센터 EV PI T 및 오버헤드 마감 추가 변경 반영 검토  요청의 건 ",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260311_456_jhkim60@gsenc.com.eml",
@@ -2801,12 +2836,12 @@
       ]
     },
     {
-      "id": 334,
+      "id": 333,
       "date": "2026-03-11T01:00:50.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "신상철 <shinsc63@daum.net>",
       "subject": "[마포 성산동 가로주택정비사업]_각 단위 세대 타입 주향 문의건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260311_455_chlee@yegaone.com.eml",
@@ -2816,12 +2851,12 @@
       ]
     },
     {
-      "id": 332,
+      "id": 331,
       "date": "2026-03-10T03:52:56.000Z",
       "from": "상도스타리움조합 <sangdostarium@naver.com>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "상도스타리움 지역주개조합 BF인증 심의 개최 공문을 보내드립니다.",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260310_454_sangdostarium@naver.com.eml",
@@ -2831,12 +2866,12 @@
       ]
     },
     {
-      "id": 331,
+      "id": 330,
       "date": "2026-03-10T02:36:04.000Z",
       "from": "\"Kim, Ju-hye\" <jhkim60@gsenc.com>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "[동작센트럴자이] 상도2동 주민센터 승강 기 반영에 따른 변경확인 요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260310_453_jhkim60@gsenc.com.eml",
@@ -2847,12 +2882,12 @@
       ]
     },
     {
-      "id": 330,
+      "id": 329,
       "date": "2026-03-10T02:32:55.000Z",
       "from": "\"Kim, Ju-hye\" <jhkim60@gsenc.com>",
       "to": "<jhkang@yegaone.com>, <hsw@dawonse.com>",
       "subject": "Recall: [동작센트럴자이] 상도2동 주민센터  승강기 반영에 따른 변경확인 요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260310_452_jhkim60@gsenc.com.eml",
@@ -2860,12 +2895,12 @@
       "attachments": []
     },
     {
-      "id": 329,
+      "id": 328,
       "date": "2026-03-10T02:21:31.000Z",
       "from": "\"Kim, Ju-hye\" <jhkim60@gsenc.com>",
       "to": "강재형 <jhkang@yegaone.com>, 한성우 <hsw@dawonse.com>",
       "subject": "[동작센트럴자이] 상도2동 주민센터 승강 기 반영에 따른 변경확인 요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260310_451_jhkim60@gsenc.com.eml",
@@ -2873,12 +2908,12 @@
       "attachments": []
     },
     {
-      "id": 328,
+      "id": 327,
       "date": "2026-03-10T01:26:55.000Z",
       "from": "\"Kim, Yong-woo\" <kimyw@gsenc.com>",
       "to": "오창기 <ckoh@dawonse.com>, 한성우 <hsw@dawonse.com>, 강재형 <bluedayidoff@yegaone.com>",
       "subject": "[동작센트럴자이_설계변경서_171] 공공보 행통로 외부계단-1 DA상부 슬래브 검토 요 청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260310_450_kimyw@gsenc.com.eml",
@@ -2888,12 +2923,12 @@
       ]
     },
     {
-      "id": 327,
+      "id": 326,
       "date": "2026-03-09T23:21:21.000Z",
       "from": "\"Kim, Yong-woo\" <kimyw@gsenc.com>",
       "to": "오창기 <ckoh@dawonse.com>, 한성우 <hsw@dawonse.com>, 강재형 <bluedayidoff@yegaone.com>",
       "subject": "[동작센트럴자이_설계변경서_170] 근생 지 하4층 매트기초 검토 요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260310_449_kimyw@gsenc.com.eml",
@@ -2903,12 +2938,12 @@
       ]
     },
     {
-      "id": 326,
+      "id": 325,
       "date": "2026-03-09T04:15:20.000Z",
       "from": "\"Kim, Ju-hye\" <jhkim60@gsenc.com>",
       "to": "<jhkang@yegaone.com>",
       "subject": "Recall: Fw: [RE][동작센트럴자이] 최하층슬래브  외기직접 바닥마감 두께 확인 및  변경 요청의 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260309_445_jhkim60@gsenc.com.eml",
@@ -2916,12 +2951,12 @@
       "attachments": []
     },
     {
-      "id": 325,
+      "id": 324,
       "date": "2026-03-09T04:14:10.000Z",
       "from": "\"Kim, Ju-hye\" <jhkim60@gsenc.com>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "Fw: [동작센트럴자이] 단위세 창호 확인  요청의 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260309_444_jhkim60@gsenc.com.eml",
@@ -2931,12 +2966,12 @@
       ]
     },
     {
-      "id": 324,
+      "id": 323,
       "date": "2026-03-09T01:00:49.000Z",
       "from": "\"Kim, Ju-hye\" <jhkim60@gsenc.com>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "Fw: [RE][동작센트럴자이] 최하층슬래브  외기직접 바닥마감 두께 확인 및 변경 요 청의 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260309_443_jhkim60@gsenc.com.eml",
@@ -2950,12 +2985,12 @@
       ]
     },
     {
-      "id": 323,
+      "id": 322,
       "date": "2026-03-09T00:50:18.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "신상진 <sangjin.shin@daewooenc.com>",
       "subject": "[마포 성산동 가로주택정비사업] 친환경  내용 송부 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260309_442_chlee@yegaone.com.eml",
@@ -2963,12 +2998,12 @@
       "attachments": []
     },
     {
-      "id": 322,
+      "id": 321,
       "date": "2026-03-07T07:41:16.000Z",
       "from": "\"Kim, Ju-hye\" <jhkim60@gsenc.com>",
       "to": "강재형 <jhkang@yegaone.com>, 에스비환경디자인_친환경건축본부 <mail@sbdesign.co.kr>",
       "subject": "[동작센트럴자이] 최하층슬래브 외기직접  바닥마감 두께 확인 및 변경 요청의 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260307_441_jhkim60@gsenc.com.eml",
@@ -2978,12 +3013,12 @@
       ]
     },
     {
-      "id": 321,
+      "id": 320,
       "date": "2026-03-06T08:50:58.000Z",
       "from": "이서원 <sw1219@yegaone.com>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "FW: 어린이공원 레벨 조정(안) 의견 요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260306_440_sw1219@yegaone.com.eml",
@@ -2993,12 +3028,12 @@
       ]
     },
     {
-      "id": 320,
+      "id": 319,
       "date": "2026-03-06T08:11:56.000Z",
       "from": "박삼용 <skyp2313@naver.com>",
       "to": "예가원 강재형부장 <jhkang@yegaone.com>",
       "subject": "2026.03.06..-01.(한국녹색기후기술원) 상도 스타리움 지역주택조합(주민센터) 장애 물 없는 생활환경 예비인증 심의 개최 요 청의 건.pdf",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260306_437_skyp2313@naver.com.eml",
@@ -3008,12 +3043,12 @@
       ]
     },
     {
-      "id": 319,
+      "id": 318,
       "date": "2026-03-06T08:04:41.000Z",
       "from": "디자인그룹 예감 <yegamla@naver.com>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "RE: [동작센트럴자이] 어린이공원 설계변 경 및  사업승인변경에 따른 일정 확인  요청의 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260306_436_yegamla@naver.com.eml",
@@ -3030,12 +3065,12 @@
       ]
     },
     {
-      "id": 318,
+      "id": 317,
       "date": "2026-03-06T07:46:32.000Z",
       "from": "에스비환경디자인_친환경건축본 부 <mail@sbdesign.co.kr>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "[에스비환경디자인] 상도스타리움  주민센터 심사보완도서 공문 양 식",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260306_433_mail@sbdesign.co.kr.eml",
@@ -3046,12 +3081,12 @@
       ]
     },
     {
-      "id": 317,
+      "id": 316,
       "date": "2026-03-06T07:38:24.000Z",
       "from": "에스비환경디자인_친환경건축본 부 <mail@sbdesign.co.kr>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "[에스비환경디자인] 상도스타리움  주민센터 심사보완도서 공문 양 식",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260306_432_mail@sbdesign.co.kr.eml",
@@ -3062,12 +3097,12 @@
       ]
     },
     {
-      "id": 316,
+      "id": 315,
       "date": "2026-03-06T06:34:58.000Z",
       "from": "에스비환경디자인_친환경건축본 부 <mail@sbdesign.co.kr>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "[에스비환경디자인] 상도스타리움  주민센터 심사보완도서 공문 양 식",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260306_429_mail@sbdesign.co.kr.eml",
@@ -3078,12 +3113,12 @@
       ]
     },
     {
-      "id": 315,
+      "id": 314,
       "date": "2026-03-06T04:53:20.000Z",
       "from": "\"Kim, Ju-hye\" <jhkim60@gsenc.com>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "[동작센트럴자이] 어린이공원 설계변경 및   사업승인변경에 따른 일정 확인 요청의  건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260306_428_jhkim60@gsenc.com.eml",
@@ -3097,12 +3132,12 @@
       ]
     },
     {
-      "id": 314,
+      "id": 313,
       "date": "2026-03-06T01:25:41.000Z",
       "from": "\"Kim, Ju-hye\" <jhkim60@gsenc.com>",
       "to": "한성우 <hsw@dawonse.com>, 강재형 <jhkang@yegaone.com>",
       "subject": "[동작센트럴자이] 102동 18층~22층 벽체  두께 변경 검토요청의 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260306_425_jhkim60@gsenc.com.eml",
@@ -3112,12 +3147,12 @@
       ]
     },
     {
-      "id": 313,
+      "id": 312,
       "date": "2026-03-06T01:00:19.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "신상진 <sangjin.shin@daewooenc.com>",
       "subject": "[마포 성산동 가로주택정비사업] 진행도 면 송부 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260306_424_chlee@yegaone.com.eml",
@@ -3125,12 +3160,12 @@
       "attachments": []
     },
     {
-      "id": 312,
+      "id": 311,
       "date": "2026-03-05T07:18:00.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "최병진 <dgenc2003@naver.com>",
       "subject": "[마포 성산동 가로주택정비사업] 교통관 련 추가질의",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260305_418_chlee@yegaone.com.eml",
@@ -3138,12 +3173,12 @@
       "attachments": []
     },
     {
-      "id": 311,
+      "id": 310,
       "date": "2026-03-05T02:49:32.000Z",
       "from": "(주)신담엔지니어링 <shindam3@korea.com>",
       "to": "\"강재형\" <jhkang@yegaone.com>",
       "subject": "Re:FW: [이마트에브리데이] 동작센트럴자이 도면 관련 문의 件  [파일 재전송]",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260305_416_shindam3@korea.com.eml",
@@ -3155,12 +3190,12 @@
       ]
     },
     {
-      "id": 310,
+      "id": 309,
       "date": "2026-03-05T01:29:25.000Z",
       "from": "\"Yoo, Juhee\" <yjh0614@gsenc.com>",
       "to": "강재형 <bluedayidoff@yegaone.com>",
       "subject": "[동작센트럴자이] 현장 수정 도면 송부의 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260305_413_yjh0614@gsenc.com.eml",
@@ -3172,12 +3207,12 @@
       ]
     },
     {
-      "id": 308,
+      "id": 307,
       "date": "2026-03-05T01:25:01.000Z",
       "from": "지현재 <hyunj0526@yegaone.com>",
       "to": "<cscando@naver.com>, <dyyoon123@naver.com>",
       "subject": "마포 중동 가로주택정비사업 설계안 재 검토 요청 공문에 대한 회신 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260305_412_hyunj0526@yegaone.com.eml",
@@ -3188,12 +3223,12 @@
       ]
     },
     {
-      "id": 307,
+      "id": 306,
       "date": "2026-03-05T01:02:28.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "최병진 <dgenc2003@naver.com>",
       "subject": "[마포 성산동 가로주택정비사업] 교통관 련 검토 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260305_410_chlee@yegaone.com.eml",
@@ -3203,12 +3238,12 @@
       ]
     },
     {
-      "id": 306,
+      "id": 305,
       "date": "2026-03-05T00:48:44.000Z",
       "from": "한성우 <hsw@dawonse.com>",
       "to": "\"Kim, Yong-woo\" <kimyw@gsenc.com>, \"Yoo,Juhee\" <yjh0614@gsenc.com>, \"Kim,Ju-hye\" <jhkim60@gsenc.com>",
       "subject": "RE: [동작센트럴자이 _설계변경서_167] 주 동 층변화부 코아벽체 l ink beam검토 요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260305_409_hsw@dawonse.com.eml",
@@ -3218,12 +3253,12 @@
       ]
     },
     {
-      "id": 305,
+      "id": 304,
       "date": "2026-03-05T00:19:44.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "신상철 <shinsc63@daum.net>",
       "subject": "[마포 성산동 가로주택정비사업] 단위세 대 컬러링 송부",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260305_408_chlee@yegaone.com.eml",
@@ -3233,12 +3268,12 @@
       ]
     },
     {
-      "id": 304,
+      "id": 303,
       "date": "2026-03-05T00:00:59.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "<davom@davom.kr>",
       "subject": "[마포 성산동 가로주택정비사업] 조경관 련 검토 관련도면 송부 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260305_407_chlee@yegaone.com.eml",
@@ -3246,12 +3281,12 @@
       "attachments": []
     },
     {
-      "id": 303,
+      "id": 302,
       "date": "2026-03-04T06:45:56.000Z",
       "from": "\"Kim, Ju-hye\" <jhkim60@gsenc.com>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "[동작센트럴자이] 부대복리시설 출입 단차 에 따른 창호 변경요청의 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260304_406_jhkim60@gsenc.com.eml",
@@ -3262,12 +3297,12 @@
       ]
     },
     {
-      "id": 302,
+      "id": 301,
       "date": "2026-03-04T06:20:59.000Z",
       "from": "지현재 <hyunj0526@yegaone.com>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "FW: 마포 중동 가로주택정비사업 설계안  재검토 요청 공문에 대한 회신 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260304_405_hyunj0526@yegaone.com.eml",
@@ -3278,12 +3313,12 @@
       ]
     },
     {
-      "id": 301,
+      "id": 300,
       "date": "2026-03-04T05:43:27.000Z",
       "from": "\"Kim, Ju-hye\" <jhkim60@gsenc.com>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "Fw: [동작센트럴자이] 상도2동 주민센터 P IT층 설계 변경 요청의 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260304_404_jhkim60@gsenc.com.eml",
@@ -3294,12 +3329,12 @@
       ]
     },
     {
-      "id": 300,
+      "id": 299,
       "date": "2026-03-04T04:20:47.000Z",
       "from": "\"Kim, Ju-hye\" <jhkim60@gsenc.com>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "[동작센트럴자이] 상도2동 주민센터 PIT층  설계 변경 요청의 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260304_403_jhkim60@gsenc.com.eml",
@@ -3312,12 +3347,12 @@
       ]
     },
     {
-      "id": 299,
+      "id": 298,
       "date": "2026-03-04T02:15:18.000Z",
       "from": "한성우 <hsw@dawonse.com>",
       "to": "\"Kim, Yong-woo\" <kimyw@gsenc.com>, \"Kim,Ju-hye\" <jhkim60@gsenc.com>, \"Yoo,Juhee\" <yjh0614@gsenc.com>",
       "subject": "RE: [동작센트럴자이_설계변경서_16 9] 상도2동 주민센터 PIT 검토 요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260304_402_hsw@dawonse.com.eml",
@@ -3327,12 +3362,12 @@
       ]
     },
     {
-      "id": 298,
+      "id": 297,
       "date": "2026-03-04T02:04:22.000Z",
       "from": "박삼용 <skyp2313@naver.com>",
       "to": "예가원 강재형부장 <jhkang@yegaone.com>",
       "subject": "FW: [이마트에브리데이] 동작센트럴자이  도면 관련 문의 件  [파일 재전송]",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260304_401_skyp2313@naver.com.eml",
@@ -3343,12 +3378,12 @@
       ]
     },
     {
-      "id": 297,
+      "id": 296,
       "date": "2026-03-04T01:17:59.000Z",
       "from": "박삼용 <skyp2313@naver.com>",
       "to": "예가원 강재형부장 <jhkang@yegaone.com>",
       "subject": "FW: [이마트에브리데이] 동작센트럴자이  도면 관련 문의 件",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260304_400_skyp2313@naver.com.eml",
@@ -3359,12 +3394,12 @@
       ]
     },
     {
-      "id": 296,
+      "id": 295,
       "date": "2026-02-28T05:27:06.000Z",
       "from": "\"Yoo, Juhee\" <yjh0614@gsenc.com>",
       "to": "강재형 <bluedayidoff@yegaone.com>",
       "subject": "[동작센트럴자이] 부대복리시설 창호 확인  요청의 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260228_397_yjh0614@gsenc.com.eml",
@@ -3379,12 +3414,12 @@
       ]
     },
     {
-      "id": 295,
+      "id": 294,
       "date": "2026-02-27T08:15:54.000Z",
       "from": "김승회 <shkimsoft@yegaone.com>",
       "to": "한상주 <hsj@yegaone.com>, 강재형 <jhkang@yegaone.com>, 지현재 <hyunj0526@yegaone.com>",
       "subject": "FW: [중동78번지일원 가로주택정비사업 조 합] 설계안 재검토 요청의 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260227_396_shkimsoft@yegaone.com.eml",
@@ -3394,12 +3429,12 @@
       ]
     },
     {
-      "id": 294,
+      "id": 293,
       "date": "2026-02-27T07:50:03.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "이향선 <sunnylee1126@naver.com>",
       "subject": "[마포 성산동 가로주택정비사업] 배치도  범례 수정 송부 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260227_395_chlee@yegaone.com.eml",
@@ -3410,12 +3445,12 @@
       ]
     },
     {
-      "id": 293,
+      "id": 292,
       "date": "2026-02-27T05:53:15.000Z",
       "from": "\"Yoo, Juhee\" <yjh0614@gsenc.com>",
       "to": "강재형 <bluedayidoff@yegaone.com>",
       "subject": "[동작센트럴자이] 부대복리시설 창호 확인  요청의 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260227_392_yjh0614@gsenc.com.eml",
@@ -3426,12 +3461,12 @@
       ]
     },
     {
-      "id": 292,
+      "id": 291,
       "date": "2026-02-27T04:24:54.000Z",
       "from": "\"Kim, Ju-hye\" <jhkim60@gsenc.com>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "[동작센트럴자이] 휀룸#12 그릴창 구조간 섭에 따른 변경 확인",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260227_389_jhkim60@gsenc.com.eml",
@@ -3441,12 +3476,12 @@
       ]
     },
     {
-      "id": 291,
+      "id": 290,
       "date": "2026-02-27T01:26:40.000Z",
       "from": "한성우 <hsw@dawonse.com>",
       "to": "\"Kim, Yong-woo\" <kimyw@gsenc.com>, \"Yoo,Juhee\" <yjh0614@gsenc.com>, \"Kim,Ju-hye\" <jhkim60@gsenc.com>",
       "subject": "RE: [동작센트럴자 이_설계변경서_165]  109동 주변 휴게 데크상부 평면검토 요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260227_388_hsw@dawonse.com.eml",
@@ -3456,12 +3491,12 @@
       ]
     },
     {
-      "id": 290,
+      "id": 289,
       "date": "2026-02-27T01:14:06.000Z",
       "from": "\"주식회사 지음엠이씨(GiumMEC)\" <giummec@nate.com>",
       "to": "\"강재형\" <jhkang@yegaone.com>",
       "subject": "Re:FW: [동작센트럴자이] 휀룸#1 2 그릴창 구조간섭에 따른 변경 요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260227_386_giummec@nate.com.eml",
@@ -3469,12 +3504,12 @@
       "attachments": []
     },
     {
-      "id": 289,
+      "id": 288,
       "date": "2026-02-26T10:09:03.000Z",
       "from": "에스비환경디자인_친환경건축본 부 <mail@sbdesign.co.kr>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "[에스비환경디자인] 상도스타리움  주민센터 심사보완도서 평가도서  송부",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260226_385_mail@sbdesign.co.kr.eml",
@@ -3484,12 +3519,12 @@
       ]
     },
     {
-      "id": 288,
+      "id": 287,
       "date": "2026-02-26T07:27:08.000Z",
       "from": "\"Kim, Ju-hye\" <jhkim60@gsenc.com>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "[동작센트럴자이] 휀룸#12 그릴창 구조간 섭에 따른 변경요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260226_378_jhkim60@gsenc.com.eml",
@@ -3499,12 +3534,12 @@
       ]
     },
     {
-      "id": 287,
+      "id": 286,
       "date": "2026-02-26T01:34:10.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "<landen@hanmail.net>",
       "subject": "[마포 성산동 가로주택정비사업] 근린생 활시설2 평면도 송부",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260226_371_chlee@yegaone.com.eml",
@@ -3515,12 +3550,12 @@
       ]
     },
     {
-      "id": 286,
+      "id": 285,
       "date": "2026-02-25T22:39:59.000Z",
       "from": "\"Kim, Ju-hye\" <jhkim60@gsenc.com>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "[동작센트럴자이] 경로당 및 관리사무소 P L창틀 변경의 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260226_368_jhkim60@gsenc.com.eml",
@@ -3530,12 +3565,12 @@
       ]
     },
     {
-      "id": 285,
+      "id": 284,
       "date": "2026-02-25T07:07:24.000Z",
       "from": "\"Kim, Yong-woo\" <kimyw@gsenc.com>",
       "to": "오창기 <ckoh@dawonse.com>, 한성우 <hsw@dawonse.com>, 강재형 <bluedayidoff@yegaone.com>",
       "subject": "[동작센트럴자이_설계변경서_169] 상도2동  주민센터 PIT 검토 요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260225_366_kimyw@gsenc.com.eml",
@@ -3545,12 +3580,12 @@
       ]
     },
     {
-      "id": 284,
+      "id": 283,
       "date": "2026-02-25T06:40:39.000Z",
       "from": "지현재 <hyunj0526@yegaone.com>",
       "to": "<dyyoon123@naver.com>",
       "subject": "마포중동 배치도 개요 발송건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260225_365_hyunj0526@yegaone.com.eml",
@@ -3561,12 +3596,12 @@
       ]
     },
     {
-      "id": 283,
+      "id": 282,
       "date": "2026-02-25T06:05:58.000Z",
       "from": "한성우 <hsw@dawonse.com>",
       "to": "\"Kim, Yong-woo\" <kimyw@gsenc.com>, \"Yoo,Juhee\" <yjh0614@gsenc.com>, \"Kim,Ju-hye\" <jhkim60@gsenc.com>",
       "subject": "RE: [동작센트럴자 이_설계변경서_164 ] 105동 지붕층( 최상층)보 검토 요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260225_364_hsw@dawonse.com.eml",
@@ -3574,12 +3609,12 @@
       "attachments": []
     },
     {
-      "id": 282,
+      "id": 281,
       "date": "2026-02-25T05:13:01.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "<davom@davom.kr>",
       "subject": "[마포 성산동 가로주택정비사업] 조경관 련 검토 관련도면 송부 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260225_363_chlee@yegaone.com.eml",
@@ -3591,12 +3626,12 @@
       ]
     },
     {
-      "id": 281,
+      "id": 280,
       "date": "2026-02-25T02:30:17.000Z",
       "from": "정서영 <jsy@yegaone.com>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "[예가원] 2월 급여 명세서",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260225_362_jsy@yegaone.com.eml",
@@ -3606,12 +3641,12 @@
       ]
     },
     {
-      "id": 280,
+      "id": 279,
       "date": "2026-02-25T02:16:05.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "신상진 <sangjin.shin@daewooenc.com>",
       "subject": "[마포 성산동 가로주택정비사업] 사업시 행인가 준비 도면목록표 송부 외",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260225_361_chlee@yegaone.com.eml",
@@ -3623,12 +3658,12 @@
       ]
     },
     {
-      "id": 279,
+      "id": 278,
       "date": "2026-02-24T07:18:32.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "최병진 <dgenc2003@naver.com>",
       "subject": "[마포 성산동 가로주택정비사업] 교통관 련 검토 요청 ",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260224_357_chlee@yegaone.com.eml",
@@ -3638,12 +3673,12 @@
       ]
     },
     {
-      "id": 278,
+      "id": 277,
       "date": "2026-02-24T05:01:02.000Z",
       "from": "(주)건축환경그룹 다올 <enh2013@naver.com>",
       "to": "<jhkang@yegaone.com>",
       "subject": "[건축환경그룹다올]구리수택지역주택 확 장형 확인서 및 최하층바닥 형별",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260224_356_enh2013@naver.com.eml",
@@ -3653,12 +3688,12 @@
       ]
     },
     {
-      "id": 277,
+      "id": 276,
       "date": "2026-02-23T08:33:06.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "신상철 <shinsc63@daum.net>",
       "subject": "[마포 성산동 가로주택정비사업] 주거환 경영향분석 송부자료 축약본",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260223_354_chlee@yegaone.com.eml",
@@ -3668,12 +3703,12 @@
       ]
     },
     {
-      "id": 276,
+      "id": 275,
       "date": "2026-02-23T06:59:46.000Z",
       "from": "\"Kim, Yong-woo\" <kimyw@gsenc.com>",
       "to": "오창기 <ckoh@dawonse.com>, 한성우 <hsw@dawonse.com>, 강재형 <bluedayidoff@yegaone.com>",
       "subject": "[동작센트럴자이_설계변경서_168] 주동,  지하주차장 및 주민센터 부재부호 및 일람 검토 요청 (내용수정 재송부)",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260223_353_kimyw@gsenc.com.eml",
@@ -3683,12 +3718,12 @@
       ]
     },
     {
-      "id": 275,
+      "id": 274,
       "date": "2026-02-23T06:27:15.000Z",
       "from": "한상주 <hsj@yegaone.com>",
       "to": "박세환 <parkse98@dongjak.go.kr>",
       "subject": "버스차선 수정 ",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260223_352_hsj@yegaone.com.eml",
@@ -3698,12 +3733,12 @@
       ]
     },
     {
-      "id": 274,
+      "id": 273,
       "date": "2026-02-23T06:26:29.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "최병진 <dgenc2003@naver.com>",
       "subject": "[마포 성산동 가로주택정비사업] 지하주 차장 평면도 송부 및 통합심의 의결사항  반영 답변검토 요청 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260223_351_chlee@yegaone.com.eml",
@@ -3713,12 +3748,12 @@
       ]
     },
     {
-      "id": 273,
+      "id": 272,
       "date": "2026-02-23T02:47:05.000Z",
       "from": "박삼용 <skyp2313@naver.com>",
       "to": "예가원 강재형부장 <jhkang@yegaone.com>",
       "subject": "FW: 상도스타리움 도시계획시설 실시계획 인가 주민의견서 송부",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260223_348_skyp2313@naver.com.eml",
@@ -3728,12 +3763,12 @@
       ]
     },
     {
-      "id": 272,
+      "id": 271,
       "date": "2026-02-23T02:22:45.000Z",
       "from": "한성우 <hsw@dawonse.com>",
       "to": "\"Kim, Yong-woo\" <kimyw@gsenc.com>, \"Yoo,Juhee\" <yjh0614@gsenc.com>, \"Kim,Ju-hye\" <jhkim60@gsenc.com>",
       "subject": "RE: [동작센트럴자 이_설계변경서_166 ] 상도2동 주민센터  지하외벽 검토 요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260223_347_hsw@dawonse.com.eml",
@@ -3744,12 +3779,12 @@
       ]
     },
     {
-      "id": 271,
+      "id": 270,
       "date": "2026-02-20T02:28:13.000Z",
       "from": "박삼용 <skyp2313@naver.com>",
       "to": "한상주 <hsj@yegaone.com>, 예가원 강재형부장 <jhkang@yegaone.com>",
       "subject": "FW: [동작센트럴자이] 상도2동 주민센터  입면 변경 관련 내용",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260220_346_skyp2313@naver.com.eml",
@@ -3763,12 +3798,12 @@
       ]
     },
     {
-      "id": 270,
+      "id": 269,
       "date": "2026-02-20T02:20:35.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "FW: [(주)건축환경그룹다올] 마포 성산 16 5-72일원 가로주택정비사업 2회기성 청구 서",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260220_345_chlee@yegaone.com.eml",
@@ -3778,12 +3813,12 @@
       ]
     },
     {
-      "id": 269,
+      "id": 268,
       "date": "2026-02-20T00:44:54.000Z",
       "from": "\"Kim, Yong-woo\" <kimyw@gsenc.com>",
       "to": "오창기 <ckoh@dawonse.com>, 한성우 <hsw@dawonse.com>, 강재형 <bluedayidoff@yegaone.com>",
       "subject": "[동작센트럴자이_설계변경서_168] 주동,  지하주차장 및 주민센터 부재부호 및 일람 검토 요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260220_343_kimyw@gsenc.com.eml",
@@ -3793,12 +3828,12 @@
       ]
     },
     {
-      "id": 268,
+      "id": 267,
       "date": "2026-02-20T00:17:30.000Z",
       "from": "\"Kim, Ju-hye\" <jhkim60@gsenc.com>",
       "to": "\"jhkang@yegaone.com\" <jhkang@yegaone.com>",
       "subject": "Fw: 근생 단면 변화에 따른 창호규격 변경  적용",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260220_342_jhkim60@gsenc.com.eml",
@@ -3809,12 +3844,12 @@
       ]
     },
     {
-      "id": 267,
+      "id": 266,
       "date": "2026-02-19T05:03:45.000Z",
       "from": "한상주 <hsj@yegaone.com>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "FW: 상도스타리움 사업계획변경 관련 요 청자료 및 고시문 수정의견 송부드립니 다.",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260219_341_hsj@yegaone.com.eml",
@@ -3827,12 +3862,12 @@
       ]
     },
     {
-      "id": 266,
+      "id": 265,
       "date": "2026-02-19T05:01:53.000Z",
       "from": "박세환<parkse98@dongjak.go.kr>",
       "to": "jhkang@yegaone.com",
       "subject": "상도스타리움 사업계 획변경 관련 요청자 료 및 고시문 수정 의견 송부드립니다.",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260219_340_parkse98@dongjak.go.kr.eml",
@@ -3845,12 +3880,12 @@
       ]
     },
     {
-      "id": 265,
+      "id": 264,
       "date": "2026-02-19T01:03:58.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "신상진 <sangjin.shin@daewooenc.com>",
       "subject": "[마포 성산동 가로주택정비사업] 마포성 산 초기 제안도면 송부 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260219_339_chlee@yegaone.com.eml",
@@ -3861,12 +3896,12 @@
       ]
     },
     {
-      "id": 264,
+      "id": 263,
       "date": "2026-02-19T01:03:48.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "신상진 <sangjin.shin@daewooenc.com>",
       "subject": "[마포 성산동 가로주택정비사업] 지하층  면적 관련 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260219_338_chlee@yegaone.com.eml",
@@ -3876,12 +3911,12 @@
       ]
     },
     {
-      "id": 263,
+      "id": 262,
       "date": "2026-02-18T23:30:58.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "이향선 <sunnylee1126@naver.com>, 이미현 <sewon49@nate.com>",
       "subject": "[마포 성산동 가로주택정비사업] 주거환 경 영향분석 필요자료 송부 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260219_337_chlee@yegaone.com.eml",
@@ -3889,12 +3924,12 @@
       "attachments": []
     },
     {
-      "id": 262,
+      "id": 261,
       "date": "2026-02-13T04:35:20.000Z",
       "from": "\"Kim, Ju-hye\" <jhkim60@gsenc.com>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "[동작센트럴자이] 주민센터 영구배수 및  강재집수정 위치이동의 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260213_333_jhkim60@gsenc.com.eml",
@@ -3905,12 +3940,12 @@
       ]
     },
     {
-      "id": 261,
+      "id": 260,
       "date": "2026-02-13T02:06:48.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "<landen@hanmail.net>",
       "subject": "[마포 성산동 가로주택정비사업] 주거환 경 영향분석 필요자료 추가 송부 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260213_330_chlee@yegaone.com.eml",
@@ -3923,12 +3958,12 @@
       ]
     },
     {
-      "id": 260,
+      "id": 259,
       "date": "2026-02-13T01:16:16.000Z",
       "from": "\"Kim, Yong-woo\" <kimyw@gsenc.com>",
       "to": "오창기 <ckoh@dawonse.com>, 한성우 <hsw@dawonse.com>, 강재형 <bluedayidoff@yegaone.com>",
       "subject": "[동작센트럴자이_설계변경서_167] 주동 층 변화부 코아벽체 link beam검토 요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260213_329_kimyw@gsenc.com.eml",
@@ -3938,12 +3973,12 @@
       ]
     },
     {
-      "id": 259,
+      "id": 258,
       "date": "2026-02-12T07:39:00.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "신상진 <sangjin.shin@daewooenc.com>",
       "subject": "[마포 성산동 가로주택정비사업] 비상차 로 부분 경사로 검토건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260212_322_chlee@yegaone.com.eml",
@@ -3953,12 +3988,12 @@
       ]
     },
     {
-      "id": 258,
+      "id": 257,
       "date": "2026-02-12T07:32:24.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "최병진 <dgenc2003@naver.com>",
       "subject": "[마포 성산동 가로주택정비사업] 교통관 련 검토의견 회신",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260212_321_chlee@yegaone.com.eml",
@@ -3966,12 +4001,12 @@
       "attachments": []
     },
     {
-      "id": 257,
+      "id": 256,
       "date": "2026-02-12T06:54:10.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "신상철 <shinsc63@daum.net>",
       "subject": "[마포 성산동 가로주택정비사업] 주거환 경 영향분석 필요자료 송부 건(도면PDF)",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260212_320_chlee@yegaone.com.eml",
@@ -3985,12 +4020,12 @@
       ]
     },
     {
-      "id": 256,
+      "id": 255,
       "date": "2026-02-12T05:59:35.000Z",
       "from": "\"Kim, Ju-hye\" <jhkim60@gsenc.com>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "Fw: 상도 주민센터 관련",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260212_319_jhkim60@gsenc.com.eml",
@@ -4000,12 +4035,12 @@
       ]
     },
     {
-      "id": 255,
+      "id": 254,
       "date": "2026-02-12T04:16:16.000Z",
       "from": "NAVER WORKS <no_reply@worksmobile.com>",
       "to": "<jhkang@yegaone.com>",
       "subject": "[발송실패 안내] joh61joh@naver.com으로 메일 이 전송되지 못했습니다.",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260212_318_no_reply@worksmobile.com.eml",
@@ -4016,12 +4051,12 @@
       ]
     },
     {
-      "id": 254,
+      "id": 253,
       "date": "2026-02-12T02:41:46.000Z",
       "from": "지현재 <hyunj0526@yegaone.com>",
       "to": "<chiki69@naver.com>",
       "subject": "마포중동 가로주택정비사업",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260212_315_hyunj0526@yegaone.com.eml",
@@ -4032,12 +4067,12 @@
       ]
     },
     {
-      "id": 252,
+      "id": 251,
       "date": "2026-02-12T02:24:16.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "<landen@hanmail.net>",
       "subject": "[마포 성산동 가로주택정비사업] 주거환 경 영향분석 필요자료 송부 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260212_314_chlee@yegaone.com.eml",
@@ -4047,12 +4082,12 @@
       ]
     },
     {
-      "id": 251,
+      "id": 250,
       "date": "2026-02-11T08:45:24.000Z",
       "from": "정찬희 <ray514871@yegaone.com>",
       "to": "에스비환경디자인_친환경건축본부 <mail@sbdesign.co.kr>",
       "subject": "예가원 건축사사무소 [상도스타리움 BF요 청도면]",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260211_310_ray514871@yegaone.com.eml",
@@ -4060,12 +4095,12 @@
       "attachments": []
     },
     {
-      "id": 250,
+      "id": 249,
       "date": "2026-02-11T06:44:50.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "신상진 <sangjin.shin@daewooenc.com>",
       "subject": "[마포 성산동 가로주택정비사업] 지하층  피트 관련 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260211_309_chlee@yegaone.com.eml",
@@ -4075,12 +4110,12 @@
       ]
     },
     {
-      "id": 249,
+      "id": 248,
       "date": "2026-02-11T06:01:40.000Z",
       "from": "박삼용 <skyp2313@naver.com>",
       "to": "한상주 <hsj@yegaone.com>, 예가원 강재형부장 <jhkang@yegaone.com>",
       "subject": "FW: 사업계획변경승인 신청에 따른 관련 부서 협의결과 통보 및 보완 요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260211_308_skyp2313@naver.com.eml",
@@ -4090,12 +4125,12 @@
       ]
     },
     {
-      "id": 248,
+      "id": 247,
       "date": "2026-02-11T05:38:18.000Z",
       "from": "박세환<parkse98@dongjak.go.kr>",
       "to": "jhkang@yegaone.com",
       "subject": "사업계획변경승인  신청에 따른 관련 부서 협의결과 통보 및 보완 요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260211_307_parkse98@dongjak.go.kr.eml",
@@ -4105,12 +4140,12 @@
       ]
     },
     {
-      "id": 247,
+      "id": 246,
       "date": "2026-02-11T02:12:54.000Z",
       "from": "정찬희 <ray514871@yegaone.com>",
       "to": "<shindam3@korea.com>",
       "subject": "예가원 건축사사무소 [상도 2동 주민센터  평면도(방송실추가),관계부서(기관)협의  의견 및 조치계획서]",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260211_306_ray514871@yegaone.com.eml",
@@ -4118,12 +4153,12 @@
       "attachments": []
     },
     {
-      "id": 246,
+      "id": 245,
       "date": "2026-02-11T02:06:08.000Z",
       "from": "dgenc2003 <dgenc2003@naver.com>",
       "to": "<hsj@yegaone.com>, <jhkang@yegaone.com>",
       "subject": "RE: 상도스타리움 가감속차로 연장 검토 자료 송부",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260211_305_dgenc2003@naver.com.eml",
@@ -4137,12 +4172,12 @@
       ]
     },
     {
-      "id": 245,
+      "id": 244,
       "date": "2026-02-11T01:54:44.000Z",
       "from": "박삼용 <skyp2313@naver.com>",
       "to": "예가원 강재형부장 <jhkang@yegaone.com>",
       "subject": "FW: 260211 지적도(공원부지 색상 변경).png",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260211_304_skyp2313@naver.com.eml",
@@ -4153,12 +4188,12 @@
       ]
     },
     {
-      "id": 244,
+      "id": 243,
       "date": "2026-02-11T01:42:57.000Z",
       "from": "\"Kim, Ju-hye\" <jhkim60@gsenc.com>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "[동작센트럴자이] 지하주차장 창호 확인  요청의 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260211_303_jhkim60@gsenc.com.eml",
@@ -4168,12 +4203,12 @@
       ]
     },
     {
-      "id": 243,
+      "id": 242,
       "date": "2026-02-11T01:15:56.000Z",
       "from": "정찬희 <ray514871@yegaone.com>",
       "to": "<shindam3@korea.com>",
       "subject": "예가원 건축사사무소 [상도스타리움 사 업계획변경 관련 검토의견 제출]",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260211_301_ray514871@yegaone.com.eml",
@@ -4183,12 +4218,12 @@
       ]
     },
     {
-      "id": 242,
+      "id": 241,
       "date": "2026-02-11T01:02:13.000Z",
       "from": "\"Adobe Acrobat\" <mail@e.adobe.com>",
       "to": "jhkang@yegaone.com",
       "subject": "(광고)Acrobat으로 올해의 비즈 니스를 성공으로 이끄세요",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260211_299_mail@e.adobe.com.eml",
@@ -4196,12 +4231,12 @@
       "attachments": []
     },
     {
-      "id": 241,
+      "id": 240,
       "date": "2026-02-11T00:22:24.000Z",
       "from": "김승회 <shkimsoft@yegaone.com>",
       "to": "이찬희 <chlee@yegaone.com>, 강재형 <jhkang@yegaone.com>",
       "subject": "FW: 랜드엔지니어링입니다. [성산동 165번 지 일대 가로주택정비사업의 주거환경  영향 분석 업무 수행을 위한 필요자료리 스트 송부의 건]",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260211_298_shkimsoft@yegaone.com.eml",
@@ -4211,12 +4246,12 @@
       ]
     },
     {
-      "id": 240,
+      "id": 239,
       "date": "2026-02-11T00:05:58.000Z",
       "from": "박삼용 <skyp2313@naver.com>",
       "to": "한상주 <hsj@yegaone.com>, 예가원 강재형부장 <jhkang@yegaone.com>",
       "subject": "FW: 사업계획변경 관련 신청사추진이전단  협의결과 제출",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260211_297_skyp2313@naver.com.eml",
@@ -4226,12 +4261,12 @@
       ]
     },
     {
-      "id": 239,
+      "id": 238,
       "date": "2026-02-11T00:00:11.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "박무영 <muyoung.park@daewooenc.com>",
       "subject": "[마포 성산동 가로주택정비사업] 지하층  면적차이 발생 사유 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260211_296_chlee@yegaone.com.eml",
@@ -4239,12 +4274,12 @@
       "attachments": []
     },
     {
-      "id": 237,
+      "id": 236,
       "date": "2026-02-10T23:58:29.000Z",
       "from": "박세환<parkse98@dongjak.go.kr>",
       "to": "jhkang@yegaone.com",
       "subject": "사업계획변경 관련 신청사 추진이전단 협의결과 제출",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260211_295_parkse98@dongjak.go.kr.eml",
@@ -4254,12 +4289,12 @@
       ]
     },
     {
-      "id": 236,
+      "id": 235,
       "date": "2026-02-10T10:24:29.000Z",
       "from": "dgenc2003 <dgenc2003@naver.com>",
       "to": "<hsj@yegaone.com>, <jhkang@yegaone.com>",
       "subject": "상도스타리움 버스베이 이전 검토자료  송부",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260210_294_dgenc2003@naver.com.eml",
@@ -4272,12 +4307,12 @@
       ]
     },
     {
-      "id": 235,
+      "id": 234,
       "date": "2026-02-10T08:52:50.000Z",
       "from": "한성우 <hsw@dawonse.com>",
       "to": "\"Kim, Yong-woo\" <kimyw@gsenc.com>, \"Kim,Ju-hye\" <jhkim60@gsenc.com>, \"Yoo,Juhee\" <yjh0614@gsenc.com>",
       "subject": "RE: [동작센트럴자 이_설계변경서_163]  옥탑 출입문 상부  캐노피 배근 검토 요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260210_293_hsw@dawonse.com.eml",
@@ -4287,12 +4322,12 @@
       ]
     },
     {
-      "id": 234,
+      "id": 233,
       "date": "2026-02-10T06:15:20.000Z",
       "from": "\"Yoo, Juhee\" <yjh0614@gsenc.com>",
       "to": "강재형 <bluedayidoff@yegaone.com>",
       "subject": "Fw: [동작센트럴자이] 현장수정 도면 송부 의건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260210_292_yjh0614@gsenc.com.eml",
@@ -4304,12 +4339,12 @@
       ]
     },
     {
-      "id": 233,
+      "id": 232,
       "date": "2026-02-10T06:08:17.000Z",
       "from": "\"Yoo, Juhee\" <yjh0614@gsenc.com>",
       "to": "강재형 <bluedayidoff@yegaone.com>",
       "subject": "[동작센트럴자이] 현장수정 도면 송부의건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260210_291_yjh0614@gsenc.com.eml",
@@ -4320,12 +4355,12 @@
       ]
     },
     {
-      "id": 232,
+      "id": 231,
       "date": "2026-02-10T05:12:08.000Z",
       "from": "\"Kim, Ju-hye\" <jhkim60@gsenc.com>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "[동작센트럴자이] 단위세 창호 확인 요청 의 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260210_290_jhkim60@gsenc.com.eml",
@@ -4335,12 +4370,12 @@
       ]
     },
     {
-      "id": 231,
+      "id": 230,
       "date": "2026-02-10T05:01:26.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "(주)조경디자인다봄 <davom@davom.kr>",
       "subject": "RE: 조경디자인 다봄 입니다 마포구 성산 동 관련 배치도 검토 사항 메일 드립니다",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260210_289_chlee@yegaone.com.eml",
@@ -4351,12 +4386,12 @@
       ]
     },
     {
-      "id": 230,
+      "id": 229,
       "date": "2026-02-09T02:20:50.000Z",
       "from": "\"Yoo, Juhee\" <yjh0614@gsenc.com>",
       "to": "강재형 <bluedayidoff@yegaone.com>",
       "subject": "[동작센트럴자이] 103동 엘리베이터 PD관 련 질의의 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260209_284_yjh0614@gsenc.com.eml",
@@ -4366,12 +4401,12 @@
       ]
     },
     {
-      "id": 229,
+      "id": 228,
       "date": "2026-02-09T01:56:50.000Z",
       "from": "\"Kim, Ju-hye\" <jhkim60@gsenc.com>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "[동작센트럴자이] 부대복리시설 창호 확인  요청의 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260209_283_jhkim60@gsenc.com.eml",
@@ -4381,12 +4416,12 @@
       ]
     },
     {
-      "id": 228,
+      "id": 227,
       "date": "2026-02-09T01:25:21.000Z",
       "from": "\"Kim, Yong-woo\" <kimyw@gsenc.com>",
       "to": "오창기 <ckoh@dawonse.com>, 한성우 <hsw@dawonse.com>, 강재형 <bluedayidoff@yegaone.com>",
       "subject": "[동작센트럴자이_설계변경서_166] 상도2동  주민센터 지하외벽 검토 요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260209_282_kimyw@gsenc.com.eml",
@@ -4396,12 +4431,12 @@
       ]
     },
     {
-      "id": 227,
+      "id": 226,
       "date": "2026-02-06T08:56:50.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "최병진 <dgenc2003@naver.com>",
       "subject": "[마포 성산동 가로주택정비사업] 교통관 련 검토 요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260206_281_chlee@yegaone.com.eml",
@@ -4414,12 +4449,12 @@
       ]
     },
     {
-      "id": 226,
+      "id": 225,
       "date": "2026-02-06T08:55:21.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "",
       "subject": "[마포 성산동 가로주택정비사업] 지하층  평면도 송부 외",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260206_280_chlee@yegaone.com.eml",
@@ -4429,12 +4464,12 @@
       ]
     },
     {
-      "id": 224,
+      "id": 223,
       "date": "2026-02-06T08:39:41.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "<davom@davom.kr>",
       "subject": "[마포 성산동 가로주택정비사업] 조경관 련 검토 요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260206_279_chlee@yegaone.com.eml",
@@ -4444,12 +4479,12 @@
       ]
     },
     {
-      "id": 223,
+      "id": 222,
       "date": "2026-02-06T06:46:20.000Z",
       "from": "(주)신담엔지니어링 <shindam3@korea.com>",
       "to": "jhkang@yegaone.com",
       "subject": "[상도동 스타리움] 주민센터 통신도면 첨부해드립니다.",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260206_274_shindam3@korea.com.eml",
@@ -4460,12 +4495,12 @@
       ]
     },
     {
-      "id": 222,
+      "id": 221,
       "date": "2026-02-06T01:30:45.000Z",
       "from": "\"Kim, Yong-woo\" <kimyw@gsenc.com>",
       "to": "오창기 <ckoh@dawonse.com>, 한성우 <hsw@dawonse.com>, 강재형 <bluedayidoff@yegaone.com>",
       "subject": "[동작센트럴자이_설계변경서_165] 109동  주변 휴게데크상부 평면검토 요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260206_271_kimyw@gsenc.com.eml",
@@ -4475,12 +4510,12 @@
       ]
     },
     {
-      "id": 221,
+      "id": 220,
       "date": "2026-02-06T00:46:43.000Z",
       "from": "한성우 <hsw@dawonse.com>",
       "to": "\"Kim, Yong-woo\" <kimyw@gsenc.com>, \"Yoo,Juhee\" <yjh0614@gsenc.com>, \"Kim,Ju-hye\" <jhkim60@gsenc.com>",
       "subject": "RE: [동작센트럴자이_설 계변경서_160] 104동  주변 공공보행통로 외부계단 1 철골지붕구조물 검토 요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260206_270_hsw@dawonse.com.eml",
@@ -4490,12 +4525,12 @@
       ]
     },
     {
-      "id": 220,
+      "id": 219,
       "date": "2026-02-05T07:18:04.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "",
       "subject": "[마포 성산동 가로주택정비사업] 친환경  관련 검토 회신 요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260205_269_chlee@yegaone.com.eml",
@@ -4507,12 +4542,12 @@
       ]
     },
     {
-      "id": 219,
+      "id": 218,
       "date": "2026-02-05T06:34:31.000Z",
       "from": "박삼용 <skyp2313@naver.com>",
       "to": "한상주 <hsj@yegaone.com>, 예가원 강재형부장 <jhkang@yegaone.com>",
       "subject": "FW: [동작센트럴자이] 상도2동 주민센터  출입구 도로현황 확인 및 BF인증조건 반 영 요청 공문 송부의 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260205_268_skyp2313@naver.com.eml",
@@ -4522,12 +4557,12 @@
       ]
     },
     {
-      "id": 217,
+      "id": 216,
       "date": "2026-02-05T06:32:52.000Z",
       "from": "\"Kim, Ju-hye\" <jhkim60@gsenc.com>",
       "to": "\"skyp2313@naver.com\" <skyp2313@naver.com>, \"jobible99@topec.co.kr\" <jobible99@topec.co.kr>, 강재형 <jhkang@yegaone.com>",
       "subject": "[동작센트럴자이] 상도2동 주민센터 출입 구 도로현황 확인 및 BF인증조건 반영 요 청 공문 송부의 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260205_267_jhkim60@gsenc.com.eml",
@@ -4537,12 +4572,12 @@
       ]
     },
     {
-      "id": 216,
+      "id": 215,
       "date": "2026-02-05T06:23:30.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "신상진 <sangjin.shin@daewooenc.com>",
       "subject": "[마포 성산동 가로주택정비사업] 친환경  관련 내용 송부",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260205_266_chlee@yegaone.com.eml",
@@ -4554,12 +4589,12 @@
       ]
     },
     {
-      "id": 215,
+      "id": 214,
       "date": "2026-02-05T05:08:25.000Z",
       "from": "(주)건축환경그룹 다올 <enh2013@naver.com>",
       "to": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "subject": "[건축환경그룹다올]마포 성산동 가로주 택정비사업 신재생 및 녹색건축인증 가 평가 내용",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260205_265_enh2013@naver.com.eml",
@@ -4571,12 +4606,12 @@
       ]
     },
     {
-      "id": 214,
+      "id": 213,
       "date": "2026-02-04T08:09:55.000Z",
       "from": "(주)신담엔지니어링 <shindam3@korea.com>",
       "to": "\"강재형\" <jhkang@yegaone.com>",
       "subject": "Re:FW: [에스비환경디자인] 상도스타리움 주민센터 관련 전기도서 첨부해드립니다.",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260204_264_shindam3@korea.com.eml",
@@ -4588,12 +4623,12 @@
       ]
     },
     {
-      "id": 213,
+      "id": 212,
       "date": "2026-02-04T05:45:56.000Z",
       "from": "한성우 <hsw@dawonse.com>",
       "to": "\"Kim, Yong-woo\" <kimyw@gsenc.com>, \"Kim,Ju-hye\" <jhkim60@gsenc.com>, \"Yoo,Juhee\" <yjh0614@gsenc.com>",
       "subject": "RE: [동작센트럴자이_설 계변경서_160] 104동  주변 공공보행통로 외부계단 1 철골지붕구조물 검토 요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260204_260_hsw@dawonse.com.eml",
@@ -4603,12 +4638,12 @@
       ]
     },
     {
-      "id": 212,
+      "id": 211,
       "date": "2026-02-04T01:43:59.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "고경민 <enh2013@naver.com>",
       "subject": "[마포 성산동 가로주택정비사업] 개요 및  배치 송부건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260204_254_chlee@yegaone.com.eml",
@@ -4618,12 +4653,12 @@
       ]
     },
     {
-      "id": 211,
+      "id": 210,
       "date": "2026-02-04T01:39:27.000Z",
       "from": "정찬희 <ray514871@yegaone.com>",
       "to": "에스비환경디자인_친환경건축본부 <mail@sbdesign.co.kr>",
       "subject": "예가원 건축사사무소[공공보행통로-1,2, 3 평,단면도]",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260204_253_ray514871@yegaone.com.eml",
@@ -4631,12 +4666,12 @@
       "attachments": []
     },
     {
-      "id": 210,
+      "id": 209,
       "date": "2026-02-04T01:35:45.000Z",
       "from": "정찬희 <ray514871@yegaone.com>",
       "to": "한성우 <hsw@dawonse.com>",
       "subject": "예가원 건축사사무소 [공공보행통로 평 ,단면도] 공공보행통로-1 계단 역보적용",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260204_252_ray514871@yegaone.com.eml",
@@ -4646,12 +4681,12 @@
       ]
     },
     {
-      "id": 209,
+      "id": 208,
       "date": "2026-02-03T09:01:22.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "FW: 성산모아타운1  창문관련 설계반영 요 청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260203_249_chlee@yegaone.com.eml",
@@ -4662,12 +4697,12 @@
       ]
     },
     {
-      "id": 208,
+      "id": 207,
       "date": "2026-02-03T08:14:33.000Z",
       "from": "에스비환경디자인_친환경건축본 부 <mail@sbdesign.co.kr>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "[에스비환경디자인] 상도스타리움  주민센터 관련 필요도면 요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260203_247_mail@sbdesign.co.kr.eml",
@@ -4678,12 +4713,12 @@
       ]
     },
     {
-      "id": 207,
+      "id": 206,
       "date": "2026-02-02T07:42:38.000Z",
       "from": "에스비환경디자인_친환경건축본 부 <mail@sbdesign.co.kr>",
       "to": "정찬희 <ray514871@yegaone.com>, 강재형 <jhkang@yegaone.com>",
       "subject": "[에스비환경디자인] 상도스타리움  외부 계단 및 안내도 BF 기준 반영 요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260202_238_mail@sbdesign.co.kr.eml",
@@ -4693,12 +4728,12 @@
       ]
     },
     {
-      "id": 205,
+      "id": 204,
       "date": "2026-02-02T05:37:54.000Z",
       "from": "지현재 <hyunj0526@yegaone.com>",
       "to": "<jdhouse78@naver.com>",
       "subject": "마포중동 사업성 보정계수 적용 관련 가 로주택정비사업 사업시행계획 변경(안)  수요조사 내용작성(안)",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260202_237_hyunj0526@yegaone.com.eml",
@@ -4708,12 +4743,12 @@
       ]
     },
     {
-      "id": 204,
+      "id": 203,
       "date": "2026-02-02T05:32:59.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "신상철 <shinsc63@daum.net>",
       "subject": "[마포 성산동 가로주택정비사업] 사업성  보정계수 적용 관련 가로주택정비사업  사업시행계획 변경(안) 수요조사 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260202_236_chlee@yegaone.com.eml",
@@ -4723,12 +4758,12 @@
       ]
     },
     {
-      "id": 202,
+      "id": 201,
       "date": "2026-02-02T04:57:24.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "기계 동남이엔시 <dn-mech@daum.net>",
       "subject": "[마포 성산동 가로주택정비사업] 정화조  및 우수조 관련 업무 미팅 요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260202_235_chlee@yegaone.com.eml",
@@ -4736,12 +4771,12 @@
       "attachments": []
     },
     {
-      "id": 201,
+      "id": 200,
       "date": "2026-02-02T01:08:54.000Z",
       "from": "\"Kim, Yong-woo\" <kimyw@gsenc.com>",
       "to": "오창기 <ckoh@dawonse.com>, 한성우 <hsw@dawonse.com>, 강재형 <bluedayidoff@yegaone.com>",
       "subject": "[동작센트럴자이_설계변경서_164] 105동  지붕층(최상층)보 검토 요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260202_234_kimyw@gsenc.com.eml",
@@ -4751,12 +4786,12 @@
       ]
     },
     {
-      "id": 200,
+      "id": 199,
       "date": "2026-01-30T09:22:41.000Z",
       "from": "(주)지호엔지니어링 <jiho@jihoeng.co.kr>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "Re: [상도 스타리움] 도로 실시계획인가 고시문 작성 요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260130_233_jiho@jihoeng.co.kr.eml",
@@ -4766,12 +4801,12 @@
       ]
     },
     {
-      "id": 199,
+      "id": 198,
       "date": "2026-01-30T06:23:25.000Z",
       "from": "한성우 <hsw@dawonse.com>",
       "to": "\"Kim,Yong-woo\" <kimyw@gsenc.com>, \"Yoo,Juhee\" <yjh0614@gsenc.com>",
       "subject": "RE: RE: RE:  [동작센트럴 자이_설계변 경서_155] 주동 R C 옥상구조 물 검토 요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260130_232_hsw@dawonse.com.eml",
@@ -4783,12 +4818,12 @@
       ]
     },
     {
-      "id": 198,
+      "id": 197,
       "date": "2026-01-30T05:42:31.000Z",
       "from": "한성우 <hsw@dawonse.com>",
       "to": "\"Kim,Yong-woo\" <kimyw@gsenc.com>, 강재형 <bluedayidoff@yegaone.com>, \"Yoo,Juhee\" <yjh0614@gsenc.com>, \"Kim,Ju-hye\" <jhkim60@gsenc.com>",
       "subject": "RE: [동작센트럴자 이_설계변경서_161]  근생D 공공보행통로  외부계단1 검토 요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260130_231_hsw@dawonse.com.eml",
@@ -4798,12 +4833,12 @@
       ]
     },
     {
-      "id": 197,
+      "id": 196,
       "date": "2026-01-30T05:35:14.000Z",
       "from": "\"Kim, Yong-woo\" <kimyw@gsenc.com>",
       "to": "오창기 <ckoh@dawonse.com>, 한성우 <hsw@dawonse.com>, 강재형 <bluedayidoff@yegaone.com>",
       "subject": "[동작센트럴자이_설계변경서_163] 옥탑 출 입문 상부 캐노피 배근 검토 요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260130_230_kimyw@gsenc.com.eml",
@@ -4813,12 +4848,12 @@
       ]
     },
     {
-      "id": 195,
+      "id": 194,
       "date": "2026-01-30T05:32:53.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "이대순 <cifec@naver.com>",
       "subject": "[마포 성산동 가로주택정비사업] 정화조  계획 관련 토목 의견 요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260130_229_chlee@yegaone.com.eml",
@@ -4828,12 +4863,12 @@
       ]
     },
     {
-      "id": 194,
+      "id": 193,
       "date": "2026-01-30T05:14:49.000Z",
       "from": "한성우 <hsw@dawonse.com>",
       "to": "\"Kim, Yong-woo\" <kimyw@gsenc.com>, 강재형 <bluedayidoff@yegaone.com>, \"Yoo,Juhee\" <yjh0614@gsenc.com>, \"Kim,Ju-hye\" <jhkim60@gsenc.com>",
       "subject": "RE: [동작센트럴자 이_설계변경서_161]  근생D 공공보행통로  외부계단1 검토 요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260130_225_hsw@dawonse.com.eml",
@@ -4841,12 +4876,12 @@
       "attachments": []
     },
     {
-      "id": 192,
+      "id": 191,
       "date": "2026-01-29T09:19:24.000Z",
       "from": "박삼용 <skyp2313@naver.com>",
       "to": "전국토지보상 임대진대표 <imdjin@naver.com>",
       "subject": "실시계획인가전 주민의견청취 열람 공고 .hwp",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260129_217_skyp2313@naver.com.eml",
@@ -4856,12 +4891,12 @@
       ]
     },
     {
-      "id": 191,
+      "id": 190,
       "date": "2026-01-29T01:06:30.000Z",
       "from": "\"Adobe Acrobat\" <mail@e.adobe.com>",
       "to": "jhkang@yegaone.com",
       "subject": "(광고)2026년 한해 업무를 멋지 게 도울 필수 툴을 만나보세요",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260129_216_mail@e.adobe.com.eml",
@@ -4869,12 +4904,12 @@
       "attachments": []
     },
     {
-      "id": 190,
+      "id": 188,
       "date": "2026-01-29T07:17:49.000Z",
       "from": "\"Kim, Ju-hye\" <jhkim60@gsenc.com>",
       "to": "\"jhkang@yegaone.com\" <jhkang@yegaone.com>",
       "subject": "[동작센트럴자이] 근린생활시설 평면도,  창호도 검토 도면 송부의 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260129_213_jhkim60@gsenc.com.eml",
@@ -4884,12 +4919,12 @@
       ]
     },
     {
-      "id": 189,
+      "id": 187,
       "date": "2026-01-29T05:12:24.000Z",
       "from": "\"Kim, Yong-woo\" <kimyw@gsenc.com>",
       "to": "오창기 <ckoh@dawonse.com>, 한성우 <hsw@dawonse.com>, 강재형 <bluedayidoff@yegaone.com>",
       "subject": "[동작센트럴자이_설계변경서_162] 어린이 집 외부계단 검토 요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260129_211_kimyw@gsenc.com.eml",
@@ -4899,12 +4934,12 @@
       ]
     },
     {
-      "id": 188,
+      "id": 186,
       "date": "2026-01-29T04:19:31.000Z",
       "from": "지현재 <hyunj0526@yegaone.com>",
       "to": "<chiki69@naver.com>",
       "subject": " 관악구 행운동 배치도 발송건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260129_209_hyunj0526@yegaone.com.eml",
@@ -4914,12 +4949,12 @@
       ]
     },
     {
-      "id": 186,
+      "id": 184,
       "date": "2026-01-29T00:59:45.000Z",
       "from": "박삼용 <skyp2313@naver.com>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "도로 실시계획인가(동작구).pdf",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260129_206_skyp2313@naver.com.eml",
@@ -4929,12 +4964,12 @@
       ]
     },
     {
-      "id": 184,
+      "id": 182,
       "date": "2026-01-28T02:34:06.000Z",
       "from": "\"Lee, Young-hwa\" <younghwalee1@gsenc.com>",
       "to": "\"arsh@i-sh.co.kr\" <arsh@i-sh.co.kr>",
       "subject": "[상도스타리움] 임대아파트 재개발 재건축  시설물 설치기준 송부",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260128_205_younghwalee1@gsenc.com.eml",
@@ -4946,12 +4981,12 @@
       ]
     },
     {
-      "id": 183,
+      "id": 181,
       "date": "2026-01-28T01:46:56.000Z",
       "from": "디자인그룹 예감 <yegamla@naver.com>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "상도 스타리움 어린이공원 고시문",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260128_204_yegamla@naver.com.eml",
@@ -4961,12 +4996,12 @@
       ]
     },
     {
-      "id": 182,
+      "id": 180,
       "date": "2026-01-28T01:19:07.000Z",
       "from": "한성우 <hsw@dawonse.com>",
       "to": "\"Kim,Yong-woo\" <kimyw@gsenc.com>, \"Yoo,Juhee\" <yjh0614@gsenc.com>",
       "subject": "RE: RE: [동작 센트럴자이_설계변경서 _155] 주동 RC 옥상구조물 검토 요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260128_203_hsw@dawonse.com.eml",
@@ -4976,12 +5011,12 @@
       ]
     },
     {
-      "id": 181,
+      "id": 179,
       "date": "2026-01-27T10:20:47.000Z",
       "from": "한성우 <hsw@dawonse.com>",
       "to": "\"Kim, Yong-woo\" <kimyw@gsenc.com>, \"Yoo,Juhee\" <yjh0614@gsenc.com>",
       "subject": "RE: [동작센트럴자이_설계변경서_1 55] 주동 RC 옥상구조물 검토 요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260127_202_hsw@dawonse.com.eml",
@@ -4992,12 +5027,12 @@
       ]
     },
     {
-      "id": 180,
+      "id": 178,
       "date": "2026-01-27T08:00:45.000Z",
       "from": "정찬희 <ray514871@yegaone.com>",
       "to": "최대영 <homzzz@naver.com>",
       "subject": "예가원 건축사사무소[상도2동 주민센터  조감도 관려 자료]",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260127_199_ray514871@yegaone.com.eml",
@@ -5005,12 +5040,12 @@
       "attachments": []
     },
     {
-      "id": 179,
+      "id": 177,
       "date": "2026-01-27T07:39:46.000Z",
       "from": "에스비환경디자인_친환경건축본 부 <mail@sbdesign.co.kr>",
       "to": "Yoo Juhee <yjh0614@gsenc.com>, 강재형 <jhkang@yegaone.com>",
       "subject": "[에스비환경디자인] 상도스타리움  (동작센트럴자이) - 비주거 형별 성능 창호 수정 -",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260127_198_mail@sbdesign.co.kr.eml",
@@ -5023,12 +5058,12 @@
       ]
     },
     {
-      "id": 176,
+      "id": 174,
       "date": "2026-01-27T07:25:30.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "이향선 <sunnylee1126@naver.com>, 이미현 <sewon49@nate.com>",
       "subject": "[마포 성산동 가로주택정비사업] 마포성 산교회 협의자료",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260127_197_chlee@yegaone.com.eml",
@@ -5038,12 +5073,12 @@
       ]
     },
     {
-      "id": 175,
+      "id": 173,
       "date": "2026-01-27T02:08:41.000Z",
       "from": "에스비환경디자인_친환경건축본 부 <mail@sbdesign.co.kr>",
       "to": "Yoo Juhee <yjh0614@gsenc.com>, 강재형 <jhkang@yegaone.com>",
       "subject": "[에스비환경디자인] 상도스타리움  (동작센트럴자이) - 비주거 형별 성능 창호 수정 -",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260127_194_mail@sbdesign.co.kr.eml",
@@ -5054,12 +5089,12 @@
       ]
     },
     {
-      "id": 173,
+      "id": 171,
       "date": "2026-01-27T01:55:30.000Z",
       "from": "여승민 [소장] [구조4본부] <smyeo@senkuzo.com>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "Re:[마포중동 가로주택 정비사업]구조 견적 요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260127_193_smyeo@senkuzo.com.eml",
@@ -5069,12 +5104,12 @@
       ]
     },
     {
-      "id": 172,
+      "id": 170,
       "date": "2026-01-27T00:32:06.000Z",
       "from": "(주)지호엔지니어링 <jiho@jihoeng.co.kr>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "Re: FW: [동작센트럴자이] SH 임대아파트 시설물 설치기준 작성 및 날인 요청의 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260127_190_jiho@jihoeng.co.kr.eml",
@@ -5084,12 +5119,12 @@
       ]
     },
     {
-      "id": 170,
+      "id": 168,
       "date": "2026-01-26T23:53:51.000Z",
       "from": "이수환 <shlee@i-st.kr>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "[RE] [마포중동 가로주택정비사업] 구조 견적 요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260127_189_shlee@i-st.kr.eml",
@@ -5100,12 +5135,12 @@
       ]
     },
     {
-      "id": 169,
+      "id": 167,
       "date": "2026-01-26T11:29:10.000Z",
       "from": "\"Yoo, Juhee\" <yjh0614@gsenc.com>",
       "to": "강재형 <bluedayidoff@yegaone.com>",
       "subject": "[동작센트럴자이] 비상용엘리베이터 문 크 기변경건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260126_188_yjh0614@gsenc.com.eml",
@@ -5117,12 +5152,12 @@
       ]
     },
     {
-      "id": 168,
+      "id": 166,
       "date": "2026-01-26T11:07:49.000Z",
       "from": "\"Yoo, Juhee\" <yjh0614@gsenc.com>",
       "to": "에스비환경디자인_친환경건축본부 <mail@sbdesign.co.kr>",
       "subject": "[동작센트럴자이] 유리 규격관련 검토요청 의건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260126_187_yjh0614@gsenc.com.eml",
@@ -5133,12 +5168,12 @@
       ]
     },
     {
-      "id": 167,
+      "id": 165,
       "date": "2026-01-26T08:31:14.000Z",
       "from": "counter@sindohj.com",
       "to": "jhkang@yegaone.com",
       "subject": "Message from 25C-0i",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260126_184_counter@sindohj.com.eml",
@@ -5148,12 +5183,12 @@
       ]
     },
     {
-      "id": 166,
+      "id": 164,
       "date": "2026-01-26T08:26:17.000Z",
       "from": "한성우 <hsw@dawonse.com>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "RE: FW: [동작센트럴자이] SH 임대아 파트 시설물 설치기준  작성 및 날인 요청의 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260126_183_hsw@dawonse.com.eml",
@@ -5166,12 +5201,12 @@
       ]
     },
     {
-      "id": 164,
+      "id": 162,
       "date": "2026-01-26T08:22:05.000Z",
       "from": "(주)신담엔지니어링 <shindam3@korea.com>",
       "to": "\"강재형\" <jhkang@yegaone.com>",
       "subject": "Re:FW: [동작센트럴자이] SH 임대아파트 시설물 설치기준 작성 및 날인 요청 작성하여 첨부해드립니다.",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260126_182_shindam3@korea.com.eml",
@@ -5185,12 +5220,12 @@
       ]
     },
     {
-      "id": 163,
+      "id": 161,
       "date": "2026-01-26T05:38:21.000Z",
       "from": "정찬희 <ray514871@yegaone.com>",
       "to": "에스비환경디자인_친환경건축본부 <mail@sbdesign.co.kr>",
       "subject": "예가원 건축사사무소[상도2동 주민센터  도면 수정파일]",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260126_181_ray514871@yegaone.com.eml",
@@ -5198,12 +5233,12 @@
       "attachments": []
     },
     {
-      "id": 161,
+      "id": 159,
       "date": "2026-01-26T04:42:07.000Z",
       "from": "\"주식회사 지음엠이씨(GiumMEC)\" <giummec@nate.com>",
       "to": "\"강재형\" <jhkang@yegaone.com>",
       "subject": "Re:FW: [동작센트럴자이] SH 임 대아파트 시설물 설치기준 작성  및 날인 요청의 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260126_180_giummec@nate.com.eml",
@@ -5213,12 +5248,12 @@
       ]
     },
     {
-      "id": 160,
+      "id": 158,
       "date": "2026-01-26T02:31:41.000Z",
       "from": "한상주 <hsj@yegaone.com>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "FW: 상도스타리움 실시계획인가 의제 사 업계획변경 관련 건설행정과와 도로관리 과 의견 송부",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260126_179_hsj@yegaone.com.eml",
@@ -5229,12 +5264,12 @@
       ]
     },
     {
-      "id": 159,
+      "id": 157,
       "date": "2026-01-26T02:18:46.000Z",
       "from": "한상주 <hsj@yegaone.com>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "FW: (신청사이전추진단)상도 스타리움 내  공공청사 내부구조에 대한 검토의견 제 출",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260126_178_hsj@yegaone.com.eml",
@@ -5244,12 +5279,12 @@
       ]
     },
     {
-      "id": 157,
+      "id": 155,
       "date": "2026-01-26T02:13:29.000Z",
       "from": "<skkim@midaseng.co.kr>",
       "to": "'강재형' <jhkang@yegaone.com>",
       "subject": "RE: [마포중동 가로주택정비사업]구 조 견적 요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260126_177_skkim@midaseng.co.kr.eml",
@@ -5259,12 +5294,12 @@
       ]
     },
     {
-      "id": 156,
+      "id": 154,
       "date": "2026-01-26T01:28:42.000Z",
       "from": "한성우 <hsw@dawonse.com>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "RE: FW: [동작센트럴자이] SH 임대아 파트 시설물 설치기준  작성 및 날인 요청의 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260126_174_hsw@dawonse.com.eml",
@@ -5277,12 +5312,12 @@
       ]
     },
     {
-      "id": 155,
+      "id": 153,
       "date": "2026-01-23T10:26:05.000Z",
       "from": "NAVER WORKS <no_reply@worksmobile.com>",
       "to": "<jhkang@yegaone.com>",
       "subject": "[발송실패 안내] kwf2000@chol.com으로 메일이  전송되지 못했습니다.",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260123_171_no_reply@worksmobile.com.eml",
@@ -5296,12 +5331,12 @@
       ]
     },
     {
-      "id": 153,
+      "id": 151,
       "date": "2026-01-23T09:29:21.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "신상철 <shinsc63@daum.net>",
       "subject": "[마포 성산동 가로주택정비사업] 단위세 대 등 제반 자료 송부 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260123_170_chlee@yegaone.com.eml",
@@ -5313,12 +5348,12 @@
       ]
     },
     {
-      "id": 152,
+      "id": 150,
       "date": "2026-01-23T08:14:35.000Z",
       "from": "NAVER WORKS <no_reply@worksmobile.com>",
       "to": "<jhkang@yegaone.com>",
       "subject": "[발송실패 안내] jihoeng@chol.com으로 메일이  전송되지 못했습니다.",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260123_169_no_reply@worksmobile.com.eml",
@@ -5332,12 +5367,12 @@
       ]
     },
     {
-      "id": 150,
+      "id": 148,
       "date": "2026-01-23T06:55:24.000Z",
       "from": "지현재 <hyunj0526@yegaone.com>",
       "to": "<chiki69@naver.com>",
       "subject": "관악구 행운동 지구단위 지원업무용 (배 치도, 개요) 발송 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260123_168_hyunj0526@yegaone.com.eml",
@@ -5348,12 +5383,12 @@
       ]
     },
     {
-      "id": 148,
+      "id": 146,
       "date": "2026-01-23T06:03:48.000Z",
       "from": "(주)지호엔지니어링 <jiho@jihoeng.co.kr>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "Re: FW: [동작센트럴자이] SH 임대아파트 시설물 설치기준 작성 및 날인 요청의 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260123_167_jiho@jihoeng.co.kr.eml",
@@ -5363,12 +5398,12 @@
       ]
     },
     {
-      "id": 146,
+      "id": 144,
       "date": "2026-01-23T05:07:03.000Z",
       "from": "디자인그룹 예감 <yegamla@naver.com>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "[동작센트럴자이] SH 임대아파트 시설물  설치기준 작성 및 날인  - 조경",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260123_160_yegamla@naver.com.eml",
@@ -5381,12 +5416,12 @@
       ]
     },
     {
-      "id": 145,
+      "id": 143,
       "date": "2026-01-23T04:59:34.000Z",
       "from": "정서영 <jsy@yegaone.com>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "[예가원] 1월 급여 명세서",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260123_159_jsy@yegaone.com.eml",
@@ -5396,12 +5431,12 @@
       ]
     },
     {
-      "id": 143,
+      "id": 141,
       "date": "2026-01-23T02:48:29.000Z",
       "from": "정찬희 <ray514871@yegaone.com>",
       "to": "최대영 <homzzz@naver.com>",
       "subject": "예가원 건축사사무소 [상도2동 주민센터 ] 평,입,단면도 ",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260123_156_ray514871@yegaone.com.eml",
@@ -5409,12 +5444,12 @@
       "attachments": []
     },
     {
-      "id": 142,
+      "id": 140,
       "date": "2026-01-22T08:28:08.000Z",
       "from": "NAVER WORKS <no_reply@worksmobile.com>",
       "to": "<jhkang@yegaone.com>",
       "subject": "[발송지연 안내] jihoeng@chol.com으로 메일  전송이 지연되고 있습니다.",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260122_155_no_reply@worksmobile.com.eml",
@@ -5422,12 +5457,12 @@
       "attachments": []
     },
     {
-      "id": 141,
+      "id": 139,
       "date": "2026-01-22T08:27:46.000Z",
       "from": "NAVER WORKS <no_reply@worksmobile.com>",
       "to": "<jhkang@yegaone.com>",
       "subject": "[발송지연 안내] kwf2000@chol.com으로 메일  전송이 지연되고 있습니다.",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260122_154_no_reply@worksmobile.com.eml",
@@ -5435,12 +5470,12 @@
       "attachments": []
     },
     {
-      "id": 140,
+      "id": 138,
       "date": "2026-01-22T06:41:45.000Z",
       "from": "\"Lee, Young-hwa\" <younghwalee1@gsenc.com>",
       "to": "\"jhkang@yegaone.com\" <jhkang@yegaone.com>",
       "subject": "[동작센트럴자이] SH 임대아파트 시설물  설치기준 작성 및 날인 요청의 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260122_145_younghwalee1@gsenc.com.eml",
@@ -5452,12 +5487,12 @@
       ]
     },
     {
-      "id": 139,
+      "id": 137,
       "date": "2026-01-22T05:51:18.000Z",
       "from": "신상진 책임(SANGJIN SHIN) <sangjin.shin@daewooenc.com>",
       "to": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "subject": " Re: [마포 성산동 가로주택정비사업] 사업 시행인가 접수 전 검토도서 및 참고자료  송부",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260122_144_sangjin.shin@daewooenc.com.eml",
@@ -5465,12 +5500,12 @@
       "attachments": []
     },
     {
-      "id": 138,
+      "id": 136,
       "date": "2026-01-22T05:29:52.000Z",
       "from": "\"Yoo, Juhee\" <yjh0614@gsenc.com>",
       "to": "에스비환경디자인_친환경건축본부 <mail@sbdesign.co.kr>",
       "subject": "[동작센트럴자이] 근린생활시설A 내,외부  AL창호 유리규격 관련",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260122_143_yjh0614@gsenc.com.eml",
@@ -5482,12 +5517,12 @@
       ]
     },
     {
-      "id": 137,
+      "id": 135,
       "date": "2026-01-21T08:53:30.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "신상진 <sangjin.shin@daewooenc.com>",
       "subject": "[마포 성산동 가로주택정비사업] 사업시 행인가 접수 전 검토도서 및 참고자료 송 부",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260121_142_chlee@yegaone.com.eml",
@@ -5498,12 +5533,12 @@
       ]
     },
     {
-      "id": 136,
+      "id": 134,
       "date": "2026-01-21T06:43:13.000Z",
       "from": "\"Kim, Yong-woo\" <kimyw@gsenc.com>",
       "to": "오창기 <ckoh@dawonse.com>, 한성우 <hsw@dawonse.com>, 강재형 <bluedayidoff@yegaone.com>",
       "subject": "[동작센트럴자이_설계변경서_161] 근생D  공공보행통로 외부계단1 검토 요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260121_141_kimyw@gsenc.com.eml",
@@ -5513,12 +5548,12 @@
       ]
     },
     {
-      "id": 135,
+      "id": 133,
       "date": "2026-01-21T03:12:43.000Z",
       "from": "에스비환경디자인_친환경건축본 부 <mail@sbdesign.co.kr>",
       "to": "정찬희 <ray514871@yegaone.com>",
       "subject": "[에스비환경디자인] 상도스타리움  BF 관련 검토자료 송부",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260121_139_mail@sbdesign.co.kr.eml",
@@ -5528,12 +5563,12 @@
       ]
     },
     {
-      "id": 134,
+      "id": 132,
       "date": "2026-01-20T12:49:29.000Z",
       "from": "\"Yoo, Juhee\" <yjh0614@gsenc.com>",
       "to": "\"bluedayidoff@yegaone.com\" <bluedayidoff@yegaone.com>",
       "subject": "FW: RE: [RE][동작센트럴자이] 부속동 및  근린생활시설 내,외부 AL창호 유리규격 관 련",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260120_135_yjh0614@gsenc.com.eml",
@@ -5541,12 +5576,12 @@
       "attachments": []
     },
     {
-      "id": 133,
+      "id": 131,
       "date": "2026-01-20T08:07:41.000Z",
       "from": "동남엠이씨_기계설비 <dn-mech@dnmec.com>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "동남엠이씨입니다.(마포구  성산동 기계검토 도면 송부)",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260120_133_dn-mech@dnmec.com.eml",
@@ -5556,12 +5591,12 @@
       ]
     },
     {
-      "id": 131,
+      "id": 129,
       "date": "2026-01-20T08:03:21.000Z",
       "from": "정은미<jen00@dongjak.go.kr>",
       "to": "\"강재형\" <jhkang@yegaone.com>",
       "subject": "상도2동 주민센터 관련 문의",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260120_132_jen00@dongjak.go.kr.eml",
@@ -5569,12 +5604,12 @@
       "attachments": []
     },
     {
-      "id": 130,
+      "id": 128,
       "date": "2026-01-20T07:35:26.000Z",
       "from": "\"Yoo, Juhee\" <yjh0614@gsenc.com>",
       "to": "강재형 <bluedayidoff@yegaone.com>",
       "subject": "Fw: [RE][동작센트럴자이] 부속동 및 근린 생활시설 내,외부 AL창호 유리규격 관련",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260120_130_yjh0614@gsenc.com.eml",
@@ -5592,12 +5627,12 @@
       ]
     },
     {
-      "id": 129,
+      "id": 127,
       "date": "2026-01-20T07:32:06.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "신상진 <sangjin.shin@daewooenc.com>",
       "subject": "[마포 성산동 가로주택정비사업] 성산교 회 협의 일정 및 요구 면적 검토 관련 안 내",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260120_129_chlee@yegaone.com.eml",
@@ -5605,12 +5640,12 @@
       "attachments": []
     },
     {
-      "id": 128,
+      "id": 126,
       "date": "2026-01-19T08:05:28.000Z",
       "from": "\"Kim, Yong-woo\" <kimyw@gsenc.com>",
       "to": "오창기 <ckoh@dawonse.com>, 한성우 <hsw@dawonse.com>, 강재형 <bluedayidoff@yegaone.com>",
       "subject": "동작센트럴자이 설계변경서 146 관련 공공 보행통로 외부계단2 벽천변경반영 도면 송 부",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260119_126_kimyw@gsenc.com.eml",
@@ -5620,12 +5655,12 @@
       ]
     },
     {
-      "id": 127,
+      "id": 125,
       "date": "2026-01-19T07:41:22.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "주민센터.zip",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260119_125_jhkang@yegaone.com.eml",
@@ -5633,12 +5668,12 @@
       "attachments": []
     },
     {
-      "id": 126,
+      "id": 124,
       "date": "2026-01-19T05:43:12.000Z",
       "from": "\"Kim, Yong-woo\" <kimyw@gsenc.com>",
       "to": "오창기 <ckoh@dawonse.com>, 한성우 <hsw@dawonse.com>, 강재형 <bluedayidoff@yegaone.com>",
       "subject": "[동작센트럴자이_설계변경서_160] 104동  주변 공공보행통로 외부계단1 철골지붕구 조물 검토 요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260119_123_kimyw@gsenc.com.eml",
@@ -5648,12 +5683,12 @@
       ]
     },
     {
-      "id": 125,
+      "id": 123,
       "date": "2026-01-19T01:30:36.000Z",
       "from": "한성우 <hsw@dawonse.com>",
       "to": "\"Kim, Yong-woo\" <kimyw@gsenc.com>, \"Yoo,Juhee\" <yjh0614@gsenc.com>",
       "subject": "RE: [동작센트럴자이_설계변경서_1 59] 근생D 지하4층 기초검토 요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260119_120_hsw@dawonse.com.eml",
@@ -5663,12 +5698,12 @@
       ]
     },
     {
-      "id": 123,
+      "id": 121,
       "date": "2026-01-19T01:19:04.000Z",
       "from": "\"Lee, Young-hwa\" <younghwalee1@gsenc.com>",
       "to": "\"bluedayidoff@yegaone.com\" <bluedayidoff@yegaone.com>",
       "subject": "[동작센트럴자이] 「임대아파트 시설물 설 치기준」파일 확인 요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260119_119_younghwalee1@gsenc.com.eml",
@@ -5679,12 +5714,12 @@
       ]
     },
     {
-      "id": 121,
+      "id": 119,
       "date": "2026-01-19T00:51:54.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "임석주 <dn-mech@dnmec.com>",
       "subject": "[마포 성산동 가로주택정비사업] 단위세 대 및 동평면도 검토 요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260119_118_chlee@yegaone.com.eml",
@@ -5694,12 +5729,12 @@
       ]
     },
     {
-      "id": 120,
+      "id": 118,
       "date": "2026-01-16T01:18:56.000Z",
       "from": "\"Yoo, Juhee\" <yjh0614@gsenc.com>",
       "to": "에스비환경디자인_친환경건축본부 <mail@sbdesign.co.kr>",
       "subject": "[동작센트럴자이] 부속동 및 근린생활시설  내,외부 AL창호 유리규격 관련",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260116_117_yjh0614@gsenc.com.eml",
@@ -5712,12 +5747,12 @@
       ]
     },
     {
-      "id": 119,
+      "id": 117,
       "date": "2026-01-15T08:33:54.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "대우건설 신상진 책임 <sangjin.shin@daewooenc.com>",
       "subject": "[마포 성산동 가로주택정비사업] 103동 동 조합 검토요청 건_16H",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260115_116_chlee@yegaone.com.eml",
@@ -5727,12 +5762,12 @@
       ]
     },
     {
-      "id": 118,
+      "id": 116,
       "date": "2026-01-15T07:10:27.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "대우건설 신상진 책임 <sangjin.shin@daewooenc.com>",
       "subject": "[마포 성산동 가로주택정비사업] 103동 동 조합 검토요청 건_14H",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260115_115_chlee@yegaone.com.eml",
@@ -5742,12 +5777,12 @@
       ]
     },
     {
-      "id": 117,
+      "id": 115,
       "date": "2026-01-15T05:37:38.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "구조 이진호 부소장 <skylover815@hanmail.net>",
       "subject": "[마포 성산동 가로주택정비사업] 103동 동 조합 검토요청 건_14H",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260115_114_chlee@yegaone.com.eml",
@@ -5759,12 +5794,12 @@
       ]
     },
     {
-      "id": 116,
+      "id": 114,
       "date": "2026-01-15T02:25:17.000Z",
       "from": "신상진 책임(SANGJIN SHIN) <sangjin.shin@daewooenc.com>",
       "to": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "subject": " RE: [마포 성산동 가로주택정비사 업] 103동 동조합 대안",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260115_113_sangjin.shin@daewooenc.com.eml",
@@ -5775,12 +5810,12 @@
       ]
     },
     {
-      "id": 115,
+      "id": 113,
       "date": "2026-01-15T00:53:27.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "대우건설 신상진 책임 <sangjin.shin@daewooenc.com>",
       "subject": "[마포 성산동 가로주택정비사업] 103동 동 조합 대안",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260115_112_chlee@yegaone.com.eml",
@@ -5790,90 +5825,12 @@
       ]
     },
     {
-      "id": 114,
-      "date": "2026-01-14T11:00:21.000Z",
-      "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
-      "to": "구조 이진호 부소장 <skylover815@hanmail.net>",
-      "subject": "[마포 성산동 가로주택정비사업] 103동 동 조합 검토요청 건",
-      "tag": "기타",
-      "memo": "",
-      "read": false,
-      "filename": "20260114_111_chlee@yegaone.com.eml",
-      "body": "안녕하세요.\n예가원건축사사무소 이찬희 차장입니다.\n우선 12일에 검토했던 동평면도 안은 시공성 저하로 인해 조정이 필요하다는 의견을 수신하였습니다.(20260114_17H)\n\n이에 따라 내부적으로 몇 가지 대안을 정리하여 송부드립니다.\n\n20261115_동평면도 대안\n→ 시공성 검토를 반영하여 정리한 대안입니다.\n\n\n또한 대우건설 설계팀에서 전달받은 동평면 대안도 함께 송부드립니다.\n\n20261114_103동 동평면도 대안(대우수신)\n→ 제 판단으로는 코어 정착 측면에서 다소 불안정해 보이는 부분이 있어, 확인 차원의 검토를 요청드립니다.\n\n\n익일 오전 중 대우건설과 관련 협의가 예정되어 있어, 송구스럽지만 가능하시다면 빠른 검토 의견을 부탁드립니다.\n\n\n감사합니다.\n이찬희 올림\n\n\n\n이찬희 (주)예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4236-4065 Mobile +82 010-2949-9422\nEmail chlee@yegaone.com \n\n\n\n",
-      "attachments": [
-        "20260115_103동 동평면도 대안.dwg",
-        "20261114_103동 동평면도 대안(대우수신).dw"
-      ]
-    },
-    {
-      "id": 113,
-      "date": "2026-01-14T09:30:11.000Z",
-      "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
-      "to": "대우건설 신상진 책임 <sangjin.shin@daewooenc.com>",
-      "subject": "[마포 성산동 가로주택정비사업] 근린생 활시설2(성산교회)검토 건",
-      "tag": "기타",
-      "memo": "",
-      "read": false,
-      "filename": "20260114_110_chlee@yegaone.com.eml",
-      "body": "신상진 책임님께,\n안녕하세요. 예가원건축사사무소 이찬희 차장입니다.\n\n근린생활시설2(성산교회) 관련하여 최근까지 검토했던 내용 전달드립니다.\n해당 내용은 현재 교회 측과 협의 중인 사항으로, 아직 확정안은 아니어서 당초 송부드리지는 않았으나, 맥락 공유 차원에서 전달드립니다.\n\n근린생활시설2(성산교회) 면적이 확대될 경우, 1. 주차대수 확보 문제 및 2. 용적률 초과 가능성 등의 이슈가 발생할 수 있는 상황입니다.\n현재 계획안은 통합심의 대비 근린생활시설2 지상 1층 면적이 114.9092㎡ 증가한 안으로, 이에 따라 용적률이 약 0.6861% 증가한 상태입니다.\n\n향후 교회 측 협의 결과 및 방향에 따라 계획 조정 가능성이 있습니다.\n업무에 참고 바랍니다.\n\n감사합니다.\n이찬희 올림\n\n\n\n이찬희 (주)예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4236-4065 Mobile +82 010-2949-9422\nEmail chlee@yegaone.com \n\n\n\n",
-      "attachments": [
-        "20251219_근린생활시설2검토.pdf"
-      ]
-    },
-    {
-      "id": 111,
-      "date": "2026-01-14T06:34:20.000Z",
-      "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
-      "to": "대우건설 박무영 소장 <muyoung.park@daewooenc.com>",
-      "subject": "[마포 성산동 가로주택정비사업] 건축개 요 송부 건",
-      "tag": "기타",
-      "memo": "",
-      "read": false,
-      "filename": "20260114_107_chlee@yegaone.com.eml",
-      "body": "박무영 소장님께,\n안녕하세요.\n예가원건축사사무소 이찬희 차장입니다.\n\n성산동 가로주택정비사업과 관련하여 현재 진행 중인 건축개요를 송부드립니다.\n\n다만, 본 개요는 103동 관련 구조 협의가 아직 완료되지 않은 상태로,\n향후 코어 구성에 따라 면적 변동 가능성이 있음을 안내드립니다.\n또한, 금번 송부드리는 건축개요는 최근까지 협의된 근린생활시설2(교회) 부분 면적이 반영된 안임을 참고바랍니다.\n\n업무에 참고하시기 바랍니다.\n\n감사합니다.\n이찬희 올림\n\n\n\n이찬희 (주)예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4236-4065 Mobile +82 010-2949-9422\nEmail chlee@yegaone.com \n\n\n\n",
-      "attachments": [
-        "260114_건축개요.pdf"
-      ]
-    },
-    {
-      "id": 110,
-      "date": "2026-01-14T05:10:07.000Z",
-      "from": "\"Kim, Yong-woo\" <kimyw@gsenc.com>",
-      "to": "오창기 <ckoh@dawonse.com>, 한성우 <hsw@dawonse.com>, 강재형 <bluedayidoff@yegaone.com>",
-      "subject": "동작센트럴자이 설계변경서 146 관련 공공 보행통로 외부계단3 벽천변경반영 도면 송 부",
-      "tag": "기타",
-      "memo": "",
-      "read": false,
-      "filename": "20260114_106_kimyw@gsenc.com.eml",
-      "body": "안녕하세요. GS건설 김용우 책임입니다.\r\n\r\n설계변경서 146 관련 공공보행통로 외부계단3 특화(벽천) 반영 구조평면도 및 단면도 송부합니다.\r\n\r\n기 검토된 공공보행통로 2 특화(벽천) 반영사항 포함하여 검토회신 요청드립니다.\r\n\r\n\r\n",
-      "attachments": [
-        "S4-031~037 지상1층~지하5층 전체구조평면",
-        "공공보행통로 외부계단-3 구조단면도(벽천"
-      ]
-    },
-    {
-      "id": 109,
-      "date": "2026-01-14T01:42:48.000Z",
-      "from": "에스비환경디자인_친환경건축본 부 <mail@sbdesign.co.kr>",
-      "to": "Yoo Juhee <yjh0614@gsenc.com>",
-      "subject": "[에스비환경디자인] [동작센트럴 자이] 부속동 및 근린생활시설 내, 외부 AL창호 유리규격 관련 회신",
-      "tag": "기타",
-      "memo": "",
-      "read": false,
-      "filename": "20260114_100_mail@sbdesign.co.kr.eml",
-      "body": "안녕하세요.에스비환경디자인 이다은 팀장입니다.말씀하신 비주거 시설 창호 단열기준 확인한 결과 변경안으로 적용하셔도에너지절약계획서 기준 만족함을 확인했습니다.- 외측창 26T → 24T : 외벽 평균열관류율 여유 있어 문제 없음- 외측 여닫이도어 12T → 24T : 성능 상향이므로 문제없음- 내측 여닫이도어 24T → 12T: 내측 유리 도어 확인 결과 소규모점포+방풍문으로 12T 적용 가능감사합니다.이 다 은DaEun Lee 친환경에너지사업부 3팀팀장M010 5880 0384/T070 5137 3885㈜에스비환경디자인  SustainableBuildingEnvironment Design Group견적,계약,기성 관련:sb@sbdesign.co.kr(김재형 이사)친환경사업부:mail@sbdesign.co.kr(인증)디자인사업부:email@sbdesign.co.kr(경관)대표전화:070-5137-3800 / Fax:02-577-7030 06292 서울특별시 강남구 언주로30길13, 3011호(도곡동, 대림아크로텔) http://www.SBdesign.co.kr E-Mail:mail@sbdesign.co.kr■ 업무영역녹색건축인증 / 건축물에너지효율등급 /ZEB / 에너지절약형친환경주택건강친화형주택 / 장수명주택 / 주택성능등급 / CPTED / LEED인증결로방지성능평가 / 장애물없는생활환경인증(BF) / 지능형건축물인증(IBS)에너지절약계획서 / 건축물에너지소요량평가서(eco2-od) / 현상 / TK교육환경보호계획 / 수질오염총량/ 저영향개발(LID)사전협의 / LCA경관심의 /토탈디자인 / 경관조명 / 좋은빛심의 / 종합디자인----- Original Message -----From : \"Yoo, Juhee\" <yjh0614@gsenc.com>To : 강재형 <bluedayidoff@yegaone.com>,  친환경 에스비환경 <mail@sbdesign.co.kr>Sent : 2026-01-13 14:01:10Subject : [동작센트럴자이] 부속동 및 근린생활시설 내,외부 AL창호 유리규격 정리관련<mailplughtml>  \n<mailplughead>  \n  \n  \n</mailplughead>  \n<mailplugbody dir=\"ltr\">  \n</mailplughtml>  \n부장님, 안녕하세요.  \n  \n  \n어제 잠깐 말씀드린 내용인데..  \n부속동 및 근생 창 사양을 다음과 같이 변경 하려고 합니다.  \n  \n  \n검토 후 회신 부탁드립니다.  \n감사합니다.  \n  \n  \n  \n  \n    \n  \n보낸 사람:이형석(Lee, Hyung seuk) / 동작센트럴자이(서울)(hslee52@gsenc.com) <hslee52@gsenc.com>  \n보낸 날짜:2026년 1월 13일 화요일 12:33  \n받는 사람:유주희(Yoo, Juhee) / 동작센트럴자이(서울)(yjh0614@gsenc.com) <yjh0614@gsenc.com>  \n제목:부속동 및 근린생활시설 내,외부 AL창호 유리규격 정리관련  \n업무에 수고가 많으십니다.    \n동작센트럴 자이현장 부속동 및 근생AL창호에 설치되는 유리의 종류가 같은 부위라도 상이하여 아래와 같이 통일하였으면 합니다.    \n    \n현황 외측창호: 여닫이도어12MM 강화유리, 고정창THK 26 (5mmCL + 16mmAR +5mmLE)    \n 내측창호: 여닫이도어24MM 복층유리THK 24(5MMCL + 14MMAR + 5MMAL), 고정창THK 24(5MMCL + 14MMAR + 5MMAL)    \n    \n변경안: 외측창호: 여닫이도어24MM 복층유리(5MMCL + 14MMAR + 5MMAL)+ 고정창THK 24(5MMCL + 14MMAR + 5MMAL)    \n 내측창호: 여닫이도어12MM 강화유리, 고정창 THK 24(5MMCL + 14MMAR + 5MMAL)    \n변경안과 같이 복층유리를THK24( 5MMCL + 14MMAR + 5MMAL)로 통일하며, 외부 여닫이도어는 THK24복층으로, 내부 여닫이도어는 THK 12 강화유리로    \n    \n    \nGS E&C    \n이 형 석    \nLee, Hyung Seuk    \n    \n상도 지역 주택사업(서울)    \n서울특별시 동작구 상도로 174(상도동)    \nM :010-2881-7579    \nE-mail : hslee52@gsenc.com    \n  \n  \n \n\n",
-      "attachments": [
-        "image.16812026133921.png",
-        "a6c800fe6319.png"
-      ]
-    },
-    {
-      "id": 108,
+      "id": 112,
       "date": "2026-01-14T00:40:28.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "대우건설 신상진 책임 <sangjin.shin@daewooenc.com>",
       "subject": "[마포 성산동 가로주택정비사업] 103동 동 조합 검토요청 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260114_99_chlee@yegaone.com.eml",
@@ -5884,12 +5841,90 @@
       ]
     },
     {
+      "id": 111,
+      "date": "2026-01-14T11:00:21.000Z",
+      "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
+      "to": "구조 이진호 부소장 <skylover815@hanmail.net>",
+      "subject": "[마포 성산동 가로주택정비사업] 103동 동 조합 검토요청 건",
+      "tag": "IN",
+      "memo": "",
+      "read": false,
+      "filename": "20260114_111_chlee@yegaone.com.eml",
+      "body": "안녕하세요.\n예가원건축사사무소 이찬희 차장입니다.\n우선 12일에 검토했던 동평면도 안은 시공성 저하로 인해 조정이 필요하다는 의견을 수신하였습니다.(20260114_17H)\n\n이에 따라 내부적으로 몇 가지 대안을 정리하여 송부드립니다.\n\n20261115_동평면도 대안\n→ 시공성 검토를 반영하여 정리한 대안입니다.\n\n\n또한 대우건설 설계팀에서 전달받은 동평면 대안도 함께 송부드립니다.\n\n20261114_103동 동평면도 대안(대우수신)\n→ 제 판단으로는 코어 정착 측면에서 다소 불안정해 보이는 부분이 있어, 확인 차원의 검토를 요청드립니다.\n\n\n익일 오전 중 대우건설과 관련 협의가 예정되어 있어, 송구스럽지만 가능하시다면 빠른 검토 의견을 부탁드립니다.\n\n\n감사합니다.\n이찬희 올림\n\n\n\n이찬희 (주)예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4236-4065 Mobile +82 010-2949-9422\nEmail chlee@yegaone.com \n\n\n\n",
+      "attachments": [
+        "20260115_103동 동평면도 대안.dwg",
+        "20261114_103동 동평면도 대안(대우수신).dw"
+      ]
+    },
+    {
+      "id": 110,
+      "date": "2026-01-14T09:30:11.000Z",
+      "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
+      "to": "대우건설 신상진 책임 <sangjin.shin@daewooenc.com>",
+      "subject": "[마포 성산동 가로주택정비사업] 근린생 활시설2(성산교회)검토 건",
+      "tag": "IN",
+      "memo": "",
+      "read": false,
+      "filename": "20260114_110_chlee@yegaone.com.eml",
+      "body": "신상진 책임님께,\n안녕하세요. 예가원건축사사무소 이찬희 차장입니다.\n\n근린생활시설2(성산교회) 관련하여 최근까지 검토했던 내용 전달드립니다.\n해당 내용은 현재 교회 측과 협의 중인 사항으로, 아직 확정안은 아니어서 당초 송부드리지는 않았으나, 맥락 공유 차원에서 전달드립니다.\n\n근린생활시설2(성산교회) 면적이 확대될 경우, 1. 주차대수 확보 문제 및 2. 용적률 초과 가능성 등의 이슈가 발생할 수 있는 상황입니다.\n현재 계획안은 통합심의 대비 근린생활시설2 지상 1층 면적이 114.9092㎡ 증가한 안으로, 이에 따라 용적률이 약 0.6861% 증가한 상태입니다.\n\n향후 교회 측 협의 결과 및 방향에 따라 계획 조정 가능성이 있습니다.\n업무에 참고 바랍니다.\n\n감사합니다.\n이찬희 올림\n\n\n\n이찬희 (주)예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4236-4065 Mobile +82 010-2949-9422\nEmail chlee@yegaone.com \n\n\n\n",
+      "attachments": [
+        "20251219_근린생활시설2검토.pdf"
+      ]
+    },
+    {
+      "id": 108,
+      "date": "2026-01-14T06:34:20.000Z",
+      "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
+      "to": "대우건설 박무영 소장 <muyoung.park@daewooenc.com>",
+      "subject": "[마포 성산동 가로주택정비사업] 건축개 요 송부 건",
+      "tag": "IN",
+      "memo": "",
+      "read": false,
+      "filename": "20260114_107_chlee@yegaone.com.eml",
+      "body": "박무영 소장님께,\n안녕하세요.\n예가원건축사사무소 이찬희 차장입니다.\n\n성산동 가로주택정비사업과 관련하여 현재 진행 중인 건축개요를 송부드립니다.\n\n다만, 본 개요는 103동 관련 구조 협의가 아직 완료되지 않은 상태로,\n향후 코어 구성에 따라 면적 변동 가능성이 있음을 안내드립니다.\n또한, 금번 송부드리는 건축개요는 최근까지 협의된 근린생활시설2(교회) 부분 면적이 반영된 안임을 참고바랍니다.\n\n업무에 참고하시기 바랍니다.\n\n감사합니다.\n이찬희 올림\n\n\n\n이찬희 (주)예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4236-4065 Mobile +82 010-2949-9422\nEmail chlee@yegaone.com \n\n\n\n",
+      "attachments": [
+        "260114_건축개요.pdf"
+      ]
+    },
+    {
       "id": 107,
+      "date": "2026-01-14T05:10:07.000Z",
+      "from": "\"Kim, Yong-woo\" <kimyw@gsenc.com>",
+      "to": "오창기 <ckoh@dawonse.com>, 한성우 <hsw@dawonse.com>, 강재형 <bluedayidoff@yegaone.com>",
+      "subject": "동작센트럴자이 설계변경서 146 관련 공공 보행통로 외부계단3 벽천변경반영 도면 송 부",
+      "tag": "IN",
+      "memo": "",
+      "read": false,
+      "filename": "20260114_106_kimyw@gsenc.com.eml",
+      "body": "안녕하세요. GS건설 김용우 책임입니다.\r\n\r\n설계변경서 146 관련 공공보행통로 외부계단3 특화(벽천) 반영 구조평면도 및 단면도 송부합니다.\r\n\r\n기 검토된 공공보행통로 2 특화(벽천) 반영사항 포함하여 검토회신 요청드립니다.\r\n\r\n\r\n",
+      "attachments": [
+        "S4-031~037 지상1층~지하5층 전체구조평면",
+        "공공보행통로 외부계단-3 구조단면도(벽천"
+      ]
+    },
+    {
+      "id": 106,
+      "date": "2026-01-14T01:42:48.000Z",
+      "from": "에스비환경디자인_친환경건축본 부 <mail@sbdesign.co.kr>",
+      "to": "Yoo Juhee <yjh0614@gsenc.com>",
+      "subject": "[에스비환경디자인] [동작센트럴 자이] 부속동 및 근린생활시설 내, 외부 AL창호 유리규격 관련 회신",
+      "tag": "IN",
+      "memo": "",
+      "read": false,
+      "filename": "20260114_100_mail@sbdesign.co.kr.eml",
+      "body": "안녕하세요.에스비환경디자인 이다은 팀장입니다.말씀하신 비주거 시설 창호 단열기준 확인한 결과 변경안으로 적용하셔도에너지절약계획서 기준 만족함을 확인했습니다.- 외측창 26T → 24T : 외벽 평균열관류율 여유 있어 문제 없음- 외측 여닫이도어 12T → 24T : 성능 상향이므로 문제없음- 내측 여닫이도어 24T → 12T: 내측 유리 도어 확인 결과 소규모점포+방풍문으로 12T 적용 가능감사합니다.이 다 은DaEun Lee 친환경에너지사업부 3팀팀장M010 5880 0384/T070 5137 3885㈜에스비환경디자인  SustainableBuildingEnvironment Design Group견적,계약,기성 관련:sb@sbdesign.co.kr(김재형 이사)친환경사업부:mail@sbdesign.co.kr(인증)디자인사업부:email@sbdesign.co.kr(경관)대표전화:070-5137-3800 / Fax:02-577-7030 06292 서울특별시 강남구 언주로30길13, 3011호(도곡동, 대림아크로텔) http://www.SBdesign.co.kr E-Mail:mail@sbdesign.co.kr■ 업무영역녹색건축인증 / 건축물에너지효율등급 /ZEB / 에너지절약형친환경주택건강친화형주택 / 장수명주택 / 주택성능등급 / CPTED / LEED인증결로방지성능평가 / 장애물없는생활환경인증(BF) / 지능형건축물인증(IBS)에너지절약계획서 / 건축물에너지소요량평가서(eco2-od) / 현상 / TK교육환경보호계획 / 수질오염총량/ 저영향개발(LID)사전협의 / LCA경관심의 /토탈디자인 / 경관조명 / 좋은빛심의 / 종합디자인----- Original Message -----From : \"Yoo, Juhee\" <yjh0614@gsenc.com>To : 강재형 <bluedayidoff@yegaone.com>,  친환경 에스비환경 <mail@sbdesign.co.kr>Sent : 2026-01-13 14:01:10Subject : [동작센트럴자이] 부속동 및 근린생활시설 내,외부 AL창호 유리규격 정리관련<mailplughtml>  \n<mailplughead>  \n  \n  \n</mailplughead>  \n<mailplugbody dir=\"ltr\">  \n</mailplughtml>  \n부장님, 안녕하세요.  \n  \n  \n어제 잠깐 말씀드린 내용인데..  \n부속동 및 근생 창 사양을 다음과 같이 변경 하려고 합니다.  \n  \n  \n검토 후 회신 부탁드립니다.  \n감사합니다.  \n  \n  \n  \n  \n    \n  \n보낸 사람:이형석(Lee, Hyung seuk) / 동작센트럴자이(서울)(hslee52@gsenc.com) <hslee52@gsenc.com>  \n보낸 날짜:2026년 1월 13일 화요일 12:33  \n받는 사람:유주희(Yoo, Juhee) / 동작센트럴자이(서울)(yjh0614@gsenc.com) <yjh0614@gsenc.com>  \n제목:부속동 및 근린생활시설 내,외부 AL창호 유리규격 정리관련  \n업무에 수고가 많으십니다.    \n동작센트럴 자이현장 부속동 및 근생AL창호에 설치되는 유리의 종류가 같은 부위라도 상이하여 아래와 같이 통일하였으면 합니다.    \n    \n현황 외측창호: 여닫이도어12MM 강화유리, 고정창THK 26 (5mmCL + 16mmAR +5mmLE)    \n 내측창호: 여닫이도어24MM 복층유리THK 24(5MMCL + 14MMAR + 5MMAL), 고정창THK 24(5MMCL + 14MMAR + 5MMAL)    \n    \n변경안: 외측창호: 여닫이도어24MM 복층유리(5MMCL + 14MMAR + 5MMAL)+ 고정창THK 24(5MMCL + 14MMAR + 5MMAL)    \n 내측창호: 여닫이도어12MM 강화유리, 고정창 THK 24(5MMCL + 14MMAR + 5MMAL)    \n변경안과 같이 복층유리를THK24( 5MMCL + 14MMAR + 5MMAL)로 통일하며, 외부 여닫이도어는 THK24복층으로, 내부 여닫이도어는 THK 12 강화유리로    \n    \n    \nGS E&C    \n이 형 석    \nLee, Hyung Seuk    \n    \n상도 지역 주택사업(서울)    \n서울특별시 동작구 상도로 174(상도동)    \nM :010-2881-7579    \nE-mail : hslee52@gsenc.com    \n  \n  \n \n\n",
+      "attachments": [
+        "image.16812026133921.png",
+        "a6c800fe6319.png"
+      ]
+    },
+    {
+      "id": 105,
       "date": "2026-01-13T06:44:55.000Z",
       "from": "\"Yoo, Juhee\" <yjh0614@gsenc.com>",
       "to": "강재형 <bluedayidoff@yegaone.com>",
       "subject": "[동작센트럴자이] 창호 변경",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260113_98_yjh0614@gsenc.com.eml",
@@ -5901,12 +5936,12 @@
       ]
     },
     {
-      "id": 106,
+      "id": 104,
       "date": "2026-01-13T05:01:10.000Z",
       "from": "\"Yoo, Juhee\" <yjh0614@gsenc.com>",
       "to": "강재형 <bluedayidoff@yegaone.com>, 친환경 에스비환경 <mail@sbdesign.co.kr>",
       "subject": "[동작센트럴자이] 부속동 및 근린생활시설  내,외부 AL창호 유리규격 정리관련",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260113_97_yjh0614@gsenc.com.eml",
@@ -5916,12 +5951,12 @@
       ]
     },
     {
-      "id": 105,
+      "id": 103,
       "date": "2026-01-12T08:44:26.000Z",
       "from": "한성우 <hsw@dawonse.com>",
       "to": "\"Kim, Yong-woo\" <kimyw@gsenc.com>, \"Yoo,Juhee\" <yjh0614@gsenc.com>",
       "subject": "RE: [동작센트럴 자이_설계 변경서_15 8] DECK SL AB 변경 검토 요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260112_96_hsw@dawonse.com.eml",
@@ -5936,12 +5971,12 @@
       ]
     },
     {
-      "id": 104,
+      "id": 102,
       "date": "2026-01-12T06:36:37.000Z",
       "from": "\"Yoo, Juhee\" <yjh0614@gsenc.com>",
       "to": "강재형 <bluedayidoff@yegaone.com>",
       "subject": "Fw: 근생 AL창호 관련",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260112_95_yjh0614@gsenc.com.eml",
@@ -5956,12 +5991,12 @@
       ]
     },
     {
-      "id": 102,
+      "id": 100,
       "date": "2026-01-12T04:35:16.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "구조 이진호 부소장 <skylover815@hanmail.net>",
       "subject": "[마포 성산동 가로주택정비사업] 103동 동 조합 검토요청 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260112_94_chlee@yegaone.com.eml",
@@ -5971,12 +6006,12 @@
       ]
     },
     {
-      "id": 101,
+      "id": 99,
       "date": "2026-01-09T07:21:46.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "대우건설 신상진 책임 <sangjin.shin@daewooenc.com>",
       "subject": "[마포 성산동 가로주택정비사업]_103동 평 면 조합 검토 설계사 의견 외 단위세대  확정 이슈",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260109_93_chlee@yegaone.com.eml",
@@ -5986,12 +6021,12 @@
       ]
     },
     {
-      "id": 100,
+      "id": 98,
       "date": "2026-01-09T05:19:34.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "대우건설 신상진 책임 <sangjin.shin@daewooenc.com>",
       "subject": "[마포 성산동 가로주택정비사업]_문의사 항 및 질의회신 내용 공유",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260109_92_chlee@yegaone.com.eml",
@@ -6001,12 +6036,12 @@
       ]
     },
     {
-      "id": 99,
+      "id": 97,
       "date": "2026-01-09T04:21:04.000Z",
       "from": "\"Kim, Yong-woo\" <kimyw@gsenc.com>",
       "to": "오창기 <ckoh@dawonse.com>, 한성우 <hsw@dawonse.com>, 강재형 <bluedayidoff@yegaone.com>",
       "subject": "[동작센트럴자이_설계변경서_159] 근생D  지하4층 기초검토 요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260109_91_kimyw@gsenc.com.eml",
@@ -6016,12 +6051,12 @@
       ]
     },
     {
-      "id": 98,
+      "id": 96,
       "date": "2026-01-09T02:07:39.000Z",
       "from": "한성우 <hsw@dawonse.com>",
       "to": "\"Kim, Yong-woo\" <kimyw@gsenc.com>, \"Yoo,Juhee\" <yjh0614@gsenc.com>",
       "subject": "RE: [동작센트럴자 이_설계변경서_157]  105동 주변 브리 지 지반층 보검토 요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260109_90_hsw@dawonse.com.eml",
@@ -6031,12 +6066,12 @@
       ]
     },
     {
-      "id": 97,
+      "id": 95,
       "date": "2026-01-09T01:35:36.000Z",
       "from": "\"Kim, Yong-woo\" <kimyw@gsenc.com>",
       "to": "오창기 <ckoh@dawonse.com>, 한성우 <hsw@dawonse.com>, 강재형 <bluedayidoff@yegaone.com>",
       "subject": "[동작센트럴자이_설계변경서_158] DECK SL AB 변경 검토 요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260109_89_kimyw@gsenc.com.eml",
@@ -6051,12 +6086,12 @@
       ]
     },
     {
-      "id": 96,
+      "id": 94,
       "date": "2026-01-09T00:46:22.000Z",
       "from": "정찬희 <ray514871@yegaone.com>",
       "to": "친환경 에스비환경 <mail@sbdesign.co.kr>",
       "subject": "예가원 건축사사무소 [상도 주민센터 BF ] 도면 수정하여 보냅니다",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260109_88_ray514871@yegaone.com.eml",
@@ -6064,12 +6099,12 @@
       "attachments": []
     },
     {
-      "id": 94,
+      "id": 92,
       "date": "2026-01-09T00:31:25.000Z",
       "from": "안시연 <siyeon.an@yegaone.com>",
       "to": "강재형 <jhkang@yegaone.com>, 정찬희 <ray514871@yegaone.com>",
       "subject": "FW: [상도] 어린이공원 BF인증도서 수정안  및 횡단보도 상세도",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260109_87_siyeon.an@yegaone.com.eml",
@@ -6079,12 +6114,12 @@
       ]
     },
     {
-      "id": 93,
+      "id": 91,
       "date": "2026-01-08T06:46:39.000Z",
       "from": "\"Kim, Yong-woo\" <kimyw@gsenc.com>",
       "to": "오창기 <ckoh@dawonse.com>, 한성우 <hsw@dawonse.com>, 강재형 <bluedayidoff@yegaone.com>",
       "subject": "[동작센트럴자이_설계변경서_157] 105동  주변 브리지 지반층 보검토 요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260108_86_kimyw@gsenc.com.eml",
@@ -6094,12 +6129,12 @@
       ]
     },
     {
-      "id": 92,
+      "id": 90,
       "date": "2026-01-08T05:41:56.000Z",
       "from": "\"Kim, Yong-woo\" <kimyw@gsenc.com>",
       "to": "오창기 <ckoh@dawonse.com>, 한성우 <hsw@dawonse.com>, 강재형 <bluedayidoff@yegaone.com>",
       "subject": "Re:  동작센트럴자이 설계변경서 146 공공 보행통로 외부계단 3 벽천설치관련 구조평 면도 수정 송부",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260108_84_kimyw@gsenc.com.eml",
@@ -6109,12 +6144,12 @@
       ]
     },
     {
-      "id": 91,
+      "id": 89,
       "date": "2026-01-08T05:12:28.000Z",
       "from": "\"Kim, Yong-woo\" <kimyw@gsenc.com>",
       "to": "오창기 <ckoh@dawonse.com>, 한성우 <hsw@dawonse.com>, 강재형 <bluedayidoff@yegaone.com>",
       "subject": " 동작센트럴자이 설계변경서 146 공공보행 통로 외부계단 3 벽천설치관련 구조평면도  수정 송부",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260108_83_kimyw@gsenc.com.eml",
@@ -6124,12 +6159,12 @@
       ]
     },
     {
-      "id": 90,
+      "id": 88,
       "date": "2026-01-08T01:29:52.000Z",
       "from": "한성우 <hsw@dawonse.com>",
       "to": "\"Kim, Yong-woo\" <kimyw@gsenc.com>, \"Yoo,Juhee\" <yjh0614@gsenc.com>",
       "subject": "RE: [동작센트럴자 이_설계변경서_156]  108동 주변 지하2 층 기둥추가 검토 요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260108_82_hsw@dawonse.com.eml",
@@ -6139,12 +6174,12 @@
       ]
     },
     {
-      "id": 89,
+      "id": 87,
       "date": "2026-01-07T11:37:26.000Z",
       "from": "\"Yoo, Juhee\" <yjh0614@gsenc.com>",
       "to": "강재형 <bluedayidoff@yegaone.com>",
       "subject": "[동작센트럴자이] 계단실 창호일람표 검토 의건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260107_81_yjh0614@gsenc.com.eml",
@@ -6155,12 +6190,12 @@
       ]
     },
     {
-      "id": 87,
+      "id": 85,
       "date": "2026-01-07T06:38:03.000Z",
       "from": "김승회 <shkimsoft@yegaone.com>",
       "to": "한상주 <hsj@yegaone.com>, 강재형 <jhkang@yegaone.com>, 이찬희 <chlee@yegaone.com>",
       "subject": "FW: 성산동 165-72일원 가로주택정비사업  관련입니다 ( LX공사 측량결과부등 송부  ) _ 하나eng",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260107_80_shkimsoft@yegaone.com.eml",
@@ -6175,12 +6210,12 @@
       ]
     },
     {
-      "id": 85,
+      "id": 83,
       "date": "2026-01-07T02:27:40.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "대우건설 신상진 책임 <sangjin.shin@daewooenc.com>",
       "subject": "[마포 성산동 가로주택정비사업]_하향식  피난구 면적 제외 타입(59C,D) 및 직통계 단 이격거리 적용 기준 안내",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260107_79_chlee@yegaone.com.eml",
@@ -6190,12 +6225,12 @@
       ]
     },
     {
-      "id": 84,
+      "id": 82,
       "date": "2026-01-07T00:20:25.000Z",
       "from": "\"Yoo, Juhee\" <yjh0614@gsenc.com>",
       "to": "강재형 <bluedayidoff@yegaone.com>",
       "subject": "Fw: 상도스타리움 지역주택조합아 파트 판매시설 제연경계벽 설치에  관한 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260107_78_yjh0614@gsenc.com.eml",
@@ -6207,12 +6242,12 @@
       ]
     },
     {
-      "id": 83,
+      "id": 81,
       "date": "2026-01-06T10:26:07.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "한상주 <hsj@yegaone.com>",
       "subject": "FW: [마포 성산동 가로주택정비사업]_단위 세대 및 검토사항 반영내용 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260106_76_chlee@yegaone.com.eml",
@@ -6220,12 +6255,12 @@
       "attachments": []
     },
     {
-      "id": 82,
+      "id": 80,
       "date": "2026-01-06T05:54:41.000Z",
       "from": "\"Kim, Yong-woo\" <kimyw@gsenc.com>",
       "to": "오창기 <ckoh@dawonse.com>, 한성우 <hsw@dawonse.com>, 강재형 <bluedayidoff@yegaone.com>",
       "subject": "[동작센트럴자이_설계변경서_156] 108동  주변 지하2층 기둥추가 검토 요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20260106_75_kimyw@gsenc.com.eml",
@@ -6235,12 +6270,12 @@
       ]
     },
     {
-      "id": 81,
+      "id": 79,
       "date": "2025-12-30T05:09:53.000Z",
       "from": "counter@sindohj.com",
       "to": "jhkang@yegaone.com",
       "subject": "Message from 25C-0i",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20251230_74_counter@sindohj.com.eml",
@@ -6250,12 +6285,12 @@
       ]
     },
     {
-      "id": 80,
+      "id": 78,
       "date": "2025-12-30T02:41:36.000Z",
       "from": "counter@sindohj.com",
       "to": "jhkang@yegaone.com",
       "subject": "Message from 25C-0i",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20251230_73_counter@sindohj.com.eml",
@@ -6265,12 +6300,12 @@
       ]
     },
     {
-      "id": 79,
+      "id": 77,
       "date": "2025-12-29T05:16:43.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "대우건설 송효영 선임 <hyoyoung.song@daewooenc.com>",
       "subject": "[마포 성산동 가로주택정비사업]_담당자  변경안내 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20251229_69_chlee@yegaone.com.eml",
@@ -6278,12 +6313,12 @@
       "attachments": []
     },
     {
-      "id": 78,
+      "id": 76,
       "date": "2025-12-26T10:46:08.000Z",
       "from": "에스비환경디자인_친환경건축본 부 <mail@sbdesign.co.kr>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "[에스비환경디자인] 상도 스타리 움 주민센터 검토사항 정리 후 송 부",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20251226_68_mail@sbdesign.co.kr.eml",
@@ -6293,12 +6328,12 @@
       ]
     },
     {
-      "id": 76,
+      "id": 74,
       "date": "2025-12-26T01:40:03.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "이종혁 <jack_9516@yegaone.com>",
       "subject": "FW: [마포 성산동 가로주택정비사업]담당 자 변경안내 및 문의사항 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20251226_67_chlee@yegaone.com.eml",
@@ -6309,12 +6344,12 @@
       ]
     },
     {
-      "id": 74,
+      "id": 72,
       "date": "2025-12-26T00:47:44.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "<dgenc2003@naver.com>",
       "subject": "[마포 성산동 가로주택정비사업]담당자  변경안내 및 문의사항 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20251226_66_chlee@yegaone.com.eml",
@@ -6322,12 +6357,12 @@
       "attachments": []
     },
     {
-      "id": 72,
+      "id": 70,
       "date": "2025-12-24T08:11:26.000Z",
       "from": "\"Adobe Acrobat\" <mail@e.adobe.com>",
       "to": "jhkang@yegaone.com",
       "subject": "(광고) Acrobat 브라우저 확장  프로그램을 이용하세요",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20251224_65_mail@e.adobe.com.eml",
@@ -6335,12 +6370,12 @@
       "attachments": []
     },
     {
-      "id": 70,
+      "id": 68,
       "date": "2025-12-24T01:32:17.000Z",
       "from": "정서영 <jsy@yegaone.com>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "[예가원] 12월 급여 명세서",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20251224_61_jsy@yegaone.com.eml",
@@ -6350,12 +6385,12 @@
       ]
     },
     {
-      "id": 69,
+      "id": 66,
       "date": "2025-12-22T07:05:05.000Z",
       "from": "에스비환경디자인_친환경건축본 부 <mail@sbdesign.co.kr>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "[에스비환경디자인] GS건설 동작센 트럴자이(서울 상도스타리움) 창 호 형별 관련",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20251222_55_mail@sbdesign.co.kr.eml",
@@ -6376,12 +6411,12 @@
       ]
     },
     {
-      "id": 68,
+      "id": 65,
       "date": "2025-12-22T06:25:35.000Z",
       "from": "한상주 <hsj@yegaone.com>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "FW: 2025.12.19.-01.(지에스건설, 예가원건축 사사무소) 근생 A동 101호실 출입문 1개소  추가 설치 및 조경 면적 축소 요청..pdf",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20251222_54_hsj@yegaone.com.eml",
@@ -6391,12 +6426,12 @@
       ]
     },
     {
-      "id": 66,
+      "id": 63,
       "date": "2025-12-19T06:11:50.000Z",
       "from": "한상주 via Remember <no-reply@rememberapp.co.kr>",
       "to": "jhkang@yegaone.com",
       "subject": "한상주(예가원  건축사사무소)님이  귀하에게 명함을  보냈습니다.",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20251219_53_no-reply@rememberapp.co.kr.eml",
@@ -6404,12 +6439,12 @@
       "attachments": []
     },
     {
-      "id": 65,
+      "id": 62,
       "date": "2025-12-19T04:28:57.000Z",
       "from": "이서원 <sw1219@yegaone.com>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "FW: [에스비환경디자인] GS건설 동작센트 럴자이(서울) PL창호 유리스펙 형별성능 표기",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20251219_50_sw1219@yegaone.com.eml",
@@ -6427,12 +6462,12 @@
       ]
     },
     {
-      "id": 64,
+      "id": 61,
       "date": "2025-12-19T02:15:38.000Z",
       "from": "\"Kim, Yong-woo\" <kimyw@gsenc.com>",
       "to": "오창기 <ckoh@dawonse.com>, 한성우 <hsw@dawonse.com>, \"bluedayidoff@yegaone.com\" <bluedayidoff@yegaone.com>",
       "subject": "[동작센트럴자이_설계변경서_155] 주동 RC  옥상구조물 검토 요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20251219_47_kimyw@gsenc.com.eml",
@@ -6443,12 +6478,12 @@
       ]
     },
     {
-      "id": 63,
+      "id": 60,
       "date": "2025-12-18T09:14:04.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "대우건설 송효영 선임 <hyoyoung.song@daewooenc.com>",
       "subject": "[마포 성산동 가로주택정비사업]_단위세 대 및 검토사항 반영내용 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20251218_46_chlee@yegaone.com.eml",
@@ -6458,12 +6493,12 @@
       ]
     },
     {
-      "id": 62,
+      "id": 59,
       "date": "2025-12-17T04:33:09.000Z",
       "from": "\"Yoo, Juhee\" <yjh0614@gsenc.com>",
       "to": "강재형 <bluedayidoff@yegaone.com>",
       "subject": "[동작센트럴자이] 설계변경서 155_59B,84B ,C 다용도실 벽체형식 변경 검토요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20251217_45_yjh0614@gsenc.com.eml",
@@ -6473,12 +6508,12 @@
       ]
     },
     {
-      "id": 61,
+      "id": 58,
       "date": "2025-12-17T02:17:46.000Z",
       "from": "한성우 <hsw@dawonse.com>",
       "to": "정찬희 <ray514871@yegaone.com>, 강재형 <jhkang@yegaone.com>",
       "subject": "RE:  25/12/17 예가원 [상도 주민센터( 공공청사)] 구조 검토 반 영후 도면 송부 드립니다.",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20251217_44_hsw@dawonse.com.eml",
@@ -6486,12 +6521,12 @@
       "attachments": []
     },
     {
-      "id": 60,
+      "id": 57,
       "date": "2025-12-17T02:00:41.000Z",
       "from": "정찬희 <ray514871@yegaone.com>",
       "to": "한성우 <hsw@dawonse.com>",
       "subject": " 25/12/17 예가원 [상도 주민센터(공공청사 )] 구조 검토 반영후 도면 송부 드립니다 .",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20251217_43_ray514871@yegaone.com.eml",
@@ -6501,12 +6536,12 @@
       ]
     },
     {
-      "id": 59,
+      "id": 56,
       "date": "2025-12-17T00:30:39.000Z",
       "from": "한성우 <hsw@dawonse.com>",
       "to": "정찬희 <ray514871@yegaone.com>, 강재형 <jhkang@yegaone.com>",
       "subject": "RE: 예가원 [상도  주민센터(공공청사) ] 구조 검토 반영후  도면 송부 드립니다.",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20251217_42_hsw@dawonse.com.eml",
@@ -6516,12 +6551,12 @@
       ]
     },
     {
-      "id": 58,
+      "id": 55,
       "date": "2025-12-16T02:18:48.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "대우건설 송효영 선임 <hyoyoung.song@daewooenc.com>",
       "subject": "[마포 성산동 가로주택정비사업]_103동 변 경 연역",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20251216_41_chlee@yegaone.com.eml",
@@ -6531,12 +6566,12 @@
       ]
     },
     {
-      "id": 57,
+      "id": 54,
       "date": "2025-12-16T01:19:43.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "대우건설 송효영 선임 <hyoyoung.song@daewooenc.com>",
       "subject": "[마포 성산동 가로주택정비사업]_103동 변 경 연역",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20251216_40_chlee@yegaone.com.eml",
@@ -6546,12 +6581,12 @@
       ]
     },
     {
-      "id": 56,
+      "id": 53,
       "date": "2025-12-16T00:33:44.000Z",
       "from": "한성우 <hsw@dawonse.com>",
       "to": "\"Kim, Yong-woo\" <kimyw@gsenc.com>, \"Yoo,Juhee\" <yjh0614@gsenc.com>",
       "subject": "RE: [동작센트럴자이_설계변경서_1 54] 104동 지상층 벽체 검토 요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20251216_39_hsw@dawonse.com.eml",
@@ -6561,12 +6596,12 @@
       ]
     },
     {
-      "id": 55,
+      "id": 52,
       "date": "2025-12-15T01:15:07.000Z",
       "from": "정찬희 <ray514871@yegaone.com>",
       "to": "한성우 <hsw@dawonse.com>",
       "subject": "예가원 [상도 주민센터(공공청사)] 구조  검토 반영후 도면 송부 드립니다.",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20251215_38_ray514871@yegaone.com.eml",
@@ -6576,12 +6611,12 @@
       ]
     },
     {
-      "id": 54,
+      "id": 51,
       "date": "2025-12-12T07:56:06.000Z",
       "from": "한성우 <hsw@dawonse.com>",
       "to": "정찬희 <ray514871@yegaone.com>",
       "subject": "RE: 예가원 [상도  주민센터(공공청사) ] 구조 검토 반영후  도면 송부 드립니다.",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20251212_37_hsw@dawonse.com.eml",
@@ -6591,12 +6626,12 @@
       ]
     },
     {
-      "id": 53,
+      "id": 50,
       "date": "2025-12-12T07:16:19.000Z",
       "from": "\"Kim, Yong-woo\" <kimyw@gsenc.com>",
       "to": "오창기 <ckoh@dawonse.com>, 한성우 <hsw@dawonse.com>, \"bluedayidoff@yegaone.com\" <bluedayidoff@yegaone.com>",
       "subject": "[동작센트럴자이_설계변경서_154] 104동  지상층 벽체 검토 요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20251212_36_kimyw@gsenc.com.eml",
@@ -6606,12 +6641,12 @@
       ]
     },
     {
-      "id": 52,
+      "id": 49,
       "date": "2025-12-12T01:30:19.000Z",
       "from": "정찬희 <ray514871@yegaone.com>",
       "to": "한성우 <hsw@dawonse.com>",
       "subject": "예가원 [상도 주민센터(공공청사)] 구조  검토 반영후 도면 송부 드립니다.",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20251212_35_ray514871@yegaone.com.eml",
@@ -6621,12 +6656,12 @@
       ]
     },
     {
-      "id": 51,
+      "id": 48,
       "date": "2025-12-10T06:00:23.000Z",
       "from": "이서원 <sw1219@yegaone.com>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "FW: 상도스타리움 - 커뮤니티 면적",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20251210_34_sw1219@yegaone.com.eml",
@@ -6639,12 +6674,12 @@
       ]
     },
     {
-      "id": 50,
+      "id": 47,
       "date": "2025-12-09T23:30:02.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "대우건설 송효영 대리 <hyoyoung.song@daewooenc.com>",
       "subject": "[마포 성산동 가로주택정비사업]_단위세 대 및 동평면도 검토요청 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20251210_32_chlee@yegaone.com.eml",
@@ -6655,12 +6690,12 @@
       ]
     },
     {
-      "id": 49,
+      "id": 46,
       "date": "2025-12-09T00:05:25.000Z",
       "from": "\"Yoo, Juhee\" <yjh0614@gsenc.com>",
       "to": "sw1219 <sw1219@yegaone.com>",
       "subject": "[동작센트럴자이] 창호관련 질의의 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20251209_31_yjh0614@gsenc.com.eml",
@@ -6670,12 +6705,12 @@
       ]
     },
     {
-      "id": 48,
+      "id": 45,
       "date": "2025-12-08T23:30:00.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "대우건설 송효영 대리 <hyoyoung.song@daewooenc.com>",
       "subject": "[마포 성산동 가로주택정비사업]_검토사 항 문의 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20251209_30_chlee@yegaone.com.eml",
@@ -6685,12 +6720,12 @@
       ]
     },
     {
-      "id": 46,
+      "id": 43,
       "date": "2025-12-08T08:21:23.000Z",
       "from": "지현재 <hyunj0526@yegaone.com>",
       "to": "대우건설 송효영 대리 <hyoyoung.song@daewooenc.com>",
       "subject": "마포중동 담당자변경 건 ",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20251208_29_hyunj0526@yegaone.com.eml",
@@ -6698,12 +6733,12 @@
       "attachments": []
     },
     {
-      "id": 45,
+      "id": 42,
       "date": "2025-12-08T07:56:33.000Z",
       "from": "\"Yoo, Juhee\" <yjh0614@gsenc.com>",
       "to": "sw1219 <sw1219@yegaone.com>",
       "subject": "[동작센트럴자이] 검토요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20251208_28_yjh0614@gsenc.com.eml",
@@ -6713,12 +6748,12 @@
       ]
     },
     {
-      "id": 43,
+      "id": 40,
       "date": "2025-12-08T07:23:37.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "대우건설 송효영 대리 <hyoyoung.song@daewooenc.com>",
       "subject": "[마포 성산동 가로주택정비사업]_담당자  변경건 및 검토사항 확인",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20251208_27_chlee@yegaone.com.eml",
@@ -6726,12 +6761,12 @@
       "attachments": []
     },
     {
-      "id": 41,
+      "id": 38,
       "date": "2025-12-05T06:33:46.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "<dyyoon123@naver.com>",
       "subject": "[마포 성산동 가로주택정비사업]_일정표  송부 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20251205_26_chlee@yegaone.com.eml",
@@ -6742,12 +6777,12 @@
       ]
     },
     {
-      "id": 40,
+      "id": 37,
       "date": "2025-12-04T07:35:08.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "",
       "subject": "[마포 성산동 가로주택정비사업]_검토 요 청 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20251204_25_chlee@yegaone.com.eml",
@@ -6757,12 +6792,12 @@
       ]
     },
     {
-      "id": 39,
+      "id": 36,
       "date": "2025-12-04T04:12:00.000Z",
       "from": "\"Yoo, Juhee\" <yjh0614@gsenc.com>",
       "to": "sw1219 <sw1219@yegaone.com>",
       "subject": "[동작센트럴자이] 망입유리 창호관련 질의 의 건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20251204_24_yjh0614@gsenc.com.eml",
@@ -6772,12 +6807,12 @@
       ]
     },
     {
-      "id": 36,
+      "id": 33,
       "date": "2025-12-04T04:09:07.000Z",
       "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
       "to": "친환경 다올 <enh2013@naver.com>",
       "subject": "[마포 성산동 가로주택정비사업]_일정관 련 ",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20251204_23_chlee@yegaone.com.eml",
@@ -6785,12 +6820,12 @@
       "attachments": []
     },
     {
-      "id": 35,
+      "id": 32,
       "date": "2025-12-03T08:08:07.000Z",
       "from": "counter@sindohj.com",
       "to": "jhkang@yegaone.com",
       "subject": "Message from 25C-0i",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20251203_22_counter@sindohj.com.eml",
@@ -6800,12 +6835,12 @@
       ]
     },
     {
-      "id": 33,
+      "id": 30,
       "date": "2025-12-03T06:59:18.000Z",
       "from": "\"Yoo, Juhee\" <yjh0614@gsenc.com>",
       "to": "sw1219 <sw1219@yegaone.com>",
       "subject": "[동작센트럴자이] 커뮤니티 출입구 단면요 청건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20251203_21_yjh0614@gsenc.com.eml",
@@ -6815,12 +6850,12 @@
       ]
     },
     {
-      "id": 32,
+      "id": 29,
       "date": "2025-12-02T07:56:19.000Z",
       "from": "강재형 <jhkang@yegaone.com>",
       "to": "강재형 <jhkang@yegaone.com>",
       "subject": "RE: [동작센트럴자이_검토요청] 108동 검토 요청건 ",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20251202_19_jhkang@yegaone.com.eml",
@@ -6831,12 +6866,12 @@
       ]
     },
     {
-      "id": 31,
+      "id": 28,
       "date": "2025-12-02T01:35:02.000Z",
       "from": "한성우 <hsw@dawonse.com>",
       "to": "\"Kim, Yong-woo\" <kimyw@gsenc.com>, \"Yoo,Juhee\" <yjh0614@gsenc.com>",
       "subject": "RE: [동작센트럴자이 _설계변경서_153] 구 조일반사항 작업통로용 벽 체개구부 보강안 검토요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20251202_16_hsw@dawonse.com.eml",
@@ -6846,12 +6881,12 @@
       ]
     },
     {
-      "id": 30,
+      "id": 27,
       "date": "2025-12-02T00:59:24.000Z",
       "from": "Adobe <message@adobe.com>",
       "to": "jhkang@yegaone.com",
       "subject": "인증 코드",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20251202_15_message@adobe.com.eml",
@@ -6859,12 +6894,12 @@
       "attachments": []
     },
     {
-      "id": 29,
+      "id": 26,
       "date": "2025-12-02T00:55:18.000Z",
       "from": "Adobe Creative Cloud <message@adobe.com>",
       "to": "jhkang@yegaone.com",
       "subject": "Adobe Acrobat Reader 설치 링크",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20251202_14_message@adobe.com.eml",
@@ -6872,12 +6907,12 @@
       "attachments": []
     },
     {
-      "id": 28,
+      "id": 25,
       "date": "2025-12-02T00:40:11.000Z",
       "from": "Adobe <message@adobe.com>",
       "to": "jhkang@yegaone.com",
       "subject": "Adobe 프로필이 정상적으로 설정됨 ",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20251202_13_message@adobe.com.eml",
@@ -6885,12 +6920,12 @@
       "attachments": []
     },
     {
-      "id": 27,
+      "id": 24,
       "date": "2025-12-02T00:39:57.000Z",
       "from": "Adobe <message@adobe.com>",
       "to": "jhkang@yegaone.com",
       "subject": "Adobe 프로필이 정상적으로 설정됨 ",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20251202_12_message@adobe.com.eml",
@@ -6898,12 +6933,12 @@
       "attachments": []
     },
     {
-      "id": 25,
+      "id": 22,
       "date": "2025-12-02T00:33:00.000Z",
       "from": "Adobe <notifications@adobe.com>",
       "to": "jhkang@yegaone.com",
       "subject": "시작하기:  Acrobat Pro ",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20251202_11_notifications@adobe.com.eml",
@@ -6911,12 +6946,12 @@
       "attachments": []
     },
     {
-      "id": 23,
+      "id": 20,
       "date": "2025-12-02T00:26:17.000Z",
       "from": "Adobe <message@adobe.com>",
       "to": "jhkang@yegaone.com",
       "subject": "Adobe에 오신 것을 환영합니다",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20251202_10_message@adobe.com.eml",
@@ -6924,12 +6959,12 @@
       "attachments": []
     },
     {
-      "id": 22,
+      "id": 19,
       "date": "2025-12-01T07:14:08.000Z",
       "from": "\"Yoo, Juhee\" <yjh0614@gsenc.com>",
       "to": "재형 강 <bluedayidoff@yegaone.com>",
       "subject": "[동작센트럴자이] 도면수정 요청의건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20251201_6_yjh0614@gsenc.com.eml",
@@ -6939,12 +6974,12 @@
       ]
     },
     {
-      "id": 20,
+      "id": 16,
       "date": "2025-12-01T07:00:40.000Z",
       "from": "한상주 <hsj@yegaone.com>",
       "to": "강재형 <jhkang@yegaone.com>, 정찬희 <ray514871@yegaone.com>",
       "subject": "FW: 2025.12.01.-02.(지에스건설, 토펙엔지니 어링, 예가원건축사사무소) 다용도실 보 일러 소음 민원 예방을 위한 벽체 형식  변경 승인의 건.pdf",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20251201_5_hsj@yegaone.com.eml",
@@ -6954,12 +6989,12 @@
       ]
     },
     {
-      "id": 16,
+      "id": 12,
       "date": "2025-12-01T06:26:48.000Z",
       "from": "\"Kim, Yong-woo\" <kimyw@gsenc.com>",
       "to": "오창기 <ckoh@dawonse.com>, 한성우 <hsw@dawonse.com>, \"bluedayidoff@yegaone.com\" <bluedayidoff@yegaone.com>",
       "subject": "[동작센트럴자이_설계변경서_153] 구조일 반사항 작업통로용 벽체개구부 보강안 검 토요청",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20251201_4_kimyw@gsenc.com.eml",
@@ -6969,12 +7004,12 @@
       ]
     },
     {
-      "id": 12,
+      "id": 7,
       "date": "2025-12-01T05:19:44.000Z",
       "from": "counter@sindohj.com",
       "to": "ley7821@yegaone.com, jhkang@yegaone.com, ssunro@yegaone.com",
       "subject": "Message from 25C-0i",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20251201_3_counter@sindohj.com.eml",
@@ -6984,12 +7019,12 @@
       ]
     },
     {
-      "id": 10,
+      "id": 5,
       "date": "2025-12-01T05:14:53.000Z",
       "from": "\"Yoo, Juhee\" <yjh0614@gsenc.com>",
       "to": "\"bluedayidoff@yegaone.com\" <bluedayidoff@yegaone.com>",
       "subject": "[동작센트럴자이_검토요청] 108동 검토요 청건",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20251201_2_yjh0614@gsenc.com.eml",
@@ -6999,84 +7034,23 @@
       ]
     },
     {
-      "id": 7,
+      "id": 2,
       "date": "2025-12-01T01:36:22.000Z",
       "from": "NAVER WORKS <no_reply@worksmobile.com>",
       "to": "<bluedayidoff@yegaone.com>",
       "subject": "환영합니다! 지금부터 NAVER WORKS를 이용해  업무를 시작해볼까요?",
-      "tag": "기타",
+      "tag": "IN",
       "memo": "",
       "read": false,
       "filename": "20251201_1_no_reply@worksmobile.com.eml",
       "body": "\n\n\n\n\n\n환영합니다.\n\n\n\n도메인명 yegaone.com\n이름 (계정) 강재형 (bluedayidoff@yegaone.com)\n신청 상품 Standard\n\n\n\n\n업무용 협업 도구, NAVER WORKS에 대해 알아볼까요?\n\n\n모든 업무가\n스마트폰 하나로 해결됩니다.\n업무에 필요한 모든 기능이 담긴 모바일 앱을 통해 언제 어디서나 업무가 가능합니다.\n모바일 앱 다운로드\n재택근무, 외근 현장에서도\n실시간 소통·협업이 가능합니다.\n재택근무 중인 동료나 현장 직원과도 화상회의 기능으로 옆에 있는 것처럼 소통할 수 있습니다.\n화상회의 기능 사용 가이드\n더욱 효과적인\n프로젝트 관리가 가능합니다.\n그룹을 통해 그룹 멤버 간 프로젝트 일정 및 자료를 한 곳에서 공유할 수 있습니다.\n그룹 만들기\n회사 동료와의 명확한\n커뮤니케이션이 가능합니다.\n업무용 메신저와 게시판을 통해 부서·팀의 공지사항 및 회사 소식이 전달되었는지 확인할 수 있습니다.\n읽은 멤버 확인하기\n빠른 의견 수집으로\n신속한 의사 결정이 가능합니다.\n회식 일정 조사, 시안 의견 수립 등 다양한 설문으로 의견을 한 번에 취합하고 분석할 수 있습니다.\n설문 만들기\n엔터프라이즈급 보안 기술로\n안심할 수 있습니다.\n회사의 중요한 정보를 유출 및 손실 걱정 없이 안전하게 관리할 수 있습니다.\n메일 보안 등급 설정하기\n\n\n\nNAVER WORKS를 시작해볼까요?\n각 서비스 아이콘을 클릭하면 해당 기능별 사용법을 확인하실 수 있습니다.\n\n\n메일 드라이브 주소록 캘린더 메시지 할 일 설문 게시판\n\n\n\nNAVER WORKS에 대해 궁금한 점을 확인해보세요.\n\n헬프센터 바로가기 온라인 문의하기\n\n<!-- footer -->\n\n본 메일은 발신전용입니다.\n불편하신 점이나 궁금한 사항은 헬프센터로 문의해주세요.\n\n© NAVER Cloud Corp.\n\n<!-- //footer -->\n\n\n\n",
       "attachments": []
-    },
-    {
-      "id": 5,
-      "date": "2026-03-23T00:02:52.000Z",
-      "from": "정찬희 <ray514871@yegaone.com>",
-      "to": "강재형 <jhkang@yegaone.com>",
-      "subject": "테스트 메일",
-      "tag": "기타",
-      "memo": "",
-      "read": false,
-      "filename": "20260323_559_ray514871@yegaone.com.eml",
-      "body": "\n다운로드 기한이 있는 첨부파일 1개 (601MB)\n\n\n\n\n20260316 어린이공원_실시계획인가.zip 601MB ~ 2026. 3. 30.\n\n\n7일 보관 / 100회 다운로드\n\n\n\n\n정찬희 예가원건축사사무소\n설계팀 / 대리\n\n서울시 강남구 선릉로 93길, 50 현석타워 13층\nTel 070-4290-3454 Mobile +82 010-6220-5148\nEmail ray514871@yegaone.com \n\n\n\n",
-      "attachments": []
-    },
-    {
-      "id": 1,
-      "date": "2026-03-21T04:45:00.000Z",
-      "from": "\"Kim, Ju-hye\" <jhkim60@gsenc.com>",
-      "to": "에스비환경디자인_친환경건축본부 <mail@sbdesign.co.kr>, 강재형 <jhkang@yegaone.com>",
-      "subject": "[동작센트럴자이] 바닥마감 변경 확인 요 청의 건",
-      "tag": "기타",
-      "memo": "",
-      "read": false,
-      "filename": "20260321_557_jhkim60@gsenc.com.eml",
-      "body": "안녕하세요.\r\n\r\n비주거 바닥난방 구간을 단열성능 향상을 위해\r\n\r\n바닥난방 마감을 첨부와 같이 기포콘크리트를 단열재로 변경하고자 하오니\r\n\r\n확인하시고 회신 부탁드립니다.\r\n\r\n감사합니다.\r\n\r\n\r\n",
-      "attachments": [
-        "260320 바닥마감 변경확인 요청의 건.pdf",
-        "형별성능내역서 변경전후도면.pdf"
-      ]
     }
   ],
   "pending": [],
   "contacts": [
     {
-      "id": 2,
-      "name": "Ju-hye",
-      "email": "jhkim60@gsenc.com",
-      "role": "",
-      "tag": "",
-      "auto": true
-    },
-    {
       "id": 3,
-      "name": "에스비환경디자인_친환경건축본부",
-      "email": "mail@sbdesign.co.kr",
-      "role": "",
-      "tag": "",
-      "auto": true
-    },
-    {
-      "id": 4,
-      "name": "강재형",
-      "email": "jhkang@yegaone.com",
-      "role": "",
-      "tag": "",
-      "auto": true
-    },
-    {
-      "id": 6,
-      "name": "정찬희",
-      "email": "ray514871@yegaone.com",
-      "role": "",
-      "tag": "",
-      "auto": true
-    },
-    {
-      "id": 8,
       "name": "NAVER WORKS",
       "email": "no_reply@worksmobile.com",
       "role": "",
@@ -7084,7 +7058,7 @@
       "auto": true
     },
     {
-      "id": 9,
+      "id": 4,
       "name": "bluedayidoff",
       "email": "bluedayidoff@yegaone.com",
       "role": "",
@@ -7092,7 +7066,7 @@
       "auto": true
     },
     {
-      "id": 11,
+      "id": 6,
       "name": "Juhee",
       "email": "yjh0614@gsenc.com",
       "role": "",
@@ -7100,7 +7074,7 @@
       "auto": true
     },
     {
-      "id": 13,
+      "id": 8,
       "name": "counter",
       "email": "counter@sindohj.com",
       "role": "",
@@ -7108,7 +7082,7 @@
       "auto": true
     },
     {
-      "id": 14,
+      "id": 9,
       "name": "ley7821",
       "email": "ley7821@yegaone.com",
       "role": "",
@@ -7116,7 +7090,15 @@
       "auto": true
     },
     {
-      "id": 15,
+      "id": 10,
+      "name": "jhkang",
+      "email": "jhkang@yegaone.com",
+      "role": "",
+      "tag": "",
+      "auto": true
+    },
+    {
+      "id": 11,
       "name": "ssunro",
       "email": "ssunro@yegaone.com",
       "role": "",
@@ -7124,7 +7106,7 @@
       "auto": true
     },
     {
-      "id": 17,
+      "id": 13,
       "name": "Yong-woo",
       "email": "kimyw@gsenc.com",
       "role": "",
@@ -7132,7 +7114,7 @@
       "auto": true
     },
     {
-      "id": 18,
+      "id": 14,
       "name": "오창기",
       "email": "ckoh@dawonse.com",
       "role": "",
@@ -7140,7 +7122,7 @@
       "auto": true
     },
     {
-      "id": 19,
+      "id": 15,
       "name": "한성우",
       "email": "hsw@dawonse.com",
       "role": "",
@@ -7148,7 +7130,7 @@
       "auto": true
     },
     {
-      "id": 21,
+      "id": 17,
       "name": "한상주",
       "email": "hsj@yegaone.com",
       "role": "",
@@ -7156,7 +7138,15 @@
       "auto": true
     },
     {
-      "id": 24,
+      "id": 18,
+      "name": "정찬희",
+      "email": "ray514871@yegaone.com",
+      "role": "",
+      "tag": "",
+      "auto": true
+    },
+    {
+      "id": 21,
       "name": "Adobe",
       "email": "message@adobe.com",
       "role": "",
@@ -7164,7 +7154,7 @@
       "auto": true
     },
     {
-      "id": 26,
+      "id": 23,
       "name": "Adobe",
       "email": "notifications@adobe.com",
       "role": "",
@@ -7172,7 +7162,7 @@
       "auto": true
     },
     {
-      "id": 34,
+      "id": 31,
       "name": "sw1219",
       "email": "sw1219@yegaone.com",
       "role": "",
@@ -7180,7 +7170,7 @@
       "auto": true
     },
     {
-      "id": 37,
+      "id": 34,
       "name": "예가원건축 이찬희 차장",
       "email": "chlee@yegaone.com",
       "role": "",
@@ -7188,7 +7178,7 @@
       "auto": true
     },
     {
-      "id": 38,
+      "id": 35,
       "name": "친환경 다올",
       "email": "enh2013@naver.com",
       "role": "",
@@ -7196,7 +7186,7 @@
       "auto": true
     },
     {
-      "id": 42,
+      "id": 39,
       "name": "dyyoon123",
       "email": "dyyoon123@naver.com",
       "role": "",
@@ -7204,7 +7194,7 @@
       "auto": true
     },
     {
-      "id": 44,
+      "id": 41,
       "name": "대우건설 송효영 대리",
       "email": "hyoyoung.song@daewooenc.com",
       "role": "",
@@ -7212,7 +7202,7 @@
       "auto": true
     },
     {
-      "id": 47,
+      "id": 44,
       "name": "지현재",
       "email": "hyunj0526@yegaone.com",
       "role": "",
@@ -7220,7 +7210,7 @@
       "auto": true
     },
     {
-      "id": 67,
+      "id": 64,
       "name": "한상주 via Remember",
       "email": "no-reply@rememberapp.co.kr",
       "role": "",
@@ -7228,7 +7218,15 @@
       "auto": true
     },
     {
-      "id": 71,
+      "id": 67,
+      "name": "에스비환경디자인_친환경건축본 부",
+      "email": "mail@sbdesign.co.kr",
+      "role": "",
+      "tag": "",
+      "auto": true
+    },
+    {
+      "id": 69,
       "name": "정서영",
       "email": "jsy@yegaone.com",
       "role": "",
@@ -7236,7 +7234,7 @@
       "auto": true
     },
     {
-      "id": 73,
+      "id": 71,
       "name": "Adobe Acrobat",
       "email": "mail@e.adobe.com",
       "role": "",
@@ -7244,7 +7242,7 @@
       "auto": true
     },
     {
-      "id": 75,
+      "id": 73,
       "name": "dgenc2003",
       "email": "dgenc2003@naver.com",
       "role": "",
@@ -7252,7 +7250,7 @@
       "auto": true
     },
     {
-      "id": 77,
+      "id": 75,
       "name": "이종혁",
       "email": "jack_9516@yegaone.com",
       "role": "",
@@ -7260,7 +7258,7 @@
       "auto": true
     },
     {
-      "id": 86,
+      "id": 84,
       "name": "대우건설 신상진 책임",
       "email": "sangjin.shin@daewooenc.com",
       "role": "",
@@ -7268,7 +7266,7 @@
       "auto": true
     },
     {
-      "id": 88,
+      "id": 86,
       "name": "김승회",
       "email": "shkimsoft@yegaone.com",
       "role": "",
@@ -7276,7 +7274,7 @@
       "auto": true
     },
     {
-      "id": 95,
+      "id": 93,
       "name": "안시연",
       "email": "siyeon.an@yegaone.com",
       "role": "",
@@ -7284,7 +7282,7 @@
       "auto": true
     },
     {
-      "id": 103,
+      "id": 101,
       "name": "구조 이진호 부소장",
       "email": "skylover815@hanmail.net",
       "role": "",
@@ -7292,7 +7290,7 @@
       "auto": true
     },
     {
-      "id": 112,
+      "id": 109,
       "name": "대우건설 박무영 소장",
       "email": "muyoung.park@daewooenc.com",
       "role": "",
@@ -7300,7 +7298,7 @@
       "auto": true
     },
     {
-      "id": 122,
+      "id": 120,
       "name": "임석주",
       "email": "dn-mech@dnmec.com",
       "role": "",
@@ -7308,7 +7306,7 @@
       "auto": true
     },
     {
-      "id": 124,
+      "id": 122,
       "name": "Young-hwa",
       "email": "younghwalee1@gsenc.com",
       "role": "",
@@ -7316,7 +7314,7 @@
       "auto": true
     },
     {
-      "id": 132,
+      "id": 130,
       "name": "정은미",
       "email": "jen00@dongjak.go.kr",
       "role": "",
@@ -7324,7 +7322,7 @@
       "auto": true
     },
     {
-      "id": 144,
+      "id": 142,
       "name": "최대영",
       "email": "homzzz@naver.com",
       "role": "",
@@ -7332,7 +7330,7 @@
       "auto": true
     },
     {
-      "id": 147,
+      "id": 145,
       "name": "디자인그룹 예감",
       "email": "yegamla@naver.com",
       "role": "",
@@ -7340,7 +7338,7 @@
       "auto": true
     },
     {
-      "id": 149,
+      "id": 147,
       "name": "(주)지호엔지니어링",
       "email": "jiho@jihoeng.co.kr",
       "role": "",
@@ -7348,7 +7346,7 @@
       "auto": true
     },
     {
-      "id": 151,
+      "id": 149,
       "name": "chiki69",
       "email": "chiki69@naver.com",
       "role": "",
@@ -7356,7 +7354,7 @@
       "auto": true
     },
     {
-      "id": 154,
+      "id": 152,
       "name": "신상철",
       "email": "shinsc63@daum.net",
       "role": "",
@@ -7364,7 +7362,7 @@
       "auto": true
     },
     {
-      "id": 158,
+      "id": 156,
       "name": "skkim",
       "email": "skkim@midaseng.co.kr",
       "role": "",
@@ -7372,7 +7370,7 @@
       "auto": true
     },
     {
-      "id": 162,
+      "id": 160,
       "name": "주식회사 지음엠이씨(GiumMEC)",
       "email": "giummec@nate.com",
       "role": "",
@@ -7380,7 +7378,7 @@
       "auto": true
     },
     {
-      "id": 165,
+      "id": 163,
       "name": "(주)신담엔지니어링",
       "email": "shindam3@korea.com",
       "role": "",
@@ -7388,7 +7386,7 @@
       "auto": true
     },
     {
-      "id": 171,
+      "id": 169,
       "name": "이수환",
       "email": "shlee@i-st.kr",
       "role": "",
@@ -7396,7 +7394,7 @@
       "auto": true
     },
     {
-      "id": 174,
+      "id": 172,
       "name": "여승민 [소장] [구조4본부]",
       "email": "smyeo@senkuzo.com",
       "role": "",
@@ -7404,7 +7402,7 @@
       "auto": true
     },
     {
-      "id": 177,
+      "id": 175,
       "name": "이향선",
       "email": "sunnylee1126@naver.com",
       "role": "",
@@ -7412,7 +7410,7 @@
       "auto": true
     },
     {
-      "id": 178,
+      "id": 176,
       "name": "이미현",
       "email": "sewon49@nate.com",
       "role": "",
@@ -7420,7 +7418,7 @@
       "auto": true
     },
     {
-      "id": 185,
+      "id": 183,
       "name": "arsh@i-sh.co.kr",
       "email": "arsh@i-sh.co.kr",
       "role": "",
@@ -7428,7 +7426,7 @@
       "auto": true
     },
     {
-      "id": 187,
+      "id": 185,
       "name": "박삼용",
       "email": "skyp2313@naver.com",
       "role": "",
@@ -7436,7 +7434,15 @@
       "auto": true
     },
     {
-      "id": 193,
+      "id": 189,
+      "name": "Ju-hye",
+      "email": "jhkim60@gsenc.com",
+      "role": "",
+      "tag": "",
+      "auto": true
+    },
+    {
+      "id": 192,
       "name": "전국토지보상 임대진대표",
       "email": "imdjin@naver.com",
       "role": "",
@@ -7444,7 +7450,7 @@
       "auto": true
     },
     {
-      "id": 196,
+      "id": 195,
       "name": "이대순",
       "email": "cifec@naver.com",
       "role": "",
@@ -7452,7 +7458,7 @@
       "auto": true
     },
     {
-      "id": 203,
+      "id": 202,
       "name": "기계 동남이엔시",
       "email": "dn-mech@daum.net",
       "role": "",
@@ -7460,7 +7466,7 @@
       "auto": true
     },
     {
-      "id": 206,
+      "id": 205,
       "name": "jdhouse78",
       "email": "jdhouse78@naver.com",
       "role": "",
@@ -7468,7 +7474,7 @@
       "auto": true
     },
     {
-      "id": 218,
+      "id": 217,
       "name": "jobible99@topec.co.kr",
       "email": "jobible99@topec.co.kr",
       "role": "",
@@ -7476,7 +7482,7 @@
       "auto": true
     },
     {
-      "id": 225,
+      "id": 224,
       "name": "davom",
       "email": "davom@davom.kr",
       "role": "",
@@ -7484,7 +7490,7 @@
       "auto": true
     },
     {
-      "id": 238,
+      "id": 237,
       "name": "박세환",
       "email": "parkse98@dongjak.go.kr",
       "role": "",
@@ -7492,7 +7498,7 @@
       "auto": true
     },
     {
-      "id": 253,
+      "id": 252,
       "name": "landen",
       "email": "landen@hanmail.net",
       "role": "",
@@ -7500,7 +7506,7 @@
       "auto": true
     },
     {
-      "id": 309,
+      "id": 308,
       "name": "cscando",
       "email": "cscando@naver.com",
       "role": "",
@@ -7508,7 +7514,7 @@
       "auto": true
     },
     {
-      "id": 333,
+      "id": 332,
       "name": "상도스타리움조합",
       "email": "sangdostarium@naver.com",
       "role": "",
@@ -7516,7 +7522,7 @@
       "auto": true
     },
     {
-      "id": 345,
+      "id": 344,
       "name": "Tae-bum",
       "email": "tbsong3@gsenc.com",
       "role": "",
@@ -7524,7 +7530,7 @@
       "auto": true
     },
     {
-      "id": 375,
+      "id": 374,
       "name": "아킬레스",
       "email": "sosuper@hanmail.net",
       "role": "",
@@ -7532,7 +7538,7 @@
       "auto": true
     },
     {
-      "id": 394,
+      "id": 393,
       "name": "up77down",
       "email": "up77down@nate.com",
       "role": "",
@@ -7540,7 +7546,7 @@
       "auto": true
     },
     {
-      "id": 411,
+      "id": 412,
       "name": "lwg30",
       "email": "lwg30@naver.com",
       "role": "",
@@ -7548,7 +7554,7 @@
       "auto": true
     },
     {
-      "id": 414,
+      "id": 415,
       "name": "miesvis",
       "email": "miesvis@dongjak.go.kr",
       "role": "",
@@ -7556,7 +7562,7 @@
       "auto": true
     },
     {
-      "id": 420,
+      "id": 421,
       "name": "kds47",
       "email": "kds47@dongjak.go.kr",
       "role": "",
@@ -7564,7 +7570,7 @@
       "auto": true
     },
     {
-      "id": 428,
+      "id": 429,
       "name": "kwf2000",
       "email": "kwf2000@chol.com",
       "role": "",
@@ -7572,7 +7578,7 @@
       "auto": true
     },
     {
-      "id": 429,
+      "id": 430,
       "name": "jihoeng",
       "email": "jihoeng@chol.com",
       "role": "",
@@ -7580,7 +7586,7 @@
       "auto": true
     },
     {
-      "id": 432,
+      "id": 433,
       "name": "소방 - 건일",
       "email": "ki-fire@kunil.com",
       "role": "",
@@ -7588,7 +7594,7 @@
       "auto": true
     },
     {
-      "id": 433,
+      "id": 434,
       "name": "kjdg0314",
       "email": "kjdg0314@hanmail.net",
       "role": "",
@@ -7596,7 +7602,7 @@
       "auto": true
     },
     {
-      "id": 446,
+      "id": 447,
       "name": "kimsanghyun6",
       "email": "kimsanghyun6@gsenc.com",
       "role": "",
@@ -7604,7 +7610,7 @@
       "auto": true
     },
     {
-      "id": 455,
+      "id": 456,
       "name": "min1995",
       "email": "min1995@naver.com",
       "role": "",
@@ -7612,7 +7618,7 @@
       "auto": true
     },
     {
-      "id": 460,
+      "id": 461,
       "name": "khr0",
       "email": "khr0@dongjak.go.kr",
       "role": "",
@@ -7620,7 +7626,7 @@
       "auto": true
     },
     {
-      "id": 466,
+      "id": 467,
       "name": "edrfte1117",
       "email": "edrfte1117@dongjak.go.kr",
       "role": "",
@@ -7628,7 +7634,7 @@
       "auto": true
     },
     {
-      "id": 469,
+      "id": 470,
       "name": "grazioso22",
       "email": "grazioso22@seoul.go.kr",
       "role": "",
@@ -7636,7 +7642,7 @@
       "auto": true
     },
     {
-      "id": 475,
+      "id": 476,
       "name": "anes10045",
       "email": "anes10045@hanmail.net",
       "role": "",
@@ -7644,7 +7650,7 @@
       "auto": true
     },
     {
-      "id": 512,
+      "id": 513,
       "name": "dkswnsdnr58",
       "email": "dkswnsdnr58@gmail.com",
       "role": "",
@@ -7652,7 +7658,7 @@
       "auto": true
     },
     {
-      "id": 517,
+      "id": 518,
       "name": "cuj0427",
       "email": "cuj0427@naver.com",
       "role": "",
