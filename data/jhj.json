@@ -1,0 +1,3858 @@
+{
+  "_version": 2,
+  "project": "",
+  "exportedAt": "2026-07-27T02:12:00.931Z",
+  "categories": [
+    {
+      "id": 1,
+      "name": "인허가",
+      "color": "#c8a96e",
+      "keywords": [
+        "인허가",
+        "허가",
+        "신고",
+        "승인",
+        "협의",
+        "인가"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "설계",
+      "color": "#7eb8c9",
+      "keywords": [
+        "설계",
+        "도면",
+        "변경",
+        "검토",
+        "평면",
+        "단면",
+        "입면"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "민원",
+      "color": "#c97e7e",
+      "keywords": [
+        "민원",
+        "주민",
+        "이의",
+        "반대"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "협력사",
+      "color": "#8ec97e",
+      "keywords": [
+        "협력사",
+        "하도급",
+        "용역",
+        "외주"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "발주처",
+      "color": "#a07ec9",
+      "keywords": [
+        "발주처",
+        "조합",
+        "시행사",
+        "시행자"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "기타",
+      "color": "#888888",
+      "keywords": []
+    },
+    {
+      "id": 1,
+      "name": "INOUT",
+      "color": "#7ec9b4",
+      "keywords": []
+    }
+  ],
+  "emails": [
+    {
+      "id": 269,
+      "date": "2026-07-24T08:30:47.000Z",
+      "from": "postmaster@dwspam1.daewooenc.com",
+      "to": "hyunj@yegaone.com",
+      "subject": "Delivery failure",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260724_402_postmaster@dwspam1.daewooenc.com.eml",
+      "body": "NOTICE: Delivery Failure.\n\nThis Delivery Status Notification is sent from MTA...\n\t\t\t\t\nYour delivery to the following address has been failed.\nPlease refer to the below for details.\t\t\t\t\n------------------------------------------------------\n\nDelivery failed: jihyun.sin@daewooenc.com\n52.101.153.0 does not like recipient.\nRemote host said[Response Message]: 550 5.4.1 Recipient address rejected: Access denied. For more information see https://aka.ms/EXOSmtpErrors [SE1PEPF00009E0A.KORP216.PROD.OUTLOOK.COM 2026-07-24T08:30:47.353Z 08DEE85ADD19CD96]\nGiving up on 52.101.153.0.\nSTEP: RCPT TO\n\n\n",
+      "attachments": []
+    },
+    {
+      "id": 268,
+      "date": "2026-07-23T05:53:36.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "<heartshine@daum.net>",
+      "subject": "[마포중동] 서울시청 협의자료 송부 건( 명일 회의참석시 첨부자료 출력 지참요 청)",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260723_398_hyunj@yegaone.com.eml",
+      "body": "\n다운로드 기한이 있는 첨부파일 1개 (503MB)7일 보관 / 100회 다운로드\n\n250320_중동_모아타운 관리계획.rev1.pptx 503MB ~ 2026. 7. 30.\n\n\n\n안녕하십니까 예가원건축 지현재차장입니다.\n\n전무님께서 27.07.24(금) 명일 서울시청 협의자료로 \n\n위 첨부하여드린 자료 출력 및 시청협의시 가져와주십사 요청주셔서 메일드렸습니다\n\n감사합니다.\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "서울시, '모아주택' 심의기준 손질… 준",
+        "모아타운심의기준.pdf"
+      ]
+    },
+    {
+      "id": 267,
+      "date": "2026-07-23T05:10:24.000Z",
+      "from": "한하린 <haline0k@yegaone.com>",
+      "to": "동남엠이씨_기계설비 <dn-mech@dnmec.com>",
+      "subject": "RE: 마포중동 가로주택 지하주차장",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260723_396_haline0k@yegaone.com.eml",
+      "body": "지하주차장 버전다운한 파일과 혹시 몰라 xr파일 함께 송부드립니다\n\n감사합니다.\n\n\n\n한하린 예가원건축사사무소\n설계팀 / 대리\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4236-4064 Mobile +82 010-3302-9614\nEmail haline0k@yegaone.com \n\n\n\n-----Original Message-----\nFrom: \"동남엠이씨_기계설비\"<dn-mech@dnmec.com>\nTo: \"한하린\"<haline0k@yegaone.com>;\nCc:\nSent: 2026. 7. 23. (목) 12:53 (GMT+09:00)\nSubject: 마포중동 가로주택 지하1층 램프입힌 도면\n\n\n\n\n안녕하세요\n(주)동남엠이씨입니다.\n\n7월16일에 받은 주차장 도면 중 지하1층에 램프가 없는 도면이 왔습니다.램프 입혀진 도면 부탁합니다.\n\n\n(주)동남엠이씨\n서울시 송파구 중대로 275 5층\nT. 070-4488-6518\nF. 02-568-2857\nE. dn-mech@dnmec.com\n\n",
+      "attachments": [
+        "PARK_B1F.dwg",
+        "지하주차장 평면도(버전다운).dwg"
+      ]
+    },
+    {
+      "id": 266,
+      "date": "2026-07-23T04:23:14.000Z",
+      "from": "한하린 <haline0k@yegaone.com>",
+      "to": "동남엠이씨_기계설비 <dn-mech@dnmec.com>",
+      "subject": "RE: 마포중동 가로주택 지하1층 램프입힌  도면",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260723_395_haline0k@yegaone.com.eml",
+      "body": "실외기 검토를 위한 지하주차장 평면도 및 기준층 배치도를 송부드립니다.\n첨부 도면 확인 부탁드립니다.\n\n감사합니다.\n\n\n\n한하린 예가원건축사사무소\n설계팀 / 대리\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4236-4064 Mobile +82 010-3302-9614\nEmail haline0k@yegaone.com \n\n\n\n-----Original Message-----\nFrom: \"동남엠이씨_기계설비\"<dn-mech@dnmec.com>\nTo: \"한하린\"<haline0k@yegaone.com>;\nCc:\nSent: 2026. 7. 23. (목) 12:53 (GMT+09:00)\nSubject: 마포중동 가로주택 지하1층 램프입힌 도면\n\n\n\n\n안녕하세요\n(주)동남엠이씨입니다.\n\n7월16일에 받은 주차장 도면 중 지하1층에 램프가 없는 도면이 왔습니다.램프 입혀진 도면 부탁합니다.\n\n\n(주)동남엠이씨\n서울시 송파구 중대로 275 5층\nT. 070-4488-6518\nF. 02-568-2857\nE. dn-mech@dnmec.com\n\n",
+      "attachments": [
+        "기준층배치도.dwg",
+        "지하주차장 평면도.dwg"
+      ]
+    },
+    {
+      "id": 265,
+      "date": "2026-07-23T02:13:24.000Z",
+      "from": "한하린 <haline0k@yegaone.com>",
+      "to": "동남엠이씨_기계설비 <dn-mech@dnmec.com>",
+      "subject": "RE: [마포 중동 가로주택정비사업] 단위세 대 및 동평면, 지상층 배치도 송부드립니 다.",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260723_394_haline0k@yegaone.com.eml",
+      "body": "추가 요청하신 건축개요 및 종횡단면도 송부드립니다.\n\n대우 요청사항에 따른 대지 종·횡단면도 지하 2~4층 층고 변경사항이 반영되어 있습니다.\n기존 건식 스프링클러 적용에서 습식 스프링클러 적용으로 변경됨에 따라 층고를 조정하였습니다.\n\n첨부 도면 확인 부탁드립니다.\n감사합니다.\n\n\n한하린 예가원건축사사무소\n설계팀 / 대리\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4236-4064 Mobile +82 010-3302-9614\nEmail haline0k@yegaone.com \n\n\n\n-----Original Message-----\nFrom: \"동남엠이씨_기계설비\"<dn-mech@dnmec.com>\nTo: \"한하린\"<haline0k@yegaone.com>;\nCc:\nSent: 2026. 7. 23. (목) 11:03 (GMT+09:00)\nSubject: RE: [마포 중동 가로주택정비사업] 단위세대 및 동평면, 지상층 배치도 송부드립니다.\n\n\n\n\n안녕하세요\n(주)동남엠이씨입니다.\n\n도면 잘 받았습니다.건축개요, 단면도도 보내주세요.건축개요를 4월에 받았습니다.\n\n\n(주)동남엠이씨\n서울시 송파구 중대로 275 5층\nT. 070-4488-6518\nF. 02-568-2857\nE. dn-mech@dnmec.com\n\n\n\n--------- 원본 메일 ---------\n\n보낸사람: 한하린 <haline0k@yegaone.com>\n받는사람: 기계 동남이엔시 <dn-mech@daum.net>\n참조: 강재형 <jhkang@yegaone.com>,지현재 <hyunj@yegaone.com>\n날짜: 26.07.23 10:44 GMT +0900\n제목: [마포 중동 가로주택정비사업] 단위세대 및 동평면, 지상층 배치도 송부드립니다.\n첨부파일: 101동평면도.dwg, 102동평면도.dwg, 103동평면도.dwg, 단위세대 평면도.dwg\n\n\n다운로드 기한이 있는 첨부파일 4개 (21MB)7일 보관 / 100회 다운로드\n\n105동평면도.dwg 4MB ~ 2026. 7. 30.\n104동평면도.dwg 5MB ~ 2026. 7. 30.\n106동평면도.dwg 5MB ~ 2026. 7. 30.\n지반층배치도.dwg 6MB ~ 2026. 7. 30.\n\n\n\n안녕하세요.\n예가원건축사사무소 한하린 대리입니다.\n\n요청하신 단위세대 및 동평면 업데이트 도면과 지상층 부대시설 확인을 위한 자료를 송부드립니다.\n\n지상층 근린생활시설 및 부대시설이 수정되어, 전체 배치 확인이 가능하도록 지상층 배치도로 함께 첨부드립니다.\n검토 부탁드립니다.\n\n감사합니다.\n\n\n\n한하린 예가원건축사사무소\n설계팀 / 대리\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4236-4064 Mobile +82 010-3302-9614\nEmail haline0k@yegaone.com \n\n\n\n\n\n\n\n\n\n\n",
+      "attachments": [
+        "건축개요.dwg",
+        "대지종횡단면도.dwg",
+        "램프평단면상세도.dwg"
+      ]
+    },
+    {
+      "id": 263,
+      "date": "2026-07-23T01:44:50.000Z",
+      "from": "한하린 <haline0k@yegaone.com>",
+      "to": "기계 동남이엔시 <dn-mech@daum.net>",
+      "subject": "[마포 중동 가로주택정비사업] 단위세대  및 동평면, 지상층 배치도 송부드립니다 .",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260723_393_haline0k@yegaone.com.eml",
+      "body": "\n다운로드 기한이 있는 첨부파일 4개 (21MB)7일 보관 / 100회 다운로드\n\n105동평면도.dwg 4MB ~ 2026. 7. 30.\n104동평면도.dwg 5MB ~ 2026. 7. 30.\n106동평면도.dwg 5MB ~ 2026. 7. 30.\n지반층배치도.dwg 6MB ~ 2026. 7. 30.\n\n\n\n안녕하세요.\n예가원건축사사무소 한하린 대리입니다.\n\n요청하신 단위세대 및 동평면 업데이트 도면과 지상층 부대시설 확인을 위한 자료를 송부드립니다.\n\n지상층 근린생활시설 및 부대시설이 수정되어, 전체 배치 확인이 가능하도록 지상층 배치도로 함께 첨부드립니다.\n검토 부탁드립니다.\n\n감사합니다.\n\n\n\n한하린 예가원건축사사무소\n설계팀 / 대리\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4236-4064 Mobile +82 010-3302-9614\nEmail haline0k@yegaone.com \n\n\n\n",
+      "attachments": [
+        "101동평면도.dwg",
+        "102동평면도.dwg",
+        "103동평면도.dwg",
+        "단위세대 평면도.dwg"
+      ]
+    },
+    {
+      "id": 262,
+      "date": "2026-07-21T08:30:09.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "<JDY114@hanmail.net>",
+      "subject": "[마포중동] 야간경관용 조감토 투시도 창 문레이어 분리파일 송부건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260721_392_hyunj@yegaone.com.eml",
+      "body": "요청하신자료 송부드립니다.\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "조감-유리채널.psd",
+        "투시-유리채널.psd"
+      ]
+    },
+    {
+      "id": 261,
+      "date": "2026-07-21T06:58:58.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "정진환 <jung00221@daum.net>",
+      "subject": "[마포중동]재해영향평가 관련 요청자료  재송부 건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260721_391_hyunj@yegaone.com.eml",
+      "body": "\n다운로드 기한이 있는 첨부파일 1개 (61MB)7일 보관 / 100회 다운로드\n\n260721_재해요청자료 송부(최신자료 재송부).zip 61MB ~ 2026. 7. 28.\n\n\n\n\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": []
+    },
+    {
+      "id": 260,
+      "date": "2026-07-21T06:16:01.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "고경민 <enh2013@naver.com>",
+      "subject": "[마포중동] 종합개선안도 CAD파일 요청자 료 송부 건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260721_389_hyunj@yegaone.com.eml",
+      "body": "\n다운로드 기한이 있는 첨부파일 1개 (41MB)7일 보관 / 100회 다운로드\n\n종합개선안도-2026.07 - Standard.zip 41MB ~ 2026. 7. 28.\n\n\n\n요청주신 자료 송부드립니다.,\n\n감사합니다.\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": []
+    },
+    {
+      "id": 259,
+      "date": "2026-07-21T06:02:56.000Z",
+      "from": "dgenc2003 <dgenc2003@naver.com>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": "마포 중동 가로주택정비사업 종합개선안 도",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260721_388_dgenc2003@naver.com.eml",
+      "body": "\n대용량 첨부 1개 41MB\n\n종합개선안도-2026.07 - Standard.zip 42524220 ~ 2026/08/20\n기한이 있는 파일은 30일 보관 / 100회 다운로드 가능\n\n\n\n차장님 안녕하세요\n요청하신 도면 송부드립니다.\n업무에 참고하시기 바랍니다.\n\n\n",
+      "attachments": []
+    },
+    {
+      "id": 258,
+      "date": "2026-07-21T05:09:59.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "신지현 선임(SHIN JI HYUN) <jihyun.shin@daewooenc.com>",
+      "subject": "[마포중동] 통합심의 접수용 기본도서 대 우건설 검토의견 답변회신 건(전기검토 사항 일부누락 추가작성)",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260721_387_hyunj@yegaone.com.eml",
+      "body": "안녕하십니까 예가원건축 지현재차장입니다.\n\n보내주신 검토 의견중 전기파트에서 답변이 일부 누락된 부분이 있어 추가 작성하여 보내드립니다.\n\n감사합니다.\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "마포중동78 가로주택 설계검토서_전기_2"
+      ]
+    },
+    {
+      "id": 257,
+      "date": "2026-07-21T04:46:22.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "고경민 <enh2013@naver.com>",
+      "subject": "[마포중동] 종합개선안도 요청자료 송부 건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260721_385_hyunj@yegaone.com.eml",
+      "body": "이사님 요청자료 송부드립니다.\n\n감사합니다.\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "종합개선안도-2026.07.pdf"
+      ]
+    },
+    {
+      "id": 256,
+      "date": "2026-07-21T04:35:49.000Z",
+      "from": "한하린 <haline0k@yegaone.com>",
+      "to": "고경민 <enh2013@naver.com>",
+      "subject": "[마포 중동 가로주택정비사업] 특별건축 구역 일조시뮬레이션 관련 필요 자료 송 부드립니다.",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260721_383_haline0k@yegaone.com.eml",
+      "body": "\n다운로드 기한이 있는 첨부파일 1개 (66MB)7일 보관 / 100회 다운로드\n\n마포구 중동 특건 일조시뮬 관련 필요자료.zip 66MB ~ 2026. 7. 28.\n\n\n\n안녕하세요. \n예가원건축사사무소 한하린 대리입니다.\n\n중동 특별건축구역 일조시뮬레이션 관련하여 필요한 자료를 송부드립니다.\n기본도면, 현황도, 지적도 및 모아타운 관리계획 파일을 첨부드리오니 확인 부탁드립니다.\n\n추가로 필요한 자료가 있으시면 회신 부탁드립니다.\n\n감사합니다.\n\n\n\n한하린 예가원건축사사무소\n설계팀 / 대리\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4236-4064 Mobile +82 010-3302-9614\nEmail haline0k@yegaone.com \n\n\n\n",
+      "attachments": []
+    },
+    {
+      "id": 255,
+      "date": "2026-07-21T01:49:31.000Z",
+      "from": "김미라 <rabluesky@naver.com>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": "[마포중동]건축심의도서수정(조경)",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260721_382_rabluesky@naver.com.eml",
+      "body": "\n대용량 첨부 1개 41MB\n\n건축심의도서 -수정.zip 43406956 ~ 2026/08/20\n기한이 있는 파일은 30일 보관 / 100회 다운로드 가능\n\n\n\n안녕하세요, 차장님.\n건축심의도서 수정파일 보내드립니다.\n감사합니다.\n\n\n",
+      "attachments": [
+        "도면A3.ctb"
+      ]
+    },
+    {
+      "id": 254,
+      "date": "2026-07-20T04:59:55.000Z",
+      "from": "dgenc2003 <dgenc2003@naver.com>",
+      "to": "정찬희 <ray514871@yegaone.com>",
+      "subject": "마포 중동 78번지일원 가로주택정비사업  교통영향평가 보고서 수정본",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260720_381_dgenc2003@naver.com.eml",
+      "body": "\n대용량 첨부 1개 118MB\n\n마포구 중동 78번지 일원 가로주택정비사업 교통영향평가-2026.07.pdf 123553905 ~ 2026/08/19\n기한이 있는 파일은 30일 보관 / 100회 다운로드 가능\n\n\n\n안녕하세요\n대건이엔씨 배두한입니다.\n지하주차장 평면도 및 램프 변경에 따른 보고서 수정본 첨부하여 보내드립니다.\n업무에 참고하시기 바랍니다.\n\n\n-----Original Message-----\nFrom: \"정찬희\"<ray514871@yegaone.com>\nTo: <dgenc2003@naver.com>;\nCc: \"지현재\"<hyunj@yegaone.com>;\nSent: 2026-07-13 (월) 13:15:34 (GMT+09:00)\nSubject: 예가원 건축사사무소 [마포구 중동 지하주차장 주차 수정 및 램프 수정]\n\n예가원 정찬희 대리입니다\n마포구 중동 지하주차장 및 램프 부분 수정이 있어 도면 전해드립니다\n지하주차장 전기주차대수와 주차 이동이 있습니다\n램프는 지하 레벨이 수정되어 B2F B3F B4F 로가는 램프들이 늘어나게되어 \n도면을 보내드립니다.\n감사합니다.\n\n\n정찬희 예가원건축사사무소\n설계팀 / 대리\n\n서울시 강남구 선릉로 93길, 50 현석타워 13층\nTel 070-4290-3454 Mobile +82 010-6220-5148\nEmail ray514871@yegaone.com \n\n\n\n\n\n\n",
+      "attachments": [
+        "종합개선안도-2026.07.pdf",
+        "주차장개선안도(2026.07).pdf"
+      ]
+    },
+    {
+      "id": 253,
+      "date": "2026-07-20T04:02:22.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "<JDY114@hanmail.net>",
+      "subject": "[마포중동]주동입면 송부 건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260720_380_hyunj@yegaone.com.eml",
+      "body": "주동입면 cg에서 받은파일 첨부드렸습니다\n\n감사합니다.\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "트리박스입니다.(마포구중동-입면).zip"
+      ]
+    },
+    {
+      "id": 252,
+      "date": "2026-07-20T01:53:39.000Z",
+      "from": "한하린 <haline0k@yegaone.com>",
+      "to": "임석주 <dn-mech@dnmec.com>",
+      "subject": "[마포 중동 가로주택정비사업] 지하주차 장 관련 단면도 송부드립니다. ",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260720_378_haline0k@yegaone.com.eml",
+      "body": "안녕하세요.\n예가원건축사사무소 한하린대리입니다.\n\n마포 중동 관련하여 오늘 요청하신 지하주차장\n대지종횡단면과 , 램프평단면 캐드파일 보내드립니다.\n\n감사합니다.\n\n\n\n한하린 예가원건축사사무소\n설계팀 / 대리\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4236-4064 Mobile +82 010-3302-9614\nEmail haline0k@yegaone.com \n\n\n\n",
+      "attachments": [
+        "대지종횡단면도.dwg",
+        "램프평단면상세도.dwg"
+      ]
+    },
+    {
+      "id": 251,
+      "date": "2026-07-16T08:03:26.000Z",
+      "from": "한하린 <haline0k@yegaone.com>",
+      "to": "임석주 <dn-mech@dnmec.com>",
+      "subject": "[마포 중동 가로주택정비사업] 지하주차 장 도면 송부드립니다.",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260716_377_haline0k@yegaone.com.eml",
+      "body": "금일 통화로 요청하신 리스트 관련 \n지하주차장 캐드파일 송부드립니다. \n\n감사합니다.\n\n\n\n한하린 예가원건축사사무소\n설계팀 / 대리\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4236-4064 Mobile +82 010-3302-9614\nEmail haline0k@yegaone.com \n\n\n\n",
+      "attachments": [
+        "지하주차장 평면도.dwg"
+      ]
+    },
+    {
+      "id": 250,
+      "date": "2026-07-16T08:00:13.000Z",
+      "from": "한하린 <haline0k@yegaone.com>",
+      "to": "임석주 <dn-mech@dnmec.com>",
+      "subject": "[마포 중동 가로주택정비사업] 지하주차 장 도면 송부드립니다.",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260716_376_haline0k@yegaone.com.eml",
+      "body": "금일 통화로 요청하신 리스트 관련 \n지하주차장 캐드파일 송부드립니다. \n\n감사합니다.\n\n\n\n한하린 예가원건축사사무소\n설계팀 / 대리\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4236-4064 Mobile +82 010-3302-9614\nEmail haline0k@yegaone.com \n\n\n\n",
+      "attachments": []
+    },
+    {
+      "id": 249,
+      "date": "2026-07-16T07:59:01.000Z",
+      "from": "한하린 <haline0k@yegaone.com>",
+      "to": "<jhking9407@naver.com>",
+      "subject": "[마포 중동 가로주택정비사업] 서울시 협 의 필요도서 관련 추가 샘플 송부드립니 다.",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260716_375_haline0k@yegaone.com.eml",
+      "body": "금일 통화로 요청하신 리스트 관련 \n\n서울형 태양광 설비 설치기준 검토서와 샘플 및\n신재생에너지 관리운용 계획서 샘플 추가 송부드립니다. \n\n감사합니다.\n\n\n한하린 예가원건축사사무소\n설계팀 / 대리\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4236-4064 Mobile +82 010-3302-9614\nEmail haline0k@yegaone.com \n\n\n\n-----Original Message-----\nFrom: \"한하린\"<haline0k@yegaone.com>\nTo: <jhking9407@naver.com>;\nCc: \"강재형\"<jhkang@yegaone.com>; \"지현재\"<hyunj@yegaone.com>;\nSent: 2026. 7. 16. (목) 11:05 (GMT+09:00)\nSubject: [마포 중동 가로주택정비사업] 서울시 협의 필요도서 리스트 송부드립니다.\n\n안녕하세요. 예가원건축사사무소 한하린 대리입니다.\n\n서울시 협의 시 필요한 자료 관련하여 요청 리스트를 송부드립니다.\n\n첨부된 한글파일을 확인하신 후 담당하시는 전기 분야의 필요 자료를 검토 부탁드립니다.\n검토 후 관련 자료를 준비하시어 다음 주 내 회신 부탁드립니다.\n\n감사합니다.\n\n\n\n한하린 예가원건축사사무소\n설계팀 / 대리\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4236-4064 Mobile +82 010-3302-9614\nEmail haline0k@yegaone.com \n\n\n\n",
+      "attachments": [
+        "11-5. 신재생에너지 관리운용 계획서.hwp",
+        "붙임 7. 서울형 태양광 설비 설치 기준 검",
+        "서울형 태양광 설비 설치기준 검토서.hw"
+      ]
+    },
+    {
+      "id": 248,
+      "date": "2026-07-16T02:08:21.000Z",
+      "from": "한하린 <haline0k@yegaone.com>",
+      "to": "임석주 <dn-mech@dnmec.com>",
+      "subject": "[마포 중동 가로주택정비사업] 서울시 협 의 필요도서 리스트 송부드립니다.",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260716_374_haline0k@yegaone.com.eml",
+      "body": "안녕하세요. 예가원건축사사무소 한하린 대리입니다.\n\n서울시 협의 시 필요한 자료 관련하여 요청 리스트를 송부드립니다.\n\n첨부된 한글파일을 확인하신 후 실외기 설치 위치도를 제외한 기계 분야의 필요 자료를 검토 부탁드립니다.\n검토 후 관련 자료를 준비하시어 다음 주 내 회신 부탁드립니다.\n\n감사합니다.\n\n\n\n한하린 예가원건축사사무소\n설계팀 / 대리\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4236-4064 Mobile +82 010-3302-9614\nEmail haline0k@yegaone.com \n\n\n\n",
+      "attachments": [
+        "서울시 통합심의 협의용  파일명 및 작성"
+      ]
+    },
+    {
+      "id": 247,
+      "date": "2026-07-16T02:05:17.000Z",
+      "from": "한하린 <haline0k@yegaone.com>",
+      "to": "<jhking9407@naver.com>",
+      "subject": "[마포 중동 가로주택정비사업] 서울시 협 의 필요도서 리스트 송부드립니다.",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260716_373_haline0k@yegaone.com.eml",
+      "body": "안녕하세요. 예가원건축사사무소 한하린 대리입니다.\n\n서울시 협의 시 필요한 자료 관련하여 요청 리스트를 송부드립니다.\n\n첨부된 한글파일을 확인하신 후 담당하시는 전기 분야의 필요 자료를 검토 부탁드립니다.\n검토 후 관련 자료를 준비하시어 다음 주 내 회신 부탁드립니다.\n\n감사합니다.\n\n\n\n한하린 예가원건축사사무소\n설계팀 / 대리\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4236-4064 Mobile +82 010-3302-9614\nEmail haline0k@yegaone.com \n\n\n\n",
+      "attachments": [
+        "서울시 통합심의 협의용  파일명 및 작성"
+      ]
+    },
+    {
+      "id": 246,
+      "date": "2026-07-16T08:00:00.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "신지현 선임(SHIN JI HYUN) <jihyun.shin@daewooenc.com>",
+      "subject": "[마포중동] 통합심의 접수용 기본도서 대 우건설 검토의견 답변회신 건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260716_371_hyunj@yegaone.com.eml",
+      "body": "\n다운로드 기한이 있는 첨부파일 1개 (40MB)7일 보관 / 100회 다운로드\n\n260715_통합심의 도면기준 검토사항 답변(2,3차).zip 40MB ~ 2026. 7. 22.\n\n\n\n안녕하십니까 예가원건축 지현재차장입니다.\n\n 보내주신 검토 의견은 전반적으로 반영하여 보완을 진행하였습니다. \n\n다만, 현재 사업 일정과 이미 진행 중인 심의 및 협의 사항(교육·재해·교통 영향평가 보고서 등)에 영향을 미치는 일부 면적 변경 건에 대해서는 \n\n현 단계에서의 수정이 어렵습니다. 해당 변경 사항들은 추후 인가 단계에서 반영하는 것으로 정리하여 작성하였습니다.\n\n향후 일정 및 계획은 아래 내용을 참고해 주시기 바랍니다.\n\n통합심의 완료 후: 심의 결과에 따른 조치계획 반영과 함께, 보류된 면적 변경 사항들을 종합하여 최종 정리할 예정입니다.\n\n평면 확정(Fix) 시점: 조합의 종후자산평가 전, 면적 확정이 이루어지기 전에 최종 평면을 확정할 계획입니다.\n\n\n위 일정을 업무에 참고해 주시기 바라며, 관련하여 문의 사항이 있으시면 언제든 연락해 주십시오.\n\n감사합니다.\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": []
+    },
+    {
+      "id": 245,
+      "date": "2026-07-15T09:00:50.000Z",
+      "from": "정진환 <jung00221@daum.net>",
+      "to": "예가원지현재차장님 <hyunj@yegaone.com>",
+      "subject": "260715_재해_필 요자료 및 추진계획 등",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260715_372_jung00221@daum.net.eml",
+      "body": "바쁘신 중에 노고가 많으십니다. 재해_필요자료 및 추진계획 등을 드리오니 내용 확인 부탁드립니다. 감사합니다. - 정진환 배상 - 010-2517-4946",
+      "attachments": [
+        "260715_재해_필요자"
+      ]
+    },
+    {
+      "id": 244,
+      "date": "2026-07-15T06:39:11.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "<JDY114@hanmail.net>",
+      "subject": "[마포중동] 경관필요도면 1차 송부건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260715_369_hyunj@yegaone.com.eml",
+      "body": "\n다운로드 기한이 있는 첨부파일 3개 (385MB)7일 보관 / 100회 다운로드\n\n조감도08(최종).jpg 20MB ~ 2026. 7. 22.\n배치도02 (레이어분리).psd 178MB ~ 2026. 7. 22.\n11111_v2014.skp 186MB ~ 2026. 7. 22.\n\n\n\n\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "투시도-03(최종).jpg"
+      ]
+    },
+    {
+      "id": 243,
+      "date": "2026-07-15T05:31:51.000Z",
+      "from": "(주)건축환경그룹 다올 <enh2013@naver.com>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": "[건축환경그룹다올] 마포 중동 교육환경 평가 예상일정 내용",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260715_365_enh2013@naver.com.eml",
+      "body": "안녕하세요, 지현재 차장님\n\n마포 중동 교육환경평가 예상 일정\n > 1차 검토의견(교육청,교육지원청,보호원,학교) 취합 7월 말 예정\n > 의견에 따른 조치계획 작성하면서 학교(3개교) 협의 진행  약 20일 소요 예상\n > 조치계획 제출 후 보호원 2차 검토(약 15일~20일 소요 예상) 또는 심의 상정 진행\n > 통합심의 8월말 접수하면 해당 공문이 교육지원청에서도 확인 후에 서울시교육청과의 협의를 통해 통합심의 상정\n\n\n(주)건축환경그룹 다올 이사 고경민\n\n▶ 친환경컨설팅부문\n에너지절약계획서(EPI)/에너지절약형 친환경주택성능평가(GREEN HOME)/건강친화형주택평가/녹색건축인증(G-SEED)\n/건물에너지효율등급인증/제로에너지건축물인증(ZEB)/공동주택 결로방지성능평가/장수명주택인증\n/범죄예방환경설계(CPTED)/지능형건축물인증(IBS)/장애물없는생활환경(BF)인증/TK·BTL·기술제안 친환경계획/교육환경평가\n▶ 환경분석 부문\n공동주택 도로교통소음예측평가/일조권분석/조망권분석/ 열환경분석/바람길분석/실내기류분석/화재피난 분석\n▶신재생에너지 부문\n신재생에너지 컨설팅 및 시공, 유지관리 전문업체\n▶창호컨설팅 부문\n창호설계 및 시공, 컨설팅 전문업체\n\n☎ 대표번호 : 02-2138-7919\n☎ 팩스번호 : 02-2138-7920\n☎ 휴대번호 : 010-9518-1113\n서울특별시 금천구 가산디지털1로 16(가산동) 901호,902호,903호,914호(가산2차 SK V1 AP타워)\n\n\n\n",
+      "attachments": []
+    },
+    {
+      "id": 242,
+      "date": "2026-07-15T05:11:34.000Z",
+      "from": "(주)건축환경그룹 다올 <enh2013@naver.com>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": "[건축환경그룹다올] 마포 중동 통합심의  관련 필요도서 리스트",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260715_364_enh2013@naver.com.eml",
+      "body": "안녕하세요,\n마포 중동 통합심의 관련 필요도서 리스트를 보내드리오니 회신부탁드립니다\n\n\n(주)건축환경그룹 다올 이사 고경민\n\n▶ 친환경컨설팅부문\n에너지절약계획서(EPI)/에너지절약형 친환경주택성능평가(GREEN HOME)/건강친화형주택평가/녹색건축인증(G-SEED)\n/건물에너지효율등급인증/제로에너지건축물인증(ZEB)/공동주택 결로방지성능평가/장수명주택인증\n/범죄예방환경설계(CPTED)/지능형건축물인증(IBS)/장애물없는생활환경(BF)인증/TK·BTL·기술제안 친환경계획/교육환경평가\n▶ 환경분석 부문\n공동주택 도로교통소음예측평가/일조권분석/조망권분석/ 열환경분석/바람길분석/실내기류분석/화재피난 분석\n▶신재생에너지 부문\n신재생에너지 컨설팅 및 시공, 유지관리 전문업체\n▶창호컨설팅 부문\n창호설계 및 시공, 컨설팅 전문업체\n\n☎ 대표번호 : 02-2138-7919\n☎ 팩스번호 : 02-2138-7920\n☎ 휴대번호 : 010-9518-1113\n서울특별시 금천구 가산디지털1로 16(가산동) 901호,902호,903호,914호(가산2차 SK V1 AP타워)\n\n-----Original Message-----\nFrom: \"지현재\"<hyunj@yegaone.com>\nTo: \"고경민\"<enh2013@naver.com>;\nCc: \"강재형\"<jhkang@yegaone.com>;\nSent: 2026-07-13 (월) 15:39:02 (GMT+09:00)\nSubject: [마포중동]통합심의 친환경계획서 페이지 작성요청 건\n\n\n다운로드 기한이 있는 첨부파일 1개 (19MB)7일 보관 / 100회 다운로드\n\n통합심의_ 성산동(친환경부분 발췌).pptx 19MB ~ 2026. 7. 20.\n\n\n\n샘플내용중 태양광패널 부분은 필요용량검토내용만 작성해주시면 됩니다.\n\n(일조시뮬레이션,태양광패널배치현황 페이지 작성X)\n\n감사합니다.\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n\n\n\n",
+      "attachments": [
+        "서울시 통합심의 협의용  파일명 및 작성"
+      ]
+    },
+    {
+      "id": 241,
+      "date": "2026-07-14T07:19:52.000Z",
+      "from": "김미라 <rabluesky@naver.com>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": "RE: [마포중동]단지지반층평면도-조경수 정",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260714_363_rabluesky@naver.com.eml",
+      "body": "안녕하세요, 차장님.\n조경배치수정해서 건설사 검토를 오전에 보냈으나 회신이 없으셔서...\n오늘 드리기로해서 일단 먼저 보내드립니다.\n검토 부탁드립니다.\n감사합니다.\n\n\n\n\n-----Original Message-----\nFrom: \"지현재\"<hyunj@yegaone.com>\nTo: <rabluesky@naver.com>;\nCc: \"강재형\"<jhkang@yegaone.com>;\nSent: 2026-07-13 (월) 14:52:28 (GMT+09:00)\nSubject: [마포중동]단지지반층평면도\n\n요청하신 지반층평면도 첨부드렸습니다. 출입구선형 일단 변경했는데 보시고 어색한 부분 등 추가 변경해주셔도 됩니다.\n\n감사합니다.\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n\n\n\n",
+      "attachments": [
+        "260714 조경배치수정.dwg"
+      ]
+    },
+    {
+      "id": 240,
+      "date": "2026-07-13T05:09:24.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "신상철 <shinsc63@daum.net>",
+      "subject": "[마포중동]총회책자용 조감도 송부건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260713_358_hyunj@yegaone.com.eml",
+      "body": "\n다운로드 기한이 있는 첨부파일 1개 (20MB)7일 보관 / 100회 다운로드\n\n조감도07.jpg 20MB ~ 2026. 7. 20.\n\n\n\n요청하신 총회책자용\n조감도 첨부드렸습니다.\n\n감사합니다.\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": []
+    },
+    {
+      "id": 239,
+      "date": "2026-07-13T04:15:34.000Z",
+      "from": "정찬희 <ray514871@yegaone.com>",
+      "to": "<dgenc2003@naver.com>",
+      "subject": "예가원 건축사사무소 [마포구 중동 지하 주차장 주차 수정 및 램프 수정]",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260713_356_ray514871@yegaone.com.eml",
+      "body": "예가원 정찬희 대리입니다\n마포구 중동 지하주차장 및 램프 부분 수정이 있어 도면 전해드립니다\n지하주차장 전기주차대수와 주차 이동이 있습니다\n램프는 지하 레벨이 수정되어 B2F B3F B4F 로가는 램프들이 늘어나게되어 \n도면을 보내드립니다.\n감사합니다.\n\n\n정찬희 예가원건축사사무소\n설계팀 / 대리\n\n서울시 강남구 선릉로 93길, 50 현석타워 13층\nTel 070-4290-3454 Mobile +82 010-6220-5148\nEmail ray514871@yegaone.com \n\n\n\n",
+      "attachments": [
+        "램프평단면상세도.dwg",
+        "지하주차장 평면도.dwg"
+      ]
+    },
+    {
+      "id": 238,
+      "date": "2026-07-10T12:14:34.000Z",
+      "from": "dgenc2003 <dgenc2003@naver.com>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": "마포구 중동 가로주택정비사업 교통영향 평가 본보고서",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260710_355_dgenc2003@naver.com.eml",
+      "body": "\n대용량 첨부 1개 98MB\n\n마포구 중동 78번지 일원 가로주택정비사업 교통영향평가-2026.07.pdf 102542414 ~ 2026/08/09\n기한이 있는 파일은 30일 보관 / 100회 다운로드 가능\n\n\n\n차장님. 안녕하세요\n대건이엔씨 배두한입니다.\n마포구 중동 78번지 일원 가로주택정비사업 관련하여\n교통영향평가 본보고서가 완료되어 송부드립니다.\n업무에 참고하시기 바랍니다.\n\n\n",
+      "attachments": []
+    },
+    {
+      "id": 236,
+      "date": "2026-07-08T06:17:58.000Z",
+      "from": "counter@sindohj.com",
+      "to": "hyunj@yegaone.com",
+      "subject": "Message from 25C-1i",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260708_353_counter@sindohj.com.eml",
+      "body": "",
+      "attachments": [
+        "S25C-1i26070815170.pdf"
+      ]
+    },
+    {
+      "id": 235,
+      "date": "2026-07-08T01:14:10.000Z",
+      "from": "신지현 선임(SHIN JI HYUN) <jihyun.shin@daewooenc.com>",
+      "to": "예가원 지현재 차장 <hyunj@yegaone.com>",
+      "subject": " FW: [마포중동78] 통합심의 접수용 기본도 서 시공사 검토의견_인테리어 파트 추가",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260708_352_jihyun.shin@daewooenc.com.eml",
+      "body": "[pdf 아이콘] 260707 마포중동 단위세대 인테리어 검토.pdf<https://daewooenc365-my.sharepoint.com/:b:/g/personal/jihyun_shin_daewooenc_com/IQCoVUJLkWieQ5A8u737YPQLAQmAzMMOZxRk5EsNxUGIDjs>\r\n\r\n안녕하세요\r\n대우건설 신지현 선임입니다.\r\n\r\n마포중동78 통합심의 접수용 기본도서 관련하여 인테리어파트 검토내용 추가하여 전달드립니다.\r\n\r\n주요 검토사항은 아래와 같습니다.\r\n\r\n[전타입 공통]\r\n\r\n  1.  주방 벽체 두께 33mm / 주방 상판 D700 적용\r\n\r\n  1.  실외기실 AL 그릴 : 외벽 센터 설치 / 실외기실 도어 : 단열-골조 센터 설치 -> 드레스룸 접한 실외기실의 경우 120t 단열도어 필요\r\n\r\n  1.  발코니1 결로방지 단열재 - 창, 도어 프레임과 간섭 / 두께 확인 필요 -> 두께 30mm 적용\r\n\r\n  1.  하향식 피난구 도어 열림 방향 확인 필요\r\n\r\n  1.  경량벽체 (스마트스위치 설치 벽체 등) 두께 기준 설계 기준에 따라 적용\r\n\r\n  1.  발코니2 창호 양쪽으로 보일러(300) / 가스배관 (120) 설치 벽체 확보 필요\r\n\r\n  1.  욕조 750 / 젠다이 1450 적용\r\n\r\n[44]\r\n\r\n  1.  주방 싱크 PD --> 발코니2 PD 사용 가능한지 검토 (주방쪽 PD 삭제 or 단차 삭제)\r\n\r\n  1.  현관 디딤석 D230 적용 (44~59 공통)\r\n\r\n[59B]\r\n\r\n  1.  발코니1 옆 실외기실 or 하향식피난구 배치 확인 필요 (실명은 하향식피난구 / 도면은 실외기실로 반영되어있음) *다른 타입은 모두 하향식 피난구\r\n\r\n[84A]\r\n\r\n  1.  현관창고 복도쪽 벽체 경량 150T 확보 (원슬라이딩 자동중문 옵션 적용 고려)\r\n\r\n  1.  스마트욕실 포켓도어 W900 적용\r\n\r\n[84B]\r\n\r\n  1.  현관 레이아웃 변경 (현관창고 확보 및 원슬라이딩 자동중문 옵션 적용 고려 - 150T 경량벽체)\r\n\r\n  1.   스마트욕실 포켓도어 W900 적용\r\n\r\n  1.  발코니2 PD 통합 가능 여부 검토\r\n\r\n이외의 사항은 첨부드린 도면에 기입하여 전달드리오니, 내용 확인 부탁드립니다.\r\n\r\n감사합니다.\r\n\r\n",
+      "attachments": [
+        "image001.png"
+      ]
+    },
+    {
+      "id": 233,
+      "date": "2026-07-08T00:10:02.000Z",
+      "from": "정예림 <yrj12@sehwadosi.co.kr>",
+      "to": "hyunj@yegaone.com",
+      "subject": "[세화도시] 마포구 중동 78번지 일 대 모아주택 사업계 획승인 통합심의 자료",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260708_351_yrj12@sehwadosi.co.kr.eml",
+      "body": "대용량파일 1개 (115.93MB) ~ 2026.08.07 ( 30일 보관, 100회 다운로드 가능) \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n 중동 78번지 일대 모아주택 사업계획승인 통합심의_세화도시_도시부문 발췌.pptx (115.93MB) \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n 안녕하세요. 세화도시 정예림대리입니다. 김도윤 대표님 지시로 중동 78번지 일대 모아주택 통합심의 초안 자료 도시계획부문 작성하여 메일로 먼저 보내드립니다. 확인 부탁드리며, 해당 심의자료 관련하여 금일 오전 중으로 연락드리겠습니다. 감사합니다! 정 예 림 도시계획부 대리 | 세화도시 주식회사 t 02) 359-9771 | m 010-5584-1698 | e yrj12@sehwadosi.co.kr a 경기도 고양시 덕양구 향동로 128. DMC 스타비즈 4st. 509호",
+      "attachments": []
+    },
+    {
+      "id": 232,
+      "date": "2026-07-07T07:45:02.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "<jdhouse78@naver.com>",
+      "subject": "[마포중동] 통합심의 접수용 기준 대우건 설 검토자료(조경) 송부 ",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260707_350_hyunj@yegaone.com.eml",
+      "body": "안녕하십니까 예가원건축 지현재차장입니다,.\n\n유선상으로 요청주신 대우건설 조경 검토사항 파일 첨부드렸습니다.,\n\n감사합니다.\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "20260706-중동78 조경검토.pdf"
+      ]
+    },
+    {
+      "id": 231,
+      "date": "2026-07-07T07:10:29.000Z",
+      "from": "신지현 선임(SHIN JI HYUN) <jihyun.shin@daewooenc.com>",
+      "to": "예가원 지현재 차장 <hyunj@yegaone.com>",
+      "subject": " FW: [마포중동78] 통합심의 접수용  기본도서 시공사 검토의견_조경파 트 추가",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260707_348_jihyun.shin@daewooenc.com.eml",
+      "body": "[pptx 아이콘] 20260706-중동78 조경검토.pptx<https://daewooenc365-my.sharepoint.com/:p:/g/personal/jihyun_shin_daewooenc_com/IQBS3ir0DXoUR6D3Zl3gH-3HAfote-N_WJmTD-fLu8YOamQ>\r\n\r\nFrom: 신지현 선임(SHIN JI HYUN)\r\nSent: Monday, July 6, 2026 5:07 PM\r\nTo: 예가원 지현재 차장 <hyunj@yegaone.com>\r\nCc: 박무영 책임(Mu Young Park) <muyoung.park@daewooenc.com>; jdhouse78@naver.com; 노형곤 책임(Hyung Gon Roh) <hyunggon.roh@daewooenc.com>\r\nSubject: [마포중동78] 통합심의 접수용 기본도서 시공사 검토의견_조경파트 추가\r\n\r\n안녕하세요\r\n대우건설 신지현 선임입니다.\r\n\r\n마포중동78 통합심의 접수용 기본도서 검토내용 ,\r\n당사 조경파트 추가 검토내용이 있어 메일드립니다. (조경설계사도 공유완료)\r\n\r\n주로 지반층 동선과 관련된 사항인데,\r\n각 코어 동출입구로 진입하는 동선이 다소 불합리한곳이 몇 개소 있습니다.\r\n\r\n지반층의 동출입구로비 출입동선은 필로티 내부에서 최대한 직진으로 (간단한 동선) 진입할 수 있도록 검토부탁드리며,\r\n필로티의 메인 오프닝부위와 조경보행동선이 일치할 수 있도록 조경설계사와 같이 협의하여 확인부탁드리겠습니다.\r\n\r\n감사합니다.\r\n\r\n\r\n",
+      "attachments": [
+        "image001.png"
+      ]
+    },
+    {
+      "id": 230,
+      "date": "2026-07-07T05:31:09.000Z",
+      "from": "강재형 <jhkang@yegaone.com>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": "FW: 마포중동 아파트 태양광 검토도면 송 부",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260707_347_jhkang@yegaone.com.eml",
+      "body": "\n\n-----Original Message-----\nFrom:\"ess3304\"<ess3304@naver.com>\nTo:\"김정호\"<jhking9407@naver.com>,jhkang@yegaone.com\nSent:2026-07-07 (화) 14:23:11 (GMT+09:00)\nSubject:마포중동 아파트 태양광 검토도면 송부\n\n\n대용량 첨부 1개 12MB\n\n260707_마포 중동 아파트 태양광 검토.dwg 12399969 ~ 2026/08/06\n기한이 있는 파일은 30일 보관 / 100회 다운로드 가능\n\n\n\n안녕하십니까\n\n표제와 같이 태양광 검토 도면을 송부드립니다.\n\n현재 추가로 배치된 태양광 모듈은 인증제품이 아니므로, 추후에 추가적인 인증비용이 추가될 수 있습니다.\n추가로 모듈 제작과정에서 용량 및 사양이 바뀔수 있으니 참고바랍니다.\n\n감사합니다.\n\n\n\n\n",
+      "attachments": []
+    },
+    {
+      "id": 229,
+      "date": "2026-07-06T08:07:29.000Z",
+      "from": "신지현 선임(SHIN JI HYUN) <jihyun.shin@daewooenc.com>",
+      "to": "예가원 지현재 차장 <hyunj@yegaone.com>",
+      "subject": " [마포중동78] 통합심의 접수용 기 본도서 시공사 검토의견_조경파트  추가",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260706_344_jihyun.shin@daewooenc.com.eml",
+      "body": "안녕하세요\r\n대우건설 신지현 선임입니다.\r\n\r\n마포중동78 통합심의 접수용 기본도서 검토내용 ,\r\n당사 조경파트 추가 검토내용이 있어 메일드립니다. (조경설계사도 공유완료)\r\n\r\n주로 지반층 동선과 관련된 사항인데,\r\n각 코어 동출입구로 진입하는 동선이 다소 불합리한곳이 몇 개소 있습니다.\r\n\r\n지반층의 동출입구로비 출입동선은 필로티 내부에서 최대한 직진으로 (간단한 동선) 진입할 수 있도록 검토부탁드리며,\r\n필로티의 메인 오프닝부위와 조경보행동선이 일치할 수 있도록 조경설계사와 같이 협의하여 확인부탁드리겠습니다.\r\n\r\n감사합니다.\r\n\r\n\r\n",
+      "attachments": [
+        "20260706-중동78 조경검토.pptx"
+      ]
+    },
+    {
+      "id": 228,
+      "date": "2026-07-03T08:42:56.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "신지현 <jihyun.shin@daewooenc.com>",
+      "subject": "[마포중동]입면 태양광패널(bipv) 자료 송 부건(견적검토용)",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260703_343_hyunj@yegaone.com.eml",
+      "body": "안녕하십니까 예가원건축의 지현재 차장입니다.\n\n세대 전면 및 측면 부위에 BIPV가 적용된 주동 입면도 CAD 파일을 첨부해 드립니다.\n\n앞서 유선으로 안내해 드린 바와 같이, 향후 일조 시뮬레이션 결과에 따라 태양광 패널의 적용 범위 및 설치 위치 등이 일부 변경될 가능성이 있습니다.\n\n이 점 양지하시어 업무에 참고해 주시길 부탁드립니다.\n\n감사합니다.\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "동입면도_BIPV 적용.dwg"
+      ]
+    },
+    {
+      "id": 227,
+      "date": "2026-07-03T08:11:04.000Z",
+      "from": "신지현 선임(SHIN JI HYUN) <jihyun.shin@daewooenc.com>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": " [마포중동] 통합심의 접수용 기본 도면 시공사 검토의견 송부의 건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260703_341_jihyun.shin@daewooenc.com.eml",
+      "body": "[7z 아이콘] 260703 마포중동 통합심의 접수용 기본도면 시공사 검토의견.7z<https://daewooenc365-my.sharepoint.com/:u:/g/personal/jihyun_shin_daewooenc_com/IQBC4OBV-ySDRa_bvY51Gw_5AQgz6QmIBmsv4iYgs-PrmTY?e=E1eh8K>\r\n\r\n\r\n안녕하세요\r\n대우건설 건축설계팀 신지현 선임입니다.\r\n\r\n[마포중동78]\r\n통합심의 접수용 기본도면 시공사 각 파트별로 검토하여 내용공유드리오니, 업무에 참고부탁드립니다.\r\n\r\n내용확인하시고 질의사항 있으면 연락부탁드리며,\r\n각 내용별 반영 유무 및 반영시기 회신부탁드리겠습니다.\r\n\r\n감사합니다.\r\n\r\n\r\nFrom: 지현재 <hyunj@yegaone.com>\r\nSent: Tuesday, June 30, 2026 11:10 AM\r\nTo: 신지현 선임(SHIN JI HYUN) <jihyun.shin@daewooenc.com>\r\nCc: 강재형 <jhkang@yegaone.com>; 박무영 책임(Mu Young Park) <muyoung.park@daewooenc.com>; jdhouse78@naver.com\r\nSubject: [마포중동] 통합심의 접수용 기본도면 송부 건\r\n\r\n다운로드 기한이 있는 첨부파일 1개 (94MB)\r\n7일 보관 / 100회 다운로드\r\n[zip]\r\n통합심의 접수용 기본도면.zip 94MB<https://bigfile.mail.worksmobile.com/storage/download?fid=/k1/wmail/r/kr1/133117/133117/SqKwKAgmKAuwFxtmFog9KxMjK3Y9KCYZKAUrKAMqKAuwKxgma3YwFq2qFAKrKqvlHrRZK3YZpzKXp6urFztdFxuZKx2_aAUqFotmpxbXKo-vKAFvFm==>\r\n~ 2026. 7. 7.\r\n[Save to PC]<https://bigfile.mail.worksmobile.com/storage/download?fid=/k1/wmail/r/kr1/133117/133117/SqKwKAgmKAuwFxtmFog9KxMjK3Y9KCYZKAUrKAMqKAuwKxgma3YwFq2qFAKrKqvlHrRZK3YZpzKXp6urFztdFxuZKx2_aAUqFotmpxbXKo-vKAFvFm==>\r\n\r\n안녕하십니까, 예가원건축의 지현재 차장입니다.\r\n\r\n\r\n\r\n요청하신 통합심의 접수용 건축 기본도면(CAD 및 PDF 파일)을 첨부와 같이 송부드립니다.\r\n\r\n\r\n\r\n참고로 본 도면의 주동 평면 및 입면에는 태양광 패널 계획이 아직 반영되지 않은 상태이오니, 업무 및 검토 시 이 점 유의하여 참조해 주시기 바랍니다.\r\n\r\n\r\n\r\n도면 관련하여 문의 사항이나 조율이 필요한 부분이 있으시면 언제든지 연락해 주십시오.\r\n\r\n\r\n\r\n감사합니다.\r\n\r\n[https://static.worksmobile.net/static/pwe/nworks/sign_bar1.png]\r\n지현재 예가원건축사사무소\r\n설계팀/차장\r\n서울시 강남구 선릉로 93길 50, 현석타워 13층\r\nTel 070-4290-3455 Mobile +82 010-7696-3024\r\nEmail hyunj@yegaone.com<mailto:hyunj@yegaone.com>\r\n\r\n\r\n\r\n",
+      "attachments": [
+        "image001.png"
+      ]
+    },
+    {
+      "id": 226,
+      "date": "2026-07-03T08:01:52.000Z",
+      "from": "counter@sindohj.com",
+      "to": "hyunj@yegaone.com",
+      "subject": "Message from 25C-1i",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260703_340_counter@sindohj.com.eml",
+      "body": "",
+      "attachments": [
+        "S25C-1i26070317010.pdf"
+      ]
+    },
+    {
+      "id": 225,
+      "date": "2026-07-02T08:41:22.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "<JDY114@hanmail.net>",
+      "subject": "[마포중동] 조감도,투시도,스케치업 버전 다운 송부",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260702_338_hyunj@yegaone.com.eml",
+      "body": "\n다운로드 기한이 있는 첨부파일 1개 (41MB)7일 보관 / 100회 다운로드\n\n260702 BIPV 변경.skp 41MB ~ 2026. 7. 9.\n\n\n\n요청하신 자료 송부드립니다.\n\n아까 유선상으로 말씀드렸다시피 최종본 파일은 아닙니다.\n\n업무에 참조 부탁드립니다 감사합니다.\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "KakaoTalk_20260702_171133874_01.jpg",
+        "KakaoTalk_20260702_171133874_02.jpg"
+      ]
+    },
+    {
+      "id": 224,
+      "date": "2026-07-02T02:48:20.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "dgenc2003 <dgenc2003@naver.com>",
+      "subject": "[마포중동] 교통영향평가 보고서 첨부용  계약서 날인본 송부 건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260702_335_hyunj@yegaone.com.eml",
+      "body": "요청하신 계약서 날인본 첨부드렸습니다.\n\n감사합니다.\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "기술용역계약서-예가원(대건이엔씨)-교"
+      ]
+    },
+    {
+      "id": 223,
+      "date": "2026-07-02T02:45:46.000Z",
+      "from": "아름다운 세상 <shinsc63@hanmail.net>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": "RE: [마포중동] 교통영향평가  보고서 첨부용 계약서 날인요청",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260702_334_shinsc63@hanmail.net.eml",
+      "body": "--------- 원본 메일 --------- \n \n \n 보낸사람 : 지현재 <hyunj@yegaone.com> \n 받는사람 : 신상철 <shinsc63@daum.net> \n 참조 : 강재형 <jhkang@yegaone.com> \n 날짜 : 26.07.02 11:03 GMT +0900\n \n 제목 : [마포중동] 교통영향평가 보고서 첨부용 계약서 날인요청 \n 첨부파일 : 마포 중동 78번지 일원 가로주택정비사업 교통영향평가 보고서용 계약서.hwp \n \n \n \n 안녕하십니까 예가원건축 지현재차장입니다. 마포중동 교통영향평가서에 들어갈 계약서(건축주-교통 직계약 계약서) 날인요청드립니다. 발주처부분 파란색으로 작성된 부분만 최종확인해주셔서 날인후 스캔본으로 메일회신부탁드리겠습니다 감사합니다. 지현재 예가원건축사사무소 설계팀/차장 서울시 강남구 선릉로 93길 50, 현석타워 13층 Tel 070-4290-3455 Mobile +82 010-7696-3024 Email hyunj@yegaone.com",
+      "attachments": [
+        "기술용역계약서-예가원(대건"
+      ]
+    },
+    {
+      "id": 222,
+      "date": "2026-07-02T02:03:23.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "신상철 <shinsc63@daum.net>",
+      "subject": "[마포중동] 교통영향평가 보고서 첨부용  계약서 날인요청",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260702_333_hyunj@yegaone.com.eml",
+      "body": "안녕하십니까 예가원건축 지현재차장입니다.\n\n마포중동 교통영향평가서에 들어갈 계약서(건축주-교통 직계약 계약서) 날인요청드립니다.\n\n발주처부분 파란색으로 작성된 부분만 최종확인해주셔서 날인후 스캔본으로 메일회신부탁드리겠습니다\n\n감사합니다.\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "마포 중동 78번지 일원 가로주택정비사업"
+      ]
+    },
+    {
+      "id": 221,
+      "date": "2026-07-02T01:18:20.000Z",
+      "from": "dgenc2003 <dgenc2003@naver.com>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": "마포 중동 가로주택정비사업 교통영향평 가 보고서용 계약서 요청",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260702_331_dgenc2003@naver.com.eml",
+      "body": "차장님. 안녕하세요\n대건이엔씨 배두한입니다.\n유선상으로 말씀드린 보고서용 계약서 작성하여 보내드리오니\n발주처 공란 채워서 날인후 칼라스캔하여 보내주시면 보고서에 삽입하도록 하겠습니다.\n\n\n",
+      "attachments": [
+        "마포 중동 78번지 일원 가로주택정비사업"
+      ]
+    },
+    {
+      "id": 220,
+      "date": "2026-06-29T06:27:53.000Z",
+      "from": "강재형 <jhkang@yegaone.com>",
+      "to": "<jhking9407@naver.com>",
+      "subject": "RE: 마포중동 태양광 대안2 검토 요청",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260629_328_jhkang@yegaone.com.eml",
+      "body": "대표님 안녕하세요. 예가원 건축 강재형 부장입니다. 첨부드린 260629 태양광 검토요청 캐드파일과 같이 101,103,106 동에 캐드선으로 따놓은 면과 같이 BIPV를 설치할려고 합니다. 첨부드린 태양광 배치도에 표시드린 빨간선과 같이 BIPV를 커튼월룩처럼 설치할 계획이며, 첨부드린 대안 2와 같이 입면이 표현된다고 보시면 될것 같습니다. 오늘 검토해서 주신안은 대안1로 용량이 안나온 다고 하시니 대안2로 진행하기로 대우와 조합측으로 부터 컨펌을 받은 상태입니다. 현재 저희 가 총필요한 태양광 용량은 427.85kW 이며, 지붕 지붕 PV 확보 용량 211.84kW이고, 측벽 BIPV=111.30kW 이므로. 나머지 모자란 용량인 104.71kW가 지금 드린 캐드도면상 표현드린 101,103,106 동에 캐드선으로 따놓은 면과 같이 BIPV를 설치시 가능여부를 검토하여 주시기 바랍니다.( 나머지 필요 용량인 1 04.71kW가 되는지 않되는지 필히 도면에 표기 , 만족시 태양광 음영분석 시뮬레이션 요청 , 불만족시 첨부드린 태양광 배치도에 표시해 드린 파란선으로 면 추가 예정, 이것으로도 부족히 연료전지 검토할 예정 ) 궁금하신 사항 있으면 지현재 차장이나 저한테 언제든지 연락 주시면 됩니다. 감사합니다. 강재형 예가원건축사사무소 설계팀/부장 서울시 강남구 선릉로 93길 50, 현석타워 13층 Tel 070-4155-9677 Mobile +82 010-9205-4119 Email bluedayidoff@yegaone.com -----Original Message----- From: \"지현재\"<hyunj@yegaone.com> To: \"강재형\"<jhkang@yegaone.com>; Cc: Sent: 2026. 6. 29. (월) 10:16 (GMT+09:00) Subject: FW: 마포중동 태양광 \n -----Original Message----- From:\"김정호\"<jhking9407@naver.com> To:\"지현재\"<hyunj@yegaone.com> Sent:2026-06-29 (월) 09:29:43 (GMT+09:00) Subject:마포중동 태양광 대용량 첨부 1 개 5MB 260626_마포 중동 아파트 태양광 음영분석.pdf 5477819 ~ 2026/07/29 기한이 있는 파일은 30일 보관 / 100회 다운로드 가능",
+      "attachments": [
+        "1744766650533.jpeg",
+        "260629 태양광 검토 요청.dwg",
+        "마포중동 태양광 배치도.pdf",
+        "대안2 (2).pdf"
+      ]
+    },
+    {
+      "id": 219,
+      "date": "2026-06-29T04:10:07.000Z",
+      "from": "김정호 <jhking9407@naver.com>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": "마포중동 태양광",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260629_327_jhking9407@naver.com.eml",
+      "body": "\n\n\n",
+      "attachments": [
+        "1744766650533.jpeg",
+        "2026.06.29마포 중동 아파트 태양광(323.14kW"
+      ]
+    },
+    {
+      "id": 218,
+      "date": "2026-06-29T00:29:37.000Z",
+      "from": "김정호 <jhking9407@naver.com>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": "마포중동 태양광",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260629_325_jhking9407@naver.com.eml",
+      "body": "대용량 첨부 1 개 5MB 260626_마포 중동 아파트 태양광 음영분석.pdf 5477819 ~ 2026/07/29 기한이 있는 파일은 30일 보관 / 100회 다운로드 가능",
+      "attachments": [
+        "1744766650533.jpeg",
+        "260625_입면 태양광-1.dwg",
+        "260625_마포 중동 아파트 입면 태양광(BIPV"
+      ]
+    },
+    {
+      "id": 217,
+      "date": "2026-06-26T02:01:58.000Z",
+      "from": "알에이엔지니어링 <raeng4152@naver.com>",
+      "to": "<hyunj@yegaone.com>",
+      "subject": "[알에이엔지니어링] 통합심의 토목 PPT 보 내드립니다.",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260626_323_raeng4152@naver.com.eml",
+      "body": "\n\n안녕하세요. 알에이엔지니어링입니다.\n\n\n통합심의  토목 PPT 보내드립니다.  \n\n\n\n(주)알에이엔지니어링\nT : 032.565.4152   E : raeng4152@naver.com\n\n",
+      "attachments": [
+        "[통합심의]_ 토목계획서.pptx"
+      ]
+    },
+    {
+      "id": 216,
+      "date": "2026-06-25T07:32:03.000Z",
+      "from": "김정호 <jhking9407@naver.com>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": "260625_입면 태양광-1.dwg",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260625_322_jhking9407@naver.com.eml",
+      "body": "\n\n\n",
+      "attachments": [
+        "1744766650533.jpeg",
+        "260625_입면 태양광-1.dwg"
+      ]
+    },
+    {
+      "id": 215,
+      "date": "2026-06-25T06:12:20.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "신상철 <shinsc63@daum.net>",
+      "subject": "[마포중동] 임대주택 매입선정관련 자료  재송부",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260625_321_hyunj@yegaone.com.eml",
+      "body": "개요가 잘못들어가 있어서 다시 송부 드렸습니다.\n\n죄송합니다.\n\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "마포중동 가로주택정비사업 개요,배치,"
+      ]
+    },
+    {
+      "id": 214,
+      "date": "2026-06-25T05:28:50.000Z",
+      "from": "강재형 <jhkang@yegaone.com>",
+      "to": "신상철 <shinsc63@daum.net>",
+      "subject": "FW: [마포중동] 통합심의 대응 태양광 패 널(BIPV) 및 입면 디자인 대안 검토 의견  요청의 건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260625_319_jhkang@yegaone.com.eml",
+      "body": "\n\n\n강재형 예가원건축사사무소\n설계팀/부장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4155-9677 Mobile +82 010-9205-4119\nEmail bluedayidoff@yegaone.com \n\n\n\n-----Original Message-----\nFrom: \"지현재\"<hyunj@yegaone.com>\nTo: <jdhouse78@naver.com>; \"박무영\"<muyoung.park@daewooenc.com>;\nCc: \"강재형\"<jhkang@yegaone.com>; \"신지현\"<jihyun.shin@daewooenc.com>;\nSent: 2026. 6. 23. (화) 17:52 (GMT+09:00)\nSubject: [마포중동] 통합심의 대응 태양광 패널(BIPV) 및 입면 디자인 대안 검토 의견 요청의 건\n\n안녕하십니까, 예가원건축의 지현재 차장입니다.\n\n현재 통합심의 통과의 핵심 과제인 ‘신재생에너지(태양광) 의무 비율 확보를 위한 입면디자인 작업을 진행 중입니다.\n\n기본적으로 주동 지붕과 일부 동(101동, 105동, 106동) 측벽 구간의 BIPV 적용은 공통 사항이나, \n\n세대 정·측면 구간의 처리 방식을 두고 아래와 같이 대안 1, 2를 의견을 여쭙고자 합니다.\n\n■ 입면 디자인 대안 비교\n\n대안 1: 세대 전·측면 창호 사이 '세로형 태양광 패널' 부착안\n\n특징: 창문과 창문 사이 공간에 세로 선형으로 BIPV를 배치하는 형태입니다. (※ 현재 첨부해 드린 이미지에는 검토 편의상 커튼월룩을 일시 삭제했으나, 대안 1로 확정 시 커튼월룩 마감이 추가될 예정입니다.)\n\n리스크: 현재 서울시 건축기획과 가이드라인상 ‘디자인을 위한 과도한 커튼월룩 지양’ 지침에 저촉될 우려가 있어, 향후 서울시 협의 및 심의 과정에서 보완 의견이 나올 리스크가 있습니다.\n\n\n\n\n대안 2: '커튼월룩 + BIPV' 일체형 통합 디자인안 (당사 추천안)\n\n특징: 대안 1의 심의 리스크를 해소하기 위해 구조적으로 커튼월룩 프레임과 BIPV(태양광 패널)를 하나로 결합한 형태입니다.\n\n장점: 외장재와 친환경 설비가 유기적으로 통합되어 서울시의 제로에너지 및 디자인 혁신 지침에 부합하므로, 심의 통과 가능성이 상대적으로 높고 외관의 완성도도 뛰어납니다.\n\n\n\n\n※ 두 대안 모두 추후 진행될 ‘일조 시뮬레이션’ 결과에 따라 실제 적용 범위 및 면적은 일부 조정될 수 있습니다.\n\n 첨부해 드린 대안별 이미지 자료를 검토해 보시고 의견 공유를 부탁드립니다. \n\n 감사합니다\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n\n\n\n",
+      "attachments": [
+        "대안1.pdf",
+        "대안2.pdf"
+      ]
+    },
+    {
+      "id": 213,
+      "date": "2026-06-25T01:59:49.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "최병진 <dgenc2003@naver.com>",
+      "subject": "[마포중동] 사업시행전 세대수 확인자료  요청 송부 건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260625_318_hyunj@yegaone.com.eml",
+      "body": "\n다운로드 기한이 있는 첨부파일 1개 (25MB)7일 보관 / 100회 다운로드\n\n중동 78번지 일대 소규모주택정비 관리계획(모아타운 관리계획).pdf 25MB ~ 2026. 7. 2.\n\n\n\n요청하신 내용은 PDF페이지 기준으로 35P에 나와있습니다 \n\n감사합니다\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": []
+    },
+    {
+      "id": 212,
+      "date": "2026-06-25T01:43:05.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "신상철 <shinsc63@daum.net>",
+      "subject": "[마포중동] 임대주택 매입선정관련 자료  송부 건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260625_316_hyunj@yegaone.com.eml",
+      "body": "요청주신 임대주택 관련 자료 첨부드렸습니다 \n\n감사합니다.\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "마포중동 가로주택정비사업 개요,배치,"
+      ]
+    },
+    {
+      "id": 211,
+      "date": "2026-06-24T02:29:58.000Z",
+      "from": "중동가로주택 <jdhouse78@naver.com>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": "RE: [마포중동] 통합심의 대응 태양광 패 널(BIPV) 및 입면 디자인 대안 검토 의견  요청의 건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260624_314_jdhouse78@naver.com.eml",
+      "body": "태양광 패널 부착설치 관련 의견을 모아 알려드리도록 하겠습니다.\n감사합니다.\n\n\n\n-----Original Message-----\nFrom: \"지현재\"<hyunj@yegaone.com>\nTo: <jdhouse78@naver.com>; \"박무영\"<muyoung.park@daewooenc.com>;\nCc: \"강재형\"<jhkang@yegaone.com>; \"신지현\"<jihyun.shin@daewooenc.com>;\nSent: 2026-06-23 (화) 17:52:30 (GMT+09:00)\nSubject: [마포중동] 통합심의 대응 태양광 패널(BIPV) 및 입면 디자인 대안 검토 의견 요청의 건\n\n안녕하십니까, 예가원건축의 지현재 차장입니다.\n\n현재 통합심의 통과의 핵심 과제인 ‘신재생에너지(태양광) 의무 비율 확보를 위한 입면디자인 작업을 진행 중입니다.\n\n기본적으로 주동 지붕과 일부 동(101동, 105동, 106동) 측벽 구간의 BIPV 적용은 공통 사항이나, \n\n세대 정·측면 구간의 처리 방식을 두고 아래와 같이 대안 1, 2를 의견을 여쭙고자 합니다.\n\n■ 입면 디자인 대안 비교\n\n대안 1: 세대 전·측면 창호 사이 '세로형 태양광 패널' 부착안\n\n특징: 창문과 창문 사이 공간에 세로 선형으로 BIPV를 배치하는 형태입니다. (※ 현재 첨부해 드린 이미지에는 검토 편의상 커튼월룩을 일시 삭제했으나, 대안 1로 확정 시 커튼월룩 마감이 추가될 예정입니다.)\n\n리스크: 현재 서울시 건축기획과 가이드라인상 ‘디자인을 위한 과도한 커튼월룩 지양’ 지침에 저촉될 우려가 있어, 향후 서울시 협의 및 심의 과정에서 보완 의견이 나올 리스크가 있습니다.\n\n\n\n\n대안 2: '커튼월룩 + BIPV' 일체형 통합 디자인안 (당사 추천안)\n\n특징: 대안 1의 심의 리스크를 해소하기 위해 구조적으로 커튼월룩 프레임과 BIPV(태양광 패널)를 하나로 결합한 형태입니다.\n\n장점: 외장재와 친환경 설비가 유기적으로 통합되어 서울시의 제로에너지 및 디자인 혁신 지침에 부합하므로, 심의 통과 가능성이 상대적으로 높고 외관의 완성도도 뛰어납니다.\n\n\n\n\n※ 두 대안 모두 추후 진행될 ‘일조 시뮬레이션’ 결과에 따라 실제 적용 범위 및 면적은 일부 조정될 수 있습니다.\n\n 첨부해 드린 대안별 이미지 자료를 검토해 보시고 의견 공유를 부탁드립니다. \n\n 감사합니다\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n\n\n\n",
+      "attachments": []
+    },
+    {
+      "id": 209,
+      "date": "2026-06-24T02:18:20.000Z",
+      "from": "정진환 <jung00221@daum.net>",
+      "to": "예가원지현재차장님 <hyunj@yegaone.com>",
+      "subject": "중동 가로주택정비사업 관계자 연 락처_260624_재해 담당 변경",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260624_313_jung00221@daum.net.eml",
+      "body": "바쁘신 중에 노고가 많으십니다. 중동 가로주택정비사업 관련하여 재해분야 담당 변경으로 연락처를 수정하여 드리오니 참고부탁드립니다. 앞으로 잘 부탁드립니다. 감사합니다. (주)알에이엔지니어링 (RA Engineering) 정진환 수자원부/이사 m 010-2517-4946 | e jung00221@daum.net a 경기도 성남시 분당구 정자일로 158, 6층 606호 (정자동, 백궁프라자2)",
+      "attachments": [
+        "중동 가로주택정비사"
+      ]
+    },
+    {
+      "id": 208,
+      "date": "2026-06-23T08:58:41.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "신상철 <shinsc63@daum.net>",
+      "subject": "[마포중동]일정표 송부 건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260623_312_hyunj@yegaone.com.eml",
+      "body": "일정표 첨부드렸습니다 \n\n감사합니다.\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "260623 마포중동 공동주택 일정표.pdf"
+      ]
+    },
+    {
+      "id": 207,
+      "date": "2026-06-23T06:25:39.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "신지현 <jihyun.shin@daewooenc.com>",
+      "subject": "[마포중동]태양광패널 bipv 대안",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260623_308_hyunj@yegaone.com.eml",
+      "body": "다운로드 기한이 있는 첨부파일 1 개 (97MB) 7일 보관 / 100회 다운로드 태양광패널 bipv 대안.skp 97MB ~ 2026. 6. 30. 기본 지붕 PV 및 101,105,106동 측벽부분 BIPV는 대안1,2 전부 적용되어있는 상태이고 대안1은(스케치업 좌측모델링) 아래이미지와 같은 세대 정면 또는 측면 창과 창사이 세로라인으로 들어간 형태고 대안2 (스케치업 우측모델링) 는 기존 커튼월룩+BIPV 결합된 형태입니다. 일조시뮬레이션 결과에 따라 적용면 범위는 조정이 있을 수 있습니다. 지현재 예가원건축사사무소 설계팀/차장 서울시 강남구 선릉로 93길 50, 현석타워 13층 Tel 070-4290-3455 Mobile +82 010-7696-3024 Email hyunj@yegaone.com",
+      "attachments": [
+        "1782195774272.jpeg",
+        "중동 커튼월룩 적용여부 문의 회신(조합"
+      ]
+    },
+    {
+      "id": 206,
+      "date": "2026-06-23T01:56:12.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "<civilpark@hanmail.net>",
+      "subject": "[마포중동]일정확인 및 조경도면 송부 건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260623_306_hyunj@yegaone.com.eml",
+      "body": "안녕하십니까 지현재차장입니다 \n\n유선상으로 말씀드린대로 재해영향평가 보고서 작성용 조경도면 보내드렸고,\n\n마지막으로 주셨던 일정표도 첨부드렸습니다.\n\n마지막으로 담당자 변경으로 인한 재해쪽 관계자연락처 엑셀파일 별도로 수정하시어 회신주시면 감사하겠습니다.\n\n수고하세요\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "260527_(소규모 재해영향평가)추진계획(안",
+        "중동 가로주택정비사업 관계자 연락처_",
+        "도면A3.ctb",
+        "조경심의도서.zip"
+      ]
+    },
+    {
+      "id": 205,
+      "date": "2026-06-23T01:47:21.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "갈아현 <gal12001@daum.net>",
+      "subject": "[마포중동]재해영향평가 필요도면 자료  (조경 송부건)",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260623_304_hyunj@yegaone.com.eml",
+      "body": "\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "도면A3.ctb",
+        "조경심의도서.zip"
+      ]
+    },
+    {
+      "id": 204,
+      "date": "2026-06-23T01:38:21.000Z",
+      "from": "김미라 <rabluesky@naver.com>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": "[마포 중동]심의도서_조경 cad",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260623_302_rabluesky@naver.com.eml",
+      "body": "\n대용량 첨부 1개 13MB\n\n건축심의도서.zip 13760422 ~ 2026/07/23\n기한이 있는 파일은 30일 보관 / 100회 다운로드 가능\n\n\n\n안녕하세요, 차장님.\ncad파일 보내드립니다.\n감사합니다.\n\n",
+      "attachments": [
+        "도면A3.ctb"
+      ]
+    },
+    {
+      "id": 203,
+      "date": "2026-06-22T09:07:42.000Z",
+      "from": "김미라 <rabluesky@naver.com>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": "[마포중동] 심의 ppt _조경",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260622_301_rabluesky@naver.com.eml",
+      "body": "\n대용량 첨부 1개 31MB\n\n[통합심의]_ 마포중동(조경).pptx 32460231 ~ 2026/07/22\n기한이 있는 파일은 30일 보관 / 100회 다운로드 가능\n\n\n\n안녕하세요, 차장님.\n마포 중동 심의도서 보내드립니다.\n감사합니다.\n\n",
+      "attachments": []
+    },
+    {
+      "id": 202,
+      "date": "2026-06-22T08:21:24.000Z",
+      "from": "이건 <yigunkuzo@daum.net>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": "마포 중동_이건구조",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260622_300_yigunkuzo@daum.net.eml",
+      "body": "마포 중동 통합심의 구조계획서 송부합니다.",
+      "attachments": [
+        "[통합심의]_  마포중동(구조).pptx"
+      ]
+    },
+    {
+      "id": 201,
+      "date": "2026-06-22T05:10:18.000Z",
+      "from": "김정호 <jhking9407@naver.com>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": "태양광 입면 검토",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260622_299_jhking9407@naver.com.eml",
+      "body": "\n\n\n",
+      "attachments": [
+        "1744766650533.jpeg",
+        "1.동입면도.dwg"
+      ]
+    },
+    {
+      "id": 199,
+      "date": "2026-06-18T04:31:05.000Z",
+      "from": "김정호 <jhking9407@naver.com>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": "BIPV 입면도",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260618_297_jhking9407@naver.com.eml",
+      "body": "\n\n\n",
+      "attachments": [
+        "1744766650533.jpeg",
+        "260617_마포 중동 아파트 입면 태양광(BIPV"
+      ]
+    },
+    {
+      "id": 198,
+      "date": "2026-06-18T04:12:50.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "<raeng4152@naver.com>",
+      "subject": "[마포중동] 개발행위허가 및 통합심의 토 목계획서 샘플 송부 건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260618_296_hyunj@yegaone.com.eml",
+      "body": "요청하신 자료 발송드렸습니다.\n\n감사합니다.\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "성산동 가로주택정비사업 (개발행위 샘",
+        "성산동 가로주택정비사업 (토목계획서 ",
+        "지하주차장 평면도.dwg",
+        "마포중동 가로주택정비사업 신축공사_건",
+        "단지배치도_260604.dwg",
+        "[통합심의]_  마포중동 샘플 참고용.pptx"
+      ]
+    },
+    {
+      "id": 197,
+      "date": "2026-06-18T02:50:29.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "<dgenc2003@naver.com>",
+      "subject": "[마포중동]개요 재송부",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260618_293_hyunj@yegaone.com.eml",
+      "body": "면적합산 오류난부분 맞춰서 재송부드립니다.\n\n감사합니다.\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "마포중동 가로주택정비사업 신축공사_건"
+      ]
+    },
+    {
+      "id": 196,
+      "date": "2026-06-17T08:46:05.000Z",
+      "from": "중동가로주택 <jdhouse78@naver.com>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": "RE: [마포중동] 교육환경영향평가서(초안 ) 공유건-접수본",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260617_291_jdhouse78@naver.com.eml",
+      "body": "지현재 차장님  수고 많으시네요.\n\n-----Original Message-----\nFrom: \"지현재\"<hyunj@yegaone.com>\nTo: <jdhouse78@naver.com>;\nCc: \"신상철\"<shinsc63@daum.net>; \"박무영\"<muyoung.park@daewooenc.com>; <jihyun.sin@daewooenc.com>; \"강재형\"<jhkang@yegaone.com>; \"김승회\"<shkimsoft@yegaone.com>;\nSent: 2026-06-17 (수) 17:08:21 (GMT+09:00)\nSubject: [마포중동] 교육환경영향평가서(초안) 공유건-접수본\n\n\n다운로드 기한이 있는 첨부파일 1개 (53MB)7일 보관 / 100회 다운로드\n\n마포중동 가로주택정비사업 신축공사 교육환경평가서(초안).pdf 53MB ~ 2026. 6. 24.\n\n\n\n안녕하십니까 예가원건축 지현재차장입니다.\n\n요청하여주신 마포중동 교육환경영향평가서 첨부드렸습니다.\n\n접수본기준파일이고 서부교육청 및 학교장 협의과장에서 평가서 내용 중 일부 변경이나 수정이 발생할 수 있음을 미리 양해 부탁드립니다.\n\n추후 진행과정에 따라 교육환경영향평가 보완본 및 최종협의본 등도 공유 드릴 수 있도록 하겠습니다. \n\n감사합니다.\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n\n\n\n",
+      "attachments": []
+    },
+    {
+      "id": 195,
+      "date": "2026-06-17T08:45:06.000Z",
+      "from": "중동가로주택 <jdhouse78@naver.com>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": "RE: [마포중동] 입면 커튼월룩 적용 여부  문의 건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260617_290_jdhouse78@naver.com.eml",
+      "body": "지현재 차장님 수고 많으십니다.\n조합의 의견은 대우에서 커튼 월룩을 함으로 경관이 좋게 보이고 큰로 주변이라 큰 영향을 주지 않기에 \n조합에 대해 제시하였고 우리 이사님과 대의원님들고 제시안에 대해 긍적적으로 생각하고 있습니다.\n이점 헤아려 주시고 서울시청 모아주택관림팀에서 지적하고 큰 지장이 있다고 제지한다면 검토해주시면 좋겠습니다.\n소극적 대처보다 적극적 설치로 좋은 경관을 갖도록 힘써 주시기 바랍니다.\n\n중동78번지 일원 가로주택정비사업조합  최창수 배상\n\n-----Original Message-----\nFrom: \"지현재\"<hyunj@yegaone.com>\nTo: \"신지현\"<jihyun.shin@daewooenc.com>;\nCc: <jdhouse78@naver.com>; \"박무영\"<muyoung.park@daewooenc.com>; \"김승회\"<shkimsoft@yegaone.com>; \"강재형\"<jhkang@yegaone.com>;\nSent: 2026-06-17 (수) 16:17:18 (GMT+09:00)\nSubject: [마포중동] 입면 커튼월룩 적용 여부 문의 건\n\n안녕하십니까 예가원건축 지현재차장입니다.\n\n현재 서울시 통합심의 PPT 준비중으로 작업중 문의드릴 사항이 있어 메일드렸습니다.\n\n마포중동 주동입면에는  현재 커튼월룩이 적용되어있는 상태입니다. (제안서에 커튼월룩 포함)\n\n근데 서울시 건축기획과에서 작년 12월에 배포한 건축위원회 심의도서 작성 가이드라인 및 사례집 내용에 1)커튼월룩을 지양하라는 내용이 있고(첨부1 참조)\n\n저희 예가원에서 먼저 통합심의를 받은 성산동 165-73일원 가로주택개발사업 같은 경우에는 서울시청 모아주택관리팀 의견으로 동일하게 커튼월룩 지양의\n\n의견이 나와 커튼월룩을 뺸 상황입니다.\n\n이에 마포중동 커튼월룩 적용여부에 대한 조합과 대우측 의견이 어떠하신지 문의드립니다. 감사합니다.\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n\n\n\n",
+      "attachments": []
+    },
+    {
+      "id": 194,
+      "date": "2026-06-17T08:44:25.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "<JDY114@hanmail.net>",
+      "subject": "[마포중동]경관심의용 기본도면 송부 건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260617_289_hyunj@yegaone.com.eml",
+      "body": "\n다운로드 기한이 있는 첨부파일 1개 (56MB)7일 보관 / 100회 다운로드\n\n260612_중동 모델링.skp 56MB ~ 2026. 6. 24.\n\n\n\n추가로 필요하신 자료있으시면 연락주세요 \n\n감사합니다.\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "지반층 평면도.dwg",
+        "단지배치도.dwg",
+        "대지종횡단면도.dwg",
+        "램프평단면상세도.dwg",
+        "동입면도.dwg",
+        "마포중동 가로주택정비사업 신축공사_건",
+        "지하주차장 평면도.dwg",
+        "[통합심의]_  마포중동 샘플 참고용.pptx"
+      ]
+    },
+    {
+      "id": 193,
+      "date": "2026-06-17T08:08:39.000Z",
+      "from": "postmaster@dwspam1.daewooenc.com",
+      "to": "hyunj@yegaone.com",
+      "subject": "Delivery failure",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260617_287_postmaster@dwspam1.daewooenc.com.eml",
+      "body": "NOTICE: Delivery Failure.\n\nThis Delivery Status Notification is sent from MTA...\n\t\t\t\t\nYour delivery to the following address has been failed.\nPlease refer to the below for details.\t\t\t\t\n------------------------------------------------------\n\nDelivery failed: jihyun.sin@daewooenc.com\n52.101.153.1 does not like recipient.\nRemote host said[Response Message]: 550 5.4.1 Recipient address rejected: Access denied. For more information see https://aka.ms/EXOSmtpErrors [SEL0EPF0000C1F8.KORP216.PROD.OUTLOOK.COM 2026-06-17T08:08:39.181Z 08DEC934FACCC258]\nGiving up on 52.101.153.1.\nSTEP: RCPT TO\n\n\n",
+      "attachments": []
+    },
+    {
+      "id": 191,
+      "date": "2026-06-17T07:48:13.000Z",
+      "from": "(주)건축환경그룹 다올 <enh2013@naver.com>",
+      "to": "<seonkyeong@sen.go.kr>",
+      "subject": "[건축환경그룹다올] 마포중동 가로주택 정비사업 신축공사 교육환경평가서(초안 ) 신청건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260617_284_enh2013@naver.com.eml",
+      "body": "김선경 주무관님, 안녕하세요.\n건축환경그룹 다올 조재연프로입니다.\n\n\n교육환경평가서(초안)접수를 위한 파일을 아래와같이 보내드리오니 확인부탁드립니다.\n\n> 01 접수공문\n> 02 교육환경평가서 승인 신청서\n\n> 마포중동 가로주택정비사업 신축공사 교육환경평가서(초안)\n\nhttps://naver.me/FQujZak9\n\n\n*대용량파일 전송횟수제한으로 평가서는 링크형태로 보내드립니다.\n\n\n감사합니다.\n\n\n다올 조재연프로\n직통번호 070-5101-8781\n\n(주)건축환경그룹 다올\n\n▶ 친환경컨설팅부문\n에너지절약계획서(EPI)/에너지절약형 친환경주택성능평가(GREEN HOME)/건강친화형주택평가/녹색건축인증(G-SEED)\n/건물에너지효율등급인증/제로에너지건축물인증(ZEB)/공동주택 결로방지성능평가/장수명주택인증\n/범죄예방환경설계(CPTED)/지능형건축물인증(IBS)/장애물없는생활환경(BF)인증/TK·BTL·기술제안 친환경계획/교육환경평가\n▶ 환경분석 부문\n공동주택 도로교통소음예측평가/일조권분석/조망권분석/ 열환경분석/바람길분석/실내기류분석/화재피난 분석\n▶신재생에너지 부문\n신재생에너지 컨설팅 및 시공, 유지관리 전문업체\n▶창호컨설팅 부문\n창호설계 및 시공, 컨설팅 전문업체\n\n☎ 대표번호 : 02-2138-7919\n☎ 팩스번호 : 02-2138-7920\n☎ 휴대번호 : 010-9084-7919\n서울특별시 금천구 가산디지털1로 16(가산동) 901호,902호,903호,914호(가산2차 SK V1 AP타워)\n\n",
+      "attachments": [
+        "01 접수공문.pdf",
+        "02 교육환경평가서 승인 신청서.pdf"
+      ]
+    },
+    {
+      "id": 190,
+      "date": "2026-06-17T07:39:06.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "신지현 <jihyun.shin@daewooenc.com>",
+      "subject": "[마포중동] 일정표 공유건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260617_283_hyunj@yegaone.com.eml",
+      "body": "유선상으로 말씀드린대로 일정표 첨부드렸습니다.\n\n접수일정을 9월중순으로 잘못말씀드렸는데 9월초로 정정드립니다.\n\n감사합니다.\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "260616 마포중동 공동주택 일정표.pdf"
+      ]
+    },
+    {
+      "id": 189,
+      "date": "2026-06-17T06:47:30.000Z",
+      "from": "정찬희 <ray514871@yegaone.com>",
+      "to": "dgenc2003 <dgenc2003@naver.com>",
+      "subject": "예가원 건축사사무소 [마포구 중동 기본 도면]",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260617_280_ray514871@yegaone.com.eml",
+      "body": "예가원 건축사 사무소 정찬희 대리입니다\n\n배치도,개요,대지 종횡단면도, 지하주차장 평면도,램프 평단면도, 동선계획도, 지반층 평면도\n\n자료 정리된거 보내드립니다.\n\n\n\n\n정찬희 예가원건축사사무소\n설계팀 / 대리\n\n서울시 강남구 선릉로 93길, 50 현석타워 13층\nTel 070-4290-3454 Mobile +82 010-6220-5148\nEmail ray514871@yegaone.com \n\n\n\n",
+      "attachments": [
+        "기본도서.zip"
+      ]
+    },
+    {
+      "id": 188,
+      "date": "2026-06-17T06:25:05.000Z",
+      "from": "한하린 <haline0k@yegaone.com>",
+      "to": "<sirius91622@naver.com>",
+      "subject": "[마포 중동 가로주택정비사업] 통합심의  PPT 샘플 및 참고자료 송부드립니다. ",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260617_278_haline0k@yegaone.com.eml",
+      "body": "안녕하세요. 예가원건축사사무소 한하린 대리입니다.\n\n중동 가로주택정비사업 통합심의 관련하여 PPT 샘플 파일과 참고자료(PDF)를 송부드립니다.\n\n참고자료 PDF 내용을 첨부된 PPT 양식 기준으로 작성해 주시면 되며, \nPPT 양식에 적용된 내용(폰트, 글자 크기 및 표 컬러 등)을 동일하게 반영해 주시면 됩니다. \n\n감사합니다.\n\n\n\n한하린 예가원건축사사무소\n설계팀 / 대리\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4236-4064 Mobile +82 010-3302-9614\nEmail haline0k@yegaone.com \n\n\n\n",
+      "attachments": [
+        "1. (샘플 참고용)강북구 번동 458-2번지(부",
+        "[통합심의]_  마포중동 샘플 참고용.pptx"
+      ]
+    },
+    {
+      "id": 187,
+      "date": "2026-06-17T06:14:38.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "<rabluesky@naver.com>",
+      "subject": "[마포중동] 배치도 송부 건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260617_277_hyunj@yegaone.com.eml",
+      "body": "요청하여주신 배치도 캐드파일 첨부드렸습니다 \n\n감사합니다.\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "단지배치도_260604.dwg"
+      ]
+    },
+    {
+      "id": 186,
+      "date": "2026-06-17T05:26:42.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "김정호 <jhking9407@naver.com>",
+      "subject": "[마포중동] 태양광요량 추가검토요청(BI PV)",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260617_275_hyunj@yegaone.com.eml",
+      "body": "태양광 필요용량 : 427.85kW (주거,비주거 총합)\n기 지붕 PV 검토용량 :211.84kW\n추가확보필요 용량(BIPV) : 216.014kW\n\nBIPV설치가능해보이는 면 빨간색으로 구역을 체크하여 입면도 파일 첨부드렸습니다.\n\n101,106동 층차이나는 부분 측벽부분과 105동 측벽부분을 BIPV로 용량검토하여주시고 모자라는 용량을\n\n주동 정면 및 우측면 등에서 BIPV로 검토하여주시면 됩니다.\n\n지붕PV검토해주셨던것처럼 벽면도 같이 태양광일조시뮬레이션자료도 검토 부탁드립니다.,\n\n감사합니다.\n\n\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "1.동입면도.dwg",
+        "2.101,106동 층차이나는 부분 입면(측벽부",
+        "정면 BIPV샘플이미지.jpg"
+      ]
+    },
+    {
+      "id": 185,
+      "date": "2026-06-17T02:10:33.000Z",
+      "from": "김정호 <jhking9407@naver.com>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": "마포중동 BAPV 검토",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260617_273_jhking9407@naver.com.eml",
+      "body": "안녕하세요 101동 BAPV 640W x 69장 = 44.16kW 106동 BAPV 640W x 69장 = 44.16kW 105동 BAPV 640W x 93장 = 59.52kW BAPV 합 계 = 147.84kW 입니다 수고하세요",
+      "attachments": [
+        "1744766650533.jpeg",
+        "260601 주동입면_태양광(101,106동) 태양광.",
+        "260601 주동입면_태양광(105동 태양광).dwg"
+      ]
+    },
+    {
+      "id": 183,
+      "date": "2026-06-17T01:52:02.000Z",
+      "from": "중동가로주택 <jdhouse78@naver.com>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": "마포중동 가로주택정비사업 신축공사 교 육환경평가(초안) 관련 서류 송부(중동7 8번지일원 가로주택정비사업 조합)",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260617_270_jdhouse78@naver.com.eml",
+      "body": "\n안녕하십니까, \n중동78번지일원 가로주택정비사업조합입니다.\n\n업무 추진에 필요한 교육환경평가 관련 서류를 송부합니다.\n업무에 참고하시기 바랍니다.\n\n중동78번지일원 가로주택정비사업조합 드림\n\n",
+      "attachments": [
+        "2026-061701_발신_마포중동 가로주택정비사"
+      ]
+    },
+    {
+      "id": 182,
+      "date": "2026-06-17T01:31:25.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "고경민 <enh2013@naver.com>",
+      "subject": "[마포중동]태양광 BAPV검토자료 공유 건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260617_269_hyunj@yegaone.com.eml",
+      "body": "\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "260616_마포 중동 아파트 태양광(PV 211.84kW",
+        "260616_마포 중동 아파트 태양광 음영분석"
+      ]
+    },
+    {
+      "id": 181,
+      "date": "2026-06-17T00:32:24.000Z",
+      "from": "김정호 <jhking9407@naver.com>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": "마포 중동 태양광 배치",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260617_268_jhking9407@naver.com.eml",
+      "body": "\n\n\n",
+      "attachments": [
+        "1744766650533.jpeg",
+        "260616_마포 중동 아파트 태양광 음영분석",
+        "260616_마포 중동 아파트 태양광(PV 211.84kW"
+      ]
+    },
+    {
+      "id": 180,
+      "date": "2026-06-17T00:21:24.000Z",
+      "from": "정찬희 <ray514871@yegaone.com>",
+      "to": "<dgenc2003@naver.com>",
+      "subject": "예가원 건축사사무소 [마포구 중동 지하 주차장콘센트 수정]",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260617_267_ray514871@yegaone.com.eml",
+      "body": "예가원 건축사사무소 정찬희 대리입니다\n콘센트 관련하여 수정해서 보내드립니다.\n\n\n정찬희 예가원건축사사무소\n설계팀 / 대리\n\n서울시 강남구 선릉로 93길, 50 현석타워 13층\nTel 070-4290-3454 Mobile +82 010-6220-5148\nEmail ray514871@yegaone.com \n\n\n\n",
+      "attachments": [
+        "지하주차장 평면도.dwg"
+      ]
+    },
+    {
+      "id": 179,
+      "date": "2026-06-16T10:00:24.000Z",
+      "from": "dgenc2003 <dgenc2003@naver.com>",
+      "to": "정찬희 <ray514871@yegaone.com>",
+      "subject": "RE: 예가원 건축사사무소 [마포구 중동 비 상차량 동선 계획,배치도]",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260616_266_dgenc2003@naver.com.eml",
+      "body": "안녕하세요\n대건이엔씨 배두한입니다.\n지하주차장 개선안도 작업중\n콘센트형 주차면이 1개소 부족하여 체크하여 보내드립니다.\n장애인주차면에도 설치가능한지 확인부탁드립니다.\n\n\n-----Original Message-----\nFrom: \"정찬희\"<ray514871@yegaone.com>\nTo: <dgenc2003@naver.com>;\nCc: \"지현재\"<hyunj@yegaone.com>;\nSent: 2026-06-09 (화) 14:59:16 (GMT+09:00)\nSubject: 예가원 건축사사무소 [마포구 중동 비상차량 동선 계획,배치도]\n\n마포구 중동 관련되서 메일드립니다\n비상차량 동선계획도,배치도 보내드립니다.\n\n\n정찬희 예가원건축사사무소\n설계팀 / 대리\n\n서울시 강남구 선릉로 93길, 50 현석타워 13층\nTel 070-4290-3454 Mobile +82 010-6220-5148\nEmail ray514871@yegaone.com \n\n\n\n\n\n\n",
+      "attachments": [
+        "주차장개선안도(2026.06.16).dwg"
+      ]
+    },
+    {
+      "id": 178,
+      "date": "2026-06-16T04:56:55.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "신상철 <shinsc63@daum.net>",
+      "subject": "[마포중동] 교육영향평가 사전검토 조합 공문 요청 건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260616_265_hyunj@yegaone.com.eml",
+      "body": "통합심의 접수 전 교육영향평가 사전검토를 위해 조합공문 및 신청서 도장날인이 필요해서 요청드립니다.\n\n1번 접수공문 파일은 해당내용이 들어가게끔 조합공문양식으로 만들어주시면 되고\n\n2번 평가신청서는 신청인부분 작성된 내용이상이없는지만 확인해주시고 밑에 조합도장날인해주시면 됩니다.\n\n도장날인된 두가지를 스캔본으로 회신주시면 사전접수를 17일(수)에 할 예정입니다.\n\n감사합니다. \n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "02 평가신청서(발주처 날인 필요).hwp",
+        "01 접수공문내용(발주처 공문양식으로 변"
+      ]
+    },
+    {
+      "id": 177,
+      "date": "2026-06-16T04:23:48.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "(주)건축환경그룹 다올 <enh2013@naver.com>",
+      "subject": "[마포중동]설계개요 송부 건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260616_263_hyunj@yegaone.com.eml",
+      "body": "연면적 변동이있어 최신개요를 재발송드리오니 \n\n교육영향평가 보고서 및 기타 면적작성페이지 업데이트를 요청드립니다\n\n감사합니다.\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "마포중동 가로주택정비사업 신축공사_건"
+      ]
+    },
+    {
+      "id": 176,
+      "date": "2026-06-16T02:52:55.000Z",
+      "from": "(주)건축환경그룹 다올 <enh2013@naver.com>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": "[건축환경그룹다올] 마포구 중동 가로주 택정비사업 신축공사 교육환경평가서 접 수공문요청",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260616_261_enh2013@naver.com.eml",
+      "body": "지현재차장님, 안녕하세요 다올 조재연프로입니다.\n\n교육환경평가 신청서와, 접수공문 내용을 보내드리오니 날인하여 회신 부탁드립니다.\n평가서 신청서 내용에 사업자등록번호도 확인 후 기재 부탁드립니다.\n\n감사합니다.\n\n다올 조재연프로\n직통번호 07051018781\n\n(주)건축환경그룹 다올\n\n▶ 친환경컨설팅부문\n에너지절약계획서(EPI)/에너지절약형 친환경주택성능평가(GREEN HOME)/건강친화형주택평가/녹색건축인증(G-SEED)\n/건물에너지효율등급인증/제로에너지건축물인증(ZEB)/공동주택 결로방지성능평가/장수명주택인증\n/범죄예방환경설계(CPTED)/지능형건축물인증(IBS)/장애물없는생활환경(BF)인증/TK·BTL·기술제안 친환경계획/교육환경평가\n▶ 환경분석 부문\n공동주택 도로교통소음예측평가/일조권분석/조망권분석/ 열환경분석/바람길분석/실내기류분석/화재피난 분석\n▶신재생에너지 부문\n신재생에너지 컨설팅 및 시공, 유지관리 전문업체\n▶창호컨설팅 부문\n창호설계 및 시공, 컨설팅 전문업체\n\n☎ 대표번호 : 02-2138-7919\n☎ 팩스번호 : 02-2138-7920\n☎ 휴대번호 : 010-9084-7919\n서울특별시 금천구 가산디지털1로 16(가산동) 901호,902호,903호,914호(가산2차 SK V1 AP타워)\n\n",
+      "attachments": [
+        "01 접수공문내용(발주처 공문양식으로 변",
+        "02 평가신청서(발주처 날인 필요).hwp"
+      ]
+    },
+    {
+      "id": 175,
+      "date": "2026-06-16T01:07:42.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "박무영 <muyoung.park@daewooenc.com>",
+      "subject": "[마포중동]일정표 송부 건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260616_260_hyunj@yegaone.com.eml",
+      "body": "마포중동 일정표 공유드립니다.\n\n감사합니다.\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "260616 마포중동 공동주택 일정표.pdf"
+      ]
+    },
+    {
+      "id": 174,
+      "date": "2026-06-15T07:43:48.000Z",
+      "from": "한하린 <haline0k@yegaone.com>",
+      "to": "<jhking9407@naver.com>",
+      "subject": "[마포 중동 가로주택정비사업] 통합심의  PPT 샘플 추가 송부드립니다.",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260615_258_haline0k@yegaone.com.eml",
+      "body": "안녕하세요. 예가원건축사사무소 한하린 대리입니다.\n\n방금 통화로 말씀드린 내용과 관련하여 추가로 필요한 자료를 송부드립니다.\n첨부파일에 추가 샘플 PDF와 비상벨 및 CCTV 설치계획 작성을 위한 지하주차장 도면이 포함되어 있습니다.\n\n이전에 보내드린 샘플 2장과 금일 추가로 보내드리는 샘플 자료만 반영해 주시면 될 것 같습니다.\n\n감사합니다.\n\n\n\n한하린 예가원건축사사무소\n설계팀 / 대리\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4236-4064 Mobile +82 010-3302-9614\nEmail haline0k@yegaone.com \n\n\n\n",
+      "attachments": [
+        "260615_통합심의 전기파트 샘플.pdf",
+        "지하주차장 평면도.dwg"
+      ]
+    },
+    {
+      "id": 173,
+      "date": "2026-06-15T04:35:03.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "신상철 <shinsc63@daum.net>",
+      "subject": "[마포중동]통합심의용 총회자료 송부건 (배치도cg컷으로 교체) 재송부",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260615_257_hyunj@yegaone.com.eml",
+      "body": "\n다운로드 기한이 있는 첨부파일 1개 (96MB)7일 보관 / 100회 다운로드\n\n260615 중동 총회자료.pptx 96MB ~ 2026. 6. 22.\n\n\n\n말씀하여주신 배치도 59타입 오타 수정하여 다시 발송드립니다.\n\n감사합니다.\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": []
+    },
+    {
+      "id": 172,
+      "date": "2026-06-15T04:30:17.000Z",
+      "from": "한하린 <haline0k@yegaone.com>",
+      "to": "<jhking9407@naver.com>",
+      "subject": "[마포 중동 가로주택정비사업] 통합심의  PPT 샘플 추가 송부드립니다.",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260615_255_haline0k@yegaone.com.eml",
+      "body": "안녕하세요. 예가원건축사사무소 한하린 대리입니다.\n\n방금 통화로 말씀드린 내용과 관련하여 추가로 필요한 자료를 송부드립니다.\n첨부파일에 추가 샘플 PDF와 비상벨 및 CCTV 설치계획 작성을 위한 지하주차장 도면이 포함되어 있습니다.\n\n이전에 보내드린 샘플 2장과 금일 추가로 보내드리는 샘플 자료만 반영해 주시면 될 것 같습니다.\n\n감사합니다.\n\n\n\n한하린 예가원건축사사무소\n설계팀 / 대리\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4236-4064 Mobile +82 010-3302-9614\nEmail haline0k@yegaone.com \n\n\n\n",
+      "attachments": []
+    },
+    {
+      "id": 171,
+      "date": "2026-06-15T04:13:51.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "<jhking9407@naver.com>",
+      "subject": "[마포중동] 태양광용량검토(친환경) -주 거,비주거 송부 건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260615_254_hyunj@yegaone.com.eml",
+      "body": "\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "260604_조명용량기준 태양광용량 산출표("
+      ]
+    },
+    {
+      "id": 170,
+      "date": "2026-06-15T04:09:37.000Z",
+      "from": "dgenc2003 <dgenc2003@naver.com>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": "마포 중동 가로주택정비사업 종합개선안 도",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260615_251_dgenc2003@naver.com.eml",
+      "body": "\n대용량 첨부 1개 13MB\n\n종합개선안도-2026.06.15 - Standard.zip 13296098 ~ 2026/07/15\n기한이 있는 파일은 30일 보관 / 100회 다운로드 가능\n\n\n\n안녕하세요\n대건이엔씨 배두한입니다.\n종합개선안도 첨부하여 보내드립니다.\n업무에 참고하시기 바랍니다.\n\n\n",
+      "attachments": [
+        "종합개선안도-2026.06.15.pdf"
+      ]
+    },
+    {
+      "id": 169,
+      "date": "2026-06-15T02:46:41.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "신상철 <shinsc63@daum.net>",
+      "subject": "[마포중동]통합심의용 총회자료 송부건 (배치도cg컷으로 교체)최",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260615_250_hyunj@yegaone.com.eml",
+      "body": "\n다운로드 기한이 있는 첨부파일 1개 (96MB)7일 보관 / 100회 다운로드\n\n260615 중동 총회자료.pptx 96MB ~ 2026. 6. 22.\n\n\n\n총회건축자료 첨부드렸습니다. 기존자료와 나머지는 동일하고\n\n배치도만 기존 CAD→CG 로 바뀌었습니다.\n\n감사합니다.\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": []
+    },
+    {
+      "id": 168,
+      "date": "2026-06-12T06:49:29.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "김정호 <jhking9407@naver.com>",
+      "subject": "[마포중동] 태양광패널 일조검토 샘플PP T파일 첨부",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260612_247_hyunj@yegaone.com.eml",
+      "body": " 통합심의 PPT파일중 친환경계획 6,7,8페이지에 해당하는 내용이 필요할것으로 보입니다.\n\n뒤에 이어지는 집광채광루터부분은 무시하셔도됩니다.\n\n감사합니다.\n \n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "샘플 자료.pdf"
+      ]
+    },
+    {
+      "id": 167,
+      "date": "2026-06-12T06:24:14.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "김정호 <jhking9407@naver.com>",
+      "subject": "[마포중동] 모델링 스케치업파일 송부건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260612_245_hyunj@yegaone.com.eml",
+      "body": "\n다운로드 기한이 있는 첨부파일 1개 (56MB)7일 보관 / 100회 다운로드\n\n260612_중동 모델링.skp 56MB ~ 2026. 6. 19.\n\n\n\n오전에 요청주신 태양광 연속일조 5시간 검토용 \n\n중동 모델링 스케치업파일 첨부드렸습니다.\n\n감사합니다.\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": []
+    },
+    {
+      "id": 166,
+      "date": "2026-06-12T04:19:13.000Z",
+      "from": "counter@sindohj.com",
+      "to": "hyunj@yegaone.com",
+      "subject": "Message from 25C-1i",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260612_243_counter@sindohj.com.eml",
+      "body": "",
+      "attachments": [
+        "S25C-1i26061213190.pdf"
+      ]
+    },
+    {
+      "id": 165,
+      "date": "2026-06-12T01:59:20.000Z",
+      "from": "한하린 <haline0k@yegaone.com>",
+      "to": "<rabluesky@naver.com>",
+      "subject": "[마포 중동 가로주택정비사업] 통합심의  PPT 샘플 및 참고자료 송부드립니다.",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260612_242_haline0k@yegaone.com.eml",
+      "body": "\n다운로드 기한이 있는 첨부파일 1개 (20MB)7일 보관 / 100회 다운로드\n\n1. (샘플 참고용)강북구 번동 458-2번지(조경 계획서 발췌).pdf 20MB ~ 2026. 6. 19.\n\n\n\n안녕하세요. 예가원건축사사무소 한하린 대리입니다.\n\n중동 가로주택정비사업 통합심의 관련하여 PPT 샘플 파일과 참고자료(PDF)를 송부드립니다.\n\n참고자료 PDF 내용을 첨부된 PPT 양식 기준으로 작성해 주시면 되며, \nPPT 양식에 적용된 내용(폰트, 글자 크기 및 표 컬러 등)을 동일하게 반영해 주시면 됩니다. \n\n작성본은 다음 주 중으로 전달 부탁드립니다.\n\n감사합니다.\n\n\n\n한하린 예가원건축사사무소\n설계팀 / 대리\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4236-4064 Mobile +82 010-3302-9614\nEmail haline0k@yegaone.com \n\n\n\n",
+      "attachments": [
+        "[통합심의]_  마포중동 샘플 참고용.pptx"
+      ]
+    },
+    {
+      "id": 164,
+      "date": "2026-06-12T01:57:53.000Z",
+      "from": "한하린 <haline0k@yegaone.com>",
+      "to": "<jhking9407@naver.com>",
+      "subject": "[마포 중동 가로주택정비사업] 통합심의  PPT 샘플 및 참고자료 송부드립니다. ",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260612_241_haline0k@yegaone.com.eml",
+      "body": "안녕하세요. 예가원건축사사무소 한하린 대리입니다.\n\n중동 가로주택정비사업 통합심의 관련하여 PPT 샘플 파일과 참고자료(PDF)를 송부드립니다.\n\n참고자료 PDF 내용을 첨부된 PPT 양식 기준으로 작성해 주시면 되며, \nPPT 양식에 적용된 내용(폰트, 글자 크기 및 표 컬러 등)을 동일하게 반영해 주시면 됩니다. \n\n작성본은 다음 주 중으로 전달 부탁드립니다.\n\n감사합니다.\n\n\n\n\n한하린 예가원건축사사무소\n설계팀 / 대리\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4236-4064 Mobile +82 010-3302-9614\nEmail haline0k@yegaone.com \n\n\n\n",
+      "attachments": [
+        "[통합심의]_  마포중동 샘플 참고용.pptx",
+        "1. (샘플 참고용)강북구 번동 458-2번지(전"
+      ]
+    },
+    {
+      "id": 163,
+      "date": "2026-06-12T01:57:05.000Z",
+      "from": "한하린 <haline0k@yegaone.com>",
+      "to": "임석주 <dn-mech@dnmec.com>",
+      "subject": "[마포 중동 가로주택정비사업] 통합심의  PPT 샘플 및 참고자료 송부드립니다. ",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260612_240_haline0k@yegaone.com.eml",
+      "body": "안녕하세요. 예가원건축사사무소 한하린 대리입니다.\n\n중동 가로주택정비사업 통합심의 관련하여 PPT 샘플 파일과 참고자료(PDF)를 송부드립니다.\n\n참고자료 PDF 내용을 첨부된 PPT 양식 기준으로 작성해 주시면 되며, \nPPT 양식에 적용된 내용(폰트, 글자 크기 및 표 컬러 등)을 동일하게 반영해 주시면 됩니다. \n\n작성본은 다음 주 중으로 전달 부탁드립니다.\n\n감사합니다.\n\n\n\n한하린 예가원건축사사무소\n설계팀 / 대리\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4236-4064 Mobile +82 010-3302-9614\nEmail haline0k@yegaone.com \n\n\n\n",
+      "attachments": [
+        "[통합심의]_  마포중동 샘플 참고용.pptx",
+        "1. (샘플 참고용)강북구 번동 458-2번지(방"
+      ]
+    },
+    {
+      "id": 162,
+      "date": "2026-06-12T01:55:44.000Z",
+      "from": "한하린 <haline0k@yegaone.com>",
+      "to": "구조 이건구조 <yigunkuzo@daum.net>",
+      "subject": "[마포 중동 가로주택정비사업] 통합심의  PPT 샘플 및 참고자료 송부드립니다.",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260612_239_haline0k@yegaone.com.eml",
+      "body": "안녕하세요. 예가원건축사사무소 한하린 대리입니다.\n\n중동 가로주택정비사업 통합심의 관련하여 PPT 샘플 파일과 참고자료(PDF)를 송부드립니다.\n\n참고자료 PDF 내용을 첨부된 PPT 양식 기준으로 작성해 주시면 되며, \nPPT 양식에 적용된 내용(폰트, 글자 크기 및 표 컬러 등)을 동일하게 반영해 주시면 됩니다. \n\n작성본은 다음 주 중으로 전달 부탁드립니다.\n\n감사합니다.\n\n\n\n한하린 예가원건축사사무소\n설계팀 / 대리\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4236-4064 Mobile +82 010-3302-9614\nEmail haline0k@yegaone.com \n\n\n\n",
+      "attachments": [
+        "[통합심의]_  마포중동 샘플 참고용.pptx",
+        "1. (샘플 참고용)강북구 번동 458-2번지(구"
+      ]
+    },
+    {
+      "id": 161,
+      "date": "2026-06-11T06:39:56.000Z",
+      "from": "김정호 <jhking9407@naver.com>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": "마포 중동 태양광 배치",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260611_238_jhking9407@naver.com.eml",
+      "body": "\n\n\n",
+      "attachments": [
+        "1744766650533.jpeg",
+        "260610_동별 태양광 배치도(PV 392.96kW).dwg"
+      ]
+    },
+    {
+      "id": 160,
+      "date": "2026-06-11T04:41:12.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "신상철 <shinsc63@daum.net>",
+      "subject": "[마포중동]통합심의용 총회자료 송부 건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260611_237_hyunj@yegaone.com.eml",
+      "body": "\n다운로드 기한이 있는 첨부파일 1개 (70MB)7일 보관 / 100회 다운로드\n\n260611 중동 총회자료.pptx 70MB ~ 2026. 6. 18.\n\n\n\n안녕하십니까 예가원건축 지현재차장입니다.\n\n마포중동 통합심의용 총회자료 ppt파일로 작성하여 첨부드렸습니다.\n\n(작성된 내용중 임대주택 세대수 부분은 사업성보정계수 및 손실보상액이 적용된 세대수입니다.)\n\n감사합니다.\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n\n",
+      "attachments": []
+    },
+    {
+      "id": 159,
+      "date": "2026-06-09T05:59:16.000Z",
+      "from": "정찬희 <ray514871@yegaone.com>",
+      "to": "<dgenc2003@naver.com>",
+      "subject": "예가원 건축사사무소 [마포구 중동 비상 차량 동선 계획,배치도]",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260609_232_ray514871@yegaone.com.eml",
+      "body": "마포구 중동 관련되서 메일드립니다\n비상차량 동선계획도,배치도 보내드립니다.\n\n\n정찬희 예가원건축사사무소\n설계팀 / 대리\n\n서울시 강남구 선릉로 93길, 50 현석타워 13층\nTel 070-4290-3454 Mobile +82 010-6220-5148\nEmail ray514871@yegaone.com \n\n\n\n",
+      "attachments": [
+        "단지배치도.dwg",
+        "비상차량 동선 계획도.dwg",
+        "지반층배치도.dwg"
+      ]
+    },
+    {
+      "id": 158,
+      "date": "2026-06-08T05:21:27.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "(주)건축환경그룹 다올 <enh2013@naver.com>",
+      "subject": "[마포중동] 교육영향평가 게이드위치관 련 대우답변",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260608_231_hyunj@yegaone.com.eml",
+      "body": "게이트위치 G1(토공사용), G3(전공종)은 기존안대로 유지하고 G2,G4대신에 103동 104동 사이공간에 G3(전공종)으로 바꾸자는 의견입니다.-기존설명드린내용 보완이 나올경우 이런식으로 하자고 하는 대우측 의견입니다. 지현재 예가원건축사사무소 설계팀/차장 서울시 강남구 선릉로 93길 50, 현석타워 13층 Tel 070-4290-3455 Mobile +82 010-7696-3024 Email hyunj@yegaone.com",
+      "attachments": [
+        "1780896025986.png"
+      ]
+    },
+    {
+      "id": 156,
+      "date": "2026-06-08T04:57:17.000Z",
+      "from": "네이버메일 <navermail_noreply@navercorp.com>",
+      "to": "<hyunj@yegaone.com>",
+      "subject": "[네이버 메일] jhking9407@naver.com으로 메일  발송이 실패되었습니다.",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260608_229_navermail_noreply@navercorp.com.eml",
+      "body": "메일 발송이 실패하였습니다.\n회원님이 보낸 메일이 발송되지 못했습니다.\n다음의 실패 사유와 해결 방법을 확인해 주세요.\n보낸 시간: 2026-06-08 PM 01:57 (GMT +09:00)\n받는 사람 주소: jhking9407@naver.com\n메일 제목: FW: [건축환경그룹 다올] 마포구 중동 78일원 가로주택정비사업 신축공사 태양광 용량 산출표 재송부\n\n실패 사유: 받는 사람의 메일박스 용량이 가득 찼습니다.\n사유 원문: The receiver's mailbox is full\n해결 방법: 받는 사람에게 메일박스 정리를 요청하신 후 다시 발송해 보세요.\n\n보낸 메일의 원본을 첨부파일에서 확인해 주세요\n본 메일은 발신 전용입니다.\n궁금한 점이나 불편한 사항은 고객센터를 이용해 주세요.\n",
+      "attachments": [
+        "FW: [건축환경그룹 다올] 마포구 중동 78일",
+        "260604_조명용량기준 태양광용량 산출표("
+      ]
+    },
+    {
+      "id": 155,
+      "date": "2026-06-05T08:35:57.000Z",
+      "from": "정찬희 <ray514871@yegaone.com>",
+      "to": "<dgenc2003@naver.com>",
+      "subject": "예가원 건축사사무소 [마포구 중동 차량 동선,보행자 동선 계획도,자전거 보관위 치도]",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260605_226_ray514871@yegaone.com.eml",
+      "body": "예가원 건축사사무소 정찬희 대리입니다\n차량 동선,보행장 동선 계획도와 자전거보관 위치도 보내드립니다.\n\n\n정찬희 예가원건축사사무소\n설계팀 / 대리\n\n서울시 강남구 선릉로 93길, 50 현석타워 13층\nTel 070-4290-3454 Mobile +82 010-6220-5148\nEmail ray514871@yegaone.com \n\n\n\n",
+      "attachments": [
+        "보행자 동선 계획도.dwg",
+        "차량 동선 계획도.dwg"
+      ]
+    },
+    {
+      "id": 154,
+      "date": "2026-06-04T08:45:09.000Z",
+      "from": "정찬희 <ray514871@yegaone.com>",
+      "to": "<dgenc2003@naver.com>",
+      "subject": "예가원 건축사사무소 [마포구 중동 지하 주차장평면도 지상층 배치도]",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260604_225_ray514871@yegaone.com.eml",
+      "body": "예가원 건축사사무소 정찬희 대리입니다.\n지하주차장 이동식 충전 반영하여 드립니다. 지상층 배치도도 같이 보내드립니다.\n\n\n정찬희 예가원건축사사무소\n설계팀 / 대리\n\n서울시 강남구 선릉로 93길, 50 현석타워 13층\nTel 070-4290-3454 Mobile +82 010-6220-5148\nEmail ray514871@yegaone.com \n\n\n\n",
+      "attachments": [
+        "지반층배치도_260601.dwg",
+        "지하주차장 평면도_260601.dwg"
+      ]
+    },
+    {
+      "id": 153,
+      "date": "2026-06-04T07:41:34.000Z",
+      "from": "(주)건축환경그룹 다올 <enh2013@naver.com>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": "[건축환경그룹 다올] 마포구 중동 78일원  가로주택정비사업 신축공사 태양광 용 량 산출표 재송부",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260604_224_enh2013@naver.com.eml",
+      "body": "안녕하세요, 건축환경그룹다올 이정아 책임입니다.\n\n마포구 중동 78일원 가로주택정비사업 신축공사 태양광 용량 산출표 송부드립니다.\n\n> 대우건설 전기 담당자가 06/25 까지 휴직중으로 해당 기간동안 협의 필요 시 아래 연락처로 연락달라고 합니다.\n   대우건설 노경래 책임 010-7279-2458\n\n> 또한 건설사 측으로부터 ZEB 인증을 진행하는 공동주택의 경우 조명밀도를 6W/㎡ 미만으로 계획하고 있다는 내용을 전달받았습니다.\n다만 검토 결과, ZEB 인증을 충족하기 위해서는 세대당 약 0.7kW의 태양광 설비 용량이 필요한 것으로 확인되었습니다.\n관련 산출서를 첨부드리오니 참고 부탁드립니다.\n\n좋은 하루 보내세요 :)\n\n\n(주)건축환경그룹 다올\n\n▶ 친환경컨설팅부문\n에너지절약계획서(EPI)/에너지절약형 친환경주택성능평가(GREEN HOME)/건강친화형주택평가/녹색건축인증(G-SEED)\n/건물에너지효율등급인증/제로에너지건축물인증(ZEB)/공동주택 결로방지성능평가/장수명주택인증\n/범죄예방환경설계(CPTED)/지능형건축물인증(IBS)/장애물없는생활환경(BF)인증/TK·BTL·기술제안 친환경계획/교육환경평가\n▶ 환경분석 부문\n공동주택 도로교통소음예측평가/일조권분석/조망권분석/ 열환경분석/바람길분석/실내기류분석/화재피난 분석\n▶신재생에너지 부문\n신재생에너지 컨설팅 및 시공, 유지관리 전문업체\n▶창호컨설팅 부문\n창호설계 및 시공, 컨설팅 전문업체\n\n☎ 직통번호 : 070-5101-7606\n☎ 팩스번호 : 02-2138-7920\n서울특별시 금천구 가산디지털1로 16(가산동) 901호,902호,903호,914호(가산2차 SK V1 AP타워)\n \n\n",
+      "attachments": [
+        "260604_조명용량기준 태양광용량 산출표("
+      ]
+    },
+    {
+      "id": 152,
+      "date": "2026-06-04T04:53:52.000Z",
+      "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
+      "to": "dgenc2003 <dgenc2003@naver.com>",
+      "subject": "[마포 성산동 가로주택정비사업] 전기차  급속충전기 설치 수량 관련 검토 의견  회신 요청",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260604_223_chlee@yegaone.com.eml",
+      "body": "안녕하세요, 상무님. 이전에 통화로 말씀 주셨던 전기차 급속충전기 설치 수량과 관련하여, 해당 내용을 공식적으로 남겨두고 향후 업무 추진 시 참고하고자 메일로 회신을 부탁드립니다. 현재 전기차 충전설비가 다소 과다하게 계획된 부분에 대해서는 향후에도 사업 진행 과정에서 지속적으로 검토 및 이슈가 될 가능성이 있다고 판단하고 있습니다. 다만, 해당 사항은 예가원건축사사무소 전임 담당자가 정리한 계획안을 바탕으로 통합심의까지 완료된 내용인 만큼, 사업시행인가 접수 시점에서 설계 내용을 변경하기 쉽지 않은 상황이라는 점도 충분히 인지하고 있습니다. 이에 따라 향후 충전기 수량 조정 또는 계획 변경이 필요할 경우, 변경 가능 여부 관련 인허가 및 심의 절차 예상되는 일정 영향 사업 추진상 리스크 및 유의사항 등에 대한 의견을 함께 회신해 주시면 향후 검토 및 의사결정에 많은 도움이 될 것 같습니다. 검토 후 회신 부탁드립니다. 감사합니다. 이찬희 올림 이찬희 (주)예가원건축사사무소 설계팀/차장 서울시 강남구 선릉로 93길 50, 현석타워 13층 Tel 070-4236-4065 Mobile +82 010-2949-9422 Email chlee@yegaone.com -----Original Message----- From: \"dgenc2003\"<dgenc2003@naver.com> To: \"예가원건축 이찬희 차장\"<chlee@yegaone.com>; Cc: Sent: 2025. 12. 26. (금) 10:20 (GMT+09:00) Subject: RE: [마포 성산동 가로주택정비사업]담당자 변경안내 및 문의사항 건 안녕하세요, 실무 담당 최병진 입니다. 문의주신 사항에 관하여, 1. 사업시행인가가 통합심의후 주택건설사업에 대한 사업승인 을 득하는 것 맞으신거죠? - 교통은 통합심의에 따른 첨부드린 심의결과중 교통의견을 반영하여 '심의의결보완서' 라는 최종 보고서가 제출되어야합니다. - 제출시 의견에 있는 심의위원에게 지정확인을 받아야 합니다.(의견에 따른 계획 보완후) (추가로, 시청 승인부서에 지정심의위원 확인서 같은 양식이 별도로 있는지 확인하여 주신다 하였습니다. by 예가원건축) -상기 보고서 작성 기간은 최종 픽스된 자료 수령후 약 2주정도 소요(최종자료 수령전 저희와 계획 피드백 기간 필요) + 지정위원 확인 기간(별도) 필요 2. 전체 계획주차대수는 통함심의시 제시된 주차대수 이상을 유지하여야합니다. 전기차 10%이상은 '주택건설 기준 등에 관한 규칙' 제6조의2 를 지키신거 같으며(예상), 교통은 예가원건축에서 제공주신 도면으로 작성한 사항이며, 세부사항은 전임자에게 확인하셔야 합니다. 3. 통상 교통에서 주차장 주통로는 7.0m이상, 부통로는 6.0~6.5m 적용합니다. 다만, 저희과업의 특성상 비정형화된 부지 특성으로 인하여 계획수립시, 주통로 6.5~7.0m 이상, 부통로 6.0~6.5m로 설저하여 진행하였으며, 다행히 큰 지적사항은 없었으며, 현재 적용된 주통로 최소 6.5m이상 또는 가급적 주통로 7.0m 통일이 가장 좋습니다. \n -----Original Message----- From: \"예가원건축 이찬희 차장\"<chlee@yegaone.com> To: <dgenc2003@naver.com>; Cc: \"교통 대건이엔씨\"<dgenc@chol.com>; \"강재형\"<jhkang@yegaone.com>; Sent: 2025-12-26 (금) 09:47:44 (GMT+09:00) Subject: [마포 성산동 가로주택정비사업]담당자 변경안내 및 문의사항 건 안녕하세요. 예가원건축사사무소 이찬희 차장입니다. 성산동 가로주택정비사업의 담당자가 변경되어, 인사 겸 사업시행인가 준비와 관련한 몇 가지 확인 사항을 여쭙고자 메일을 드립니다. 현재 본 사업은 통합심의 이후, 대우건설과 단위세대 평면 관련 협의를 진행 중에 있으며, 해당 조율이 완료(1월3주차 예정)되는 대로 주차장 계획을 포함한 관련 도면을 정리하여 송부드릴 예정입니다. 이에 앞서, 사업시행인가 단계 준비를 위해 아래 사항들에 대해 사전 확인을 받고자 합니다. 사업시행인가 접수 일정 관련 문의 사업시행인가 접수와 관련하여, 기본계획 도면은 접수시점 기준으로 어느 시점까지 전달드리면 되는지 안내 부탁드립니다. 주차대수 및 전기차 주차 비율 관련 문의 현재 계획상 전기차 충전 주차대수가 총 주차대수의 약 10%로 반영되어 있는데, 해당 비율이 적용된 법적 근거 또는 행정 기준(관련 법령, 조례, 통합심의 조건 등)이 있는지 확인 부탁드립니다. 기존 협의 경과에 대한 자료가 명확하지 않아, 정확한 기준을 재확인하고자 합니다. 단지 내 차로 폭 기준(주동선·보조동선) 관련 문의 기본계획을 일부 수정하는 과정에서 단지 내 차로 폭 기준을 보다 명확히 정리하고자 합니다. 통합심의 당시에는 주동선 및 보조동선의 차로 폭이 구간별로 상이하게 계획되어 있었으며, 사업시행인가 단계에서는 통합심의 기준보다 차로 폭이 축소되지 않는 범위 내에서 이를 정리할 예정입니다. 이와 관련하여, 사업시행인가 단계에서 적용해야 할 주동선 및 보조동선의 최소 기준 차로 폭 을 각각 어떻게 설정하는 것이 적절한지 확인 부탁드립니다. 상기 기준을 명확히 한 후, 기본계획 및 주차계획을 정리하여 도면에 반영 전달하고자 합니다. 검토 후 회신 주시면, 이후 인허가 일정 및 도면에 반영하도록 하겠습니다. 감사합니다. 이찬희 올림 이찬희 (주)예가원건축사사무소 설계팀/차장 서울시 강남구 선릉로 93길 50, 현석타워 13층 Tel 070-4236-4065 Mobile +82 010-2949-9422 Email chlee@yegaone.com",
+      "attachments": [
+        "1766711300433.png"
+      ]
+    },
+    {
+      "id": 151,
+      "date": "2026-06-02T08:47:34.000Z",
+      "from": "알에이엔지니어링 <raeng4152@naver.com>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": "[(주)알에이엔지니어링] 마포중동 발파계 획평면도 송부 드립니다.",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260602_221_raeng4152@naver.com.eml",
+      "body": "\n\n안녕하세요. 알에이엔지니어링입니다.\n\n\n\n\n\n\n(주)알에이엔지니어링\nT : 032.565.4152   E : raeng4152@naver.com\n\n",
+      "attachments": [
+        "C-607 발파계획평면도_260529.dwg"
+      ]
+    },
+    {
+      "id": 149,
+      "date": "2026-06-01T07:01:21.000Z",
+      "from": "김도윤 <heartshine@daum.net>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": "RE: [마포중동]세입자별손실보상 액 현황(사업성보 정계수 계산요청)",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260601_220_heartshine@daum.net.eml",
+      "body": "대용량파일 1개 (50.13MB) ~ 2026.07.01 ( 30일 보관, 100회 다운로드 가능) \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n 중동78_세입자별 손실보상 계산_세화_260601.xlsx (50.13MB) \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n 세화도시 김도윤 입니다. 요청하신 내용 계산하여 보내드립니다. 주신 자료를 기반으로 작성하였고요 기준용적률 적용은 협의후 확정 필요합니다. 김 도 윤 도시계획 총괄대표 | 세화도시 주식회사 t 02) 359-9771 | m 010-2255-1006 | e kdy01@sehwadosi.co.kr a 경기도 고양시 덕양구 향동로 128. DMC 스타비즈 4st. 509호",
+      "attachments": [
+        "2025.07.30_재정비촉진계획 수"
+      ]
+    },
+    {
+      "id": 148,
+      "date": "2026-06-01T06:43:13.000Z",
+      "from": "한하린 <haline0k@yegaone.com>",
+      "to": "<jhking9407@naver.com>",
+      "subject": "[마포 중동 가로주택정비사업] 태양광 패 널(BAPV/BIPV) 설치 검토 요청 (추가 검토사 항 도면 첨부)",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260601_219_haline0k@yegaone.com.eml",
+      "body": "안녕하세요. 예가원건축사사무소 한하린 대리입니다.\n\n오전에 송부드린 파일 상에 BIPV 설치 가능 위치 판단이 어려울 것 같아 관련 도면을 추가로 송부드립니다.\n105동 우측 전체 측벽과 101동 및 103동의 층차로 인해 발생하는 부분 측벽 구간에 BIPV 설치가 가능할 것 같습니다.\n\n첨부 도면 확인 후 검토 부탁드리며, 추가로 설치 가능한 위치가 있는 경우 의견 주시면 반영하도록 하겠습니다.\n감사합니다.\n\n\n한하린 예가원건축사사무소\n설계팀 / 대리\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4236-4064 Mobile +82 010-3302-9614\nEmail haline0k@yegaone.com \n\n\n\n",
+      "attachments": [
+        "260325_배치도.dwg",
+        "260601 주동입면_태양광(101,106동).dwg"
+      ]
+    },
+    {
+      "id": 147,
+      "date": "2026-06-01T05:37:51.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "김도윤_세화도시(주) <kdy01@sehwadosi.co.kr>",
+      "subject": "[마포중동]세입자별손실보상액 현황(사 업성보정계수 계산요청)",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260601_218_hyunj@yegaone.com.eml",
+      "body": "\n다운로드 기한이 있는 첨부파일 1개 (50MB)7일 보관 / 100회 다운로드\n\n중동78_세입자별 손실보상 현황20260601.xlsx 50MB ~ 2026. 6. 8.\n\n\n\n자세한 내용은 유선상으로 설명드리겠습니다.\n\n감사합니다.\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": []
+    },
+    {
+      "id": 146,
+      "date": "2026-06-01T01:21:34.000Z",
+      "from": "한하린 <haline0k@yegaone.com>",
+      "to": "<jhking9407@naver.com>",
+      "subject": "[마포 중동 가로주택정비사업] 태양광 패 널(BAPV/BIPV) 설치 검토 요청",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260601_216_haline0k@yegaone.com.eml",
+      "body": "안녕하세요. 예가원건축사사무소 한하린 대리입니다.\n\n중동 가로주택정비사업 주거와 비주거 태양광 패널 설치 관련하여 검토 요청드립니다.\n\n첨부드린 친환경에서 받은 태양광용량 산출 파일을 기준으로 우선 주동 동평면도와 배치도 부대시설 지붕에 BAPV를 임의 배치하여 검토하였습니다. \n다만, 현재 계산 상 확보 용량이 부족한 것으로 확인되어 BIPV 추가 설치가 필요할 것으로 판단됩니다.\n\n검토를 위해 입면도, 동평면도, 배치도 및 태양광용량 산출 파일을 함께 송부드리오니 확인 부탁드립니다.\n\n현재 태양광 패널 관련 CG 발주가 예정되어 있어 \n일정 상 검토 결과를 가능한 빠른 시일 내 회신해 주시면 감사하겠습니다.\n\n감사합니다.\n\n\n\n한하린 예가원건축사사무소\n설계팀 / 대리\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4236-4064 Mobile +82 010-3302-9614\nEmail haline0k@yegaone.com \n\n\n\n",
+      "attachments": [
+        "(친환경검토본)조명용량기준 태양광용량",
+        "260325_배치도.dwg",
+        "260601_동별 지붕층 태양광패널 검토.dwg",
+        "260601_주동입면.dwg"
+      ]
+    },
+    {
+      "id": 145,
+      "date": "2026-05-29T07:15:01.000Z",
+      "from": "강재형 <jhkang@yegaone.com>",
+      "to": "박무영 <muyoung.park@daewooenc.com>",
+      "subject": "[성산동 중동]사업성 보정계수 도시 검토  자료 송부",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260529_215_jhkang@yegaone.com.eml",
+      "body": "소장님 안녕하세요. 예가원 건축 강재형 부장입니다.\n\n어제 회의때 요청하신 도시에서 검토한 사업성 보정계수 자료 송부드립니다.\n\n첨부파일 참조하여 주시기 바랍니다.\n\n감사합니다.\n\n\n강재형 예가원건축사사무소\n설계팀/부장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4155-9677 Mobile +82 010-9205-4119\nEmail bluedayidoff@yegaone.com \n\n\n\n",
+      "attachments": [
+        "260528_마포구 성산동 모아타운 보정계수",
+        "260528_마포구 중동 모아타운 보정계수 적"
+      ]
+    },
+    {
+      "id": 144,
+      "date": "2026-05-28T06:25:10.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "신지현 <jihyun.shin@daewooenc.com>",
+      "subject": "[마포중동] 교육영향평가 관련 게이트위 치 조정 검토요청 건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260528_214_hyunj@yegaone.com.eml",
+      "body": "안녕하십니까 지현재차장입니다.\n\n지난번 위치 검토하여주신 내용대로  T/C는 조정하였고\n\n게이트위치는 기존위치와는 조금 변동이 있어 현재 위치가 괜찮은지 확인이 필요하다고 합니다.\n\n첨부드린 캐드파일상 게이트위치는 현재 총 4개소인데\n\n친환경업체에서 확인요청드리는 내용은\n\n-GATE1,2,3 3군데로 진행 OR \n GATE1,2,4 3군데로 진행 두가지 방안중 어느게 더 적정해보이는지입니다.\n\n추가로 T/C는 도면 형상으로보면 T형으로 보이는데 L형인지 T형인지 확인이 필요하다고합니다.\n\n감사합니다.\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "260528 게이트 위치 조정안.dwg"
+      ]
+    },
+    {
+      "id": 143,
+      "date": "2026-05-28T06:11:13.000Z",
+      "from": "(주)건축환경그룹 다올 <enh2013@naver.com>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": "[건축환경그룹다올] 게이트위치 조정안  검토 요청건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260528_212_enh2013@naver.com.eml",
+      "body": "안녕하세요, 지현재 차장님\n\n게이트 위치를 조정하여 다시 보내드리오니 검토 후 회신을 요청드립니다\n\n\nT/C : 45m Luffing 4대로 수정하였습니다.\n> 반영, T/C운영 범위는 대지경계선 범위는 벗어나지 않는 조건 기재\n> T/C 타입(T형, L형) 확인 요청\n\n\n\n\nGate 위치\n> 재조정하여 도서 첨부 회신요청 \n\n\n\n(주)건축환경그룹 다올 이사 고경민\n\n▶ 친환경컨설팅부문\n에너지절약계획서(EPI)/에너지절약형 친환경주택성능평가(GREEN HOME)/건강친화형주택평가/녹색건축인증(G-SEED)\n/건물에너지효율등급인증/제로에너지건축물인증(ZEB)/공동주택 결로방지성능평가/장수명주택인증\n/범죄예방환경설계(CPTED)/지능형건축물인증(IBS)/장애물없는생활환경(BF)인증/TK·BTL·기술제안 친환경계획/교육환경평가\n▶ 환경분석 부문\n공동주택 도로교통소음예측평가/일조권분석/조망권분석/ 열환경분석/바람길분석/실내기류분석/화재피난 분석\n▶신재생에너지 부문\n신재생에너지 컨설팅 및 시공, 유지관리 전문업체\n▶창호컨설팅 부문\n창호설계 및 시공, 컨설팅 전문업체\n\n☎ 대표번호 : 02-2138-7919\n☎ 팩스번호 : 02-2138-7920\n☎ 휴대번호 : 010-9518-1113\n서울특별시 금천구 가산디지털1로 16(가산동) 901호,902호,903호,914호(가산2차 SK V1 AP타워)\n\n\n-----Original Message-----\nFrom: \"지현재\"<hyunj@yegaone.com>\nTo: \"(주)건축환경그룹 다올\"<enh2013@naver.com>;\nCc: \"강재형\"<jhkang@yegaone.com>;\nSent: 2026-05-27 (수) 16:58:47 (GMT+09:00)\nSubject: [마포중동] 타워크레인 게이트위치 검토 회신\n\n타워크레인위치는 기존 6→ 4대로 대수감소 및 위치가 수정되었다고 하고\n\n게이트위치는 텍스트로만 검토가 왔습니다. 아래내용과 같습니다.\n\nFrom: 박현진 책임(Hyun-Chin Park) <hyunchin.park@daewooenc.com>\nSubject: Re: [마포중동] 교육영향평가 관련 타워크레인 및 게이트위치 검토요청 건\n \n안녕하세요\n \n건축CM팀 박현진 책임입니다.\n \n아래 참고하시기 바랍니다.\n \n\nT/C : 45m Luffing 4대로 수정하였습니다.\n\n\n\nGate 위치\n\n\n 1) Gate 1의 위치는 지하 주차장 입구에 설치 되는것으로 보입니다.\n      토공사 이외는 사용이 불가 할것으로 보입니다.\n      대안으로는 105동 106동 사이에 배치하는것이 좋을것 같으나, \n      중암중학교와 인접으로 교육영향평가 심의에 영향이 있어 보이는 상황입니다.\n2) Gate 2 적정한것으로 보입니다.\n3) Gate 3 의 위치와 인접으로 토공사 이외는 사용이 불가 할것으로 보입니다.\n     103동과 104동 사이에 배치하는것이 좋을것 같으나, 도로가 협소하여 차량 진출입에\n     제한이 있을것으로 보입니다.\n     \n     \n감사합니다.\n박 현 진 배상\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n\n\n\n",
+      "attachments": [
+        "260528 게이트 위치 조정안.dwg"
+      ]
+    },
+    {
+      "id": 142,
+      "date": "2026-05-28T01:43:29.000Z",
+      "from": "정찬희 <ray514871@yegaone.com>",
+      "to": "<dgenc2003@naver.com>",
+      "subject": "예가원 건축사사무소 [마포구 중동 배치 도 도면]",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260528_211_ray514871@yegaone.com.eml",
+      "body": "안녕하세요 예가원 건축사사무소 정찬희 대리입니다\n배치도계획도면 보내드립니다.\n\n\n정찬희 예가원건축사사무소\n설계팀 / 대리\n\n서울시 강남구 선릉로 93길, 50 현석타워 13층\nTel 070-4290-3454 Mobile +82 010-6220-5148\nEmail ray514871@yegaone.com \n\n\n\n",
+      "attachments": [
+        "배치도.dwg"
+      ]
+    },
+    {
+      "id": 141,
+      "date": "2026-05-28T01:40:27.000Z",
+      "from": "정찬희 <ray514871@yegaone.com>",
+      "to": "<raeng4152@naver.com>",
+      "subject": "예가원 건축사사무소 [마포구 중동 지하 주차장평면도]",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260528_210_ray514871@yegaone.com.eml",
+      "body": "예가원 건축사사무소 정찬희대리입니다 \n지하주차장 외과라인 수정이후 도면 보내드립니다\n\n\n정찬희 예가원건축사사무소\n설계팀 / 대리\n\n서울시 강남구 선릉로 93길, 50 현석타워 13층\nTel 070-4290-3454 Mobile +82 010-6220-5148\nEmail ray514871@yegaone.com \n\n\n\n",
+      "attachments": [
+        "지하주차장 평면도_260527.dwg"
+      ]
+    },
+    {
+      "id": 139,
+      "date": "2026-05-27T10:36:14.000Z",
+      "from": "김도윤_세화도시(주) <kdy01@sehwadosi.co.kr>",
+      "to": "hyunj@yegaone.com",
+      "subject": "[세화도시] 마포구 중동  모아타운 보정계수 검토서",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260527_209_kdy01@sehwadosi.co.kr.eml",
+      "body": "세화도시 김도윤 입니다. 마포구 중동 보정계수 정리해서 보내드립니다. 데이터는 보내주신 엑셀파일을 활용하여 작성하였습니다. 지목이 대지인 토지를 기준으로 작성하였습니다. 검토(확인)해 보시고 궁금하신 사항이나 문제가 있으시면 연락주시기 바랍니다. 김 도 윤 도시계획 총괄대표 | 세화도시 주식회사 t 02) 359-9771 | m 010-2255-1006 | e kdy01@sehwadosi.co.kr a 경기도 고양시 덕양구 향동로 128. DMC 스타비즈 4st. 509호",
+      "attachments": [
+        "260528_마포구 중동 모아",
+        "마포중동 사업성보정계수 "
+      ]
+    },
+    {
+      "id": 138,
+      "date": "2026-05-27T07:01:30.000Z",
+      "from": "신지현 선임(SHIN JI HYUN) <jihyun.shin@daewooenc.com>",
+      "to": "예가원 지현재 차장 <hyunj@yegaone.com>",
+      "subject": " FW: [마포중동] 교육영향평가 관련 타워크 레인 및 게이트위치 검토요청 건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260527_206_jihyun.shin@daewooenc.com.eml",
+      "body": "안녕하세요\r\n타워크레인 배치 및 게이트 위치관련 검토내용 전달드립니다.\r\n\r\n\r\n  1.  T/C : 첨부 CAD파일참고\r\n  2.  GATE : 아래메일 내용참고\r\n\r\n\r\nFrom: 박현진 책임(Hyun-Chin Park) <hyunchin.park@daewooenc.com>\r\nSubject: Re: [마포중동] 교육영향평가 관련 타워크레인 및 게이트위치 검토요청 건\r\n\r\n안녕하세요\r\n\r\n건축CM팀 박현진 책임입니다.\r\n\r\n아래 참고하시기 바랍니다.\r\n\r\n\r\n  1.  T/C : 45m Luffing 4대로 수정하였습니다.\r\n\r\n  1.  Gate 위치\r\n 1) Gate 1의 위치는 지하 주차장 입구에 설치 되는것으로 보입니다.\r\n      토공사 이외는 사용이 불가 할것으로 보입니다.\r\n      대안으로는 105동 106동 사이에 배치하는것이 좋을것 같으나,\r\n      중암중학교와 인접으로 교육영향평가 심의에 영향이 있어 보이는 상황입니다.\r\n2) Gate 2 적정한것으로 보입니다.\r\n3) Gate 3 의 위치와 인접으로 토공사 이외는 사용이 불가 할것으로 보입니다.\r\n     103동과 104동 사이에 배치하는것이 좋을것 같으나, 도로가 협소하여 차량 진출입에\r\n     제한이 있을것으로 보입니다.\r\n\r\n\r\n감사합니다.\r\n박 현 진 배상\r\n________________________________\r\n보낸 사람: 신지현 선임(SHIN JI HYUN) <jihyun.shin@daewooenc.com<mailto:jihyun.shin@daewooenc.com>>\r\n보낸 날짜: 2026년 5월 27일 수요일 오후 2:09\r\n받는 사람: 박현진 책임(Hyun-Chin Park) <hyunchin.park@daewooenc.com<mailto:hyunchin.park@daewooenc.com>>\r\n참조: 노형곤 책임(Hyung Gon Roh) <hyunggon.roh@daewooenc.com<mailto:hyunggon.roh@daewooenc.com>>; 박무영 책임(Mu Young Park) <muyoung.park@daewooenc.com<mailto:muyoung.park@daewooenc.com>>\r\n제목: FW: [마포중동] 교육영향평가 관련 타워크레인 및 게이트위치 검토요청 건\r\n\r\n\r\n안녕하세요\r\n\r\n건축설계팀 신지현 선임입니다.\r\n\r\n\r\n\r\n마포중동78프로젝트 관련하여,\r\n\r\n교육영향평가를 위한 타워크레인 및 게이트위치도 설계사에서 작성한 파일 공유드리오니 검토요청드립니다.\r\n\r\n바쁘시겠지만, 5/29(금)까지 검토회신부탁드리겠습니다.\r\n\r\n\r\n\r\n감사합니다.\r\n\r\n\r\n\r\n\r\n\r\n신지현\r\n\r\n[cid:image001.png@01DCEDE2.745FA7D0]\r\n\r\nSHIN JI HYUN\r\n\r\n선임   |   건축설계팀\r\n\r\nSenior Associate\r\n\r\nARCHITECTURAL DESIGN  TEAM\r\n\r\nT\r\n\r\n02-2288-3838\r\n\r\n[cid:image002.png@01DCEDE2.745FA7D0]\r\n\r\nM\r\n\r\n010-7271-8670\r\n\r\nE\r\n\r\njihyun.shin@daewooenc.com<mailto:jihyun.shin@daewooenc.com>\r\n\r\n\r\n",
+      "attachments": [
+        "image001.png",
+        "image002.png",
+        "타워크레인 배치 및 게이트 위치.dwg"
+      ]
+    },
+    {
+      "id": 137,
+      "date": "2026-05-27T06:57:33.000Z",
+      "from": "갈아현 <gal12001@daum.net>",
+      "to": "hyunj@yegaone.com",
+      "subject": "[마포 중동 가로주 택정비사업] 소규모 재해영향평가 일정  관련 메일드립니다.",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260527_205_gal12001@daum.net.eml",
+      "body": "안녕하세요 차장님 \"마포 중동 78번지 가로주택정비사업\" 소규모재해영향평가 담당 RA엔지니어링 갈아현 과장입니다. 타분야 계획 및 소요일정에 따른 소규모 재해영향평가 추진계획 일정 보내드립니다. 궁금하신 사항 있으시면 편하게 연락주십시오. 감사합니다! 갈아현 수자원부/과장 | RA Eng. m 010-9839-8019 | e gal12001@daum.net a (13558) 경기도 성남시 분당구 정자일로 158, 6층 606호 (정자동, 백궁프라자2)",
+      "attachments": [
+        "260527_(소규모"
+      ]
+    },
+    {
+      "id": 136,
+      "date": "2026-05-27T06:33:13.000Z",
+      "from": "김미라 <rabluesky@naver.com>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": "마포 중동 cg용 식재계획",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260527_204_rabluesky@naver.com.eml",
+      "body": "안녕하세요, 차장님.\ncg용\n식재계획도 첨부드립니다.\n감사합니다.\n\n",
+      "attachments": [
+        "260527 배치도 (식재cg용).dwg"
+      ]
+    },
+    {
+      "id": 135,
+      "date": "2026-05-27T02:18:24.000Z",
+      "from": "정찬희 <ray514871@yegaone.com>",
+      "to": "<dgenc2003@naver.com>",
+      "subject": "예가원 건축사사무소 [마포구 중동 지하 주차장변경 및 관련도면]",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260527_203_ray514871@yegaone.com.eml",
+      "body": "안녕하세요  예가원건축사사무소 정찬희 대리입니다\n지하주차장 주차 변경이 있어 도면 보내드립니다 첨부파일 도면을 통해 교통 관련 자료 수정해주시면 되겠습니다.\n\n\n정찬희 예가원건축사사무소\n설계팀 / 대리\n\n서울시 강남구 선릉로 93길, 50 현석타워 13층\nTel 070-4290-3454 Mobile +82 010-6220-5148\nEmail ray514871@yegaone.com \n\n\n\n",
+      "attachments": [
+        "지하주차장 평면도_260527.dwg"
+      ]
+    },
+    {
+      "id": 134,
+      "date": "2026-05-27T00:44:37.000Z",
+      "from": "강재형 <jhkang@yegaone.com>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": "FW: [세화도시] 마포 성산동 모아타운 보 정계수 검토 결과 건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260527_200_jhkang@yegaone.com.eml",
+      "body": "\n\n\n강재형 예가원건축사사무소\n설계팀/부장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4155-9677 Mobile +82 010-9205-4119\nEmail bluedayidoff@yegaone.com \n\n\n\n-----Original Message-----\nFrom: \"예가원건축 이찬희 차장\"<chlee@yegaone.com>\nTo: \"강재형\"<jhkang@yegaone.com>;\nCc:\nSent: 2026. 5. 21. (목) 08:05 (GMT+09:00)\nSubject: FW: [세화도시] 마포 성산동 모아타운 보정계수 검토 결과 건\n\n부장님 마포 성산 관련하여 세화도시에서 수신한 메일 공유드립니다.\n\n-----Original Message-----\nFrom: 김도윤 <heartshine@daum.net>\nTo: <chlee@yegaone.com>\nCc: 김승회 <shkimsoft@yegaone.com>\nSent: 2026-05-21 (목) 05:40:02 (GMT+09:00)\nSubject: [세화도시] 마포 성산동 모아타운 보정계수 검토 결과 건\n\n이찬희 차장님\n\n세화도시에 김도윤 입니다.\n\n\n제가 저번에 전무님과 서대문구청 협의후\n\n협의 결과를 바탕으로 보정계수 내용을 정리하였니다. \n\n\n임대주택 세대수는 실제 설계시 달라지는 사항이라 내부적 검토가 필요합니다.\n\n\n1. 단순히 보정계수 수치 기제로 진행되는 사항은 아니고 모아타운 변경 절차를 이해하는 사항입니다.(마포구청이 상당부문 지원해주는 전제 조건입니다.)\n\n- 과거 서대문구청에서 받은 절차안내 첨부합니다.(마포구에서 초안작성(심의PPT, 고시문HWP) 보내면 조합에 보낼 것으로 예상됨\n\n\n2. 공시지가, 서울시 평균고시지가 기준으로 보정계수를 산출하고 성산동의 경우 \n\n1) 용도지역상향사항   2)매입형임대주택 사항이 있어 \n\n2가지 사항을 모두검토하였으며 또한 보정계수 적용시 세입자보상(임대주택완화)보다 우선적용사항임\n\n\n위사항을 종합하여 예전에 서대문구 홍은동 모아타운 보정계수 일괄심의 처럼\n\n건축사항의 임대주택 설계개요 등 수정해야 하는 사항임니다.\n\n- 향후 초안 작성후 마포구 및 조합 사전협의 필요함(용적률 , 임대주택 세대수 변경 건)\n\n\n\n\n\n\n\n\n\n\n\n김 도 윤\n도시계획 총괄대표|세화도시 주식회사\n\n\nt 02) 359-9771|m 010-2255-1006|e kdy01@sehwadosi.co.kr\n\n\na 경기도 고양시 덕양구 향동로 128. DMC 스타비즈 4st. 509호\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "attachments": [
+        "260521_성산1구역_공시지가기준_보정계수",
+        "260521_마포구 성산동 모아타운 보정계수",
+        "사업성 보정계수 도입에 따른 모아타운"
+      ]
+    },
+    {
+      "id": 133,
+      "date": "2026-05-22T09:00:24.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "<sirius91622@naver.com>",
+      "subject": "[마포중동] 배치도 송부 건(조경 및 현황 측량 레벨 업데이트)",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260522_199_hyunj@yegaone.com.eml",
+      "body": "마포중동 배치도 첨부드렸습니다.\n\n내부사정으로 전달이 늦어 죄송합니다.\n\n감사합니다.\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "배치도.dwg"
+      ]
+    },
+    {
+      "id": 132,
+      "date": "2026-05-22T07:54:35.000Z",
+      "from": "(주)건축환경그룹 다올 <enh2013@naver.com>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": "[건축환경그룹다올]마포중동 타워크레인  배치 및 게이트 위치도, 발파계획 확인 요청",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260522_197_enh2013@naver.com.eml",
+      "body": "안녕하세요,\n\n마포중동 타워크레인 배치 및 게이트 위치도를 보내드리오니 \n대우건설에서 검토후 내용 회신부탁드립니다.\n\n또한, 오늘 보내주신 지반조사보고서의 내용을 보면 연암이 나오는데, \n발파계획이 별도로 수립할 예정인지 아니면 다른 공법이 적용될 예정인지 계획 확인을 부탁드립니다\n\n\n(주)건축환경그룹 다올 이사 고경민\n\n▶ 친환경컨설팅부문\n에너지절약계획서(EPI)/에너지절약형 친환경주택성능평가(GREEN HOME)/건강친화형주택평가/녹색건축인증(G-SEED)\n/건물에너지효율등급인증/제로에너지건축물인증(ZEB)/공동주택 결로방지성능평가/장수명주택인증\n/범죄예방환경설계(CPTED)/지능형건축물인증(IBS)/장애물없는생활환경(BF)인증/TK·BTL·기술제안 친환경계획/교육환경평가\n▶ 환경분석 부문\n공동주택 도로교통소음예측평가/일조권분석/조망권분석/ 열환경분석/바람길분석/실내기류분석/화재피난 분석\n▶신재생에너지 부문\n신재생에너지 컨설팅 및 시공, 유지관리 전문업체\n▶창호컨설팅 부문\n창호설계 및 시공, 컨설팅 전문업체\n\n☎ 대표번호 : 02-2138-7919\n☎ 팩스번호 : 02-2138-7920\n☎ 휴대번호 : 010-9518-1113\n서울특별시 금천구 가산디지털1로 16(가산동) 901호,902호,903호,914호(가산2차 SK V1 AP타워)\n\n\n\n",
+      "attachments": [
+        "타워크레인 배치 및 게이트 위치.dwg"
+      ]
+    },
+    {
+      "id": 131,
+      "date": "2026-05-22T06:23:20.000Z",
+      "from": "신지현 선임(SHIN JI HYUN) <jihyun.shin@daewooenc.com>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": " RE: [마포중동] 부대시설평면도 및  주동 부대입면(3D 모델링) 스케치 업자료 송부 건_대우검토 회신",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260522_196_jihyun.shin@daewooenc.com.eml",
+      "body": "[7z 아이콘] 260522 마포중동 부대시설, 지하주차장, 입면, 배치도 검토회신.7z<https://daewooenc365-my.sharepoint.com/:u:/g/personal/jihyun_shin_daewooenc_com/IQCFupikP3gVQbQTpq4doUXGAW6gSsiK9JCARm9wqgOLOzU>\r\n\r\n안녕하세요\r\n대우건설 건축설계팀 신지현 선임입니다.\r\n\r\n부대시설 및 입면, 지하주차장 관련 검토하여 회신드리오니 업무에 참고부탁드립니다.\r\n\r\n미반영건이나 질의관련 내용은 회신부탁드리겠습니다.\r\n감사합니다.\r\n\r\n신지현\r\n[cid:image002.png@01DCE9FE.EA3EA010]\r\nSHIN JI HYUN\r\n선임   |   건축설계팀\r\nSenior Associate\r\nARCHITECTURAL DESIGN  TEAM\r\nT\r\n02-2288-3838\r\n[cid:image003.png@01DCE9FE.EA3EA010]\r\nM\r\n010-7271-8670\r\nE\r\njihyun.shin@daewooenc.com<mailto:jihyun.shin@daewooenc.com>\r\n\r\n\r\nFrom: 지현재 <hyunj@yegaone.com>\r\nSent: Friday, May 15, 2026 3:46 PM\r\nTo: 신지현 선임(SHIN JI HYUN) <jihyun.shin@daewooenc.com>\r\nCc: 강재형 <jhkang@yegaone.com>\r\nSubject: [마포중동] 부대시설평면도 및 주동 부대입면(3D 모델링) 스케치업자료 송부 건\r\n\r\n다운로드 기한이 있는 첨부파일 1개 (38MB)\r\n7일 보관 / 100회 다운로드\r\n[etc]\r\n260515 중동모델링.skp 38MB<https://bigfile.mail.worksmobile.com/storage/download?fid=/k1/wmail/r/kr1/133117/133117/SqKwKAgmKAuwFxtmFog9KxMjK3Y9FwYZKAUrKAEwFxu9FAEZa3YwFqblFAMwaxvlHrRZK3Y9pA2_FoU9pAKZMqtlFzKqKok0pxF4px3vK6tmMqbrF2==>\r\n~ 2026. 5. 22.\r\n[Save to PC]<https://bigfile.mail.worksmobile.com/storage/download?fid=/k1/wmail/r/kr1/133117/133117/SqKwKAgmKAuwFxtmFog9KxMjK3Y9FwYZKAUrKAEwFxu9FAEZa3YwFqblFAMwaxvlHrRZK3Y9pA2_FoU9pAKZMqtlFzKqKok0pxF4px3vK6tmMqbrF2==>\r\n지난번 주동 지하주차장 평면도 보내드린이후에 자료 송부가 늦어졌습니다.\r\n\r\n부대시설평면도 파일과 주동 및 부대시설입면(3D모델링) 스케치업파일도 첨부드렸습니다.\r\n\r\n배치도는 기존과 주동배치는 같고 부대시설위치 및 비상차로선형이 일부 수정되었습니다.\r\n(배치도에 조경패턴은 아직 업데이트X) -금일 조경에 검토요청\r\n\r\n\r\n\r\n[https://static.worksmobile.net/static/pwe/nworks/sign_bar1.png]\r\n지현재 예가원건축사사무소\r\n설계팀/차장\r\n서울시 강남구 선릉로 93길 50, 현석타워 13층\r\nTel 070-4290-3455 Mobile +82 010-7696-3024\r\nEmail hyunj@yegaone.com<mailto:hyunj@yegaone.com>\r\n\r\n\r\n\r\n",
+      "attachments": [
+        "image001.png",
+        "image002.png",
+        "image003.png"
+      ]
+    },
+    {
+      "id": 130,
+      "date": "2026-05-22T01:11:03.000Z",
+      "from": "알에이엔지니어링 <raeng4152@naver.com>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": "[마포 중동] 지반조사 보고서 / 측량성과 품(최종) 송부 건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260522_193_raeng4152@naver.com.eml",
+      "body": "\n대용량 첨부 1개 179MB\n\n260522 - 지반조사 보고서, 측량1식자료.zip 187793955 ~ 2026/06/21\n기한이 있는 파일은 30일 보관 / 100회 다운로드 가능\n\n\n\n\n\n안녕하세요. 알에이엔지니어링입니다.\n\n지반조사보고서와 측량성과품(최종본)을 보내드립니다\n\n\n\n\n(주)알에이엔지니어링\nT : 032.565.4152   E : raeng4152@naver.com\n\n",
+      "attachments": []
+    },
+    {
+      "id": 129,
+      "date": "2026-05-22T00:58:07.000Z",
+      "from": "(주)건축환경그룹 다올 <enh2013@naver.com>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": "RE: [건축환경그룹 다올] 마포구 중동 78일 원 가로주택정비사업 신축공사 태양광  용량 산출표 송부",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260522_192_enh2013@naver.com.eml",
+      "body": "\n안녕하세요, 건축환경그룹다올 이정아 책임입니다.\n\n마포구 중동 78일원 가로주택정비사업 신축공사 태양광 용량 재 송부드립니다.\n\n서울시 신재생에너지 공급비율의 경우 ZEB인증 취득으로 예외 적용되니 참고 부탁드립니다.\n* 주거 : 645W × 759장 = 492.78kW (설치면적 : 2.456 × 1.134 = 약2,114㎡)\n* 비주거 : 645W × 44장 =28.38kW (설치면적 : 2.456 × 1.134 = 약 123㎡)\n\n좋은 하루 보내세요 :)\n\n\n-----Original Message-----\nFrom: \"지현재\"<hyunj@yegaone.com>\nTo: \"(주)건축환경그룹 다올\"<enh2013@naver.com>;\nCc:\nSent: 2026-05-22 (금) 09:37:57 (GMT+09:00)\nSubject: RE: [건축환경그룹 다올] 마포구 중동 78일원 가로주택정비사업 신축공사 태양광 용량 산출표 송부\n\n제로에너지 5등급기준과 서울시 신재생에너지 설치비율 기준에 맞춘 용량 및 BAPV BIPV 설치갯수등의 검토를 요청드린건데\n\n주신내용은 친환경주택평가 가점항목으서의 태양광용량계산같아서 홍제동 검토해주신 내용을 일단 첨부드려서 공유드립니다.\n\n자세한내용은 유선으로 말씀드리겠습니다.\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n-----Original Message-----\nFrom: \"(주)건축환경그룹 다올\"<enh2013@naver.com>\nTo: \"지현재\"<hyunj@yegaone.com>;\nCc: <jhkang@yegaone.com>;\nSent: 2026. 5. 21. (목) 18:10 (GMT+09:00)\nSubject: [건축환경그룹 다올] 마포구 중동 78일원 가로주택정비사업 신축공사 태양광 용량 산출표 송부\n\n\n안녕하세요, 건축환경그룹다올 이정아 책임입니다.\n\n마포구 중동 78일원 가로주택정비사업 신축공사 태양광 용량 산출표 송부드립니다.\n\n좋은 하루 보내세요 :)\n\n\n(주)건축환경그룹 다올\n\n▶ 친환경컨설팅부문\n에너지절약계획서(EPI)/에너지절약형 친환경주택성능평가(GREEN HOME)/건강친화형주택평가/녹색건축인증(G-SEED)\n/건물에너지효율등급인증/제로에너지건축물인증(ZEB)/공동주택 결로방지성능평가/장수명주택인증\n/범죄예방환경설계(CPTED)/지능형건축물인증(IBS)/장애물없는생활환경(BF)인증/TK·BTL·기술제안 친환경계획/교육환경평가\n▶ 환경분석 부문\n공동주택 도로교통소음예측평가/일조권분석/조망권분석/ 열환경분석/바람길분석/실내기류분석/화재피난 분석\n▶신재생에너지 부문\n신재생에너지 컨설팅 및 시공, 유지관리 전문업체\n▶창호컨설팅 부문\n창호설계 및 시공, 컨설팅 전문업체\n\n☎ 직통번호 : 070-5101-7606\n☎ 팩스번호 : 02-2138-7920\n서울특별시 금천구 가산디지털1로 16(가산동) 901호,902호,903호,914호(가산2차 SK V1 AP타워)\n \n\n\n\n\n\n\n\n",
+      "attachments": []
+    },
+    {
+      "id": 128,
+      "date": "2026-05-21T09:10:13.000Z",
+      "from": "(주)건축환경그룹 다올 <enh2013@naver.com>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": "[건축환경그룹 다올] 마포구 중동 78일원  가로주택정비사업 신축공사 태양광 용 량 산출표 송부",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260521_189_enh2013@naver.com.eml",
+      "body": "\n안녕하세요, 건축환경그룹다올 이정아 책임입니다.\n\n마포구 중동 78일원 가로주택정비사업 신축공사 태양광 용량 산출표 송부드립니다.\n\n좋은 하루 보내세요 :)\n\n\n(주)건축환경그룹 다올\n\n▶ 친환경컨설팅부문\n에너지절약계획서(EPI)/에너지절약형 친환경주택성능평가(GREEN HOME)/건강친화형주택평가/녹색건축인증(G-SEED)\n/건물에너지효율등급인증/제로에너지건축물인증(ZEB)/공동주택 결로방지성능평가/장수명주택인증\n/범죄예방환경설계(CPTED)/지능형건축물인증(IBS)/장애물없는생활환경(BF)인증/TK·BTL·기술제안 친환경계획/교육환경평가\n▶ 환경분석 부문\n공동주택 도로교통소음예측평가/일조권분석/조망권분석/ 열환경분석/바람길분석/실내기류분석/화재피난 분석\n▶신재생에너지 부문\n신재생에너지 컨설팅 및 시공, 유지관리 전문업체\n▶창호컨설팅 부문\n창호설계 및 시공, 컨설팅 전문업체\n\n☎ 직통번호 : 070-5101-7606\n☎ 팩스번호 : 02-2138-7920\n서울특별시 금천구 가산디지털1로 16(가산동) 901호,902호,903호,914호(가산2차 SK V1 AP타워)\n \n\n",
+      "attachments": [
+        "조명용량기준 태양광용량 산출표(친주,"
+      ]
+    },
+    {
+      "id": 127,
+      "date": "2026-05-21T07:38:10.000Z",
+      "from": "김미라 <rabluesky@naver.com>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": "[마포구 중동]배치도 녹지, 포장표기",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260521_188_rabluesky@naver.com.eml",
+      "body": "안녕하세요, 차장님\n배치도 보내드립니다.\n감사합니다.\n\n",
+      "attachments": [
+        "260521 배치도 수정(포장표기).dwg"
+      ]
+    },
+    {
+      "id": 126,
+      "date": "2026-05-21T07:13:46.000Z",
+      "from": "정찬희 <ray514871@yegaone.com>",
+      "to": "<dgenc2003@naver.com>",
+      "subject": "예가원 건축사사무소 [마포구 중동 지하 주차장 지하 외벽 수정으로 인한 변경]",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260521_187_ray514871@yegaone.com.eml",
+      "body": "안녕하세요 예가원건축사 사무소에 정찬희 대리입니다.\n\n가시설안정성으로 인해 지하외벽이 수정되어 반영하여 지하주차장 평면도 보내드립니다.\n\n\n정찬희 예가원건축사사무소\n설계팀 / 대리\n\n서울시 강남구 선릉로 93길, 50 현석타워 13층\nTel 070-4290-3454 Mobile +82 010-6220-5148\nEmail ray514871@yegaone.com \n\n\n\n",
+      "attachments": [
+        "지하주차장 평면도_260521.dwg"
+      ]
+    },
+    {
+      "id": 125,
+      "date": "2026-05-21T05:46:40.000Z",
+      "from": "알에이엔지니어링 <raeng4152@naver.com>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": "RE: [마포중동] 지하주차장 외벽라인변경 에 따른 지하주차장 도면 송부건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260521_186_raeng4152@naver.com.eml",
+      "body": "\n\n안녕하세요. 알에이엔지니어링입니다.\n\n\n\n\n\n\n(주)알에이엔지니어링\nT : 032.565.4152   E : raeng4152@naver.com\n\n-----Original Message-----\nFrom: \"지현재\"<hyunj@yegaone.com>\nTo: <raeng4152@naver.com>; <sirius91622@naver.com>; <rabluesky@naver.com>;\nCc: \"강재형\"<jhkang@yegaone.com>;\nSent: 2026-05-20 (수) 10:27:27 (GMT+09:00)\nSubject: [마포중동] 지하주차장 외벽라인변경에 따른 지하주차장 도면 송부건\n\n지하주차장 왼쪽 커뮤티니 방향 외벽라인 선형변경에 따른 도면 송부드립니다.\n\n자세한내용은 유선상으로 말씀드리겠습니다\n\n감사합니다.\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n\n\n\n",
+      "attachments": [
+        "지하층 변경 사보강 구간 배치확인_26052"
+      ]
+    },
+    {
+      "id": 124,
+      "date": "2026-05-21T00:26:36.000Z",
+      "from": "알에이엔지니어링 <raeng4152@naver.com>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": "[알에이엔지니어링] 마포 중동 78번지  현 황측량도 및 지장물도",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260521_185_raeng4152@naver.com.eml",
+      "body": "\n대용량 첨부 1개 165MB\n\n★측량성과품(마포구 중동 78번지 일원).egg 173317212 ~ 2026/06/20\n기한이 있는 파일은 30일 보관 / 100회 다운로드 가능\n\n\n\n\n\n안녕하세요. 알에이엔지니어링입니다.\n\n마포 중동 78번지  현황측량도 및 지장물도 보내드리오니 확인바랍니다.\n\n\n\n\n(주)알에이엔지니어링\nT : 032.565.4152   E : raeng4152@naver.com\n\n",
+      "attachments": []
+    },
+    {
+      "id": 122,
+      "date": "2026-05-21T00:19:29.000Z",
+      "from": "알에이엔지니어링 <raeng4152@naver.com>",
+      "to": "선우엔지니어링 <sunwoogeo@naver.com>, <hyunj@yegaone.com>",
+      "subject": "[알에이엔지니어링] 마포 중동 78번지 현 황측량 및 지하매설물도",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260521_184_raeng4152@naver.com.eml",
+      "body": "\n대용량 첨부 1개 165MB\n\n★측량성과품(마포구 중동 78번지 일원).egg 173317212 ~ 2026/06/20\n기한이 있는 파일은 30일 보관 / 100회 다운로드 가능\n\n\n\n\n\n안녕하세요. 알에이엔지니어링입니다.\n\n마포 중동 78번지 현황측량 및 지하매설물도 보내드리오니 확인부탁드립니다.\n\n\n\n\n(주)알에이엔지니어링\nT : 032.565.4152   E : raeng4152@naver.com\n\n",
+      "attachments": []
+    },
+    {
+      "id": 121,
+      "date": "2026-05-20T09:11:10.000Z",
+      "from": "김미라 <rabluesky@naver.com>",
+      "to": "<hyunj@yegaone.com>",
+      "subject": "[ 마포구 중동 ] 조경배치도",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260520_183_rabluesky@naver.com.eml",
+      "body": "안녕하세요,\n마포구 중동 조경배치도 보내드립니다.\n\n외부 건축한계선 밖으로 전체 보도조성이 되어야한다고 해서 수정했고,\n생태면적은 침투수 연계면(주동옥상) 가능하면30% 만족할수 있을 것 같습니다. \n검토 부탁드립니다.\n감사합니다. \n\n\n\n\n\n",
+      "attachments": [
+        "260520 배치도 수정.dwg",
+        "260520 배치수정.pdf"
+      ]
+    },
+    {
+      "id": 120,
+      "date": "2026-05-20T07:13:43.000Z",
+      "from": "김미라 <rabluesky@naver.com>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": "[마포구중동]조경배치도",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260520_182_rabluesky@naver.com.eml",
+      "body": "감사합니다. \n",
+      "attachments": [
+        "260520 배치도.dwg",
+        "260520 조경배치.pdf",
+        "260520 마포구중동(생태면적).xlsx"
+      ]
+    },
+    {
+      "id": 119,
+      "date": "2026-05-20T06:04:03.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "구조 이건구조 <yigunkuzo@daum.net>",
+      "subject": "[마포중동] 통합심의 접수용 기본도면 송 부",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260520_181_hyunj@yegaone.com.eml",
+      "body": "요청주신 마포중동 기본도면 발송드립니다\n\n감사합니다.\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "대지종횡단면도_260518.dwg",
+        "배치도.dwg",
+        "지하주차장 평면도_260519.dwg",
+        "단위세대,동평면도.dwg"
+      ]
+    },
+    {
+      "id": 117,
+      "date": "2026-05-20T01:40:47.000Z",
+      "from": "(주)건축환경그룹 다올 <enh2013@naver.com>",
+      "to": "지현재 <hyunj@yegaone.com>, 구조 이건구조 <yigunkuzo@daum.net>, <raeng4152@naver.com>, <sirius91622@naver.com>, 임석주 <dn-mech@dnmec.com>, <jhking9407@naver.com>, <rabluesky@naver.com>, 최병진 <dgenc2003@naver.com>, <JDY114@hanmail.net>, <civilpark@hanmail.net>",
+      "subject": "[건축환경그룹다올]마포중동 친환경분야  연락처 공유건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260520_179_enh2013@naver.com.eml",
+      "body": "안녕하세요, 지현재 차장님\n\n친환경분야 담당자 잘못 기재되어 있어 용역별 담당자 연락처를 공유하오니 확인부탁드립니다.\n\n(주)건축환경그룹 다올 이사 고경민\n\n▶ 친환경컨설팅부문\n에너지절약계획서(EPI)/에너지절약형 친환경주택성능평가(GREEN HOME)/건강친화형주택평가/녹색건축인증(G-SEED)\n/건물에너지효율등급인증/제로에너지건축물인증(ZEB)/공동주택 결로방지성능평가/장수명주택인증\n/범죄예방환경설계(CPTED)/지능형건축물인증(IBS)/장애물없는생활환경(BF)인증/TK·BTL·기술제안 친환경계획/교육환경평가\n▶ 환경분석 부문\n공동주택 도로교통소음예측평가/일조권분석/조망권분석/ 열환경분석/바람길분석/실내기류분석/화재피난 분석\n▶신재생에너지 부문\n신재생에너지 컨설팅 및 시공, 유지관리 전문업체\n▶창호컨설팅 부문\n창호설계 및 시공, 컨설팅 전문업체\n\n☎ 대표번호 : 02-2138-7919\n☎ 팩스번호 : 02-2138-7920\n☎ 휴대번호 : 010-9518-1113\n서울특별시 금천구 가산디지털1로 16(가산동) 901호,902호,903호,914호(가산2차 SK V1 AP타워)\n\n-----Original Message-----\nFrom: \"지현재\"<hyunj@yegaone.com>\nTo: \"구조 이건구조\"<yigunkuzo@daum.net>; <raeng4152@naver.com>; <sirius91622@naver.com>; \"임석주\"<dn-mech@dnmec.com>; <jhking9407@naver.com>; <rabluesky@naver.com>; \"고경민\"<enh2013@naver.com>; \"최병진\"<dgenc2003@naver.com>; <JDY114@hanmail.net>; <civilpark@hanmail.net>;\nCc: \"강재형\"<jhkang@yegaone.com>;\nSent: 2026-05-20 (수) 10:21:55 (GMT+09:00)\nSubject: [마포중동] 대우건설 각 공종별 담당 연락처 공유 건\n\n안녕하십니까 예가원건축 지현재차장입니다.\n\n대우건설 각 공종별 연락처 업데이트 받아 공유드립니다.\n\n앞으로 업무진행에 있어 각 공종별 담당자분들끼리 연락을 취해 같이 검토가 될 수 있도록 요청드립니다. \n\n그리고 대우건설 사업팀 요청사항으로 대우건설과 메일 주고받으실 때\n\n사업담당+ 조합 까지 메일 참조를 걸어달라고 합니다.(세세한 내용까지 전부공유X, 아이템 선정건, 도면검토 요청메일 등 참조해주시면 될 것 같습니다.)\n\nmuyoung.park@daewooenc.com (대우 사업)\njdhouse78@naver.com (조합)\n\n대우사업담당과 조합메일입니다. \n\n감사합니다.\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n\n\n\n",
+      "attachments": [
+        "중동 가로주택정비사업 관계자 연락처_"
+      ]
+    },
+    {
+      "id": 115,
+      "date": "2026-05-20T01:17:23.000Z",
+      "from": "정찬희 <ray514871@yegaone.com>",
+      "to": "<dgenc2003@naver.com>",
+      "subject": "예가원 건축사사무소 [마포구 중동 지하 주차장변경 및 관련도면]",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260520_175_ray514871@yegaone.com.eml",
+      "body": "안녕하세요. \n마포구 중동 지하주차장 담당하게된 예가원 건축사사무소 정찬희 대리입니다.\n지하주차장 외벽라인이 수정되어 주차관련 수정하여 보내드립니다.\n15일 이후 수정된부분은 클라우드 마크로 표시했습니다 확인하시고 건축도면 빽갈이 해주시면 될것같습니다.\n\n\n정찬희 예가원건축사사무소\n설계팀 / 대리\n\n서울시 강남구 선릉로 93길, 50 현석타워 13층\nTel 070-4290-3454 Mobile +82 010-6220-5148\nEmail ray514871@yegaone.com \n\n\n\n",
+      "attachments": [
+        "대지종횡단면도_260518.dwg",
+        "램프평단면상세도_260519.dwg",
+        "배치도.dwg",
+        "지하주차장 평면도_260519.dwg"
+      ]
+    },
+    {
+      "id": 114,
+      "date": "2026-05-19T06:59:40.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "<dyyoon123@naver.com>",
+      "subject": "[마포중동]일정표 송부 건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260519_173_hyunj@yegaone.com.eml",
+      "body": "안녕하십니까. 예가원건축 지현재차장입니다.\n\n마포중동 일정표 PDF파일과 엑셀파일 첨부하여 송부드립니다.\n\n해당 일정표에 관리처분계획 일정 및 총회 일정 등 작성 후 회신 요청드립니다.\n\n감사합니다.\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "260519 마포중동 공동주택 일정표.xlsx",
+        "260519 마포중동 공동주택 일정표.pdf"
+      ]
+    },
+    {
+      "id": 113,
+      "date": "2026-05-15T07:09:30.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "<sirius91622@naver.com>",
+      "subject": "[마포중동]가시설 확정에 따른 배치, 지 하주차장도면 송부 건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260515_168_hyunj@yegaone.com.eml",
+      "body": "대지종횡단면은 현재 수정중이라 차주 월요일에 추가로 발송드리겠습니다\n\n 감사합니다.\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "배치도.dwg",
+        "지하주차장 평면도.dwg",
+        "마포중동 가로주택정비사업 신축공사_건"
+      ]
+    },
+    {
+      "id": 111,
+      "date": "2026-05-15T06:40:09.000Z",
+      "from": "postmaster@dwspam1.daewooenc.com",
+      "to": "hyunj@yegaone.com",
+      "subject": "Delivery failure",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260515_165_postmaster@dwspam1.daewooenc.com.eml",
+      "body": "NOTICE: Delivery Failure.\n\nThis Delivery Status Notification is sent from MTA...\n\t\t\t\t\nYour delivery to the following address has been failed.\nPlease refer to the below for details.\t\t\t\t\n------------------------------------------------------\n\nDelivery failed: jihyun.sin@daewooenc.com\n52.101.155.0 does not like recipient.\nRemote host said[Response Message]: 550 5.4.1 Recipient address rejected: Access denied. For more information see https://aka.ms/EXOSmtpErrors [PS1PEPF00016A0F.KORP216.PROD.OUTLOOK.COM 2026-05-15T06:40:09.784Z 08DEB171F867B7E8]\nGiving up on 52.101.155.0.\nSTEP: RCPT TO\n\n\n",
+      "attachments": [
+        "260511 어린이집 평면도.dwg",
+        "배치도.dwg",
+        "지상층 부대시설 평면도.dwg",
+        "지하주차장 평면도.dwg",
+        "지하층 부대시설 평면도.dwg",
+        "지상층 부대시설 평면도 (1).dwg",
+        "지하주차장 평면도 (1).dwg",
+        "지하층 부대시설 평면도 (1).dwg",
+        "260511 어린이집 평면도 (1).dwg",
+        "배치도 (1).dwg"
+      ]
+    },
+    {
+      "id": 110,
+      "date": "2026-05-15T06:39:55.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "<jihyun.sin@daewooenc.com>",
+      "subject": "[마포중동] 부대시설 평면도 및 입면 부 대시설 입면(3D모델링) 발송 건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260515_164_hyunj@yegaone.com.eml",
+      "body": "\n다운로드 기한이 있는 첨부파일 2개 (77MB)7일 보관 / 100회 다운로드\n\n260515 중동모델링.skp 38MB ~ 2026. 5. 22.\n260515 중동모델링 (1).skp 38MB ~ 2026. 5. 22.\n\n\n\n지난번 주동 지하주차장 평면도 보내드린이후에 자료 송부가 늦어졌습니다.\n\n부대시설평면도 파일과 주동 및 부대시설입면(3D모델링) 스케치업파일도 첨부드렸습니다.\n\n배치도는 기존과 주동배치는 같고 부대시설위치 및 비상차로선형이 일부 수정되었습니다.\n(배치도에 조경패턴은 아직 업데이트X) -금일 조경에 검토요청 \n\n\n\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "260511 어린이집 평면도.dwg",
+        "배치도.dwg",
+        "지상층 부대시설 평면도.dwg",
+        "지하주차장 평면도.dwg",
+        "지하층 부대시설 평면도.dwg",
+        "지상층 부대시설 평면도 (1).dwg",
+        "지하주차장 평면도 (1).dwg",
+        "지하층 부대시설 평면도 (1).dwg",
+        "260511 어린이집 평면도 (1).dwg",
+        "배치도 (1).dwg"
+      ]
+    },
+    {
+      "id": 109,
+      "date": "2026-05-15T05:57:29.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "<rabluesky@naver.com>",
+      "subject": "[마포중동] 배치도 개요 송부건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260515_160_hyunj@yegaone.com.eml",
+      "body": "안녕하세요 예가원건축 지현재차장입니다\n\n유선상으로 설명드린대로\n\n- 배치도 패턴 작업\n\n- 조경구적도\n\n- 포장계획도\n \n우선으로요청드립니다. \n\n그리고 추후 나머지도면 및 생태면적률이 나오는지의 확인이 필요합니다.\n\n감사합니다.\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "배치도.dwg",
+        "마포중동 가로주택정비사업 신축공사_건"
+      ]
+    },
+    {
+      "id": 108,
+      "date": "2026-05-15T05:52:20.000Z",
+      "from": "(주)건축환경그룹 다올 <enh2013@naver.com>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": "[건축환경그룹다올]마포중동 교육영향평 가 석면관련 추가 요청사항",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260515_158_enh2013@naver.com.eml",
+      "body": "안녕하세요, 보내주신 내용 확인 결과, 부실한 부분이 있어서 내용 보완을 요청드립니다. 1. 석면조차보고서에 석면 발생물량, 석면발생조사 지도 등이 없어서 지적사항으로 나올 수 있습니다. (예시) 석면조사 결과 또한 서울시 교육청의견으로 석면철거업체에 대한 증빙서류(A 또는 S급 업체)도 의견으로 나올 수 있기에 함께 요청드립니다. (예시) 석면업체 안전성평가 등급 \n (주)건축환경그룹 다올 이사 고경민 ▶ 친환경컨설팅부문 에너지절약계획서(EPI)/에너지절약형 친환경주택성능평가(GREEN HOME)/건강친화형주택평가/녹색건축인증(G-SEED) /건물에너지효율등급인증/제로에너지건축물인증(ZEB)/공동주택 결로방지성능평가/장수명주택인증 /범죄예방환경설계(CPTED)/지능형건축물인증(IBS)/장애물없는생활환경(BF)인증/TK·BTL·기술제안 친환경계획/교육환경평가 ▶ 환경분석 부문 공동주택 도로교통소음예측평가/일조권분석/조망권분석/ 열환경분석/바람길분석/실내기류분석/화재피난 분석 ▶신재생에너지 부문 신재생에너지 컨설팅 및 시공, 유지관리 전문업체 ▶창호컨설팅 부문 창호설계 및 시공, 컨설팅 전문업체 ☎ 대표번호 : 02-2138-7919 ☎ 팩스번호 : 02-2138-7920 ☎ 휴대번호 : 010-9518-1113 서울특별시 금천구 가산디지털1로 16(가산동) 901호,902호,903호,914호(가산2차 SK V1 AP타워) -----Original Message----- From: \"지현재\"<hyunj@yegaone.com> To: \"(주)건축환경그룹 다올\"<enh2013@naver.com>; Cc: \"강재형\"<jhkang@yegaone.com>; Sent: 2026-05-12 (화) 13:48:27 (GMT+09:00) Subject: [마포중동] 교육영향평가 석면조사보고서 및 철거계획서 송부 다운로드 기한이 있는 첨부파일 1 개 (63MB) 7일 보관 / 100회 다운로드 중동 78번지 일원 가로주택정비사업_석면 함유 건축물 사전조사서.pdf 63MB ~ 2026. 5. 19. 방금 수신한 자료 송부드립니다. 석면조사보고서는 기존에 보내드린자료와 동일하고 석면해체 및 철거계획서는 추가로 전달받아 첨부드렸습니다. 이 내용으로 교육영향평가 보고서 작성이 가능하실지 확인 요청드립니다. 감사합니다. 지현재 예가원건축사사무소 설계팀/차장 서울시 강남구 선릉로 93길 50, 현석타워 13층 Tel 070-4290-3455 Mobile +82 010-7696-3024 Email hyunj@yegaone.com",
+      "attachments": [
+        "1778823815597.png",
+        "1778823944871.png",
+        "1778823996157.png"
+      ]
+    },
+    {
+      "id": 107,
+      "date": "2026-05-15T05:17:45.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "<dgenc2003@naver.com>",
+      "subject": "[마포중동] 지하주차장평면도 외벽라인  변경에 따른 도면 송부 건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260515_157_hyunj@yegaone.com.eml",
+      "body": " 지하주차장 흙막이 관련해서 정리가 되서 변경된 지하주차장 도면을 첨부드렸습니다.\n\n전체 주차대수는 기존과 동일한 세대당 1.3대인 715대(공동주택기준)이며\n\n클라우드마크쳐진 부분의 외벽라인이 늘어나 주차동선이 추가되었습니다.\n\n세부적으로 조금씩 주차위치가 변경된부분이 있습니다.\n\n감사합니다.\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "지하주차장 평면도_260515.dwg"
+      ]
+    },
+    {
+      "id": 106,
+      "date": "2026-05-15T04:38:57.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "<raeng4152@naver.com>",
+      "subject": "[마포중동]합성버팀보  가로수직구간 삭 제가능여부 확인요청",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260515_155_hyunj@yegaone.com.eml",
+      "body": "금일오전에 가시설 검토해주신 내용으로 내부적으로 회의를 해본결과\n\n사선구간 합성버팀보구간은 검토해주신대로 진행하고\n\n가로 수평 합성버팀보구간은 지하주차장 외벽라인을 안으로 조정해서\n\n어스앙카로 가능하게끔 조정하는쪽으로 이야기가 되서 추가로 그부분만 가능한지 확인부탁드립니다.\n\n감사합니다.\n\nps) 도면에 해당구간 클라우드마크 해두었습니다\n\n \n\n\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "지하주차장 평면도_260515.dwg"
+      ]
+    },
+    {
+      "id": 105,
+      "date": "2026-05-15T00:32:31.000Z",
+      "from": "알에이엔지니어링 <raeng4152@naver.com>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": "[(주)알에이엔지니어링] 마포중동 검토  고면 송부 드립니다.",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260515_153_raeng4152@naver.com.eml",
+      "body": "\n\n안녕하세요. 알에이엔지니어링입니다.\n\n\n\n\n\n\n(주)알에이엔지니어링\nT : 032.565.4152   E : raeng4152@naver.com\n\n",
+      "attachments": [
+        "가시설 평면도(앵커공법 적용).dwg"
+      ]
+    },
+    {
+      "id": 104,
+      "date": "2026-05-14T07:52:28.000Z",
+      "from": "아름다운 세상 <shinsc63@hanmail.net>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": "RE: [마포중동] 노선측량관련 조합  공문 및 보안서약 서 도장날인 요청 건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260514_150_shinsc63@hanmail.net.eml",
+      "body": "--------- 원본 메일 --------- \n \n \n 보낸사람 : 지현재 <hyunj@yegaone.com> \n 받는사람 : 아름다운 세상 <shinsc63@hanmail.net> \n 참조 : 강재형 <jhkang@yegaone.com> \n 날짜 : 26.05.14 14:42 GMT +0900\n \n 제목 : [마포중동] 노선측량관련 조합 공문 및 보안서약서 도장날인 요청 건 \n 첨부파일 : 보안서약서.hwp, 조합공문 예시.hwp \n \n \n \n 토목에서 저희 중동 부지 위쪽에 지나는 공항철도에 대한 노선측량이 필요한데 그 측량을 위해서 공항철도쪽에 관련 자료를 요청해야한다고 합니다. 근데 그 요청을 토목회사나 저희건축에서 하는건 불가능하고 조합이름으로 신청해야 가능하다고 전달받아서 토목에서 작성양식 공유받아 전달드립니다. 조합공문내용은 내용은 제가 수정하였으나 조합주소 ,연락처,팩스번호,우편번호, 공문번호등 작성이 확인 및 작성 후 도장날인이 필요하고, 보안서약서는 내용확인 후 도장날인요청드립니다. 감사합니다. 지현재 예가원건축사사무소 설계팀/차장 서울시 강남구 선릉로 93길 50, 현석타워 13층 Tel 070-4290-3455 Mobile +82 010-7696-3024 Email hyunj@yegaone.com",
+      "attachments": [
+        "2026-051401_발신_마포 중동"
+      ]
+    },
+    {
+      "id": 103,
+      "date": "2026-05-14T05:42:06.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "아름다운 세상 <shinsc63@hanmail.net>",
+      "subject": "[마포중동] 노선측량관련 조합 공문 및  보안서약서 도장날인 요청 건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260514_149_hyunj@yegaone.com.eml",
+      "body": "토목에서 저희 중동 부지 위쪽에 지나는 공항철도에 대한 노선측량이 필요한데\n\n그 측량을 위해서 공항철도쪽에 관련 자료를 요청해야한다고 합니다.\n\n근데 그 요청을 토목회사나 저희건축에서 하는건 불가능하고 조합이름으로 신청해야 가능하다고 전달받아서\n\n토목에서 작성양식 공유받아 전달드립니다.\n\n조합공문내용은 내용은 제가 수정하였으나 조합주소 ,연락처,팩스번호,우편번호, 공문번호등 작성이 확인 및 작성 후 도장날인이 필요하고,\n\n보안서약서는 내용확인 후 도장날인요청드립니다.\n\n감사합니다.\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "보안서약서.hwp",
+        "조합공문 예시.hwp"
+      ]
+    },
+    {
+      "id": 101,
+      "date": "2026-05-13T08:53:02.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "김유림 <kyr@yegaone.com>",
+      "subject": "부대시설 입면 샘플",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260513_146_hyunj@yegaone.com.eml",
+      "body": "\n다운로드 기한이 있는 첨부파일 1개 (328MB)7일 보관 / 100회 다운로드\n\n0831 상생공원공동주택최종제출.zip 328MB ~ 2026. 5. 20.\n\n\n\n\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": []
+    },
+    {
+      "id": 100,
+      "date": "2026-05-12T04:31:18.000Z",
+      "from": "전한균 <frins033@hanmail.net>",
+      "to": "hyunj@yegaone.com",
+      "subject": "중동 78번지 일원 가로주택정비 사업_석면 함유  건축물 사전조사서",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260512_143_frins033@hanmail.net.eml",
+      "body": "대용량파일 1개 (63.01MB) ~ 2026.06.11 ( 30일 보관, 100회 다운로드 가능) \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n 중동 78번지 일원 가로주택정비사업_석면 함유 건축물 사전조사서.pdf (63.01MB) \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n 주식회사 비와이 상무이사 전한균 t 032-862-2228 | m 010-3621-6713 | e frins033@hanmail.net a 인천시 미추홀 구 숙 골로87번길 28-1, 다온프라자1, 3층(도화동)",
+      "attachments": []
+    },
+    {
+      "id": 98,
+      "date": "2026-05-12T04:30:26.000Z",
+      "from": "전한균 <frins033@hanmail.net>",
+      "to": "hyunj@yegaone.com",
+      "subject": "기존주택의 철거+석면해체 +폐기물처리 계획서_사업 시행 인가용_중동 78번 지 일원 가로주택정비사업",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260512_142_frins033@hanmail.net.eml",
+      "body": "안녕하십니까? 차장님 통화했던 석면조사한 업체 비와이 전한균 상무입니다. 요청하신 자료 송부드립니다. 감사합니다. 주식회사 비와이 상무이사 전한균 t 032-862-2228 | m 010-3621-6713 | e frins033@hanmail.net a 인천시 미추홀 구 숙 골로87번길 28-1, 다온프라자1, 3층(도화동)",
+      "attachments": [
+        "기존주택의 철거+석면해체+"
+      ]
+    },
+    {
+      "id": 96,
+      "date": "2026-05-11T08:45:02.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "<goal3030@naver.com>",
+      "subject": "[마포중동]어스앙카 가시설 검토요청",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260511_141_hyunj@yegaone.com.eml",
+      "body": "금일 회의한 내용대로 요청해주신 도면 첨부드렸습니다. \n\n감사합니다.\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "대지종횡단면도.dwg",
+        "지하주차장 평면도.dwg"
+      ]
+    },
+    {
+      "id": 94,
+      "date": "2026-05-11T06:22:30.000Z",
+      "from": "박무영 책임(Mu Young Park) <muyoung.park@daewooenc.com>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": " Re: [마포중동]교육영향평가 필요자료 중  석면조사 보고서 및 철거계획서 요청 건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260511_139_muyoung.park@daewooenc.com.eml",
+      "body": "차장님 안녕하세요\r\n대우건설 박무영책임입니다.\r\n석면제거업체에서 문의사항이 있어 연락드린다고 합니다. 연락오면 받아주세요. 감사합니다.\r\n________________________________\r\n보낸 사람: 지현재 <hyunj@yegaone.com>\r\n보낸 날짜: 2026년 5월 8일 금요일 오후 3:01\r\n받는 사람: 박무영 책임(Mu Young Park) <muyoung.park@daewooenc.com>\r\n참조: 강재형 <jhkang@yegaone.com>\r\n제목: [마포중동]교육영향평가 필요자료 중 석면조사 보고서 및 철거계획서 요청 건\r\n\r\n안녕하십니까 예가원건축 지현재차장입니다.\r\n\r\n교육영향평가 진행에 필요한 자료 리스트 중에 아래 목록\r\n\r\n- 사업지 석면 조사결과 보고서( 석면 범위조사지도, 석면의 양 포함)\r\n- 사업지 석면 철거 계획서 (철거량, 기간, 임시 야적장 위치, 석면 반출경로 등)\r\n\r\n의 작성이 필요해서 요청드립니다.\r\n\r\n괄호 안에 내용들이 포함된 보고서 및 계획서가 필요하다고 합니다.\r\n\r\n교육 담당 필요 자료리스트 받은 파일도 첨부 드렸습니다.\r\n\r\n감사합니다.\r\n\r\n\r\n\r\n[https://static.worksmobile.net/static/pwe/nworks/sign_bar1.png]\r\n지현재 예가원건축사사무소\r\n설계팀/차장\r\n\r\n서울시 강남구 선릉로 93길 50, 현석타워 13층\r\nTel 070-4290-3455 Mobile +82 010-7696-3024\r\nEmail hyunj@yegaone.com<mailto:hyunj@yegaone.com>\r\n\r\n[https://kr1-mail.worksmobile.com/readReceipt/notify/?img=SrYwKAgmKAuwFxtmFog9KxMshAbqK4uqaxvlFqbrKoudp4FSF6KqMo30F4t%2FMo3SF6twtHi0M6mR%2BrkS76RZKLd9Fqt%2FF6pSpz3v763cW4%2BnhoRR%2BB0T%2B6lN7NICb4RgpzJ0%2BreTp6lo74FTWt%3D%3D.gif]\r\n",
+      "attachments": []
+    },
+    {
+      "id": 93,
+      "date": "2026-05-08T07:51:37.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "고경민 <enh2013@naver.com>",
+      "subject": "[마포중동] 교육영형평가 1차 필요자료  송부",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260508_138_hyunj@yegaone.com.eml",
+      "body": "요청주신 교육영형평가 필요자료 현재 보내드릴수있는 자료 취합하여 발송드립니다.\n\n감사합니다.\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "260508_교육필요자료 1차.zip"
+      ]
+    },
+    {
+      "id": 91,
+      "date": "2026-05-08T07:37:43.000Z",
+      "from": "counter@sindohj.com",
+      "to": "hyunj@yegaone.com",
+      "subject": "Message from 25C-1i",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260508_136_counter@sindohj.com.eml",
+      "body": "",
+      "attachments": [
+        "S25C-1i26050816370.pdf"
+      ]
+    },
+    {
+      "id": 90,
+      "date": "2026-05-08T07:17:52.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "dgenc2003 <dgenc2003@naver.com>",
+      "subject": "[마포중동] 교육영향평가 진행 시 교통  필요자료 리스트 공유",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260508_135_hyunj@yegaone.com.eml",
+      "body": "금일 통화드린 내용대로 교육에서 요청한 필요자료 중\n\n교통에서 필요한 내용은 첨부파일 내용중 형광펜 체크된\n\n-종합개선안도 \n\n입니다. 감사합니다.\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "교육환경평가(기존학교) 필요자료리스트"
+      ]
+    },
+    {
+      "id": 89,
+      "date": "2026-05-08T07:05:00.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "갈아현 <gal12001@daum.net>",
+      "subject": "[마포중동] 소규모 재해영향평가 필요자 료 리스트 회신일정 작성 및 일부 요청자 료 발송 ",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260508_133_hyunj@yegaone.com.eml",
+      "body": "요청주신 소규모재해영향평가 필요자료 리스트 회신일정 작성 및 일부 자료 송부드립니다.\n\n감사합니다.\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "260429_(소규모 재해영향평가)요청자료 및",
+        "중동 78번지 일대 소규모주택정비 관리계",
+        "4-1.추진일정 예정.pdf",
+        "4.중동 추진경위(기 진행).pptx",
+        "5.토지이용계획(안)도.dwg"
+      ]
+    },
+    {
+      "id": 88,
+      "date": "2026-05-08T05:07:07.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "고경민 <enh2013@naver.com>",
+      "subject": "[마포중동] 교육영향평가 필요자료리스 트중 석면조사결과보고서 문의",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260508_129_hyunj@yegaone.com.eml",
+      "body": "\n다운로드 기한이 있는 첨부파일 1개 (63MB)7일 보관 / 100회 다운로드\n\n2603 중동 78번지 일원 가로주택정비사업_석면 함유 건축물 사전조사서 2.pdf 63MB ~ 2026. 5. 15.\n\n\n\n\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": []
+    },
+    {
+      "id": 87,
+      "date": "2026-05-08T05:00:43.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "신상철 <shinsc63@daum.net>",
+      "subject": "[마포중동] 재해영형평가, 교육환경영향 평가 필요자료 중 작성 및 확인요청 건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260508_127_hyunj@yegaone.com.eml",
+      "body": "안녕하십니까 예가원건축 지현재차장입니다.\n\n재해 및 교육영향평가 진행에 필요한 필요자료 리스트 중에 작성 및 검토가 필요한 내용이 있어서 첨부드렸습니다.\n\n - 조합 담당자 인적사항( 담당자 성함, 연락처, 주소) \n - 사업기간 (착공, 준공 예정일)\n - 사업지 석면 철거 계획서 (작성예시자료 첨부) 별도양식X\n   \n우선적으로 담당자 인적사항과 사업기간에 대한 부분만 우선적으로 회신주시고 석면철거계획서는 차주내로 작성해주시면됩니다\n\n감사합니다.\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "교육환경평가(기존학교) 필요자료리스트",
+        "260429_(소규모 재해영향평가)요청자료 및",
+        "석면처리계획 작성예시자료.pdf"
+      ]
+    },
+    {
+      "id": 86,
+      "date": "2026-05-08T04:19:21.000Z",
+      "from": "신지현 선임(SHIN JI HYUN) <jihyun.shin@daewooenc.com>",
+      "to": "예가원 지현재 차장 <hyunj@yegaone.com>",
+      "subject": " [마포중동78] 단열재 ks개정에 따른 품질 관리 및 설계기준 관련 당사자료 공유의  건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260508_126_jihyun.shin@daewooenc.com.eml",
+      "body": "안녕하세요\r\n대우건설 신지현 선임입니다.\r\n\r\n당사자료 중 단열재 개정관련한 기술검토서 공유드리오니 업무에 참고부탁드리며\r\n해당자료는 대외비이므로 해당업무외에 유출금지부탁드립니다.\r\n\r\n감사합니다.\r\n\r\n신지현\r\n[cid:image001.png@01DCDEED.45163150]\r\nSHIN JI HYUN\r\n선임   |   건축설계팀\r\nSenior Associate\r\nARCHITECTURAL DESIGN  TEAM\r\nT\r\n02-2288-3838\r\n[cid:image002.png@01DCDEED.45163150]\r\nM\r\n010-7271-8670\r\nE\r\njihyun.shin@daewooenc.com<mailto:jihyun.shin@daewooenc.com>\r\n\r\n\r\n",
+      "attachments": [
+        "image001.png",
+        "image002.png",
+        "[기술검토서] 단열재 KS개정에 따른 품질"
+      ]
+    },
+    {
+      "id": 85,
+      "date": "2026-05-08T02:14:43.000Z",
+      "from": "신지현 선임(SHIN JI HYUN) <jihyun.shin@daewooenc.com>",
+      "to": "예가원 지현재 차장 <hyunj@yegaone.com>",
+      "subject": " FW: [마포중동] 주동 ST 승강로 가압 방식 적용 가능여부 확인요청 ",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260508_123_jihyun.shin@daewooenc.com.eml",
+      "body": "안녕하세요\r\n대우건설 건축설계팀 신지현 선임입니다.\r\n\r\n승강로 가압방식 및 전체적인 기계분야 검토내용 아래와 같이 회신드리오니 업무에 참고부탁드립니다.\r\n\r\n감사합니다.\r\n\r\nFrom: 한영호 책임(Young-Ho Han) <youngho_han@daewooenc.com>\r\nSent: Friday, May 8, 2026 11:09 AM\r\nTo: 신지현 선임(SHIN JI HYUN) <jihyun.shin@daewooenc.com>\r\nSubject: RE: [마포중동] 주동 ST 승강로 가압방식 적용 가능여부 확인요청\r\n\r\n수신 : 신지현 선임님\r\n\r\n안녕하십니까. 건축기계설비팀 한영호 책임입니다.\r\n\r\n표제건 관련, 첨부와 같이 설계검토서 송부해드립니다.!\r\n송부가 늦어져 죄송합니다.\r\n\r\n첨부파일 내용에도 작성하였지만,\r\n당사는 원칙적으로 전용덕트 가압방식을 적용합니다. (승강로 가압방식은 가능한 지양)\r\n\r\n평면을 보니 PS, EPS/TPS, ST 배치를 적절히 조정하면 코어면적 추가확보 없이도 ST입상덕트 설치 가능해보여서, 의견 작성하였습니다.\r\n\r\n감사합니다.\r\n\r\n\r\nYoung-Ho Han\r\n[cid:image003.png@01DCDEDB.1BA933B0]\r\n한영호\r\nManager\r\nARCHITECTURE MECHANICAL ENGINEERING TEAM\r\n책임   |   건축기계설비팀\r\nT\r\n02-2288-5961\r\nwww.daewooenc.com<http://www.daewooenc.com/>\r\nM\r\n010-3492-3478\r\nE\r\nyoungho_han@daewooenc.com<mailto:youngho_han@daewooenc.com>\r\n\r\n\r\n\r\n\r\nFrom: 신지현 선임(SHIN JI HYUN) <jihyun.shin@daewooenc.com<mailto:jihyun.shin@daewooenc.com>>\r\nSent: Monday, April 27, 2026 10:33 AM\r\nTo: 한영호 책임(Young-Ho Han) <youngho_han@daewooenc.com<mailto:youngho_han@daewooenc.com>>\r\nSubject: FW: [마포중동] 주동 ST 승강로 가압방식 적용 가능여부 확인요청\r\n\r\n안녕하세요 책임님\r\n건축설계팀 신지현 선임입니다.\r\n\r\n마포중동78PJ 관련하여6월말 통합심의 준비중에 있습니다.\r\n\r\n따라서 현재 준비중인 기본도서 공유드리며, 아래 메일도 같이 전달드립니다.\r\n첨부파일중 ‘단위세대,동평면도’ 파일은 기계설계사에서 검토한 내용인데, 현재 코어면적 추가확보가 어려운 상황이라\r\nST사이즈증가 대신 승강로 가압방식을 적용가능한지 검토가 필요한 상황입니다.\r\n\r\n기본도서 확인부탁드리며,\r\n승강로 가압방식 적용여부에 대한 검토 회신부탁드리겠습니다.\r\n\r\n감사합니다.\r\n\r\n신지현\r\n[cid:image004.png@01DCDEDB.1BA933B0]\r\nSHIN JI HYUN\r\n선임   |   건축설계팀\r\nSenior Associate\r\nARCHITECTURAL DESIGN  TEAM\r\nT\r\n02-2288-3838\r\n[cid:image005.png@01DCDEDB.1BA933B0]\r\nM\r\n010-7271-8670\r\nE\r\njihyun.shin@daewooenc.com<mailto:jihyun.shin@daewooenc.com>\r\n\r\n",
+      "attachments": [
+        "image003.png",
+        "image004.png",
+        "image005.png",
+        "마포중동_설계검토서_기계.xlsx"
+      ]
+    },
+    {
+      "id": 84,
+      "date": "2026-05-07T08:36:31.000Z",
+      "from": "dgenc2003 <dgenc2003@naver.com>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": "RE: [마포중동] 배치도, 지하주차장 교통 검토사항 반영",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260507_122_dgenc2003@naver.com.eml",
+      "body": "대건이엔씨 안지환입니다. 교통검토자료 송부합니다. \n -----Original Message----- From: \"지현재\"<hyunj@yegaone.com> To: \"dgenc2003\"<dgenc2003@naver.com>; Cc: \"강재형\"<jhkang@yegaone.com>; Sent: 2026-05-07 (목) 10:45:15 (GMT+09:00) Subject: [마포중동] 배치도, 지하주차장 교통검토사항 반영 지난 4월 30일에 검토하여주신 내용 반영한 배치도 지하주차장평면도 파일 발송드립니다. 추가 수정사항이나 문제가 없는지 확인요청드립니다. 감사합니다. 지현재 예가원건축사사무소 설계팀/차장 서울시 강남구 선릉로 93길 50, 현석타워 13층 Tel 070-4290-3455 Mobile +82 010-7696-3024 Email hyunj@yegaone.com",
+      "attachments": [
+        "1778142981286.png",
+        "배치도(주출입구 선형변경)-교통검토.dw",
+        "지하주차장 평면도_260507-교통검토.dwg"
+      ]
+    },
+    {
+      "id": 83,
+      "date": "2026-05-07T08:27:06.000Z",
+      "from": "알에이엔지니어링 <raeng4152@naver.com>",
+      "to": "<hyunj@yegaone.com>",
+      "subject": "[마포구 중동] 주상도 송부 건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260507_121_raeng4152@naver.com.eml",
+      "body": "\n\n안녕하세요. 알에이엔지니어링입니다.\n\n시추주상도 보내드립니다\n\n최종보고서 완료시 한번 더 연락드리겠습니다\n\n\n\n\n\n(주)알에이엔지니어링\nT : 032.565.4152   E : raeng4152@naver.com\n\n\n\n",
+      "attachments": [
+        "6.2 시추주상도-2(좌표표고X).pdf"
+      ]
+    },
+    {
+      "id": 82,
+      "date": "2026-05-07T07:13:43.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "신지현 선임(SHIN JI HYUN) <jihyun.shin@daewooenc.com>",
+      "subject": "[마포중동] 교육환경영형평가 필요자료  요청 건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260507_120_hyunj@yegaone.com.eml",
+      "body": "교육환경영향평가 필요자료 리스트중 건설사 작성분이 있어 요청드립니다.\n\n첨부파일 형광펜 표시된 부분으로\n\n타워크레인 계획도\n\n가설방음판넬 및 방진망 계획도\n\n공사중 안전시설물 설치계획도 \n\n입니다.  감사합니다.\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "교육환경평가(기존학교) 필요자료리스트"
+      ]
+    },
+    {
+      "id": 81,
+      "date": "2026-05-07T02:01:00.000Z",
+      "from": "아름다운 세상 <shinsc63@hanmail.net>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": "중동 78번지일원",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260507_118_shinsc63@hanmail.net.eml",
+      "body": "",
+      "attachments": [
+        "중동 78번지 일대 소규모주택정비 "
+      ]
+    },
+    {
+      "id": 80,
+      "date": "2026-05-07T00:15:52.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "신상철 <shinsc63@daum.net>",
+      "subject": "[마포중동] 재해영형평가 요청자료 중 사 업비항목 작성요청 건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260507_115_hyunj@yegaone.com.eml",
+      "body": "재해에서 소규모재해영향평가 진행시 필요한 자료요청목록중에 사업비 작성항목이 있어 \n\n해당항목 작성요청드립니다.\n\n첨부파일  2)-2 사업개요 표 제일하단부분 사업비항목입니다.\n\n감사합니다.\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "260429_(소규모 재해영향평가)요청자료 및"
+      ]
+    },
+    {
+      "id": 79,
+      "date": "2026-05-06T06:51:44.000Z",
+      "from": "이건 <yigunkuzo@daum.net>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": "마포구 중동_이건구조",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260506_113_yigunkuzo@daum.net.eml",
+      "body": "이건구조 박양수 입니다. 마포구 중동 지하주차장 구조검토 자료 송부합니다.",
+      "attachments": [
+        "지하주차장 평면도.dwg"
+      ]
+    },
+    {
+      "id": 78,
+      "date": "2026-04-30T06:12:53.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "신지현 선임(SHIN JI HYUN) <jihyun.shin@daewooenc.com>",
+      "subject": "[마포중동] 인동거리검토도,대지종횡단 면도 송부 건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260430_112_hyunj@yegaone.com.eml",
+      "body": "요청주신 인동거리검토도와 대지종횡단면도 파일 첨부드렸습니다.\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "대지종횡단면도.dwg",
+        "인동거리검토도.dwg"
+      ]
+    },
+    {
+      "id": 77,
+      "date": "2026-04-30T04:49:58.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "dgenc2003 <dgenc2003@naver.com>",
+      "subject": "[마포중동]",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260430_109_hyunj@yegaone.com.eml",
+      "body": "\n다운로드 기한이 있는 첨부파일 2개 (93MB)7일 보관 / 100회 다운로드\n\n중동 78번지 일대 소규모주택정비 관리계획(모아타운 관리계획).pdf 25MB ~ 2026. 5. 7.\n중동 78번지 일대 소규모주택정비 관리계획(모아타운 관리계획).hwp 69MB ~ 2026. 5. 7.\n\n\n\n소규모주택정비 관리계획 심의자료를 보다보니 교통성검토서자료가 있어서 공유드립니다.\n\n한글문서 P96 교통성검토서 내용이 시작되고\n\n마지막페이지 보시면 교통성검토 한 업체명이 (주) 한솔알앤디 로 확인됩니다.\n\n업무에 참조 부탁드립니다\n\n감사합니다.\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": []
+    },
+    {
+      "id": 76,
+      "date": "2026-04-30T03:37:16.000Z",
+      "from": "아름다운 세상 <shinsc63@hanmail.net>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": "중동78번지일원 관리계획자료",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260430_107_shinsc63@hanmail.net.eml",
+      "body": "대용량파일 6개 (661.21MB) ~ 2026.05.30 ( 30일 보관, 100회 다운로드 가능) \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n 250320_중동_모아타운 관리계획.rev1.pdf (25.4MB) \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n 250320_중동_모아타운 관리계획.rev1.pptx (503.42MB) \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n 20250407_중동 78번지 일대 모아타운 관리계획 심의의견 및 조치계획.hwp (17.96MB) \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n 고시문(안).hwp (21.02MB) \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n 중동 78번지 일대 소규모주택정비 관리계획(모아타운 관리계획).hwp (68.67MB) \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n 중동 78번지 일대 소규모주택정비 관리계획(모아타운 관리계획).pdf (24.74MB)",
+      "attachments": [
+        "# 250407 건축개요(중동).pdf",
+        "# 250407_중동 배치도_wb_001(2010).dwg",
+        "# 250407_중동 배치도_w",
+        "중동78번지일대 관리계획승",
+        "관리지역 결정도(2010).dwg",
+        "서울특별시 마포구 중동"
+      ]
+    },
+    {
+      "id": 75,
+      "date": "2026-04-30T01:47:14.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "<sirius91622@naver.com>",
+      "subject": "[마포중동]배치도, 대지종횡단면도",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260430_105_hyunj@yegaone.com.eml",
+      "body": "단지내 비상차로 및 주출입구 도로선형이 업데이트 되었습니다\n\n\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "배치도.dwg",
+        "대지종횡단면도.dwg"
+      ]
+    },
+    {
+      "id": 73,
+      "date": "2026-04-29T04:11:59.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "<civilpark@hanmail.net>",
+      "subject": "[마포중동] 관리계획심의자료(토지이용 계획) pdf파일 참고자료",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260429_98_hyunj@yegaone.com.eml",
+      "body": "토지이용계획 35p에 나와있습니다.\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "240620_중동_모아타운 관리계획.rev.1 (1).pd"
+      ]
+    },
+    {
+      "id": 72,
+      "date": "2026-04-29T02:34:19.000Z",
+      "from": "아름다운 세상 <shinsc63@hanmail.net>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": "관리계획 지적도 및 결정도 캐드",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260429_96_shinsc63@hanmail.net.eml",
+      "body": "",
+      "attachments": [
+        "250407 중동 구역별 토지 조",
+        "서울특별시 마포구 중동",
+        "관리지역 결정도(2010).dwg"
+      ]
+    },
+    {
+      "id": 71,
+      "date": "2026-04-29T01:20:22.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "동남엠이씨_기계설비 <dn-mech@dnmec.com>",
+      "subject": "비상차로 소방차 시뮬레이션 및 비상차 로 부서공간검토 샘플자료",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260429_95_hyunj@yegaone.com.eml",
+      "body": "\n다운로드 기한이 있는 첨부파일 2개 (36MB)7일 보관 / 100회 다운로드\n\n비상차량동선 검토(A00-116_비상차량 동선 계획도)_250120 (dd.dwg 18MB ~ 2026. 5. 6.\n23.09.07 지하주차장,단지배치도 검토(소방).zip 18MB ~ 2026. 5. 6.\n\n\n\n요청하신 비상차로 검토관련 샘플자료 발송드립니다.\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "SA3BL A0-012 지반층(지상1층) 배치도(소방검"
+      ]
+    },
+    {
+      "id": 70,
+      "date": "2026-04-29T00:40:32.000Z",
+      "from": "동남엠이씨_기계설비 <dn-mech@dnmec.com>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": "동남엠이씨_마포중동  가로주택 기계검토",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260429_93_dn-mech@dnmec.com.eml",
+      "body": "안녕하세요 (주)동남엠이씨입니다. 기계검토하여 송부해드립니다. 수고하세요~ (주)동남엠이씨 지 성일 차장 서울시 송파구 중대로 275 5층 T. 070-4488-2553 F. 02-568-2857 E. dn-mech@dnmec.com",
+      "attachments": [
+        "260428_지하주차장검토.dwg"
+      ]
+    },
+    {
+      "id": 68,
+      "date": "2026-04-29T08:57:27.000Z",
+      "from": "갈아현 <gal12001@daum.net>",
+      "to": "hyunj@yegaone.com",
+      "subject": "[마포 중동 가로주택 정비사업] 소규모재해 영향평가 필요자료 요 청 관련 메일드립니다.",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260429_103_gal12001@daum.net.eml",
+      "body": "안녕하세요 차장님 \"마포 중동 78번지 가로주택정비사업\" 소규모재해영향평가 담당 RA엔지니어링 갈아현 과장입니다. 금회 정비사업에 따른 소규모 재해영향평가 보고서 작성시에 필요한 요청 자료 목록 및 추진계획 일정 보내드립니다. 해당 한글파일 내 표에 자료 제공 예정일을 작성하신 후 회신 부탁드립니다. (제공 불가한 항목에 대해서도 표기해주시면 감사하겠습니다.) 궁금하신 사항 있으시면 편하게 연락주십시오. 감사합니다! 갈아현 수자원부/과장 | RA Eng. m 010-9839-8019 | e gal12001@daum.net a (13558) 경기도 성남시 분당구 정자일로 158, 6층 606호 (정자동, 백궁프라자2)",
+      "attachments": [
+        "260429_(소규모 "
+      ]
+    },
+    {
+      "id": 67,
+      "date": "2026-04-29T08:23:12.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "신지현 선임(SHIN JI HYUN) <jihyun.shin@daewooenc.com>",
+      "subject": "[마포중동] 설계검토서 답변 송부 건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260429_102_hyunj@yegaone.com.eml",
+      "body": "건축-1,2차 검토서\n조경검토서\n외부환경 및 커뮤니티 검토서\n답변작성하여 송부드립니다. 나머지 공종도 검토서 오는대로 회신드리겠습니다.\n\n감사합니다.\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "260420 마포중동 배치,단위세대 동평면 검",
+        "20260413-중동78 도서 검토-조경(답변).xlsx",
+        "외부환경 및 커뮤니티 의견(답변).xlsx",
+        "260413 마포 중동78 설계검토서 (기본도서"
+      ]
+    },
+    {
+      "id": 66,
+      "date": "2026-04-29T08:08:06.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "아름다운 세상 <shinsc63@hanmail.net>",
+      "subject": "[마포중동] 마포구청 정보공개청구 자료 리스트 송부 건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260429_100_hyunj@yegaone.com.eml",
+      "body": "통합심의 준비하면서 결정고시에 첨부되었던 자료의 CAD파일이 필요한 상황입니다.\n\n필요자료 리스트를 첨부드렸습니다.\n\n감사합니다.\n\n\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "마포구청 정보공개청구 자료 리스트.pdf"
+      ]
+    },
+    {
+      "id": 65,
+      "date": "2026-04-28T07:22:33.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "알에이엔지니어링 <raeng4152@naver.com>",
+      "subject": "[마포중동] 기존 가시설 검토자료 ",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260428_92_hyunj@yegaone.com.eml",
+      "body": "보내주신자료 보고 궁금한점이 있어 기존에 가시설 검토받았던 자료 첨부드렸습니다\n\n자세한내용은 유선상으로 문의드리겠습니다.\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "지하주차장 평면도-토목검토.dwg",
+        "가시설 검토안.dwg"
+      ]
+    },
+    {
+      "id": 64,
+      "date": "2026-04-28T06:51:10.000Z",
+      "from": "알에이엔지니어링 <raeng4152@naver.com>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": "[알에이엔지니어링] 마포 중동 가시설 검 토",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260428_90_raeng4152@naver.com.eml",
+      "body": "\n\n안녕하세요. 알에이엔지니어링입니다.\n\n차장님 가시설 앵커 검토자료 보내드리오니 확인부탁드립니다\n\n\n\n\n(주)알에이엔지니어링\nT : 032.565.4152   E : raeng4152@naver.com\n\n",
+      "attachments": [
+        "가시설 검토_2026 0428.pdf"
+      ]
+    },
+    {
+      "id": 63,
+      "date": "2026-04-28T05:40:51.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "dgenc2003 <dgenc2003@naver.com>",
+      "subject": "[마포중동] 소규모주택 관리계획 당시 교 통처리계획도  송부",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260428_89_hyunj@yegaone.com.eml",
+      "body": "\n다운로드 기한이 있는 첨부파일 1개 (25MB)7일 보관 / 100회 다운로드\n\n250320_중동_모아타운 관리계획.rev1.pdf 25MB ~ 2026. 5. 5.\n\n\n\nP39 에 교통처리계획도 내용이 있습니다. \n\n교통업체는 저희 전무님께서 마포구청에서 공공발주로 진행된 건이다보니 최대한 확인해보시겠다고 하십니다.\n\n\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": []
+    },
+    {
+      "id": 61,
+      "date": "2026-04-28T05:03:28.000Z",
+      "from": "(주)건축환경그룹 다올 <enh2013@naver.com>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": "[건축환경그룹다올]마포중동 통합심의  관련 필요도서 리스트, 법규검토서",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260428_86_enh2013@naver.com.eml",
+      "body": "안녕하세요, 지현재 차장님\n\n마포중동 통합심의 관련 필요도서 리스트, 법규검토서를 보내드리오니 확인부탁드립니다.\n\n교육환경평가 우선진행이 필요한 상황으로 우선 최소도서 기준으로 제공을 요청드리며,\n추후 보완으로 진행되는 부분에 대해서도 최대한 서류를 받았으면 합니다.\n\n교육환경평가는 자료를 다음주 수신일정으로 하면 6월 첫째주 경 교육지원청에 접수가 가능하고 \n교육지원청, 교육환경보호원, 학교,  서울시교육청에서 검토 후 조치 계획하면 서울시청으로 상정될 수 있습니다\n소요기간은 보고서 작성까지 포함해서 약 3개월로 보고 있습니다\n\n\n(주)건축환경그룹 다올 이사 고경민\n\n▶ 친환경컨설팅부문\n에너지절약계획서(EPI)/에너지절약형 친환경주택성능평가(GREEN HOME)/건강친화형주택평가/녹색건축인증(G-SEED)\n/건물에너지효율등급인증/제로에너지건축물인증(ZEB)/공동주택 결로방지성능평가/장수명주택인증\n/범죄예방환경설계(CPTED)/지능형건축물인증(IBS)/장애물없는생활환경(BF)인증/TK·BTL·기술제안 친환경계획/교육환경평가\n▶ 환경분석 부문\n공동주택 도로교통소음예측평가/일조권분석/조망권분석/ 열환경분석/바람길분석/실내기류분석/화재피난 분석\n▶신재생에너지 부문\n신재생에너지 컨설팅 및 시공, 유지관리 전문업체\n▶창호컨설팅 부문\n창호설계 및 시공, 컨설팅 전문업체\n\n☎ 대표번호 : 02-2138-7919\n☎ 팩스번호 : 02-2138-7920\n☎ 휴대번호 : 010-9518-1113\n서울특별시 금천구 가산디지털1로 16(가산동) 901호,902호,903호,914호(가산2차 SK V1 AP타워)\n\n-----Original Message-----\nFrom: \"지현재\"<hyunj@yegaone.com>\nTo: \"고경민\"<enh2013@naver.com>;\nCc: \"강재형\"<jhkang@yegaone.com>;\nSent: 2026-04-28 (화) 10:05:12 (GMT+09:00)\nSubject: [마포중동] 통합심의 준비용 기본도면발송건\n\n안녕하십니까 예가원건축 지현재차장입니다.,\n\n마포중동 모아주택 통합심의 준비관련해서 기본도면 송부드렸습니다.\n\n교육같은경우는 통합심의 접수를 6월말로 보고있어 일정이 가능한지부터 확인이 필요한 상황이고\n\n친환경은 기본 주거, 비주거 단열재 종류및 두께 사이즈검토부터 검토요청드립니다.현재 주거 경질 직접130 간접90 으로 대우건설 기준에 맞추어 작업되어있습니다.\n\n그리고 친주 ,에절계, 소음, 범죄예방, 에너지효율등급, 녹색건축인증등 받아야하는 리스트를 정리해주시면 감사하겠습니다.\n\n감사합니다.\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n\n\n\n",
+      "attachments": [
+        "교육환경평가(기존학교) 필요자료리스트",
+        "26년 법규검토서(마포중동).pdf",
+        "서울시 통합심의 파일명 및 작성 순서.h"
+      ]
+    },
+    {
+      "id": 59,
+      "date": "2026-04-28T04:26:39.000Z",
+      "from": "dgenc2003 <dgenc2003@naver.com>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": "RE: [마포중동] 통합심의 교통동선 및 비 상차로 지하주차장 대수 등 검토요청 건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260428_85_dgenc2003@naver.com.eml",
+      "body": "대건이엔씨 안지환전무입니다. 마포중동 배치도 및 지하주차장 교통분야 검토자료 송부합니다. 지하주차장은 우선적으로 램프주변 통로 불일치로 인한 문제점이 가장 부각되어 주차면 재배치를 통한 검토안을 송부합니다. 가능여부 판단해 주시기 바라며, 불가능할 경우에는 다른 대안을 검토해야 할것 같습니다. 디테일한 부분은 통로 개선후에 정리가 되어야 할 것 같습니다. 배치도는 요청하신 4차로 및 드랍존 규격, 차량회차를 고려한 회전반경등을 검토하였습니다. 요청할 자료가 있는데 기 선행된 도시계획 자문 또는 심의시 첨부된 교통처리계획도 및 교통성검토서 자료제공 부탁드립니다. 현재 주신자료만으로는 사업지 외부도로의 개선이 도시계획시 어떻게 이루어졌는지 파악이 불가합니다. 문의사항 있으시면 연락주십시요. 아직 담당이 정해지지 않아 당분간은 저에게 연락주시면 됩니다. 좋은하루 되십시요. \n -----Original Message----- From: \"지현재\"<hyunj@yegaone.com> To: <dgenc2003@naver.com>; Cc: \"강재형\"<jhkang@yegaone.com>; Sent: 2026-04-27 (월) 17:05:05 (GMT+09:00) Subject: [마포중동] 통합심의 교통동선 및 비상차로 지하주차장 대수 등 검토요청 건 다운로드 기한이 있는 첨부파일 1 개 (18MB) 7일 보관 / 100회 다운로드 통합심의_ 성산동 가로주택정비사업 부서의견 및 사전검토의견 조치계획.pdf 18MB ~ 2026. 5. 4. 안녕하십니까 예가원건축 지현재차장입니다. 마포중동 통합심의용 도면검토를 요청드립니다. 심의접수예정일은 6월말이고, 교통검토요청사항은 지하주차장 평면도 캐드파일안에 다른공종과 함꼐 적어두었습니다. 그리고 성산동 부서의견 및 사전검토의견 조치계획 PDF파일을 첨부드렸는데 예가원건축에서 중동이전에 성산동 통합심의를 받은게 있어 어떤의견들이 나오는지 참고용으로 첨부드렸습니다. 중동에는 해당안되는의견은 무시해주시면되고 중동에도 나올만한의견은 선조치로 의견을 줄여보자는 의도입니다. 감사합니다. 지현재 예가원건축사사무소 설계팀/차장 서울시 강남구 선릉로 93길 50, 현석타워 13층 Tel 070-4290-3455 Mobile +82 010-7696-3024 Email hyunj@yegaone.com",
+      "attachments": [
+        "1777349903386.png",
+        "배치도-교통검토(20260427).dwg",
+        "지하주차장 평면도-교통검토(20260427).dwg"
+      ]
+    },
+    {
+      "id": 57,
+      "date": "2026-04-28T00:54:01.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "<sirius91622@naver.com>",
+      "subject": "[마포중동] 기본도면 및 일정표 송부 건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260428_82_hyunj@yegaone.com.eml",
+      "body": "작일 요청주셨던 마포중동 개요,배치도, 지하주차장평면도 등 기본도면과 일정표 발송드렸습니다.\n\n감사합니다.\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "지하주차장 평면도.dwg",
+        "마포중동 공동주택 일정표.pdf",
+        "건축개요.dwg",
+        "배치도_260420.dwg"
+      ]
+    },
+    {
+      "id": 56,
+      "date": "2026-04-28T00:03:25.000Z",
+      "from": "김정호 <jhking9407@naver.com>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": "전기실 검토",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260428_80_jhking9407@naver.com.eml",
+      "body": "\n\n\n",
+      "attachments": [
+        "1744766650533.jpeg",
+        "전기실 검토-지하주차장 평면도.dwg"
+      ]
+    },
+    {
+      "id": 55,
+      "date": "2026-04-27T07:57:43.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "구조 이건구조 <yigunkuzo@daum.net>, 임석주 <dn-mech@dnmec.com>, <jhking9407@naver.com>, <raeng4152@naver.com>",
+      "subject": "[마포중동] 지하주차장 도면 검토요청 건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260427_77_hyunj@yegaone.com.eml",
+      "body": "\n다운로드 기한이 있는 첨부파일 1개 (6MB)7일 보관 / 100회 다운로드\n\n지하주차장 평면도.dwg 6MB ~ 2026. 5. 4.\n\n\n\n안녕하십니까 예가원건축 지현재차장입니다. \n\n중동 지하주차장 평면도 파일을 첨부드렸습니다.\n\n각 공종별로 체크요청사항을 캐드파일안에 적어두었습니다.\n\n검토되시는대로 회신부탁드립니다.\n\nPS) 마포중동 이전에 예가원건축에서 통합심의를 받았던 성산동 모아주택 부서의견 및 심의의견 조치계획 PDF파일을 첨부드렸습니다.\n\n심의까지 시간이 많이남지않은관계로 어떤 의견들이 나오는지, 중동에는 같은 내용으로 의견나오지않도록(심의의견 감소를 위한 사전반영) 미리 공유드리자는 의견이 \n\n있어  보내드립니다. \n\n감사합니다.\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "통합심의_ 성산동 가로주택정비사업 부"
+      ]
+    },
+    {
+      "id": 53,
+      "date": "2026-04-24T07:19:15.000Z",
+      "from": "한하린 <haline0k@yegaone.com>",
+      "to": "<jhking9407@naver.com>",
+      "subject": "[마포 중동 가로주택정비사업] 103동 코어  EPS TPS 분리 검토 요청",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260424_75_haline0k@yegaone.com.eml",
+      "body": "안녕하세요.\n예가원건축사사무소 한하린 대리입니다.\n\n103동 코어 관련하여 기계 검토 결과, PD를 세대 양측으로 분리 설치하게 되어,\nEPS/TPS 또한 동일하게 분리 설치 가능한지 검토 요청드립니다.\n\n감사합니다.\n\n\n한하린 예가원건축사사무소\n설계팀 / 대리\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4236-4064 Mobile +82 010-3302-9614\nEmail haline0k@yegaone.com \n\n\n\n",
+      "attachments": [
+        "260424 103동 EPSTPS 분리 검토.dwg"
+      ]
+    },
+    {
+      "id": 51,
+      "date": "2026-04-24T07:12:38.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "<jihyun.sin@daewooenc.com>",
+      "subject": "[마포중동] 주동 ST 승강로 가압방식 적용 가능여부 문의",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260424_72_hyunj@yegaone.com.eml",
+      "body": "ST사이즈 풍속기준이 달라져서 사이즈가 옛날기준보다 더 커졌다고 합니다.\n\n그래서 지금 사이즈로는 안나오는상황이고,\n \nST크기를 확보하려면 코어면적을 키워서 공간을 확보하는 방안밖에 없는데\n\n용적률에 여유가 없는 상황이라 코어면적 증가되는 방향은 적용이 어려운상황입니다.\n\n그래서 승강로 가압방식을 적용가능한지 문의드립니다.\n\n기계에서 검토해온 파일 첨부드렸습니다.\n\n감사합니다.\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "260421_단위세대,동평면도.dwg"
+      ]
+    },
+    {
+      "id": 50,
+      "date": "2026-04-24T06:46:56.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "알에이엔지니어링 <raeng4152@naver.com>",
+      "subject": "[마포중동] 지반조사 관련 조합연락처 ",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260424_70_hyunj@yegaone.com.eml",
+      "body": "안녕하세요 지현재차장입니다.\n\n통화드렸던 내용 조합장님께 공유드렸고 해당지번 인근 주민들에게 양해를 구해놓겠다고 하셨습니다.\n\n연락은 조합장님꼐 직접 드린다고 하면 된다고 하십니다\n\n010-2305-4351  최창수(조합장)\n\n감사합니다.\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": []
+    },
+    {
+      "id": 48,
+      "date": "2026-04-23T09:07:12.000Z",
+      "from": "동남엠이씨_기계설비 <dn-mech@dnmec.com>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": "동남엠이씨_마포중동 기계검토",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260423_67_dn-mech@dnmec.com.eml",
+      "body": "안녕하세요 (주)동남엠이씨입니다. 기계 단위세대 및 코어 PD검토하여 송부해드립니다. 업무에 참고부탁드립니다. 감사합니다 수고하세요~ (주)동남엠이씨 지 성일 차장 서울시 송파구 중대로 275 5층 T. 070-4488-2553 F. 02-568-2857 E. dn-mech@dnmec.com",
+      "attachments": [
+        "260421_단위세대,동평면도.dwg"
+      ]
+    },
+    {
+      "id": 47,
+      "date": "2026-04-23T05:35:23.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "아름다운 세상 <shinsc63@hanmail.net>",
+      "subject": "[마포중동]개요,배치도 송부 건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260423_66_hyunj@yegaone.com.eml",
+      "body": "안녕하십니까 예가원 건축 지현재 차장입니다.\n\n요청하여주신 개요, 배치도 PDF파일 첨부드립니다.\n\n감사합니다.\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "건축개요.pdf",
+        "배치도.pdf"
+      ]
+    },
+    {
+      "id": 46,
+      "date": "2026-04-22T08:33:15.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "이건 <yigunkuzo@daum.net>",
+      "subject": "[마포 중동]일정표 누락으로 인한 송부",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260422_64_hyunj@yegaone.com.eml",
+      "body": "일정표 첨부드렸습니다.\n\n감사합니다.\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "마포중동 공동주택 일정표.pdf"
+      ]
+    },
+    {
+      "id": 45,
+      "date": "2026-04-22T07:26:41.000Z",
+      "from": "이건 <yigunkuzo@daum.net>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": "RE: [마포중동] 일정 표 및 기본도면 송부 건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260422_61_yigunkuzo@daum.net.eml",
+      "body": "마포구 중동 구조협의 내용입니다. 일정표가 첨부되지 않았습니다. --------- 원본 메일 --------- \n \n \n 보낸사람 : 지현재 <hyunj@yegaone.com> \n 받는사람 : yigunkuzo@daum.net,임석주 <dn-mech@dnmec.com>,jhking9407@naver.com \n 참조 : 강재형 <jhkang@yegaone.com> \n 날짜 : 26.04.20 16:05 GMT +0900\n \n 제목 : [마포중동] 일정표 및 기본도면 송부 건 \n 첨부파일 : PRUGIO DESIGN GUIDE 2024_최종.pdf, 배치도_260420.dwg, 건축개요.dwg, 단위세대,동평면도.dwg \n \n \n \n 마포중동 일정표 및 개요 배치도 단위세대 및 기준층 평면도 파일 첨부드렸습니다. 구조=단위세대 벽체두께 길이 적정성 여부, 대우건설 구조기준 세대와 코어 슬라브 연속성 검토(60%?) 기계,소방=단위세대 및 코어 pd사이즈 적정여부 전기= 단위세대 통신단자함, 월패드등 대우기준에 맞는지 적정성여부 검토, 코어 EPS/TPS실 사이즈 검토(특등급기준적용) 지현재 예가원건축사사무소 설계팀/차장 서울시 강남구 선릉로 93길 50, 현석타워 13층 Tel 070-4290-3455 Mobile +82 010-7696-3024 Email hyunj@yegaone.com",
+      "attachments": [
+        "2026.04.22_마포구 중동 구조검토.pdf",
+        "단위세대,동평면도.dwg"
+      ]
+    },
+    {
+      "id": 43,
+      "date": "2026-04-22T07:05:57.000Z",
+      "from": "김미라 <rabluesky@naver.com>",
+      "to": "<hyunj@yegaone.com>",
+      "subject": "중동 가로주택정비사업 관계자 연락처( 조경작성)",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260422_60_rabluesky@naver.com.eml",
+      "body": "안녕하세요, \n조경분야 연락처 업데이트 파일 보내드립니다.\n감사합니다.\n\n\n\n\n",
+      "attachments": [
+        "중동 가로주택정비사업 관계자 연락처("
+      ]
+    },
+    {
+      "id": 42,
+      "date": "2026-04-21T02:12:30.000Z",
+      "from": "아름다운 세상 <shinsc63@hanmail.net>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": "중동78 토지사용승낙서 등",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260421_54_shinsc63@hanmail.net.eml",
+      "body": "",
+      "attachments": [
+        "[중동78가로주택] 토지사용",
+        "[중동78가로주택] 사업"
+      ]
+    },
+    {
+      "id": 40,
+      "date": "2026-04-21T01:32:50.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "<chiki69@naver.com>",
+      "subject": "[마포중동]통합심의 준비 기본도면",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260421_53_hyunj@yegaone.com.eml",
+      "body": "배치도에 들어간 패턴은 기존에 조합보고용떄 작성된내용에서 임의로 수정된 부분이라\n\n안맞거나 어색한부분이 많습니다 다 무시하시고 새로 잡아주셔도 됩니다.( 비상차로는 유지)\n\n배치도 패턴 작업과 생태면적률이 우선검토되어야하는데 지하주차장 외곽라인이 아직 확정이 아니라 그부분은 정해지는대로 발송드리겠습니다.\n\n감사합니다.\n\n\nPS) 관계자연락처 조경부분 업데이트 해서 전달해주시면 담당자분께 연락드릴수있도록 하겠습니다.\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "배치도_260420.dwg",
+        "건축개요.dwg",
+        "중동 가로주택정비사업 관계자 연락처."
+      ]
+    },
+    {
+      "id": 39,
+      "date": "2026-04-21T00:28:52.000Z",
+      "from": "알에이엔지니어링 <raeng4152@naver.com>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": "[마포구 중동] 토지사용승낙서 재 요청  건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260421_49_raeng4152@naver.com.eml",
+      "body": "\n\n안녕하세요. 알에이엔지니어링입니다.\n\n토지사용 승낙서 재요청드립니다.\n\n1. 조합 사업자등록증이 발급된게 있다면 1부 부탁드립니다\n   (보내드리는 한글양식에도 법인등록번호 기재)\n\n2. 조합원 350명에 대한 인명부 전체(신청 시 모두 필요하다고 합니다)\n\n\n\n\n(주)알에이엔지니어링\nT : 032.565.4152   E : raeng4152@naver.com\n\n",
+      "attachments": [
+        "토지사용승낙서-지반조사.hwp"
+      ]
+    },
+    {
+      "id": 38,
+      "date": "2026-04-20T08:00:04.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "신지현 선임(SHIN JI HYUN) <jihyun.shin@daewooenc.com>",
+      "subject": "[마포중동]  84A 돌출개방형발코니 단위세 대 대안",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260420_48_hyunj@yegaone.com.eml",
+      "body": "안녕하세요 지현재차장입니다.\n\n인테리어 요청으로 84A타입 침실2,3 (대우기준충족) 대안을 작성하였으나\n\n서울시 심의가이드라인상 PD위치에 따른 발코니 면적인정여부 이슈가 있어 어떤방안이 나은지 확인요청드립니다.\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "단위세대 (84A)-돌출개방형발코니.dwg",
+        "서울시 건축관련위원회 심의가이드라인"
+      ]
+    },
+    {
+      "id": 37,
+      "date": "2026-04-20T07:24:47.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "아름다운 세상 <shinsc63@hanmail.net>",
+      "subject": "[마포중동] 시추위치변경 대안",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260420_46_hyunj@yegaone.com.eml",
+      "body": "안녕하세요 예가원건축 지현재차장입니다.\n\n토목에서 시추위치관련 변경가능한지 문의가 와서 자료 전달드립니다.\n\n확인부탁드립니다. 감사합니다.\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "시추 위치변경 참고(사진 포함).pdf",
+        "시추위치 변경.dwg"
+      ]
+    },
+    {
+      "id": 36,
+      "date": "2026-04-20T07:23:14.000Z",
+      "from": "신지현 선임(SHIN JI HYUN) <jihyun.shin@daewooenc.com>",
+      "to": "예가원 지현재 차장 <hyunj@yegaone.com>",
+      "subject": " [마포중동78] 배치도,단위세대 동평면 시 공사 검토내용 추가",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260420_45_jihyun.shin@daewooenc.com.eml",
+      "body": "안녕하세요\r\n대우건설 건축설계팀 신지현 선임입니다.\r\n\r\n배치도 및 단위세대동평면 관련하여\r\n추가 검토의견이 있어 메일드리오니, 확인후 회신부탁드립니다.\r\n\r\n감사합니다.\r\n\r\n신지현\r\n[cid:image001.png@01DCD0E1.FAFB8980]\r\nSHIN JI HYUN\r\n선임   |   건축설계팀\r\nSenior Associate\r\nARCHITECTURAL DESIGN  TEAM\r\nT\r\n02-2288-3838\r\n[cid:image002.png@01DCD0E1.FAFB8980]\r\nM\r\n010-7271-8670\r\nE\r\njihyun.shin@daewooenc.com<mailto:jihyun.shin@daewooenc.com>\r\n\r\n\r\n",
+      "attachments": [
+        "image001.png",
+        "image002.png",
+        "260420 마포중동 배치,단위세대 동평면 검"
+      ]
+    },
+    {
+      "id": 32,
+      "date": "2026-04-20T07:05:49.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "<yigunkuzo@daum.net>, 임석주 <dn-mech@dnmec.com>, <jhking9407@naver.com>",
+      "subject": "[마포중동] 일정표 및 기본도면 송부 건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260420_43_hyunj@yegaone.com.eml",
+      "body": "마포중동 일정표 및 개요 배치도 단위세대 및 기준층 평면도 파일 첨부드렸습니다.\n\n구조=단위세대 벽체두께 길이 적정성 여부, 대우건설 구조기준 세대와 코어 슬라브 연속성 검토(60%?)\n기계,소방=단위세대 및 코어 pd사이즈 적정여부\n전기= 단위세대 통신단자함, 월패드등 대우기준에 맞는지 적정성여부 검토, 코어 EPS/TPS실 사이즈 검토(특등급기준적용)\n\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "PRUGIO DESIGN GUIDE 2024_최종.pdf",
+        "배치도_260420.dwg",
+        "건축개요.dwg",
+        "단위세대,동평면도.dwg"
+      ]
+    },
+    {
+      "id": 31,
+      "date": "2026-04-20T06:50:36.000Z",
+      "from": "알에이엔지니어링 <raeng4152@naver.com>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": "시추위치 표기 자료 송부 건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260420_42_raeng4152@naver.com.eml",
+      "body": "\n안녕하세요. 알에이엔지니어링입니다.\n\n시추위치 자료 표기하여 보내드립니다\n\n\n\n\n\n(주)알에이엔지니어링\nT : 032.565.4152   E : raeng4152@naver.com\n\n-----Original Message-----\nFrom: \"지현재\"<hyunj@yegaone.com>\nTo: <raeng4152@naver.com>;\nCc:\nSent: 2026-04-13 (월) 13:20:04 (GMT+09:00)\nSubject: [마포중동] 지반조사보고서용 시추가능위치 표시(조합)\n\n안녕하십니까 예가원건축 지현재차장입니다.\n\n지난주에 보내주신 시추공위치를 조합측에 전달하여였고 오늘 시추가능한 위치로 위치가 조정되어 회신이 왔습니다.\n\n그리고 조합측에 전달드릴 동의서 양식 요청드립니다.(조합측 요청)\n\n저에게 보내주시면 조합측에 전달드릴수있도록 하겠습니다\n\n감사합니다.\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n\n\n\n",
+      "attachments": [
+        "시추위치 변경.dwg",
+        "시추 위치변경 참고(사진 포함).pdf"
+      ]
+    },
+    {
+      "id": 30,
+      "date": "2026-04-20T02:05:57.000Z",
+      "from": "알에이엔지니어링 <raeng4152@naver.com>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": "RE: [마포중동] 지반조사보고서용 시추가 능위치 표시(조합)",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260420_40_raeng4152@naver.com.eml",
+      "body": "\n안녕하세요. 알에이엔지니어링입니다.\n\n시추공 선정 위치에서 진행할 수 없어서 현장조사 시 위치표기 중 볼펜으로 가능한 위치를\n\n다시 표현하여 보내드립니다.\n\n현장조사 결과 부지내로 들어가야하기때문에 내부 위험부담이 있어서\n\n지장물조사를 진행을 하고 들어가야 할 것 같다고 하여 전달드립니다\n\n\n\n\n\n(주)알에이엔지니어링\nT : 032.565.4152   E : raeng4152@naver.com\n\n-----Original Message-----\nFrom: \"지현재\"<hyunj@yegaone.com>\nTo: <raeng4152@naver.com>;\nCc:\nSent: 2026-04-13 (월) 13:20:04 (GMT+09:00)\nSubject: [마포중동] 지반조사보고서용 시추가능위치 표시(조합)\n\n안녕하십니까 예가원건축 지현재차장입니다.\n\n지난주에 보내주신 시추공위치를 조합측에 전달하여였고 오늘 시추가능한 위치로 위치가 조정되어 회신이 왔습니다.\n\n그리고 조합측에 전달드릴 동의서 양식 요청드립니다.(조합측 요청)\n\n저에게 보내주시면 조합측에 전달드릴수있도록 하겠습니다\n\n감사합니다.\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n\n\n\n",
+      "attachments": [
+        "위치표기.jpg",
+        "1. 중동 58-39.jpg",
+        "2. 중동 77-4.jpg"
+      ]
+    },
+    {
+      "id": 29,
+      "date": "2026-04-15T06:39:20.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "알에이엔지니어링 <raeng4152@naver.com>",
+      "subject": "[마포중동] 굴착신고관련 요청서류 송부 건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260415_39_hyunj@yegaone.com.eml",
+      "body": "토지사용승낙서와 조합인감증명서 스캔본 파일 보내드립니다.\n\n감사합니다.\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "(중동78)토지사용승낙서+인감증명서.pdf"
+      ]
+    },
+    {
+      "id": 27,
+      "date": "2026-04-15T06:19:02.000Z",
+      "from": "아름다운 세상 <shinsc63@hanmail.net>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": "RE: [마포중동] 굴착행위 신고 관련 필요서류 요청 건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260415_37_shinsc63@hanmail.net.eml",
+      "body": "--------- 원본 메일 --------- \n \n \n 보낸사람 : 지현재 <hyunj@yegaone.com> \n 받는사람 : 신상철 <shinsc63@daum.net> \n 참조 : 강재형 <jhkang@yegaone.com> \n 날짜 : 26.04.14 16:14 GMT +0900\n \n 제목 : [마포중동] 굴착행위신고 관련 필요서류 요청 건 \n 첨부파일 : 토지사용승낙서(중동 78번지 일원).hwp \n \n \n \n 안녕하십니까 예가원건축 지현재차장입니다. 토목에서 굴착행위관련 신고에 필요한 서류를 추가로 요청받아 메일드립니다. 1.토지사용승낙서(조합직인날인) 2.조합 인감증명서 기요청드린 조합원동의서와 함께 보내주시면 됩니다 감사합니다. 지현재 예가원건축사사무소 설계팀/차장 서울시 강남구 선릉로 93길 50, 현석타워 13층 Tel 070-4290-3455 Mobile +82 010-7696-3024 Email hyunj@yegaone.com",
+      "attachments": [
+        "(중동78)토지사용승"
+      ]
+    },
+    {
+      "id": 26,
+      "date": "2026-04-15T05:30:41.000Z",
+      "from": "신지현 선임(SHIN JI HYUN) <jihyun.shin@daewooenc.com>",
+      "to": "예가원 지현재 차장 <hyunj@yegaone.com>",
+      "subject": " FW: [마포중동] 단위세대, 동평면도 파일  송부드립니다._돌출발코니 추가_시공사 회 신",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260415_36_jihyun.shin@daewooenc.com.eml",
+      "body": "안녕하세요\r\n대우건설 건축설계팀 신지현 선임입니다.\r\n\r\n당사 인테리어파트에서 단위세대 추가검토하여 전달드리오니 업무에 참고부탁드립니다.\r\n\r\n감사합니다.\r\n\r\n신지현\r\n[cid:image001.png@01DCCB61.F851D110]\r\nSHIN JI HYUN\r\n선임   |   건축설계팀\r\nSenior Associate\r\nARCHITECTURAL DESIGN  TEAM\r\nT\r\n02-2288-3838\r\n[cid:image002.png@01DCCB61.F851D110]\r\nM\r\n010-7271-8670\r\nE\r\njihyun.shin@daewooenc.com<mailto:jihyun.shin@daewooenc.com>\r\n\r\n\r\nFrom: 강현아 선임(KANG HYEON AH) <hyeonah.kang@daewooenc.com>\r\nSent: Tuesday, April 14, 2026 7:14 PM\r\nTo: 신지현 선임(SHIN JI HYUN) <jihyun.shin@daewooenc.com>\r\nCc: 노형곤 책임(Hyung Gon Roh) <hyunggon.roh@daewooenc.com>\r\nSubject: Re: [마포중동] 단위세대, 동평면도 파일 송부드립니다._돌출발코니 추가\r\n\r\n안녕하십니까\r\n브랜드전략팀 강현아선임입니다.\r\n\r\n마포 중동78 단위세대 검토의견 회신드립니다.\r\n\r\n84타입의 경우 일반적으로 침실 내경 2700 / 3000 확보 기준으로,\r\n84A타입 침실 내경을 84B와 동일하게 맞추는 안으로 검토 부탁드립니다.\r\n*84A 침실 2,3 내경 : 2800/2800 → 2700/3000\r\n\r\n이외 검토사항 평면도에 기입하여 송부드리오니, 첨부파일 확인 부탁드립니다.\r\n추가로, 확장 시 기본제공 품목 확인이 필요합니다. (드레스룸 기본제공 여부)\r\n\r\n\r\n\r\n\r\n감사합니다.\r\n\r\n\r\n\r\n\r\n강현아\r\n\r\n[cid:9691ecb6-a00d-458a-ae47-ad95d26935bf]\r\n\r\nKANG HYEON AH\r\n\r\n선임  |   브랜드전략팀\r\n\r\nSenior Associate\r\n\r\nBRAND & DESIGN STRATEGY TEAM\r\n\r\nT\r\n\r\n02-2288-2892\r\n\r\nwww.daewooenc.com<http://www.daewooenc.com>\r\n\r\nM\r\n\r\n010-4658-7702\r\n\r\nE\r\n\r\nhyeonah.kang@daewooenc.com<mailto:hyeonah.kang@daewooenc.com>\r\n\r\n\r\n\r\n________________________________\r\n보낸 사람: 신지현 선임(SHIN JI HYUN) <jihyun.shin@daewooenc.com<mailto:jihyun.shin@daewooenc.com>>\r\n보낸 날짜: 2026년 4월 13일 월요일 오후 4:24\r\n받는 사람: 강현아 선임(KANG HYEON AH) <hyeonah.kang@daewooenc.com<mailto:hyeonah.kang@daewooenc.com>>\r\n참조: 노형곤 책임(Hyung Gon Roh) <hyunggon.roh@daewooenc.com<mailto:hyunggon.roh@daewooenc.com>>\r\n제목: FW: [마포중동] 단위세대, 동평면도 파일 송부드립니다._돌출발코니 추가\r\n\r\n\r\n안녕하세요\r\n\r\n건축설계팀 신지현 선임입니다.\r\n\r\n\r\n\r\n마포중동78 통합심의도서 준비 관련하여\r\n\r\n이전메일에 이어, 단위세대 돌출발코니(서울시 심의기준) 적용된 평면도 공유드리오니 검토요청드립니다.\r\n\r\n\r\n\r\n현재 84A타입 침실2,3의 폭이 2,800으로 공통적용 되어있어\r\n\r\n84B타입도 형평성을 위해 2,800으로 통일하는게 좋을 것 같은데, 인테리어파트 의견회신 부탁드리겠습니다.\r\n\r\n\r\n\r\n감사합니다.\r\n\r\n\r\n\r\n신지현\r\n\r\n[cid:image001.png@01DCCB61.F851D110]\r\n\r\nSHIN JI HYUN\r\n\r\n선임   |   건축설계팀\r\n\r\nSenior Associate\r\n\r\nARCHITECTURAL DESIGN  TEAM\r\n\r\nT\r\n\r\n02-2288-3838\r\n\r\n[cid:image002.png@01DCCB61.F851D110]\r\n\r\nM\r\n\r\n010-7271-8670\r\n\r\nE\r\n\r\njihyun.shin@daewooenc.com<mailto:jihyun.shin@daewooenc.com>\r\n\r\n\r\n\r\n\r\n",
+      "attachments": [
+        "image001.png",
+        "image002.png",
+        "Outlook-2gj3u5ml.png",
+        "260414 중동78 단위세대 평면도 검토.pdf"
+      ]
+    },
+    {
+      "id": 24,
+      "date": "2026-04-14T07:14:23.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "신상철 <shinsc63@daum.net>",
+      "subject": "[마포중동] 굴착행위신고 관련 필요서류  요청 건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260414_35_hyunj@yegaone.com.eml",
+      "body": "안녕하십니까 예가원건축 지현재차장입니다.\n\n토목에서 굴착행위관련 신고에 필요한 서류를  추가로 요청받아 메일드립니다.\n\n1.토지사용승낙서(조합직인날인)\n2.조합 인감증명서\n\n기요청드린 조합원동의서와 함께  보내주시면 됩니다\n\n감사합니다.\n\n\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "토지사용승낙서(중동 78번지 일원).hwp"
+      ]
+    },
+    {
+      "id": 23,
+      "date": "2026-04-14T06:56:54.000Z",
+      "from": "알에이엔지니어링 <raeng4152@naver.com>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": "RE: [마포중동]지반조사 관련 굴착신고관 련 서류 송부 건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260414_33_raeng4152@naver.com.eml",
+      "body": "\n\n안녕하세요. 알에이엔지니어링입니다.\n\n굴착행위 신고 진행에 필요한 \n\n1. 토지사용승낙서(직인날인)\n2. 조합 인감증명서\n\n스캔본 부탁드리며\n\n원본은 차후 구청에서 요청 시 제출하는 경우도 있으니 보관 부탁드립니다\n\n\n\n\n(주)알에이엔지니어링\nT : 032.565.4152   E : raeng4152@naver.com\n\n-----Original Message-----\nFrom: \"지현재\"<hyunj@yegaone.com>\nTo: \"알에이엔지니어링\"<raeng4152@naver.com>;\nCc: \"강재형\"<jhkang@yegaone.com>;\nSent: 2026-04-14 (화) 11:25:24 (GMT+09:00)\nSubject: [마포중동]지반조사 관련 굴착신고관련 서류 송부 건\n\n조합설립인가서 및 인가 고시문 첨부드렸습니다.\n\n감사합니다.\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n\n\n\n",
+      "attachments": [
+        "토지사용승낙서(중동 78번지 일원).hwp"
+      ]
+    },
+    {
+      "id": 22,
+      "date": "2026-04-13T05:26:05.000Z",
+      "from": "강재형 <jhkang@yegaone.com>",
+      "to": "<raeng4152@naver.com>",
+      "subject": "RE: [마포중동] 지반조사보고서용 시추가 능위치 표시(조합)",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260413_28_jhkang@yegaone.com.eml",
+      "body": "정비업체에서 보낸 자료입니다.\n\n보내주신 양식과 다른데 상관없는지 확인 부탁드립니다.\n\n\n강재형 예가원건축사사무소\n설계팀/부장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4155-9677 Mobile +82 010-9205-4119\nEmail bluedayidoff@yegaone.com \n\n\n\n-----Original Message-----\nFrom: \"지현재\"<hyunj@yegaone.com>\nTo: \"강재형\"<jhkang@yegaone.com>;\nCc:\nSent: 2026. 4. 13. (월) 14:23 (GMT+09:00)\nSubject: FW: [마포중동] 지반조사보고서용 시추가능위치 표시(조합)\n\n\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n-----Original Message-----\nFrom: \"알에이엔지니어링\"<raeng4152@naver.com>\nTo: \"지현재\"<hyunj@yegaone.com>;\nCc:\nSent: 2026. 4. 13. (월) 13:35 (GMT+09:00)\nSubject: RE: [마포중동] 지반조사보고서용 시추가능위치 표시(조합)\n\n\n\n안녕하세요. 알에이엔지니어링입니다.\n\n굴착행위 필요서류 양식을 보내드립니다\n\n\n\n\n\n\n(주)알에이엔지니어링\nT : 032.565.4152   E : raeng4152@naver.com\n\n-----Original Message-----\nFrom: \"지현재\"<hyunj@yegaone.com>\nTo: <raeng4152@naver.com>;\nCc:\nSent: 2026-04-13 (월) 13:20:04 (GMT+09:00)\nSubject: [마포중동] 지반조사보고서용 시추가능위치 표시(조합)\n\n안녕하십니까 예가원건축 지현재차장입니다.\n\n지난주에 보내주신 시추공위치를 조합측에 전달하여였고 오늘 시추가능한 위치로 위치가 조정되어 회신이 왔습니다.\n\n그리고 조합측에 전달드릴 동의서 양식 요청드립니다.(조합측 요청)\n\n저에게 보내주시면 조합측에 전달드릴수있도록 하겠습니다\n\n감사합니다.\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "attachments": [
+        "토지사용승낙서(남양빌라 58-3).hwp",
+        "토지사용승낙서(주영아트빌라 77-4).hwp",
+        "토지사용승낙서(예원아파트 58-39 및 58-3"
+      ]
+    },
+    {
+      "id": 21,
+      "date": "2026-04-13T04:35:48.000Z",
+      "from": "알에이엔지니어링 <raeng4152@naver.com>",
+      "to": "지현재 <hyunj@yegaone.com>",
+      "subject": "RE: [마포중동] 지반조사보고서용 시추가 능위치 표시(조합)",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260413_26_raeng4152@naver.com.eml",
+      "body": "\n\n안녕하세요. 알에이엔지니어링입니다.\n\n굴착행위 필요서류 양식을 보내드립니다\n\n\n\n\n\n\n(주)알에이엔지니어링\nT : 032.565.4152   E : raeng4152@naver.com\n\n-----Original Message-----\nFrom: \"지현재\"<hyunj@yegaone.com>\nTo: <raeng4152@naver.com>;\nCc:\nSent: 2026-04-13 (월) 13:20:04 (GMT+09:00)\nSubject: [마포중동] 지반조사보고서용 시추가능위치 표시(조합)\n\n안녕하십니까 예가원건축 지현재차장입니다.\n\n지난주에 보내주신 시추공위치를 조합측에 전달하여였고 오늘 시추가능한 위치로 위치가 조정되어 회신이 왔습니다.\n\n그리고 조합측에 전달드릴 동의서 양식 요청드립니다.(조합측 요청)\n\n저에게 보내주시면 조합측에 전달드릴수있도록 하겠습니다\n\n감사합니다.\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n\n\n\n",
+      "attachments": [
+        "[별지 제22호서식] 굴착행위 신고서(지하",
+        "[별지 제5호서식] 원상복구계획서(지하수",
+        "지반조사동의서.hwp"
+      ]
+    },
+    {
+      "id": 19,
+      "date": "2026-04-10T06:14:35.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "<gaha0930@mapo.go.kr>",
+      "subject": "[마포중동] 용적률계산식 , 누락필지지번",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260410_22_hyunj@yegaone.com.eml",
+      "body": "방금 통화드린 예가원건축 지현재 차장입니다.\n\n누락된 지번은 산3-22번지 1개필지입니다.\n\n용도지역 ,지구결정도 캡쳐이미지에서 위치표기해드렸습니다.\n\n그리고 엑셀파일은 용적률 산정에 대한 계산식이고 \n\n사업성보정계수는 적용되지 않은(임대주택세대수관련) 자료입니다.\n\n궁금하신사항은 언제든 연락주시면 설명드리겠습니다\n\n감사합니다.\n\n\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": [
+        "토지이용계획(산3-22).pdf",
+        "250409 용적률 계산식(중동).xlsx",
+        "용도지역,지구 결정도(누락필지 표시).p"
+      ]
+    },
+    {
+      "id": 18,
+      "date": "2026-04-10T01:22:01.000Z",
+      "from": "신지현 선임(SHIN JI HYUN) <jihyun.shin@daewooenc.com>",
+      "to": "지현재 <hyunj@yegaone.com>, 한상주 <hsj@yegaone.com>",
+      "subject": " RE: [마포중동] 기본도면 발송 건_ 시공사 검토_조경 보안해제",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260410_20_jihyun.shin@daewooenc.com.eml",
+      "body": "\r\n\r\nFrom: 신지현 선임(SHIN JI HYUN)\r\nSent: Friday, April 10, 2026 10:01 AM\r\nTo: '지현재' <hyunj@yegaone.com>; 한상주 <hsj@yegaone.com>\r\nCc: 강재형 <jhkang@yegaone.com>; 노형곤 책임(Hyung Gon Roh) <hyunggon.roh@daewooenc.com>; 박무영 책임(Mu Young Park) <muyoung.park@daewooenc.com>\r\nSubject: RE: [마포중동] 기본도면 발송 건_시공사 검토\r\n\r\n안녕하세요\r\n대우건설 신지현 선임입니다.\r\n\r\n기본도서 관련하여\r\n건축(지하,배치) / 조경 / 커뮤니티 초안 검토하여 내용 송부드립니다.\r\n\r\n앞으로\r\n추가로 작성되는 도서에 대해 순차적으로 검토진행 예정이오니 참고부탁드립니다.\r\n\r\n감사합니다.\r\n\r\n신지현\r\n[cid:image001.png@01DCC8D3.DCA3CFD0]\r\nSHIN JI HYUN\r\n선임   |   건축설계팀\r\nSenior Associate\r\nARCHITECTURAL DESIGN  TEAM\r\nT\r\n02-2288-3838\r\n[cid:image002.png@01DCC8D3.DCA3CFD0]\r\nM\r\n010-7271-8670\r\nE\r\njihyun.shin@daewooenc.com<mailto:jihyun.shin@daewooenc.com>\r\n\r\n\r\nFrom: 지현재 <hyunj@yegaone.com<mailto:hyunj@yegaone.com>>\r\nSent: Thursday, April 2, 2026 2:17 PM\r\nTo: 신지현 선임(SHIN JI HYUN) <jihyun.shin@daewooenc.com<mailto:jihyun.shin@daewooenc.com>>; 한상주 <hsj@yegaone.com<mailto:hsj@yegaone.com>>\r\nCc: 강재형 <jhkang@yegaone.com<mailto:jhkang@yegaone.com>>\r\nSubject: [마포중동] 기본도면 발송 건\r\n\r\n안녕하십니까 예가원건축 지현재차장입니다.\r\n\r\n오전에 요청주신 마포중동 기본도면 첨부하여 발송드립니다.\r\n\r\n추가로 일정표도 공유드리오니 업무에 참조 부탁드립니다.\r\n\r\n감사합니다\r\n\r\n[https://static.worksmobile.net/static/pwe/nworks/sign_bar1.png]\r\n지현재 예가원건축사사무소\r\n설계팀/차장\r\n서울시 강남구 선릉로 93길 50, 현석타워 13층\r\nTel 070-4290-3455 Mobile +82 010-7696-3024\r\nEmail hyunj@yegaone.com<mailto:hyunj@yegaone.com>\r\n\r\n\r\n\r\n",
+      "attachments": [
+        "image001.png",
+        "image002.png",
+        "20260408-중동78 도서 검토-조경.xlsx"
+      ]
+    },
+    {
+      "id": 15,
+      "date": "2026-04-10T01:18:59.000Z",
+      "from": "강재형 <jhkang@yegaone.com>",
+      "to": "<dyyoon123@naver.com>",
+      "subject": "[마포 중동]지반조사용 시추위치 송부",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260410_19_jhkang@yegaone.com.eml",
+      "body": "대표님 안녕하세요 예가원 강재형 부장입니다.\n\n지반조사용 시추 위치 첨부해서 보내드립니다.\n\n첨부파일 확인 부탁드립니다.\n\n감사합니다.\n\n\n강재형 예가원건축사사무소\n설계팀/부장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4155-9677 Mobile +82 010-9205-4119\nEmail bluedayidoff@yegaone.com \n\n\n\n",
+      "attachments": [
+        "260410 시추위치(3공)-Model.pdf",
+        "시추위치(3공).dwg"
+      ]
+    },
+    {
+      "id": 13,
+      "date": "2026-04-10T01:01:10.000Z",
+      "from": "신지현 선임(SHIN JI HYUN) <jihyun.shin@daewooenc.com>",
+      "to": "지현재 <hyunj@yegaone.com>, 한상주 <hsj@yegaone.com>",
+      "subject": " RE: [마포중동] 기본도면 발송 건_ 시공사 검토",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260410_18_jihyun.shin@daewooenc.com.eml",
+      "body": "안녕하세요\r\n대우건설 신지현 선임입니다.\r\n\r\n기본도서 관련하여\r\n건축(지하,배치) / 조경 / 커뮤니티 초안 검토하여 내용 송부드립니다.\r\n\r\n앞으로\r\n추가로 작성되는 도서에 대해 순차적으로 검토진행 예정이오니 참고부탁드립니다.\r\n\r\n감사합니다.\r\n\r\n신지현\r\n[cid:image001.png@01DCC8D0.6B6842E0]\r\nSHIN JI HYUN\r\n선임   |   건축설계팀\r\nSenior Associate\r\nARCHITECTURAL DESIGN  TEAM\r\nT\r\n02-2288-3838\r\n[cid:image002.png@01DCC8D0.6B6842E0]\r\nM\r\n010-7271-8670\r\nE\r\njihyun.shin@daewooenc.com<mailto:jihyun.shin@daewooenc.com>\r\n\r\n\r\nFrom: 지현재 <hyunj@yegaone.com>\r\nSent: Thursday, April 2, 2026 2:17 PM\r\nTo: 신지현 선임(SHIN JI HYUN) <jihyun.shin@daewooenc.com>; 한상주 <hsj@yegaone.com>\r\nCc: 강재형 <jhkang@yegaone.com>\r\nSubject: [마포중동] 기본도면 발송 건\r\n\r\n안녕하십니까 예가원건축 지현재차장입니다.\r\n\r\n오전에 요청주신 마포중동 기본도면 첨부하여 발송드립니다.\r\n\r\n추가로 일정표도 공유드리오니 업무에 참조 부탁드립니다.\r\n\r\n감사합니다\r\n\r\n[https://static.worksmobile.net/static/pwe/nworks/sign_bar1.png]\r\n지현재 예가원건축사사무소\r\n설계팀/차장\r\n서울시 강남구 선릉로 93길 50, 현석타워 13층\r\nTel 070-4290-3455 Mobile +82 010-7696-3024\r\nEmail hyunj@yegaone.com<mailto:hyunj@yegaone.com>\r\n\r\n\r\n\r\n",
+      "attachments": [
+        "image001.png",
+        "image002.png",
+        "[마포중동] 기본도서 시공사검토1 "
+      ]
+    },
+    {
+      "id": 12,
+      "date": "2026-04-08T04:06:44.000Z",
+      "from": "알에이엔지니어링 <raeng4152@naver.com>",
+      "to": "<hyunj@yegaone.com>",
+      "subject": "[(주)알에이엔지니어링] 시추조사 가능위 치 보내드립니다.",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260408_13_raeng4152@naver.com.eml",
+      "body": "\n\n안녕하세요. 알에이엔지니어링입니다.\n\n\n\n\n\n\n(주)알에이엔지니어링\nT : 032.565.4152   E : raeng4152@naver.com\n\n",
+      "attachments": [
+        "시추위치.dwg"
+      ]
+    },
+    {
+      "id": 10,
+      "date": "2026-04-08T02:12:44.000Z",
+      "from": "알에이엔지니어링 <raeng4152@naver.com>",
+      "to": "<hyunj@yegaone.com>",
+      "subject": "[(주)알에이엔지니어링] 지추위치 송부드 립니다.",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260408_12_raeng4152@naver.com.eml",
+      "body": "\n\n안녕하세요. 알에이엔지니어링입니다.\n\n\n\n\n\n\n(주)알에이엔지니어링\nT : 032.565.4152   E : raeng4152@naver.com\n\n",
+      "attachments": [
+        "시추위치.dwg"
+      ]
+    },
+    {
+      "id": 8,
+      "date": "2026-04-06T06:08:43.000Z",
+      "from": "지현재 <hyunj@yegaone.com>",
+      "to": "신지현 <jihyun.shin@daewooenc.com>",
+      "subject": "[마포중동]서울시 통합심의 기본도면 검 토요청 건",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260406_7_hyunj@yegaone.com.eml",
+      "body": "서울시 건축심의 관련 가이드라인 배포자료 내용 중 \n\n１.주동 1층 필로티 1/2이상 오픈되지 않는 구조일 경우 바닥면적에 산입할것 기준을 충족하려면\n지상1층 벽식구조를 전체 전이기둥으로 바꿔서 계획해야 할 것 같아 해당내용 공유드립니다. \n\n2.지난주 목요일에 공유드린 단위세대 및 주동평면도에서 서울시 발코니삭제 관련 규정을 피하고자 \n\n통합심의시 우수디자인을 적용을 목표로 발코니삭제비율 0%적용하였으며 \n\n우수디자인 적용을 위해 돌출발코니적용(59A타입), 돌출개방형발코니(84A타입)-드린도면에 적용X\n\n예정입니다.\n\n추가로 설계에 미리 반영하고자 조합과 계약된 제안서 파일이 있으시면 공유해주시면 감사드리겠습니다\n\n\n\n\n지현재 예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4290-3455 Mobile +82 010-7696-3024\nEmail hyunj@yegaone.com \n\n\n\n",
+      "attachments": []
+    },
+    {
+      "id": 5,
+      "date": "2026-04-01T04:41:54.000Z",
+      "from": "예가원건축 이찬희 차장 <chlee@yegaone.com>",
+      "to": "<ms4451@mapo.go.kr>",
+      "subject": "[마포 성산동 가로주택정비사업] 성산1구 역 사업성보정계수 적용계산",
+      "tag": "INOUT",
+      "memo": "",
+      "read": false,
+      "filename": "20260401_3_chlee@yegaone.com.eml",
+      "body": "김미선 주무관님께\n\n안녕하세요.\n예가원건축사사무소 이찬희 차장입니다.\n\n요청하신 성산1구역 사업성 보정계수 산정 엑셀 파일을 전달드립니다.\n노란색 배경의 셀 값을 수정하시면 자동으로 계산되도록 구성되어 있습니다.\n\n또한 2024년 탭과 2025년 탭을 구분하여 작성하였으며, 두 탭의 차이는 서울시 평균 공시지가입니다. 검토 시 참고 부탁드립니다.\n\n아울러 익일 오후 2시에 뵙겠습니다.\n추가로, 이전에 문의드렸던 통합심의 관련 교통위원 연락처가 있으시면 전달 부탁드립니다.\n\n감사합니다.\n이찬희 올림\n\n\n\n이찬희 (주)예가원건축사사무소\n설계팀/차장\n\n서울시 강남구 선릉로 93길 50, 현석타워 13층\nTel 070-4236-4065 Mobile +82 010-2949-9422\nEmail chlee@yegaone.com \n\n\n\n",
+      "attachments": [
+        "성산1구역 사업성보정계수 적용계산.xls"
+      ]
+    }
+  ],
+  "pending": [],
+  "contacts": [
+    {
+      "id": 3,
+      "name": "정서영",
+      "email": "jsy@yegaone.com",
+      "role": "",
+      "tag": "",
+      "auto": true
+    },
+    {
+      "id": 4,
+      "name": "지현재",
+      "email": "hyunj@yegaone.com",
+      "role": "",
+      "tag": "",
+      "auto": true
+    },
+    {
+      "id": 6,
+      "name": "예가원건축 이찬희 차장",
+      "email": "chlee@yegaone.com",
+      "role": "",
+      "tag": "",
+      "auto": true
+    },
+    {
+      "id": 7,
+      "name": "ms4451",
+      "email": "ms4451@mapo.go.kr",
+      "role": "",
+      "tag": "",
+      "auto": true
+    },
+    {
+      "id": 9,
+      "name": "신지현",
+      "email": "jihyun.shin@daewooenc.com",
+      "role": "",
+      "tag": "",
+      "auto": true
+    },
+    {
+      "id": 11,
+      "name": "알에이엔지니어링",
+      "email": "raeng4152@naver.com",
+      "role": "",
+      "tag": "",
+      "auto": true
+    },
+    {
+      "id": 14,
+      "name": "한상주",
+      "email": "hsj@yegaone.com",
+      "role": "",
+      "tag": "",
+      "auto": true
+    },
+    {
+      "id": 16,
+      "name": "강재형",
+      "email": "jhkang@yegaone.com",
+      "role": "",
+      "tag": "",
+      "auto": true
+    },
+    {
+      "id": 17,
+      "name": "dyyoon123",
+      "email": "dyyoon123@naver.com",
+      "role": "",
+      "tag": "",
+      "auto": true
+    },
+    {
+      "id": 20,
+      "name": "gaha0930",
+      "email": "gaha0930@mapo.go.kr",
+      "role": "",
+      "tag": "",
+      "auto": true
+    },
+    {
+      "id": 25,
+      "name": "신상철",
+      "email": "shinsc63@daum.net",
+      "role": "",
+      "tag": "",
+      "auto": true
+    },
+    {
+      "id": 28,
+      "name": "아름다운 세상",
+      "email": "shinsc63@hanmail.net",
+      "role": "",
+      "tag": "",
+      "auto": true
+    },
+    {
+      "id": 33,
+      "name": "yigunkuzo",
+      "email": "yigunkuzo@daum.net",
+      "role": "",
+      "tag": "",
+      "auto": true
+    },
+    {
+      "id": 34,
+      "name": "임석주",
+      "email": "dn-mech@dnmec.com",
+      "role": "",
+      "tag": "",
+      "auto": true
+    },
+    {
+      "id": 35,
+      "name": "jhking9407",
+      "email": "jhking9407@naver.com",
+      "role": "",
+      "tag": "",
+      "auto": true
+    },
+    {
+      "id": 41,
+      "name": "chiki69",
+      "email": "chiki69@naver.com",
+      "role": "",
+      "tag": "",
+      "auto": true
+    },
+    {
+      "id": 44,
+      "name": "김미라",
+      "email": "rabluesky@naver.com",
+      "role": "",
+      "tag": "",
+      "auto": true
+    },
+    {
+      "id": 52,
+      "name": "jihyun.sin",
+      "email": "jihyun.sin@daewooenc.com",
+      "role": "",
+      "tag": "",
+      "auto": true
+    },
+    {
+      "id": 54,
+      "name": "한하린",
+      "email": "haline0k@yegaone.com",
+      "role": "",
+      "tag": "",
+      "auto": true
+    },
+    {
+      "id": 58,
+      "name": "sirius91622",
+      "email": "sirius91622@naver.com",
+      "role": "",
+      "tag": "",
+      "auto": true
+    },
+    {
+      "id": 60,
+      "name": "dgenc2003",
+      "email": "dgenc2003@naver.com",
+      "role": "",
+      "tag": "",
+      "auto": true
+    },
+    {
+      "id": 62,
+      "name": "(주)건축환경그룹 다올",
+      "email": "enh2013@naver.com",
+      "role": "",
+      "tag": "",
+      "auto": true
+    },
+    {
+      "id": 69,
+      "name": "갈아현",
+      "email": "gal12001@daum.net",
+      "role": "",
+      "tag": "",
+      "auto": true
+    },
+    {
+      "id": 74,
+      "name": "civilpark",
+      "email": "civilpark@hanmail.net",
+      "role": "",
+      "tag": "",
+      "auto": true
+    },
+    {
+      "id": 92,
+      "name": "counter",
+      "email": "counter@sindohj.com",
+      "role": "",
+      "tag": "",
+      "auto": true
+    },
+    {
+      "id": 95,
+      "name": "박무영 책임(Mu Young Park)",
+      "email": "muyoung.park@daewooenc.com",
+      "role": "",
+      "tag": "",
+      "auto": true
+    },
+    {
+      "id": 97,
+      "name": "goal3030",
+      "email": "goal3030@naver.com",
+      "role": "",
+      "tag": "",
+      "auto": true
+    },
+    {
+      "id": 99,
+      "name": "전한균",
+      "email": "frins033@hanmail.net",
+      "role": "",
+      "tag": "",
+      "auto": true
+    },
+    {
+      "id": 102,
+      "name": "김유림",
+      "email": "kyr@yegaone.com",
+      "role": "",
+      "tag": "",
+      "auto": true
+    },
+    {
+      "id": 112,
+      "name": "postmaster",
+      "email": "postmaster@dwspam1.daewooenc.com",
+      "role": "",
+      "tag": "",
+      "auto": true
+    },
+    {
+      "id": 116,
+      "name": "정찬희",
+      "email": "ray514871@yegaone.com",
+      "role": "",
+      "tag": "",
+      "auto": true
+    },
+    {
+      "id": 118,
+      "name": "JDY114",
+      "email": "JDY114@hanmail.net",
+      "role": "",
+      "tag": "",
+      "auto": true
+    },
+    {
+      "id": 123,
+      "name": "선우엔지니어링",
+      "email": "sunwoogeo@naver.com",
+      "role": "",
+      "tag": "",
+      "auto": true
+    },
+    {
+      "id": 140,
+      "name": "김도윤_세화도시(주)",
+      "email": "kdy01@sehwadosi.co.kr",
+      "role": "",
+      "tag": "",
+      "auto": true
+    },
+    {
+      "id": 150,
+      "name": "김도윤",
+      "email": "heartshine@daum.net",
+      "role": "",
+      "tag": "",
+      "auto": true
+    },
+    {
+      "id": 157,
+      "name": "네이버메일",
+      "email": "navermail_noreply@navercorp.com",
+      "role": "",
+      "tag": "",
+      "auto": true
+    },
+    {
+      "id": 184,
+      "name": "중동가로주택",
+      "email": "jdhouse78@naver.com",
+      "role": "",
+      "tag": "",
+      "auto": true
+    },
+    {
+      "id": 192,
+      "name": "seonkyeong",
+      "email": "seonkyeong@sen.go.kr",
+      "role": "",
+      "tag": "",
+      "auto": true
+    },
+    {
+      "id": 210,
+      "name": "정진환",
+      "email": "jung00221@daum.net",
+      "role": "",
+      "tag": "",
+      "auto": true
+    },
+    {
+      "id": 234,
+      "name": "정예림",
+      "email": "yrj12@sehwadosi.co.kr",
+      "role": "",
+      "tag": "",
+      "auto": true
+    },
+    {
+      "id": 264,
+      "name": "기계 동남이엔시",
+      "email": "dn-mech@daum.net",
+      "role": "",
+      "tag": "",
+      "auto": true
+    }
+  ]
+}
