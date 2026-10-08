@@ -1,7 +1,7 @@
 {
   "_version": 3,
   "project": "마포 성산동 가로주택정비사업",
-  "exportedAt": "2026-10-08T00:36:53.461Z",
+  "exportedAt": "2026-10-08T00:39:27.646Z",
   "emails": [
     {
       "id": 522,
@@ -7197,11 +7197,11 @@
   ],
   "nextId": 534,
   "handover": {
+    "stage": "사업시행인가",
+    "owner": "미정",
     "summary": "",
-    "stage": "",
-    "issues": "",
-    "next": "",
-    "owner": ""
+    "issues": "\\\\yegaone\\설계부1\\01.공동주택\\(2400) 성산동 165-72 일원 가로주택정비사업\\##-WORKS 확인",
+    "next": ""
   },
   "decisions": [
     {
